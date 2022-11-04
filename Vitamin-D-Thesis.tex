@@ -138,7 +138,7 @@
 \date{11/4/22}
 
 \begin{document}
-\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[breakable, borderline west={3pt}{0pt}{shadecolor}, interior hidden, enhanced, sharp corners, frame hidden, boxrule=0pt]}{\end{tcolorbox}}\fi
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[enhanced, borderline west={3pt}{0pt}{shadecolor}, sharp corners, boxrule=0pt, interior hidden, breakable, frame hidden]}{\end{tcolorbox}}\fi
 
 \setstretch{1.5}
 \pagenumbering{gobble}
@@ -272,37 +272,44 @@ compléments et d'apports alimentaires, mais est principalement obtenue
 par synthèse endogène de l'organisme. Initialement, le
 7-déhydrocholestérol (7-DHC), un dérivé du cholestérol situé dans la
 peau, se transforme en vitamine D\textsubscript{3} (cholécalciférol)
-sous l'action des ondes ultraviolettes provenant du soleil. La vitamine
-D\textsubscript{3} doit ensuite être métabolisée dans le foie pour
-obtenir la forme active qui permettra d'exercer ses effets à travers le
-récepteur de la vitamine D (VDR). Pour cela, elle est transportée à
-travers le sang par la protéine de liaison de la vitamine D (DBP),
-appartenant à la famille des albumines
+sous l'action des ondes ultraviolettes provenant du soleil.
+
+La vitamine D\textsubscript{3} doit ensuite être métabolisée dans le
+foie pour obtenir la forme active qui permettra d'exercer ses effets à
+travers le récepteur de la vitamine D (VDR). Pour cela, elle est
+transportée à travers le sang par la protéine de liaison de la vitamine
+D (DBP), appartenant à la famille des albumines
 \autocite{Christakos.2010,Chun.2012}. La DBP peut également lier les
 autres formes de vitamine D, telles que la vitamine D\textsubscript{2}
 (ergocalciférol), vitamine D\textsubscript{3}, 25(OH)D\textsubscript{3}
-et 1,25(OH)D\textsubscript{3}. Par la suite, la vitamine
-D\textsubscript{3} est métabolisée en 25(OH)D\textsubscript{3} ou
-calcidiol, par une des enzymes cytochrome P450 vitamine D
-25-hydroxylases (dont CYP2R1, CYP2D11, CYP2D25) dans le foie, qui est la
-forme majoritaire circulante dans l'organisme
+et 1,25(OH)D\textsubscript{3}.
+
+Par la suite, la vitamine D\textsubscript{3} est métabolisée en
+25(OH)D\textsubscript{3} ou calcidiol, par une des enzymes cytochrome
+P450 vitamine D 25-hydroxylases (dont CYP2R1, CYP2D11, CYP2D25) dans le
+foie, qui est la forme majoritaire circulante dans l'organisme
 \autocite{Norman.2008,Christakos.2010}. Ultérieurement, cette forme est
 transportée par la DBP dans le rein, est filtrée par le glomérule et se
 retrouve hydroxylée à nouveau dans le tube proximal du rein par la
 CYP27B1 ou 1α(OH)ase pour donner la 1,25-dihydroxyvitamine
 D\textsubscript{3} (1,25(OH)\textsubscript{2}D\textsubscript{3}) ou
 calcitriol, nommée ainsi puisqu'elle possède trois groupes hydroxyles.
-
 Le calcitriol représente la forme active de la vitamine D, responsable
 de la majorité de ses effets, en se liant au VDR contenu dans divers
-tissus \autocite{Norman.2008}. Finalement, le catabolisme de la vitamine
-D se produit par une hydroxylation par la 24-hydroxylase ou CYP24, une
-enzyme P450 mitochrondriale, donnant de l'acide calcitroique. Cette
-enzyme peut également hydroxyler le calcidiol pour donner de la
+tissus \autocite{Norman.2008,Dankers.2017}.
+
+Finalement, le catabolisme de la vitamine D se produit par une
+hydroxylation par la 24-hydroxylase ou CYP24A1, une enzyme P450
+mitochrondriale, donnant le métabolite
+1,24,25(OH)\textsubscript{3}D\textsubscript{3} ou l'acide calcitroïque.
+Cette enzyme peut également hydroxyler le calcidiol pour donner de la
 24,25(OH)\textsubscript{3}D\textsubscript{3}. Ces réactions permettent
 de diminuer la quantité de calcitriol et calcidiol disponible dans le
 sang, ainsi la 24-hydroxylase sert donc à jouer un rôle de catabolisme
-de la vitamine D \textbf{(Figure~\ref{fig-metabolism-vitd})}.
+de la vitamine D \textbf{(Figure~\ref{fig-metabolism-vitd})}
+\autocite{Norman.2008}. La quantité de calcitriol est donc déterminée
+par un équilibre entre les enzymes CYP27B1 et CYP24A1
+\autocite{Dankers.2017}.
 
 \begin{figure}
 
@@ -315,8 +322,77 @@ de la vitamine D \textbf{(Figure~\ref{fig-metabolism-vitd})}.
 
 \end{figure}
 
+Le calcitriol est régulé par deux facteurs, l'hormone parathyroïde (PTH)
+et l'hormone de croissance fibroblastique 23 (FGF23). La FGF23, induite
+par la haute concentration de calcitriol et une faible concentration de
+phosphate dans le sang, favorise l'induction de la CYP24A1 qui est
+l'enzyme de catabolisme du calcidiol, tandis que la PTH, induite par une
+faible concentration de calcium et inhibée par une forte concentration
+de calcitriol, va induire la CYP24A1 et donc l'anabolisme du calcitriol
+\textbf{(Figure~\ref{fig-reg-vitd})}
+\autocite{Dankers.2017,Christakos.2010}.
+
+\begin{figure}
+
+{\centering \includegraphics{figures/vitamin-d-metabolism-regulation.jpg}
+
+}
+
+\caption{\label{fig-reg-vitd}Métabolisme et Régulation de la vitamine D.
+Source : \textcite{Dankers.2017}}
+
+\end{figure}
+
 \hypertarget{propriuxe9tuxe9s}{%
 \subsection{Propriétés}\label{propriuxe9tuxe9s}}
+
+\hypertarget{propriuxe9tuxe9s-classiques-osseuses}{%
+\subsubsection{Propriétés classiques
+osseuses}\label{propriuxe9tuxe9s-classiques-osseuses}}
+
+\begin{itemize}
+\item
+  Homéostasie du calcium
+\item
+  VDR signaling and intestinal calcium transport:
+\item
+  VDR is a major regulator of intestinal calcium absorption
+\item
+  Role of the VDR in the kidney
+\item
+  Paracrine and endocrine role of the VDR in bone
+\end{itemize}
+
+Thus, not only a very low vitamin D status leads to impaired mineral
+deposition inbone but also excess of 1,25(OH)2D can impair mineral
+deposition and contribute to the clinical andhistological picture or
+phenotype of osteomalacia.
+
+\autocite{Carmeliet.2015}
+
+\hypertarget{propriuxe9tuxe9s-extra-osseuses}{%
+\subsubsection{Propriétés
+extra-osseuses}\label{propriuxe9tuxe9s-extra-osseuses}}
+
+\begin{itemize}
+\tightlist
+\item
+  Découverte de la présence de VDR dans la majorité des tissus et
+  populations cellulaire
+\item
+  Intérêt renouvelé pour la vitamine D, en particulier dans le cancer,
+  les maladies cardiovasculaires et les maladies auto-immunes
+\item
+  Action paracrine de la vitD sur le VDR, expression locale de CYP27B1
+  \autocite{Carmeliet.2015}
+\item
+  \textcite{Carmeliet.2015} rapporte que les recommendations en 2015
+  sont de 400-800 UI/kg. Cependant une dose plus élevée pourrait être
+  bénéfique concernant les effets extra-osseux, en fonction des
+  résultats d'un large essai clinique d'ici 2018-2020.
+\end{itemize}
+
+2022 :
 
 \hypertarget{utilisation-thuxe9rapeutique}{%
 \subsection{Utilisation
@@ -329,8 +405,28 @@ thérapeutique}\label{utilisation-thuxe9rapeutique}}
 \section{Vitamine D et système
 immunitaire}\label{vitamine-d-et-systuxe8me-immunitaire}}
 
+\textcite{Dankers.2017}
+
 \hypertarget{vitamine-d-et-covid-19}{%
 \section{Vitamine D et COVID-19}\label{vitamine-d-et-covid-19}}
+
+\hypertarget{etudes-pruxe9-cliniques}{%
+\subsection{Etudes pré-cliniques}\label{etudes-pruxe9-cliniques}}
+
+\hypertarget{etudes-cliniques}{%
+\subsection{Etudes cliniques}\label{etudes-cliniques}}
+
+\hypertarget{etude-en-phase-de-pruxe9vention}{%
+\subsubsection{Etude en phase de
+prévention}\label{etude-en-phase-de-pruxe9vention}}
+
+\hypertarget{etudes-en-phase-curative}{%
+\subsubsection{Etudes en phase
+curative}\label{etudes-en-phase-curative}}
+
+\hypertarget{etudes-en-phase-ruxe9animation}{%
+\subsubsection{Etudes en phase
+réanimation}\label{etudes-en-phase-ruxe9animation}}
 
 \newpage{}
 
