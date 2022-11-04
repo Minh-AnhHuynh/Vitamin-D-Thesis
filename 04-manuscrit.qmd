@@ -1,0 +1,48 @@
+---
+bibliography: "bibliography/vitamin-d.bib"
+---
+
+# Généralités sur la vitamine D
+
+## Structure
+
+La vitamine D (VitD) est un nutriment vital, nécessaire pour le métabolisme.
+La VitD possède un rôle de vitamine qui est définie comme étant une substance organique essentielle en quantités infimes, à la nutrition de la plupart des animaux et de certaines plantes.
+Les vitamines agissent comme coenzymes et précurseurs de coenzymes pour réguler les processus métaboliques mais ne fournissent pas d'énergie et ne servent pas d'unités de construction [@Ellison.2020].
+
+La VitD est une molécule liposoluble, semblable à une hormone stéroïde.
+Celle-ci possède plusieurs formes, la vitamine D~2~ ou ergocalciférol, synthétisée par les plantes, et la vitamine D3 ou cholécalciférol , synthétisée dans la peau après une exposition aux rayons ultraviolets B ou à la lumière du soleil.
+Généralement, la mention de vitamine D fait référence à la vitamine D3.
+
+Curieusement la VitD possède une structure ressemblant à une hormone stéroïdienne classique, telle que le cortisol et l'aldostérone [@Norman.2008] **(@fig-vitd3)**. Une hormone est une substance chimique qui aide à contrôler et à réguler différentes activités dans l'organisme [@Ellison.2020]. La vitamine D est capable d'agir en tant que facteur de transcription et de modifier le métabolisme de diverses manières. Pratiquement toutes les cellules de l'organisme possèdent un récepteur à la vitamin D (VDR), ce qui explique ses effets pléiotropiques dans diverses maladies [@Ellison.2020; @Caprio.2017; @Norman.2008].
+De plus, la vitamine D est la seule vitamine qui peut être synthétisée par l'organisme, contrairement aux vitamines A, B, C, E ce qui contribue à l'idée que la vitamine D serait plutôt une hormone.
+
+![Structure chimique de la vitamine D3 ou cholécalciférol](figures/vitamin-d3.png){#fig-vitd3 width="50%"}
+
+## Métabolisme
+
+La vitamine D provient initialement d'un composé métaboliquement inactif qui doit être transformé en plusieurs métabolites actifs dans le foie et les reins.
+La vitamine D~3~ peut être obtenue à partir de compléments et d'apports alimentaires, mais est principalement obtenue par synthèse endogène de l'organisme.
+Initialement, le 7-déhydrocholestérol (7-DHC), un dérivé du cholestérol situé dans la peau, se transforme en vitamine D~3~ (cholécalciférol) sous l'action des ondes ultraviolettes provenant du soleil.
+La vitamine D~3~ doit ensuite être métabolisée dans le foie pour obtenir la forme active qui permettra d'exercer ses effets à travers le récepteur de la vitamine D (VDR).
+Pour cela, elle est transportée à travers le sang par la protéine de liaison de la vitamine D (DBP), appartenant à la famille des albumines [@Christakos.2010; @Chun.2012]. La DBP peut également lier les autres formes de vitamine D, telles que la vitamine D~2~ (ergocalciférol), vitamine D~3~, 25(OH)D~3~ et 1,25(OH)D~3~. Par la suite, la vitamine D~3~ est métabolisée en 25(OH)D~3~ ou calcidiol, par une des enzymes cytochrome P450 vitamine D 25-hydroxylases (dont CYP2R1, CYP2D11, CYP2D25) dans le foie, qui est la forme majoritaire circulante dans l'organisme [@Norman.2008; @Christakos.2010].
+Ultérieurement, cette forme est transportée par la DBP dans le rein, est filtrée par le glomérule et se retrouve hydroxylée à nouveau dans le tube proximal du rein par la CYP27B1 ou 1α(OH)ase pour donner la 1,25-dihydroxyvitamine D~3~ (1,25(OH)~2~D~3~) ou calcitriol, nommée ainsi puisqu'elle possède trois groupes hydroxyles.
+
+Le calcitriol représente la forme active de la vitamine D, responsable de la majorité de ses effets, en se liant au VDR contenu dans divers tissus [@Norman.2008]. Finalement, le catabolisme de la vitamine D se produit par une hydroxylation par la 24-hydroxylase ou CYP24, une enzyme P450 mitochrondriale, donnant de l'acide calcitroique. Cette enzyme peut également hydroxyler le calcidiol pour donner de la 24,25(OH)~3~D~3~. Ces réactions permettent de diminuer la quantité de calcitriol et calcidiol disponible dans le sang, ainsi la 24-hydroxylase sert donc à jouer un rôle de catabolisme de la vitamine D **(@fig-metabolism-vitd)**.
+
+
+
+
+![Métabolisme de la vitamine D. Source : @Norman.2008](figures/vitamin-d-metabolism.png){#fig-metabolism-vitd fig-align="center"}
+
+
+
+## Propriétés
+
+## Utilisation thérapeutique
+
+## Toxicité
+
+# Vitamine D et système immunitaire
+
+# Vitamine D et COVID-19

@@ -1,0 +1,346 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+  letterpaper,
+  DIV=11,
+  numbers=noendperiod]{scrartcl}
+
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{setspace}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+  \setmainfont[]{Times New Roman}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\usepackage{xcolor}
+\usepackage[top=35mm,left=25mm,heightrounded]{geometry}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\setcounter{secnumdepth}{5}
+% Make \paragraph and \subparagraph free-standing
+\ifx\paragraph\undefined\else
+  \let\oldparagraph\paragraph
+  \renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+  \let\oldsubparagraph\subparagraph
+  \renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+
+\KOMAoption{captions}{tableheading}
+\usepackage[authordate,backend=biber]{biblatex-chicago}
+\usepackage{setspace}
+\usepackage[font=small, labelfont=bf, justification=centering, singlelinecheck=false]{caption}
+\makeatletter
+\makeatother
+\makeatletter
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\AtBeginDocument{%
+\ifdefined\contentsname
+  \renewcommand*\contentsname{Table of contents}
+\else
+  \newcommand\contentsname{Table of contents}
+\fi
+\ifdefined\listfigurename
+  \renewcommand*\listfigurename{List of Figures}
+\else
+  \newcommand\listfigurename{List of Figures}
+\fi
+\ifdefined\listtablename
+  \renewcommand*\listtablename{List of Tables}
+\else
+  \newcommand\listtablename{List of Tables}
+\fi
+\ifdefined\figurename
+  \renewcommand*\figurename{Figure}
+\else
+  \newcommand\figurename{Figure}
+\fi
+\ifdefined\tablename
+  \renewcommand*\tablename{Table}
+\else
+  \newcommand\tablename{Table}
+\fi
+}
+\@ifpackageloaded{float}{}{\usepackage{float}}
+\floatstyle{ruled}
+\@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
+\floatname{codelisting}{Listing}
+\newcommand*\listoflistings{\listof{codelisting}{List of Listings}}
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
+\makeatother
+\makeatletter
+\@ifpackageloaded{tcolorbox}{}{\usepackage[many]{tcolorbox}}
+\makeatother
+\makeatletter
+\@ifundefined{shadecolor}{\definecolor{shadecolor}{rgb}{.97, .97, .97}}
+\makeatother
+\makeatletter
+\makeatother
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\usepackage[]{biblatex}
+\addbibresource{bibliography/vitamin-d.bib}
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\author{}
+\date{11/4/22}
+
+\begin{document}
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[breakable, borderline west={3pt}{0pt}{shadecolor}, interior hidden, enhanced, sharp corners, frame hidden, boxrule=0pt]}{\end{tcolorbox}}\fi
+
+\setstretch{1.5}
+\pagenumbering{gobble}
+
+\begin{centering}
+\large 
+
+UNIVERSITE PARIS CITE
+
+FACULTE DES SCIENCES PHARMACEUTIQUES ET BIOLOGIQUES
+
+\vspace{1 cm}
+
+Année 2022 \hfill \hfill N°
+
+\vspace{2cm}
+THESE
+
+\vspace{1cm} \Large \textbf{Pour l'obtention du diplôme d'Etat de DOCTEUR EN PHARMACIE Presenté et soutenue publiquement}
+
+
+\Large \textbf {Intérêt de la Vitamine D et COVID-19} \vspace{2 cm}
+
+\large Par \vspace{0.5 cm}
+
+\Large \textbf{HUYNH Minh-Anh} \vspace{1 cm}
+
+\large Sous la direction du Pr. Jean-Pascal De Bandt
+
+September 2022
+
+\end{centering}
+
+\newpage{}
+
+\hypertarget{remerciements}{%
+\section*{Remerciements}\label{remerciements}}
+\addcontentsline{toc}{section}{Remerciements}
+
+\pagenumbering {gobble}
+
+\newpage{}
+
+\tableofcontents
+\clearpage
+\listoffigures
+\clearpage
+\listoftables
+
+\newpage{}
+
+\hypertarget{liste-des-abbruxe9viations}{%
+\section*{Liste des abbréviations}\label{liste-des-abbruxe9viations}}
+\addcontentsline{toc}{section}{Liste des abbréviations}
+
+\begin{itemize}
+\tightlist
+\item
+  7-DHC : 7-déhydrocholestérol
+\item
+  DBP : Protéine de liaison de l'albumine
+\item
+  VitD : Vitamine D
+\item
+  VDR : Récepteur de la vitamine D
+\end{itemize}
+
+\newpage{}
+
+\hypertarget{introduction}{%
+\section{Introduction}\label{introduction}}
+
+\pagenumbering{arabic}
+
+\newpage{}
+
+\hypertarget{guxe9nuxe9ralituxe9s-sur-la-vitamine-d}{%
+\section{Généralités sur la vitamine
+D}\label{guxe9nuxe9ralituxe9s-sur-la-vitamine-d}}
+
+\hypertarget{structure}{%
+\subsection{Structure}\label{structure}}
+
+La vitamine D (VitD) est un nutriment vital, nécessaire pour le
+métabolisme. La VitD possède un rôle de vitamine qui est définie comme
+étant une substance organique essentielle en quantités infimes, à la
+nutrition de la plupart des animaux et de certaines plantes. Les
+vitamines agissent comme coenzymes et précurseurs de coenzymes pour
+réguler les processus métaboliques mais ne fournissent pas d'énergie et
+ne servent pas d'unités de construction \autocite{Ellison.2020}.
+
+La VitD est une molécule liposoluble, semblable à une hormone stéroïde.
+Celle-ci possède plusieurs formes, la vitamine D\textsubscript{2} ou
+ergocalciférol, synthétisée par les plantes, et la vitamine D3 ou
+cholécalciférol , synthétisée dans la peau après une exposition aux
+rayons ultraviolets B ou à la lumière du soleil. Généralement, la
+mention de vitamine D fait référence à la vitamine D3.
+
+Curieusement la VitD possède une structure ressemblant à une hormone
+stéroïdienne classique, telle que le cortisol et l'aldostérone
+\autocite{Norman.2008} \textbf{(Figure~\ref{fig-vitd3})}. Une hormone
+est une substance chimique qui aide à contrôler et à réguler différentes
+activités dans l'organisme \autocite{Ellison.2020}. La vitamine D est
+capable d'agir en tant que facteur de transcription et de modifier le
+métabolisme de diverses manières. Pratiquement toutes les cellules de
+l'organisme possèdent un récepteur à la vitamin D (VDR), ce qui explique
+ses effets pléiotropiques dans diverses maladies
+\autocite{Ellison.2020,Caprio.2017,Norman.2008}. De plus, la vitamine D
+est la seule vitamine qui peut être synthétisée par l'organisme,
+contrairement aux vitamines A, B, C, E ce qui contribue à l'idée que la
+vitamine D serait plutôt une hormone.
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.5\textwidth,height=\textheight]{figures/vitamin-d3.png}
+
+}
+
+\caption{\label{fig-vitd3}Structure chimique de la vitamine D3 ou
+cholécalciférol}
+
+\end{figure}
+
+\hypertarget{muxe9tabolisme}{%
+\subsection{Métabolisme}\label{muxe9tabolisme}}
+
+La vitamine D provient initialement d'un composé métaboliquement inactif
+qui doit être transformé en plusieurs métabolites actifs dans le foie et
+les reins. La vitamine D\textsubscript{3} peut être obtenue à partir de
+compléments et d'apports alimentaires, mais est principalement obtenue
+par synthèse endogène de l'organisme. Initialement, le
+7-déhydrocholestérol (7-DHC), un dérivé du cholestérol situé dans la
+peau, se transforme en vitamine D\textsubscript{3} (cholécalciférol)
+sous l'action des ondes ultraviolettes provenant du soleil. La vitamine
+D\textsubscript{3} doit ensuite être métabolisée dans le foie pour
+obtenir la forme active qui permettra d'exercer ses effets à travers le
+récepteur de la vitamine D (VDR). Pour cela, elle est transportée à
+travers le sang par la protéine de liaison de la vitamine D (DBP),
+appartenant à la famille des albumines
+\autocite{Christakos.2010,Chun.2012}. La DBP peut également lier les
+autres formes de vitamine D, telles que la vitamine D\textsubscript{2}
+(ergocalciférol), vitamine D\textsubscript{3}, 25(OH)D\textsubscript{3}
+et 1,25(OH)D\textsubscript{3}. Par la suite, la vitamine
+D\textsubscript{3} est métabolisée en 25(OH)D\textsubscript{3} ou
+calcidiol, par une des enzymes cytochrome P450 vitamine D
+25-hydroxylases (dont CYP2R1, CYP2D11, CYP2D25) dans le foie, qui est la
+forme majoritaire circulante dans l'organisme
+\autocite{Norman.2008,Christakos.2010}. Ultérieurement, cette forme est
+transportée par la DBP dans le rein, est filtrée par le glomérule et se
+retrouve hydroxylée à nouveau dans le tube proximal du rein par la
+CYP27B1 ou 1α(OH)ase pour donner la 1,25-dihydroxyvitamine
+D\textsubscript{3} (1,25(OH)\textsubscript{2}D\textsubscript{3}) ou
+calcitriol, nommée ainsi puisqu'elle possède trois groupes hydroxyles.
+
+Le calcitriol représente la forme active de la vitamine D, responsable
+de la majorité de ses effets, en se liant au VDR contenu dans divers
+tissus \autocite{Norman.2008}. Finalement, le catabolisme de la vitamine
+D se produit par une hydroxylation par la 24-hydroxylase ou CYP24, une
+enzyme P450 mitochrondriale, donnant de l'acide calcitroique. Cette
+enzyme peut également hydroxyler le calcidiol pour donner de la
+24,25(OH)\textsubscript{3}D\textsubscript{3}. Ces réactions permettent
+de diminuer la quantité de calcitriol et calcidiol disponible dans le
+sang, ainsi la 24-hydroxylase sert donc à jouer un rôle de catabolisme
+de la vitamine D \textbf{(Figure~\ref{fig-metabolism-vitd})}.
+
+\begin{figure}
+
+{\centering \includegraphics{figures/vitamin-d-metabolism.png}
+
+}
+
+\caption{\label{fig-metabolism-vitd}Métabolisme de la vitamine D. Source
+: \textcite{Norman.2008}}
+
+\end{figure}
+
+\hypertarget{propriuxe9tuxe9s}{%
+\subsection{Propriétés}\label{propriuxe9tuxe9s}}
+
+\hypertarget{utilisation-thuxe9rapeutique}{%
+\subsection{Utilisation
+thérapeutique}\label{utilisation-thuxe9rapeutique}}
+
+\hypertarget{toxicituxe9}{%
+\subsection{Toxicité}\label{toxicituxe9}}
+
+\hypertarget{vitamine-d-et-systuxe8me-immunitaire}{%
+\section{Vitamine D et système
+immunitaire}\label{vitamine-d-et-systuxe8me-immunitaire}}
+
+\hypertarget{vitamine-d-et-covid-19}{%
+\section{Vitamine D et COVID-19}\label{vitamine-d-et-covid-19}}
+
+\newpage{}
+
+\hypertarget{conclusion}{%
+\section{Conclusion}\label{conclusion}}
+
+\newpage{}
+
+
+\printbibliography[title=References]
+
+
+\end{document}
