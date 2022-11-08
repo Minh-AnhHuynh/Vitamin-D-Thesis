@@ -14,7 +14,7 @@ La VitD est une molécule liposoluble, semblable à une hormone stéroïde.
 Celle-ci possède plusieurs formes, la vitamine D~2~ ou ergocalciférol, synthétisée par les plantes, et la vitamine D3 ou cholécalciférol , synthétisée dans la peau après une exposition aux rayons ultraviolets B ou à la lumière du soleil.
 Généralement, la mention de vitamine D fait référence à la vitamine D3.
 
-Curieusement la VitD possède une structure ressemblant à une hormone stéroïdienne classique, telle que le cortisol et l'aldostérone [@Norman.2008] **(@fig-vitd3)**. Une hormone est une substance chimique qui aide à contrôler et à réguler différentes activités dans l'organisme [@Ellison.2020]. La vitamine D est capable d'agir en tant que facteur de transcription et de modifier le métabolisme de diverses manières. Pratiquement toutes les cellules de l'organisme possèdent un récepteur à la vitamin D (VDR), ce qui explique ses effets pléiotropiques dans diverses maladies [@Ellison.2020; @Caprio.2017; @Norman.2008].
+Curieusement la VitD possède une structure ressemblant à une hormone stéroïdienne classique, telle que le cortisol et l'aldostérone [@Norman.2008] **(@fig-vitd3)**. Une hormone est une substance chimique qui aide à contrôler et à réguler différentes activités dans l'organisme [@Ellison.2020]. La vitamine D est capable d'agir en tant que facteur de transcription et de modifier le métabolisme de diverses manières. Pratiquement toutes les cellules de l'organisme possèdent un récepteur à la vitamin D (VDR), ce qui explique ses effets pléiotropiques dans diverses maladies [@Ellison.2020; @Caprio.2017; @Norman.2008]. Le VDR est un récepteur faisant partie de la classe des facteurs de transcription nucléaire. Ainsi la liaison de la vitamine D sur son récepteur conduit à une séquence classique de translocation nucléaire et de liaison à l'ADN [@Bouillon.2008]. 
 De plus, la vitamine D est la seule vitamine qui peut être synthétisée par l'organisme, contrairement aux vitamines A, B, C, E ce qui contribue à l'idée que la vitamine D serait plutôt une hormone.
 
 ![Structure chimique de la vitamine D3 ou cholécalciférol](figures/vitamin-d3.png){#fig-vitd3 width="50%"}
@@ -44,28 +44,26 @@ Le calcitriol est régulé par deux facteurs, l'hormone parathyroïde (PTH) et l
 
 ### Propriétés classiques osseuses
 
-- Homéostasie du calcium
+- Homéostasie du calcium : 
+
+La liaison du calcitriol sur le VDR situé dans les ostéoprogéniteurs entraîne une augmentation de l'absorption de calcium dans les os (diminution de RANKL, facteur de transcription activant les ostéoclastes, et augmentation de LRP5) [@Carmeliet.2015]. Lorsque la calcémie est basse, l'augmentation de PTH conduit à une augmentation de RANKL ce qui favorise la résorption des os par les ostéoclastes afin d'obtenir du calcium.
+
+- Transport intestinal du calcium : Calcitriol et VDR joue un rôle dans le transport intestinal du calcium, par une voie transcellulaire à l'aide de transporteurs de calcium.
+
+- Réabsorption du calcium par le rein : L'action du calcitriol sur le VDR conduit à une stimulation de la réabsorption du calcium dans le tubule contourné distal du rein [@Carmeliet.2015].
 
 
-- VDR signaling and intestinal calcium transport:
 
 
-- VDR is a major regulator of intestinal calcium absorption
-- Role of the VDR in the kidney
-- Paracrine and endocrine role of the VDR in bone
-
-
-
-Thus, not only a very low vitamin D status leads to impaired mineral deposition inbone but also excess of 1,25(OH)2D can impair mineral deposition and contribute to the clinical andhistological picture or phenotype of osteomalacia.
-
-[@Carmeliet.2015]
 
 ### Propriétés extra-osseuses
 
-- Découverte de la présence de VDR dans la majorité des tissus et populations cellulaire
+- Découverte de la présence de VDR dans la majorité des tissus et populations cellulaires, ce qui a augmenté l'appréciation du rôle pléiotrope de la vitamine D [@Rosen.2012]. 
+- Certaines cellules ou tissus possèdent une expression faible de VDR tels que les globules rouges, les muscles striés matures, et certaines cellules hautement différenciés du cerveau tel que les cellules de Purkinje du cervelet [@Bouillon.2008].
+
 - Intérêt renouvelé pour la vitamine D, en particulier dans le cancer, les maladies cardiovasculaires et les maladies auto-immunes
-- Action paracrine de la vitD sur le VDR, expression locale de CYP27B1 [@Carmeliet.2015]
-- @Carmeliet.2015 rapporte que les recommendations en 2015 sont de 400-800 UI/kg. Cependant une dose plus élevée pourrait être bénéfique concernant les effets extra-osseux, en fonction des résultats d'un large essai clinique d'ici 2018-2020.
+- Action paracrine de la VitD sur le VDR, expression locale de CYP27B1 [@Carmeliet.2015]
+- @Carmeliet.2015 rapporte que les recommandations en 2015 sont de 400-800 UI/kg. Cependant une dose plus élevée pourrait être bénéfique concernant les effets extra-osseux, en fonction des résultats d'un large essai clinique d'ici 2018-2020.
 
 2022 : 
 

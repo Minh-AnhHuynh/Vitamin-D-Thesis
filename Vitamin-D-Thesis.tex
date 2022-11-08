@@ -138,7 +138,7 @@
 \date{11/4/22}
 
 \begin{document}
-\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[enhanced, borderline west={3pt}{0pt}{shadecolor}, sharp corners, boxrule=0pt, interior hidden, breakable, frame hidden]}{\end{tcolorbox}}\fi
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[boxrule=0pt, breakable, borderline west={3pt}{0pt}{shadecolor}, enhanced, frame hidden, interior hidden, sharp corners]}{\end{tcolorbox}}\fi
 
 \setstretch{1.5}
 \pagenumbering{gobble}
@@ -246,10 +246,14 @@ capable d'agir en tant que facteur de transcription et de modifier le
 métabolisme de diverses manières. Pratiquement toutes les cellules de
 l'organisme possèdent un récepteur à la vitamin D (VDR), ce qui explique
 ses effets pléiotropiques dans diverses maladies
-\autocite{Ellison.2020,Caprio.2017,Norman.2008}. De plus, la vitamine D
-est la seule vitamine qui peut être synthétisée par l'organisme,
-contrairement aux vitamines A, B, C, E ce qui contribue à l'idée que la
-vitamine D serait plutôt une hormone.
+\autocite{Ellison.2020,Caprio.2017,Norman.2008}. Le VDR est un récepteur
+faisant partie de la classe des facteurs de transcription nucléaire.
+Ainsi la liaison de la vitamine D sur son récepteur conduit à une
+séquence classique de translocation nucléaire et de liaison à l'ADN
+\autocite{Bouillon.2008}. De plus, la vitamine D est la seule vitamine
+qui peut être synthétisée par l'organisme, contrairement aux vitamines
+A, B, C, E ce qui contribue à l'idée que la vitamine D serait plutôt une
+hormone.
 
 \begin{figure}
 
@@ -351,42 +355,52 @@ Source : \textcite{Dankers.2017}}
 osseuses}\label{propriuxe9tuxe9s-classiques-osseuses}}
 
 \begin{itemize}
+\tightlist
 \item
-  Homéostasie du calcium
-\item
-  VDR signaling and intestinal calcium transport:
-\item
-  VDR is a major regulator of intestinal calcium absorption
-\item
-  Role of the VDR in the kidney
-\item
-  Paracrine and endocrine role of the VDR in bone
+  Homéostasie du calcium :
 \end{itemize}
 
-Thus, not only a very low vitamin D status leads to impaired mineral
-deposition inbone but also excess of 1,25(OH)2D can impair mineral
-deposition and contribute to the clinical andhistological picture or
-phenotype of osteomalacia.
+La liaison du calcitriol sur le VDR situé dans les ostéoprogéniteurs
+entraîne une augmentation de l'absorption de calcium dans les os
+(diminution de RANKL, facteur de transcription activant les
+ostéoclastes, et augmentation de LRP5) \autocite{Carmeliet.2015}.
+Lorsque la calcémie est basse, l'augmentation de PTH conduit à une
+augmentation de RANKL ce qui favorise la résorption des os par les
+ostéoclastes afin d'obtenir du calcium.
 
-\autocite{Carmeliet.2015}
+\begin{itemize}
+\item
+  Transport intestinal du calcium : Calcitriol et VDR joue un rôle dans
+  le transport intestinal du calcium, par une voie transcellulaire à
+  l'aide de transporteurs de calcium.
+\item
+  Réabsorption du calcium par le rein : L'action du calcitriol sur le
+  VDR conduit à une stimulation de la réabsorption du calcium dans le
+  tubule contourné distal du rein \autocite{Carmeliet.2015}.
+\end{itemize}
 
 \hypertarget{propriuxe9tuxe9s-extra-osseuses}{%
 \subsubsection{Propriétés
 extra-osseuses}\label{propriuxe9tuxe9s-extra-osseuses}}
 
 \begin{itemize}
-\tightlist
 \item
   Découverte de la présence de VDR dans la majorité des tissus et
-  populations cellulaire
+  populations cellulaires, ce qui a augmenté l'appréciation du rôle
+  pléiotrope de la vitamine D \autocite{Rosen.2012}.
+\item
+  Certaines cellules ou tissus possèdent une expression faible de VDR
+  tels que les globules rouges, les muscles striés matures, et certaines
+  cellules hautement différenciés du cerveau tel que les cellules de
+  Purkinje du cervelet \autocite{Bouillon.2008}.
 \item
   Intérêt renouvelé pour la vitamine D, en particulier dans le cancer,
   les maladies cardiovasculaires et les maladies auto-immunes
 \item
-  Action paracrine de la vitD sur le VDR, expression locale de CYP27B1
+  Action paracrine de la VitD sur le VDR, expression locale de CYP27B1
   \autocite{Carmeliet.2015}
 \item
-  \textcite{Carmeliet.2015} rapporte que les recommendations en 2015
+  \textcite{Carmeliet.2015} rapporte que les recommandations en 2015
   sont de 400-800 UI/kg. Cependant une dose plus élevée pourrait être
   bénéfique concernant les effets extra-osseux, en fonction des
   résultats d'un large essai clinique d'ici 2018-2020.
