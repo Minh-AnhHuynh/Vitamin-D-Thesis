@@ -135,10 +135,10 @@
   pdfcreator={LaTeX via pandoc}}
 
 \author{}
-\date{11/4/22}
+\date{11/10/22}
 
 \begin{document}
-\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[boxrule=0pt, breakable, borderline west={3pt}{0pt}{shadecolor}, enhanced, frame hidden, interior hidden, sharp corners]}{\end{tcolorbox}}\fi
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[borderline west={3pt}{0pt}{shadecolor}, breakable, boxrule=0pt, enhanced, sharp corners, frame hidden, interior hidden]}{\end{tcolorbox}}\fi
 
 \setstretch{1.5}
 \pagenumbering{gobble}
@@ -200,6 +200,8 @@ September 2022
   7-DHC : 7-déhydrocholestérol
 \item
   DBP : Protéine de liaison de l'albumine
+\item
+  UI : Unité Internationale
 \item
   VitD : Vitamine D
 \item
@@ -311,8 +313,8 @@ Cette enzyme peut également hydroxyler le calcidiol pour donner de la
 de diminuer la quantité de calcitriol et calcidiol disponible dans le
 sang, ainsi la 24-hydroxylase sert donc à jouer un rôle de catabolisme
 de la vitamine D \textbf{(Figure~\ref{fig-metabolism-vitd})}
-\autocite{Norman.2008}. La quantité de calcitriol est donc déterminée
-par un équilibre entre les enzymes CYP27B1 et CYP24A1
+{[}\textcite{Norman.2008}{]}. La quantité de calcitriol est donc
+déterminée par un équilibre entre les enzymes CYP27B1 et CYP24A1
 \autocite{Dankers.2017}.
 
 \begin{figure}
@@ -333,8 +335,8 @@ phosphate dans le sang, favorise l'induction de la CYP24A1 qui est
 l'enzyme de catabolisme du calcidiol, tandis que la PTH, induite par une
 faible concentration de calcium et inhibée par une forte concentration
 de calcitriol, va induire la CYP24A1 et donc l'anabolisme du calcitriol
-\textbf{(Figure~\ref{fig-reg-vitd})}
-\autocite{Dankers.2017,Christakos.2010}.
+\textbf{(Figure~\ref{fig-reg-vitd})} {[}\textcite{Dankers.2017};
+\textcite{Christakos.2010}{]}.
 
 \begin{figure}
 
@@ -385,9 +387,10 @@ extra-osseuses}\label{propriuxe9tuxe9s-extra-osseuses}}
 
 \begin{itemize}
 \item
-  Découverte de la présence de VDR dans la majorité des tissus et
-  populations cellulaires, ce qui a augmenté l'appréciation du rôle
-  pléiotrope de la vitamine D \autocite{Rosen.2012}.
+  La découverte de la présence de VDR dans la majorité des tissus et
+  populations cellulaires, a augmenté l'appréciation du rôle
+  pléiotropique de la vitamine D \autocite{Rosen.2012} et les recherches
+  associées.
 \item
   Certaines cellules ou tissus possèdent une expression faible de VDR
   tels que les globules rouges, les muscles striés matures, et certaines
@@ -395,18 +398,79 @@ extra-osseuses}\label{propriuxe9tuxe9s-extra-osseuses}}
   Purkinje du cervelet \autocite{Bouillon.2008}.
 \item
   Intérêt renouvelé pour la vitamine D, en particulier dans le cancer,
-  les maladies cardiovasculaires et les maladies auto-immunes
+  les maladies cardiovasculaires (obésité et diabète de type 2,
+  métabolisme du glucose) et les maladies auto-immunes (diabète de type
+  1, sclérose en plaques, troubles thyroïdiens auto-immuns)
+  \autocite{Dankers.2017,Caprio.2017}
+\end{itemize}
+
+\begin{figure}
+
+{\centering \includegraphics{figures/extra-skeletal-effect.png}
+
+}
+
+\caption{\label{fig-extra-skeletal}\textbf{Effets classiques et
+extra-squelettiques de la vitamine D.} Source : \textcite{Caprio.2017}}
+
+\end{figure}
+
+\begin{itemize}
+\tightlist
 \item
   Action paracrine de la VitD sur le VDR, expression locale de CYP27B1
   \autocite{Carmeliet.2015}
-\item
-  \textcite{Carmeliet.2015} rapporte que les recommandations en 2015
-  sont de 400-800 UI/kg. Cependant une dose plus élevée pourrait être
-  bénéfique concernant les effets extra-osseux, en fonction des
-  résultats d'un large essai clinique d'ici 2018-2020.
 \end{itemize}
 
-2022 :
+\hypertarget{dose}{%
+\subsection{Dose}\label{dose}}
+
+\begin{itemize}
+\tightlist
+\item
+  La mesure de la dose de la vitamine D peut se faire en plusieurs
+  unités. Classiquement, la vitamine D se mesure en UI (Unité
+  Internationale).
+\end{itemize}
+
+\(1 µg = 40 UI\) ou \(1 UI = 0.025 µg\).
+
+\begin{itemize}
+\item
+  Une comparaison de la dose de vitamine D pour 1000 UI par jour, ou
+  l'équivalent de la dose en semaine ou en mois dans un essai clinique
+  chez des patients (âge moyen de 53 ans ; taux de base moyen de 25(OH)D
+  de \textasciitilde13 ng/mL) montre qu'une supplémentation en
+  cholécalciférol augmente la concentration de celle-ci de 1.3 ng/100 UI
+  \autocite{Bouillon.2017}.
+\item
+  Cependant la FDA (Food and Drugs Administration) a décidé depuis
+  Janvier 2021 de passer à une dose écrite en microgramme, ce qui oblige
+  les fabricants à montrer l'information en microgramme, bien que la
+  dénomination en UI reste possible en parallèle.
+  (\href{https://www.govinfo.gov/content/pkg/FR-2016-05-27/pdf/2016-11867.pdf}{Federal
+  Register / Vol. 81, No.~103 / Friday, May 27, 2016})
+\item
+  D'après \textcite{Carmeliet.2015} les recommandations en 2015 sont de
+  400-800 UI/j. Cependant une dose plus élevée pourrait être bénéfique
+  concernant les effets extra-osseux, en fonction des résultats d'un
+  large essai clinique d'ici 2018-2020.
+\item
+  Actuellement, la société d'endocrinologie recommande chez l'adulte (19
+  - 50 ans) 600 UI/j pour maximiser la santé osseuse et le
+  fonctionnement musculaire, admettant cependant que les bénéfices
+  extra-squelettiques associé à cette dose leur est inconnu.
+\item
+  De plus, pour des patients carencés, ils suggèrent qu'une plus forte
+  dose de 1500 UI/j à 2000 UI/j serait nécessaire pour maintenir
+  constamment une concentration supérieure à 30 ng/mL
+  \autocite{Holick.2011}.
+\item
+  Un autre acteur, l'ANSES, stipule que les recommandations journalières
+  de cholécalciférol sont de 15 µg par jour soit l'équivalent d'une dose
+  de 600 UI/j, s'appuyant sur les recommandations de l'EFSA (Autorité
+  européenne de sécurité des aliments) \autocite{travail.2022}
+\end{itemize}
 
 \hypertarget{utilisation-thuxe9rapeutique}{%
 \subsection{Utilisation
@@ -414,6 +478,8 @@ thérapeutique}\label{utilisation-thuxe9rapeutique}}
 
 \hypertarget{toxicituxe9}{%
 \subsection{Toxicité}\label{toxicituxe9}}
+
+\textcite{Marcinowska-Suchowierska.2018}
 
 \hypertarget{vitamine-d-et-systuxe8me-immunitaire}{%
 \section{Vitamine D et système

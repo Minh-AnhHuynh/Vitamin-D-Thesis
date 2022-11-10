@@ -14,7 +14,9 @@ La VitD est une molécule liposoluble, semblable à une hormone stéroïde.
 Celle-ci possède plusieurs formes, la vitamine D~2~ ou ergocalciférol, synthétisée par les plantes, et la vitamine D3 ou cholécalciférol , synthétisée dans la peau après une exposition aux rayons ultraviolets B ou à la lumière du soleil.
 Généralement, la mention de vitamine D fait référence à la vitamine D3.
 
-Curieusement la VitD possède une structure ressemblant à une hormone stéroïdienne classique, telle que le cortisol et l'aldostérone [@Norman.2008] **(@fig-vitd3)**. Une hormone est une substance chimique qui aide à contrôler et à réguler différentes activités dans l'organisme [@Ellison.2020]. La vitamine D est capable d'agir en tant que facteur de transcription et de modifier le métabolisme de diverses manières. Pratiquement toutes les cellules de l'organisme possèdent un récepteur à la vitamin D (VDR), ce qui explique ses effets pléiotropiques dans diverses maladies [@Ellison.2020; @Caprio.2017; @Norman.2008]. Le VDR est un récepteur faisant partie de la classe des facteurs de transcription nucléaire. Ainsi la liaison de la vitamine D sur son récepteur conduit à une séquence classique de translocation nucléaire et de liaison à l'ADN [@Bouillon.2008]. 
+Curieusement la VitD possède une structure ressemblant à une hormone stéroïdienne classique, telle que le cortisol et l'aldostérone [@Norman.2008] **(@fig-vitd3)**. Une hormone est une substance chimique qui aide à contrôler et à réguler différentes activités dans l'organisme [@Ellison.2020]. La vitamine D est capable d'agir en tant que facteur de transcription et de modifier le métabolisme de diverses manières. Pratiquement toutes les cellules de l'organisme possèdent un récepteur à la vitamin D (VDR), ce qui explique ses effets pléiotropiques dans diverses maladies [@Ellison.2020; @Caprio.2017; @Norman.2008].
+Le VDR est un récepteur faisant partie de la classe des facteurs de transcription nucléaire.
+Ainsi la liaison de la vitamine D sur son récepteur conduit à une séquence classique de translocation nucléaire et de liaison à l'ADN [@Bouillon.2008].
 De plus, la vitamine D est la seule vitamine qui peut être synthétisée par l'organisme, contrairement aux vitamines A, B, C, E ce qui contribue à l'idée que la vitamine D serait plutôt une hormone.
 
 ![Structure chimique de la vitamine D3 ou cholécalciférol](figures/vitamin-d3.png){#fig-vitd3 width="50%"}
@@ -26,17 +28,20 @@ La vitamine D~3~ peut être obtenue à partir de compléments et d'apports alime
 Initialement, le 7-déhydrocholestérol (7-DHC), un dérivé du cholestérol situé dans la peau, se transforme en vitamine D~3~ (cholécalciférol) sous l'action des ondes ultraviolettes provenant du soleil.
 
 La vitamine D~3~ doit ensuite être métabolisée dans le foie pour obtenir la forme active qui permettra d'exercer ses effets à travers le récepteur de la vitamine D (VDR).
-Pour cela, elle est transportée à travers le sang par la protéine de liaison de la vitamine D (DBP), appartenant à la famille des albumines [@Christakos.2010; @Chun.2012]. La DBP peut également lier les autres formes de vitamine D, telles que la vitamine D~2~ (ergocalciférol), vitamine D~3~, 25(OH)D~3~ et 1,25(OH)D~3~.
+Pour cela, elle est transportée à travers le sang par la protéine de liaison de la vitamine D (DBP), appartenant à la famille des albumines [@Christakos.2010; @Chun.2012].
+La DBP peut également lier les autres formes de vitamine D, telles que la vitamine D~2~ (ergocalciférol), vitamine D~3~, 25(OH)D~3~ et 1,25(OH)D~3~.
 
 Par la suite, la vitamine D~3~ est métabolisée en 25(OH)D~3~ ou calcidiol, par une des enzymes cytochrome P450 vitamine D 25-hydroxylases (dont CYP2R1, CYP2D11, CYP2D25) dans le foie, qui est la forme majoritaire circulante dans l'organisme [@Norman.2008; @Christakos.2010]. Ultérieurement, cette forme est transportée par la DBP dans le rein, est filtrée par le glomérule et se retrouve hydroxylée à nouveau dans le tube proximal du rein par la CYP27B1 ou 1α(OH)ase pour donner la 1,25-dihydroxyvitamine D~3~ (1,25(OH)~2~D~3~) ou calcitriol, nommée ainsi puisqu'elle possède trois groupes hydroxyles. Le calcitriol représente la forme active de la vitamine D, responsable de la majorité de ses effets, en se liant au VDR contenu dans divers tissus [@Norman.2008; @Dankers.2017].
 
 Finalement, le catabolisme de la vitamine D se produit par une hydroxylation par la 24-hydroxylase ou CYP24A1, une enzyme P450 mitochrondriale, donnant le métabolite 1,24,25(OH)~3~D~3~ ou l'acide calcitroïque.
 Cette enzyme peut également hydroxyler le calcidiol pour donner de la 24,25(OH)~3~D~3~.
-Ces réactions permettent de diminuer la quantité de calcitriol et calcidiol disponible dans le sang, ainsi la 24-hydroxylase sert donc à jouer un rôle de catabolisme de la vitamine D **(@fig-metabolism-vitd)** [@Norman.2008]. La quantité de calcitriol est donc déterminée par un équilibre entre les enzymes CYP27B1 et CYP24A1 [@Dankers.2017].
+Ces réactions permettent de diminuer la quantité de calcitriol et calcidiol disponible dans le sang, ainsi la 24-hydroxylase sert donc à jouer un rôle de catabolisme de la vitamine D **(@fig-metabolism-vitd)** \[@Norman.2008\].
+La quantité de calcitriol est donc déterminée par un équilibre entre les enzymes CYP27B1 et CYP24A1 [@Dankers.2017].
 
 ![Métabolisme de la vitamine D. Source : @Norman.2008](figures/vitamin-d-metabolism.png){#fig-metabolism-vitd fig-align="center"}
 
-Le calcitriol est régulé par deux facteurs, l'hormone parathyroïde (PTH) et l'hormone de croissance fibroblastique 23 (FGF23). La FGF23, induite par la haute concentration de calcitriol et une faible concentration de phosphate dans le sang, favorise l'induction de la CYP24A1 qui est l'enzyme de catabolisme du calcidiol, tandis que la PTH, induite par une faible concentration de calcium et inhibée par une forte concentration de calcitriol, va induire la CYP24A1 et donc l'anabolisme du calcitriol **(@fig-reg-vitd)** [@Dankers.2017; @Christakos.2010].
+Le calcitriol est régulé par deux facteurs, l'hormone parathyroïde (PTH) et l'hormone de croissance fibroblastique 23 (FGF23).
+La FGF23, induite par la haute concentration de calcitriol et une faible concentration de phosphate dans le sang, favorise l'induction de la CYP24A1 qui est l'enzyme de catabolisme du calcidiol, tandis que la PTH, induite par une faible concentration de calcium et inhibée par une forte concentration de calcitriol, va induire la CYP24A1 et donc l'anabolisme du calcitriol **(@fig-reg-vitd)** \[@Dankers.2017; @Christakos.2010\].
 
 ![Métabolisme et Régulation de la vitamine D. Source : @Dankers.2017](figures/vitamin-d-metabolism-regulation.jpg){#fig-reg-vitd fig-align="center"}
 
@@ -44,32 +49,53 @@ Le calcitriol est régulé par deux facteurs, l'hormone parathyroïde (PTH) et l
 
 ### Propriétés classiques osseuses
 
-- Homéostasie du calcium : 
+-   Homéostasie du calcium :
 
-La liaison du calcitriol sur le VDR situé dans les ostéoprogéniteurs entraîne une augmentation de l'absorption de calcium dans les os (diminution de RANKL, facteur de transcription activant les ostéoclastes, et augmentation de LRP5) [@Carmeliet.2015]. Lorsque la calcémie est basse, l'augmentation de PTH conduit à une augmentation de RANKL ce qui favorise la résorption des os par les ostéoclastes afin d'obtenir du calcium.
+La liaison du calcitriol sur le VDR situé dans les ostéoprogéniteurs entraîne une augmentation de l'absorption de calcium dans les os (diminution de RANKL, facteur de transcription activant les ostéoclastes, et augmentation de LRP5) [@Carmeliet.2015].
+Lorsque la calcémie est basse, l'augmentation de PTH conduit à une augmentation de RANKL ce qui favorise la résorption des os par les ostéoclastes afin d'obtenir du calcium.
 
-- Transport intestinal du calcium : Calcitriol et VDR joue un rôle dans le transport intestinal du calcium, par une voie transcellulaire à l'aide de transporteurs de calcium.
+-   Transport intestinal du calcium : Calcitriol et VDR joue un rôle dans le transport intestinal du calcium, par une voie transcellulaire à l'aide de transporteurs de calcium.
 
-- Réabsorption du calcium par le rein : L'action du calcitriol sur le VDR conduit à une stimulation de la réabsorption du calcium dans le tubule contourné distal du rein [@Carmeliet.2015].
-
-
-
-
+-   Réabsorption du calcium par le rein : L'action du calcitriol sur le VDR conduit à une stimulation de la réabsorption du calcium dans le tubule contourné distal du rein [@Carmeliet.2015].
 
 ### Propriétés extra-osseuses
 
-- Découverte de la présence de VDR dans la majorité des tissus et populations cellulaires, ce qui a augmenté l'appréciation du rôle pléiotrope de la vitamine D [@Rosen.2012]. 
-- Certaines cellules ou tissus possèdent une expression faible de VDR tels que les globules rouges, les muscles striés matures, et certaines cellules hautement différenciés du cerveau tel que les cellules de Purkinje du cervelet [@Bouillon.2008].
+-   La découverte de la présence de VDR dans la majorité des tissus et populations cellulaires, a augmenté l'appréciation du rôle pléiotropique de la vitamine D [@Rosen.2012] et les recherches associées.
 
-- Intérêt renouvelé pour la vitamine D, en particulier dans le cancer, les maladies cardiovasculaires et les maladies auto-immunes
-- Action paracrine de la VitD sur le VDR, expression locale de CYP27B1 [@Carmeliet.2015]
-- @Carmeliet.2015 rapporte que les recommandations en 2015 sont de 400-800 UI/kg. Cependant une dose plus élevée pourrait être bénéfique concernant les effets extra-osseux, en fonction des résultats d'un large essai clinique d'ici 2018-2020.
+-   Certaines cellules ou tissus possèdent une expression faible de VDR tels que les globules rouges, les muscles striés matures, et certaines cellules hautement différenciés du cerveau tel que les cellules de Purkinje du cervelet [@Bouillon.2008].
 
-2022 : 
+-   Intérêt renouvelé pour la vitamine D, en particulier dans le cancer, les maladies cardiovasculaires (obésité et diabète de type 2, métabolisme du glucose) et les maladies auto-immunes (diabète de type 1, sclérose en plaques, troubles thyroïdiens auto-immuns) [@Dankers.2017; @Caprio.2017]
+
+
+![**Effets classiques et extra-squelettiques de la vitamine D.** Source : @Caprio.2017](figures/extra-skeletal-effect.png){#fig-extra-skeletal}
+
+-   Action paracrine de la VitD sur le VDR, expression locale de CYP27B1 [@Carmeliet.2015]
+
+## Dose
+
+-   La mesure de la dose de la vitamine D peut se faire en plusieurs unités. Classiquement, la vitamine D se mesure en UI (Unité Internationale).
+
+$1 µg = 40 UI$ ou $1 UI = 0.025 µg$.
+
+-   Une comparaison de la dose de vitamine D pour 1000 UI par jour, ou l'équivalent de la dose en semaine ou en mois dans un essai clinique chez des patients (âge moyen de 53 ans ; taux de base moyen de 25(OH)D de \~13 ng/mL) montre qu'une supplémentation en cholécalciférol augmente la concentration de celle-ci de 1.3 ng/100 UI [@Bouillon.2017].
+
+-   Cependant la FDA (Food and Drugs Administration) a décidé depuis Janvier 2021 de passer à une dose écrite en microgramme, ce qui oblige les fabricants à montrer l'information en microgramme, bien que la dénomination en UI reste possible en parallèle.
+    ([Federal Register / Vol. 81, No. 103 / Friday, May 27, 2016](https://www.govinfo.gov/content/pkg/FR-2016-05-27/pdf/2016-11867.pdf))
+
+-   D'après @Carmeliet.2015 les recommandations en 2015 sont de 400-800 UI/j.
+    Cependant une dose plus élevée pourrait être bénéfique concernant les effets extra-osseux, en fonction des résultats d'un large essai clinique d'ici 2018-2020.
+
+-   Actuellement, la société d'endocrinologie recommande chez l'adulte (19 - 50 ans) 600 UI/j pour maximiser la santé osseuse et le fonctionnement musculaire, admettant cependant que les bénéfices extra-squelettiques associé à cette dose leur est inconnu.
+
+-   De plus, pour des patients carencés, ils suggèrent qu'une plus forte dose de 1500 UI/j à 2000 UI/j serait nécessaire pour maintenir constamment une concentration supérieure à 30 ng/mL [@Holick.2011].
+
+-   Un autre acteur, l'ANSES, stipule que les recommandations journalières de cholécalciférol sont de 15 µg par jour soit l'équivalent d'une dose de 600 UI/j, s'appuyant sur les recommandations de l'EFSA (Autorité européenne de sécurité des aliments) [@travail.2022]
 
 ## Utilisation thérapeutique
 
 ## Toxicité
+
+@Marcinowska-Suchowierska.2018
 
 # Vitamine D et système immunitaire
 

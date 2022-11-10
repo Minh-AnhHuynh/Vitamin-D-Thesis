@@ -13,23 +13,20 @@ format:
       - left=25mm
       - heightrounded
     indent: true
-    pandoc_args: !expr acronymsdown::add_filter()
 link-citations: true
 mainfont: "Times New Roman"
 linestretch: 1.5
 execute:
   echo: false
 keep-tex: true
-keyword: "Vitamine D"
 bibliography: "bibliography/vitamin-d.bib"
-bilio-style:
 cite-method: biblatex
 # biblio-style: "biblatex-chicago" # Doesn't work
 # csl: "csl/cell.csl" # Used for citeproc from pandoc, but can't read unicode from Readcube Papers ...
 header-includes:
 - \usepackage[authordate,backend=biber]{biblatex-chicago}
 - \usepackage{setspace}
-- \usepackage[font=small, labelfont=bf, justification=centering, singlelinecheck=false]{caption} # Set figure caption to bold
+- \usepackage[font=small, labelfont=bf, justification=centering, singlelinecheck=false]{caption} # Set figure caption to bold, centered
 ---
 
 \pagenumbering{gobble}

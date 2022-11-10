@@ -3,5 +3,6 @@
 
 - 7-DHC : 7-déhydrocholestérol
 - DBP : Protéine de liaison de l'albumine
+- UI : Unité Internationale
 - VitD : Vitamine D
 - VDR : Récepteur de la vitamine D
