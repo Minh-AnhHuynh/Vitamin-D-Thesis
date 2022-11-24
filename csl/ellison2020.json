@@ -1,0 +1,34 @@
+[
+    {
+        "type": "article-journal",
+        "title": "Vitamin D Vitamin or Hormone?",
+        "author": [
+            {
+                "family": "Ellison",
+                "given": "Deborah L."
+            },
+            {
+                "family": "Moran",
+                "given": "Heather R."
+            }
+        ],
+        "container-title": "Nursing Clinics of North America",
+        "ISSN": "0029-6465",
+        "DOI": "10.1016/j.cnur.2020.10.004",
+        "PMID": "33549285",
+        "abstract": "Vitamin D can be obtained from diet, direct sunlight, or supplementation. The most common form is synthesized in the skin after exposure to ultraviolet B radiation. Nevertheless, the thought is that vitamin D is more of a multifunctional hormone or prohormone. This is because vitamin D plays contributes to many processes in the body. Calcitriol has been shown to have enhancing effects on the immune system, the cardiovascular system, the endocrine system, and other metabolic pathways. There is evidence that vitamin D has also a role in depression, pain, and cancer.",
+        "issued": {
+            "date-parts": [
+                [
+                    "2020"
+                ]
+            ]
+        },
+        "journalAbbreviation": "Nurs Clin N Am",
+        "page": "47-57",
+        "issue": "1",
+        "volume": "56",
+        "citekey": "Ellison.2020",
+        "id": "2b685dce-6b82-4ca3-b84f-313e2a8317f2"
+    }
+]

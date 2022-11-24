@@ -21,7 +21,7 @@ keep-tex: true
 bibliography: "bibliography/vitamin-d.bib"
 cite-method: citeproc
 # biblio-style: "biblatex-chicago" # Doesn't work
-csl: "csl/cell.csl" # Used for citeproc from pandoc
+csl: "csl/cell-symbol-&.csl" # Used for citeproc from pandoc
 header-includes:
 - \usepackage{setspace}\spacing{1.5}
 - \usepackage[font=small, labelfont=bf, justification=centering, singlelinecheck=false]{caption} # Set figure caption to bold, centered
