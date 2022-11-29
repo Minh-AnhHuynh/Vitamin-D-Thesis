@@ -13,6 +13,12 @@ format:
       - left=25mm
       - heightrounded
     indent: true
+    # pandoc_args: !expr acronymsdown::add_filter()
+# acronyms:
+#   keys:
+#     - key: yaml
+#       shortname: YAML
+#       longname: YAML Ain't Markup Language
 link-citations: true
 mainfont: "Times New Roman"
 execute:
@@ -21,7 +27,7 @@ keep-tex: true
 bibliography: "bibliography/vitamin-d.bib"
 cite-method: citeproc
 # biblio-style: "biblatex-chicago" # Doesn't work
-csl: "csl/cell-symbol-&.csl" # Used for citeproc from pandoc
+csl: "csl/cell.csl" # Used for citeproc from pandoc
 header-includes:
 - \usepackage{setspace}\spacing{1.5}
 - \usepackage[font=small, labelfont=bf, justification=centering, singlelinecheck=false]{caption} # Set figure caption to bold, centered
@@ -73,9 +79,11 @@ September 2022
 
 ```{=tex}
 \tableofcontents
-\clearpage
+\newpage
+
 \listoffigures
-\clearpage
+\newpage
+
 \listoftables
 ```
 {{< pagebreak >}}

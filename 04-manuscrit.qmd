@@ -28,7 +28,7 @@ qui aide à contrôler et à réguler différentes activités dans l'organisme
 [@Ellison.2020]. La vitamine D est capable d'agir en tant que facteur de
 transcription et de modifier le métabolisme de diverses manières.
 Pratiquement toutes les cellules de l'organisme possèdent un récepteur à
-la vitamin D (VDR), ce qui explique ses effets pléiotropiques dans
+la vitamine D (VDR), ce qui explique ses effets pléiotropiques dans
 diverses maladies [@Ellison.2020; @Caprio.2017; @Norman.2008]. Le VDR
 est un récepteur faisant partie de la classe des facteurs de
 transcription nucléaire. Ainsi la liaison de la vitamine D sur son
@@ -38,8 +38,8 @@ vitamine qui peut être synthétisée par l'organisme, contrairement aux
 vitamines A, B, C, E ce qui contribue à l'idée que la vitamine D serait
 plutôt une hormone.
 
-![Structure chimique de la vitamine D3 ou
-cholécalciférol](figures/vitamin-d3.png){#fig-vitd3 width="50%"}
+![Structure chimique de la vitamine D3 ou cholécalciférol. Source :
+Wikipédia](figures/vitamin-d3.png){#fig-vitd3 width="50%"}
 
 ## Métabolisme
 
@@ -142,14 +142,17 @@ d'obtenir du calcium.
     type 1, sclérose en plaques, troubles thyroïdiens auto-immuns)
     [@Dankers.2017; @Caprio.2017]
 
-![**Effets classiques et extra-squelettiques de la vitamine D.** Source:   @Caprio.2017](figures/extra-skeletal-effect.png){#fig-extra-skeletal}
+![**Effets classiques et extra-squelettiques de la vitamine D.** Source:
+@Caprio.2017](figures/extra-skeletal-effect.png){#fig-extra-skeletal}
 
--   Action paracrine de la VitD sur le VDR, expression locale de CYP27B1
-    [@Carmeliet.2015]
+-   La vitamine D exerce en plus de son action endocrine classique,
+    médiée par le rein, une action paracrine de la VitD sur le VDR, par
+    le biais d'une expression locale de CYP27B1 [@Carmeliet.2015].
+    [@Cannell.2008]
 
 Cependant les bénéfices extra-squelettiques associés à la vitamine D ne
 serait visible que lorsque la concentration de vitamine D serait
-supérieure au seuil de 40 ng/mL, ce qui nécessit une dose journalière
+supérieure au seuil de 40 ng/mL, ce qui nécessite une dose journalière
 nettement supérieure que celle recommandée habituellement.
 
 ## Dose
@@ -194,7 +197,48 @@ nettement supérieure que celle recommandée habituellement.
     recommandations de l'Autorité européenne de sécurité des aliments)
     [@ANSES.2022]
 
+@Cannell.2008 propose une dose idéale de vitamine D basée sur un
+rationnel lié à l'optimisation des bénéfices métaboliques apportées par
+la vitamine D. En effet, une concentration idéale de 34 ng/mL pour
+optimiser l'absorption intestinale calcique serait moindre que celle
+pour optimiser les performances neuromusculaires (38 ng/mL). De plus,
+une concentration naturelle de vitamine D produite par l'exposition au
+soleil de 30 hommes passant du temps à travailler à l'extérieur pendant
+l'été serait autour de 50 ng/mL, mais Cannell note que plus de 50% de
+ces hommes reviennent à un niveau inférieur à 30 ng/mL d'ici la fin de
+l'été, ce qui indiquerait que le soleil ne peut maintenir un niveau
+adéquat de vitamine D.
+
+Un autre rationnel reposant sur la pharmacocinétique de la vitamine D
+est proposé par @Cannell.2008. En effet, le cholécalciférol (premier
+substrat des enzymes métabolisant la vitamine D) est immédiatement
+consommé et métabolisé en calcidiol et calcitriol par les enzymes, ce
+qui rend le cholécalciférol indétectable dans le sang, indiquant que
+toutes les molécules de vitamine D sont utilisées dans des réactions
+métaboliques. @Hollis.2007 ont étudié la cinétique des réactions
+enzymatiques concernant la vitamine D, et ont déterminé que la vitesse
+maximale pour laquelle la réaction enzymatique de la 25-hydroxylase
+arrive à saturation est lorsque le calcidiol arrive à 40 ng/mL. Le
+substrat initial (cholécalciférol) est donc alors détectable dans le
+sang au-delà de cette concentration, et la réaction enzymatique devient
+alors saturable et régulée, comme il s'agit les autres systèmes
+hormonaux stéroïques [@Cannell.2008]. @Hollis.2007 suppose ainsi que les
+humains fonctionnent à un niveau en-deçà de la V~max~ de la
+25-hydroxylase à cause d'une déficience de son substrat, le
+cholécalciférol, et que le niveau "normal" de vitamine D serait donc
+atteint lorsque le système ne devient donc pas limité par la quantité de
+substrat mais par ses propres régulations.
+
 ## Utilisation thérapeutique
+
+La vitamine D est surtout utilisée en thérapie afin de prévenir les
+carences. Elle permet de prévenir du rachitisme chez les enfants et de
+l'ostéoporose chez les adultes et surtout chez les personnes âgées. De
+plus, le calcitriol, forme active de la vitamine D, est utilisé pour
+traiter des maladies métaboliques liées à la thyroïde, telle que les
+hypoparathyroïdies, les ostéodystrophies rénales, les ostéomalacies
+vitaminorésistantes, les pseudohypoparathyroïdies et les rachitismes
+vitaminorésistants [@VIDAL.2013].
 
 ## Toxicité
 
@@ -213,6 +257,9 @@ La toxicité de la vitamine D se manifeste par une hypercalcémie et
 hypercalciurie, accompagnée par une activité très faible de PTH
 [@Marcinowska-Suchowierska.2018], observée par un apport exogène de
 vitamine D, dépassant le seuil suggéré par @Holick.2011 de 150 ng/mL.
+Les symptômes associés à une hypervitaminose D peuvent se manifester par
+des maux de tête, nausées, vomissements, une perte de poids, ou une
+fatigue intense.
 
 -   La toxicité de la vitamine D est considéré comme rare mais
     dangereuse [@Marcinowska-Suchowierska.2018; @Holick.2015].
@@ -276,7 +323,7 @@ vitamine D, dépassant le seuil suggéré par @Holick.2011 de 150 ng/mL.
     l'incidence de l'hypercalcémie, principale toxicité considérée de la
     vitamine D. @Dudenkov.2015 examinent les patients ayant plus de 50
     ng/mL et l'incidence des cas d'hypercalcémies associés à des
-    événements cliniques. Les auteurs concluent que malgré que
+    évènements cliniques. Les auteurs concluent que malgré que
     l'incidence de patients ayant un taux supérieur à 50 ng/mL ait
     augmenté, l'incidence de cas de toxicité clinique aiguë de vitamine
     D reste la même.
@@ -304,7 +351,7 @@ vitamine D, dépassant le seuil suggéré par @Holick.2011 de 150 ng/mL.
     augmente l'assurance du seuil NOAEL et LOAEL.
 
 -   Les origines de la dose si basse en vitamine D viennent d'une
-    succession d\'évènement débutant vers la fin du 19^ème^ début
+    succession d'évènement débutant vers la fin du 19^ème^ début
     20^ème^. Ainsi, plus de 80% des enfants possédaient des déformations
     associés au rachitisme ainsi qu'un retard de la croissance osseuse
     et des difformités osseuses en Europe et sur la côte Est des
@@ -314,7 +361,7 @@ vitamine D, dépassant le seuil suggéré par @Holick.2011 de 150 ng/mL.
     l'ergostérol végétal) et d'autres aliments tels que du pain, des
     boissons gazeuses, de la bière, de la crème anglaise et même des
     hot-dogs. Vers les années 1950s, plusieurs cas ont été signalé en
-    angleterre de nourrissons présentant des anomalies faciales
+    Angleterre de nourrissons présentant des anomalies faciales
     accompagnées d'hypercalcémie et de sténose aortique
     supra-valvulaire. Les médecins concluent indirectement en se basant
     sur la littérature et les données cliniques disponibles qu'il s'agit
@@ -324,12 +371,70 @@ vitamine D, dépassant le seuil suggéré par @Holick.2011 de 150 ng/mL.
     nourrissons, ainsi que l'interdiction dans de nombreux pays de
     fortifier le lait avec de la vitamine D. Cependant, avec
     rétrospection, la littérature suggère que les nourrissons alors
-    rapportés avaient le syndrome de Williams-Beuren [@Holick.2015].
+    rapportés avaient le syndrome de Williams-Beuren, et donc étaient
+    hypersensible à la vitamine D et présentaient les symptômes
+    rapportés. Il ne s'agissait donc pas d'une situation clinique
+    normale liée à la toxicité vitamine D mais à l'hypersensibilité à la
+    vitamine D [@Holick.2015].
 
 # Vitamine D et système immunitaire
 
-@Dankers.2017
+La VitD exerce son effet sur le système immunitaire en se liant au VDR.
+Elle possède une action intracrine, par l'intermédiaire des cellules
+immunitaires qui peuvent synthétiser l'enzyme clé permettant la
+conversion du 25(OH)~2~D~3~ en 1,25(OH)~2~D~3~, le cytochrome CYP27B1.
+Cela concerne des cellules telles que les monocytes, cellules
+dendritiques, macrophages, lymphocytes B et T [@Meza-Meza.2020;
+@Dankers.2017]. L'action est jugée intracrine puisqu'elle se déroule à
+l'intérieur de la cellule, et non à l'extérieur de la cellule, ce qui
+correspondrait à une action autocrine.
 
+La VitD possède une action globalement anti-inflammatoire et donc
+régulatrice de l'inflammation **(Figure** \ref{immunomod}). A
+l'initiation de la réponse inflammatoire, le calcitriol est essentiel
+afin de répondre à une infection. Le calcitriol, obtenu après conversion
+du calcidiol par les cellules immunitaires, permet la reconnaissance des
+pathogènes par le biais du TLR, cause le switch phénotypique de
+macrophage M1 vers M2 par la régulation positive d'IL-10, et promeut un
+état de tolérance immun. Le calcitriol inhibe également des cytokines
+majeures pro-inflammatoires, l'IL-6 et le TNF-α [@Meza-Meza.2020].
+
+De plus, la VitD est capable d'induire une tolérance périphérique
+immunitaire en promotant des cellules présentatrices d'antigènes plus
+immatures (cellules dendritiques, macrophages, lymphocytes B), tout en
+diminuant l'expression du complexe majeur d'histocompatibilité de classe
+II (CMH II) ainsi que des marqueurs de co-stimulation, nécessaires à
+l'activation de la réponse immune, tels que le CD40, CD80 et CD86
+[@Meza-Meza.2020].
+
+Elle est également capable d'induire le changement phénotypique de
+sous-population de lymphocytes T CD4^+^, favorisant le passage de la
+population T auxiliaire (Th) Th1 et Th17 vers la population Th2. La
+sous-population Th2 régule à son tour les populations Th1 et Th17 dans
+une balance, diminuant ainsi globalement l'activité cytotoxique médiée
+par les cellules, qui est exacerbée dans les maladies autoimmunes et
+infections par des pathogènes.
+
+Il a aussi été montré que la VitD (et l'action sur son récepteur VDR)
+était nécessaire au fonctionnement des lymphocytes T régulateurs iNKT et
+CD8αα (possédant un caractère régulateur contrairement au lymphocyte
+CD8αβ classique [@Cheroutre.2008]), qui contribue à une homéostasie du
+tractus intestinal [@Cantorna.2010]. A l'inverse, les lymphocytes
+FoxP3^+^ T~reg~ sont fonctionnellement indépendant de l'expression de
+VDR pour effectuer leurs fonctions régulatrices [@Cantorna.2010].
+
+La VitD est également capable d'agir non classiquement par des actions
+non-génomique, à savoir des actions de type protéine-protéine, telle que
+l'inhibition de la kinase IKκβ, un régulateur de la voie canonique de
+NF-κB, une des cytokines pro-inflammatoire clé de la réaction
+immunitaire [@Hii.2016].
+
+```{=tex}
+\begin{figure}
+\includegraphics{figures/calcitriol-immunomodulatory.jpg} 
+\caption[\textbf{Effets immunomodulateurs du calcitriol.}]{\textbf{Effets immunomodulateurs du calcitriol.} Source : [@Meza-Meza.2020]}\label{immunomod}
+\end{figure}
+```
 # Vitamine D et COVID-19
 
 ## Etudes pré-cliniques

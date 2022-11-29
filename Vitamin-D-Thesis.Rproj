@@ -11,6 +11,7 @@ Encoding: UTF-8
 
 RnwWeave: knitr
 LaTeX: XeLaTeX
+RootDocument: Vitamin-D-Thesis.pdf
 
 AutoAppendNewline: Yes
 StripTrailingWhitespace: Yes

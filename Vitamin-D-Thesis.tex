@@ -154,10 +154,10 @@
   pdfcreator={LaTeX via pandoc}}
 
 \author{}
-\date{11/22/22}
+\date{11/29/22}
 
 \begin{document}
-\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[breakable, sharp corners, borderline west={3pt}{0pt}{shadecolor}, frame hidden, interior hidden, boxrule=0pt, enhanced]}{\end{tcolorbox}}\fi
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[enhanced, breakable, boxrule=0pt, interior hidden, borderline west={3pt}{0pt}{shadecolor}, frame hidden, sharp corners]}{\end{tcolorbox}}\fi
 
 \pagenumbering{gobble}
 
@@ -201,16 +201,18 @@ September 2022
 \newpage{}
 
 \tableofcontents
-\clearpage
+\newpage
+
 \listoffigures
-\clearpage
+\newpage
+
 \listoftables
 
 \newpage{}
 
-\hypertarget{liste-des-abbruxe9viations}{%
-\section*{Liste des abbréviations}\label{liste-des-abbruxe9viations}}
-\addcontentsline{toc}{section}{Liste des abbréviations}
+\hypertarget{liste-des-abruxe9viations}{%
+\section*{Liste des abréviations}\label{liste-des-abruxe9viations}}
+\addcontentsline{toc}{section}{Liste des abréviations}
 
 \begin{itemize}
 \tightlist
@@ -218,6 +220,10 @@ September 2022
   7-DHC : 7-déhydrocholestérol
 \item
   DBP : Protéine de liaison de l'albumine
+\item
+  LOAEL : Lowest Observed Adverse Effect Level
+\item
+  NOAEL : Non Observed Adverse Effect Level
 \item
   UI : Unité Internationale
 \item
@@ -249,7 +255,7 @@ nutrition de la plupart des animaux et de certaines plantes. Les
 vitamines agissent comme coenzymes et précurseurs de coenzymes pour
 réguler les processus métaboliques mais ne fournissent pas d'énergie et
 ne servent pas d'unités de construction
-(\protect\hyperlink{ref-Ellison.2020}{Ellison \& Moran, 2020}).
+(\protect\hyperlink{ref-Ellison.2020}{Ellison and Moran, 2020}).
 
 La VitD est une molécule liposoluble, semblable à une hormone stéroïde.
 Celle-ci possède plusieurs formes, la vitamine D\textsubscript{2} ou
@@ -263,13 +269,13 @@ stéroïdienne classique, telle que le cortisol et l'aldostérone
 (\protect\hyperlink{ref-Norman.2008}{Norman, 2008})
 \textbf{(Figure~\ref{fig-vitd3})}. Une hormone est une substance
 chimique qui aide à contrôler et à réguler différentes activités dans
-l'organisme (\protect\hyperlink{ref-Ellison.2020}{Ellison \& Moran,
+l'organisme (\protect\hyperlink{ref-Ellison.2020}{Ellison and Moran,
 2020}). La vitamine D est capable d'agir en tant que facteur de
 transcription et de modifier le métabolisme de diverses manières.
 Pratiquement toutes les cellules de l'organisme possèdent un récepteur à
-la vitamin D (VDR), ce qui explique ses effets pléiotropiques dans
+la vitamine D (VDR), ce qui explique ses effets pléiotropiques dans
 diverses maladies (\protect\hyperlink{ref-Caprio.2017}{Caprio et al.,
-2017}; \protect\hyperlink{ref-Ellison.2020}{Ellison \& Moran, 2020};
+2017}; \protect\hyperlink{ref-Ellison.2020}{Ellison and Moran, 2020};
 \protect\hyperlink{ref-Norman.2008}{Norman, 2008}). Le VDR est un
 récepteur faisant partie de la classe des facteurs de transcription
 nucléaire. Ainsi la liaison de la vitamine D sur son récepteur conduit à
@@ -286,7 +292,7 @@ l'idée que la vitamine D serait plutôt une hormone.
 }
 
 \caption{\label{fig-vitd3}Structure chimique de la vitamine D3 ou
-cholécalciférol}
+cholécalciférol. Source : Wikipédia}
 
 \end{figure}
 
@@ -451,13 +457,16 @@ extra-squelettiques de la vitamine D.} Source: Caprio et al.
 \begin{itemize}
 \tightlist
 \item
-  Action paracrine de la VitD sur le VDR, expression locale de CYP27B1
-  (\protect\hyperlink{ref-Carmeliet.2015}{Carmeliet et al., 2015})
+  La vitamine D exerce en plus de son action endocrine classique, médiée
+  par le rein, une action paracrine de la VitD sur le VDR, par le biais
+  d'une expression locale de CYP27B1
+  (\protect\hyperlink{ref-Carmeliet.2015}{Carmeliet et al., 2015}).
+  (\protect\hyperlink{ref-Cannell.2008}{Cannell and Hollis, 2008})
 \end{itemize}
 
 Cependant les bénéfices extra-squelettiques associés à la vitamine D ne
 serait visible que lorsque la concentration de vitamine D serait
-supérieure au seuil de 40 ng/mL, ce qui nécessit une dose journalière
+supérieure au seuil de 40 ng/mL, ce qui nécessite une dose journalière
 nettement supérieure que celle recommandée habituellement.
 
 \hypertarget{dose}{%
@@ -469,7 +478,7 @@ nettement supérieure que celle recommandée habituellement.
   unités. Classiquement, la vitamine D se mesure en UI (Unité
   Internationale). La concentration de vitamine D est définie en ng/mL
   ou nmol/L. Pour passer de ng/mL en nmol/L, il suffit de multiplier par
-  2.5 (\protect\hyperlink{ref-Pramyothin.2012}{Pramyothin \& Holick,
+  2.5 (\protect\hyperlink{ref-Pramyothin.2012}{Pramyothin and Holick,
   2012}). \(1 µg = 40 UI\) ou \(1 UI = 0.025 µg\).
 \item
   Une comparaison de la dose de vitamine D pour 1000 UI par jour, ou
@@ -509,9 +518,55 @@ nettement supérieure que celle recommandée habituellement.
   (\protect\hyperlink{ref-ANSES.2022}{ANSES, 2022})
 \end{itemize}
 
+Cannell and Hollis (\protect\hyperlink{ref-Cannell.2008}{2008}) propose
+une dose idéale de vitamine D basée sur un rationnel lié à
+l'optimisation des bénéfices métaboliques apportées par la vitamine D.
+En effet, une concentration idéale de 34 ng/mL pour optimiser
+l'absorption intestinale calcique serait moindre que celle pour
+optimiser les performances neuromusculaires (38 ng/mL). De plus, une
+concentration naturelle de vitamine D produite par l'exposition au
+soleil de 30 hommes passant du temps à travailler à l'extérieur pendant
+l'été serait autour de 50 ng/mL, mais Cannell note que plus de 50\% de
+ces hommes reviennent à un niveau inférieur à 30 ng/mL d'ici la fin de
+l'été, ce qui indiquerait que le soleil ne peut maintenir un niveau
+adéquat de vitamine D.
+
+Un autre rationnel reposant sur la pharmacocinétique de la vitamine D
+est proposé par Cannell and Hollis
+(\protect\hyperlink{ref-Cannell.2008}{2008}). En effet, le
+cholécalciférol (premier substrat des enzymes métabolisant la vitamine
+D) est immédiatement consommé et métabolisé en calcidiol et calcitriol
+par les enzymes, ce qui rend le cholécalciférol indétectable dans le
+sang, indiquant que toutes les molécules de vitamine D sont utilisées
+dans des réactions métaboliques. Hollis et al.
+(\protect\hyperlink{ref-Hollis.2007}{2007}) ont étudié la cinétique des
+réactions enzymatiques concernant la vitamine D, et ont déterminé que la
+vitesse maximale pour laquelle la réaction enzymatique de la
+25-hydroxylase arrive à saturation est lorsque le calcidiol arrive à 40
+ng/mL. Le substrat initial (cholécalciférol) est donc alors détectable
+dans le sang au-delà de cette concentration, et la réaction enzymatique
+devient alors saturable et régulée, comme il s'agit les autres systèmes
+hormonaux stéroïques (\protect\hyperlink{ref-Cannell.2008}{Cannell and
+Hollis, 2008}). Hollis et al.
+(\protect\hyperlink{ref-Hollis.2007}{2007}) suppose ainsi que les
+humains fonctionnent à un niveau en-deçà de la V\textsubscript{max} de
+la 25-hydroxylase à cause d'une déficience de son substrat, le
+cholécalciférol, et que le niveau ``normal'' de vitamine D serait donc
+atteint lorsque le système ne devient donc pas limité par la quantité de
+substrat mais par ses propres régulations.
+
 \hypertarget{utilisation-thuxe9rapeutique}{%
 \subsection{Utilisation
 thérapeutique}\label{utilisation-thuxe9rapeutique}}
+
+La vitamine D est surtout utilisée en thérapie afin de prévenir les
+carences. Elle permet de prévenir du rachitisme chez les enfants et de
+l'ostéoporose chez les adultes et surtout chez les personnes âgées. De
+plus, le calcitriol, forme active de la vitamine D, est utilisé pour
+traiter des maladies métaboliques liées à la thyroïde, telle que les
+hypoparathyroïdies, les ostéodystrophies rénales, les ostéomalacies
+vitaminorésistantes, les pseudohypoparathyroïdies et les rachitismes
+vitaminorésistants (\protect\hyperlink{ref-VIDAL.2013}{VIDAL, 2013}).
 
 \hypertarget{toxicituxe9}{%
 \subsection{Toxicité}\label{toxicituxe9}}
@@ -535,7 +590,9 @@ hypercalciurie, accompagnée par une activité très faible de PTH
 (\protect\hyperlink{ref-Marcinowska-Suchowierska.2018}{Marcinowska-Suchowierska
 et al., 2018}), observée par un apport exogène de vitamine D, dépassant
 le seuil suggéré par Holick et al.
-(\protect\hyperlink{ref-Holick.2011}{2011}) de 150 ng/mL.
+(\protect\hyperlink{ref-Holick.2011}{2011}) de 150 ng/mL. Les symptômes
+associés à une hypervitaminose D peuvent se manifester par des maux de
+tête, nausées, vomissements, une perte de poids, ou une fatigue intense.
 
 \begin{itemize}
 \item
@@ -614,7 +671,7 @@ qu'attendu}\label{seuil-de-toxicituxe9-plus-uxe9levuxe9-quattendu}}
   vitamine D. Dudenkov et al.
   (\protect\hyperlink{ref-Dudenkov.2015}{2015}) examinent les patients
   ayant plus de 50 ng/mL et l'incidence des cas d'hypercalcémies
-  associés à des événements cliniques. Les auteurs concluent que malgré
+  associés à des évènements cliniques. Les auteurs concluent que malgré
   que l'incidence de patients ayant un taux supérieur à 50 ng/mL ait
   augmenté, l'incidence de cas de toxicité clinique aiguë de vitamine D
   reste la même.
@@ -641,17 +698,17 @@ qu'attendu}\label{seuil-de-toxicituxe9-plus-uxe9levuxe9-quattendu}}
   est donc conservatif, et augmente l'assurance du seuil NOAEL et LOAEL.
 \item
   Les origines de la dose si basse en vitamine D viennent d'une
-  succession d\textquotesingle évènement débutant vers la fin du
-  19\textsuperscript{ème} début 20\textsuperscript{ème}. Ainsi, plus de
-  80\% des enfants possédaient des déformations associés au rachitisme
-  ainsi qu'un retard de la croissance osseuse et des difformités
-  osseuses en Europe et sur la côte Est des Etats-Unis. En 1921, Hess et
-  Unger rapportent que l'exposition au soleil guérissent les enfants du
-  rachitisme, ce qui a entraîné la fortification du lait en vitamine D2
-  (produite à partir de l'ergostérol végétal) et d'autres aliments tels
-  que du pain, des boissons gazeuses, de la bière, de la crème anglaise
-  et même des hot-dogs. Vers les années 1950s, plusieurs cas ont été
-  signalé en angleterre de nourrissons présentant des anomalies faciales
+  succession d'évènement débutant vers la fin du 19\textsuperscript{ème}
+  début 20\textsuperscript{ème}. Ainsi, plus de 80\% des enfants
+  possédaient des déformations associés au rachitisme ainsi qu'un retard
+  de la croissance osseuse et des difformités osseuses en Europe et sur
+  la côte Est des Etats-Unis. En 1921, Hess et Unger rapportent que
+  l'exposition au soleil guérissent les enfants du rachitisme, ce qui a
+  entraîné la fortification du lait en vitamine D2 (produite à partir de
+  l'ergostérol végétal) et d'autres aliments tels que du pain, des
+  boissons gazeuses, de la bière, de la crème anglaise et même des
+  hot-dogs. Vers les années 1950s, plusieurs cas ont été signalé en
+  Angleterre de nourrissons présentant des anomalies faciales
   accompagnées d'hypercalcémie et de sténose aortique supra-valvulaire.
   Les médecins concluent indirectement en se basant sur la littérature
   et les données cliniques disponibles qu'il s'agit d'une intoxication à
@@ -661,14 +718,78 @@ qu'attendu}\label{seuil-de-toxicituxe9-plus-uxe9levuxe9-quattendu}}
   ainsi que l'interdiction dans de nombreux pays de fortifier le lait
   avec de la vitamine D. Cependant, avec rétrospection, la littérature
   suggère que les nourrissons alors rapportés avaient le syndrome de
-  Williams-Beuren (\protect\hyperlink{ref-Holick.2015}{Holick, 2015}).
+  Williams-Beuren, et donc étaient hypersensible à la vitamine D et
+  présentaient les symptômes rapportés. Il ne s'agissait donc pas d'une
+  situation clinique normale liée à la toxicité vitamine D mais à
+  l'hypersensibilité à la vitamine D
+  (\protect\hyperlink{ref-Holick.2015}{Holick, 2015}).
 \end{itemize}
 
 \hypertarget{vitamine-d-et-systuxe8me-immunitaire}{%
 \section{Vitamine D et système
 immunitaire}\label{vitamine-d-et-systuxe8me-immunitaire}}
 
-Dankers et al. (\protect\hyperlink{ref-Dankers.2017}{2017})
+La VitD exerce son effet sur le système immunitaire en se liant au VDR.
+Elle possède une action intracrine, par l'intermédiaire des cellules
+immunitaires qui peuvent synthétiser l'enzyme clé permettant la
+conversion du 25(OH)\textsubscript{2}D\textsubscript{3} en
+1,25(OH)\textsubscript{2}D\textsubscript{3}, le cytochrome CYP27B1. Cela
+concerne des cellules telles que les monocytes, cellules dendritiques,
+macrophages, lymphocytes B et T
+(\protect\hyperlink{ref-Dankers.2017}{Dankers et al., 2017};
+\protect\hyperlink{ref-Meza-Meza.2020}{Meza-Meza et al., 2020}).
+L'action est jugée intracrine puisqu'elle se déroule à l'intérieur de la
+cellule, et non à l'extérieur de la cellule, ce qui correspondrait à une
+action autocrine.
+
+La VitD possède une action globalement anti-inflammatoire et donc
+régulatrice de l'inflammation \textbf{(Figure} \ref{immunomod}). A
+l'initiation de la réponse inflammatoire, le calcitriol est essentiel
+afin de répondre à une infection. Le calcitriol, obtenu après conversion
+du calcidiol par les cellules immunitaires, permet la reconnaissance des
+pathogènes par le biais du TLR, cause le switch phénotypique de
+macrophage M1 vers M2 par la régulation positive d'IL-10, et promeut un
+état de tolérance immun. Le calcitriol inhibe également des cytokines
+majeures pro-inflammatoires, l'IL-6 et le TNF-α
+(\protect\hyperlink{ref-Meza-Meza.2020}{Meza-Meza et al., 2020}).
+
+De plus, la VitD est capable d'induire une tolérance périphérique
+immunitaire en promotant des cellules présentatrices d'antigènes plus
+immatures (cellules dendritiques, macrophages, lymphocytes B), tout en
+diminuant l'expression du complexe majeur d'histocompatibilité de classe
+II (CMH II) ainsi que des marqueurs de co-stimulation, nécessaires à
+l'activation de la réponse immune, tels que le CD40, CD80 et CD86
+(\protect\hyperlink{ref-Meza-Meza.2020}{Meza-Meza et al., 2020}).
+
+Elle est également capable d'induire le changement phénotypique de
+sous-population de lymphocytes T CD4\textsuperscript{+}, favorisant le
+passage de la population T auxiliaire (Th) Th1 et Th17 vers la
+population Th2. La sous-population Th2 régule à son tour les populations
+Th1 et Th17 dans une balance, diminuant ainsi globalement l'activité
+cytotoxique médiée par les cellules, qui est exacerbée dans les maladies
+autoimmunes et infections par des pathogènes.
+
+Il a aussi été montré que la VitD (et l'action sur son récepteur VDR)
+était nécessaire au fonctionnement des lymphocytes T régulateurs iNKT et
+CD8αα (possédant un caractère régulateur contrairement au lymphocyte
+CD8αβ classique (\protect\hyperlink{ref-Cheroutre.2008}{Cheroutre and
+Lambolez, 2008})), qui contribue à une homéostasie du tractus intestinal
+(\protect\hyperlink{ref-Cantorna.2010}{Cantorna, 2010}). A l'inverse,
+les lymphocytes FoxP3\textsuperscript{+} T\textsubscript{reg} sont
+fonctionnellement indépendant de l'expression de VDR pour effectuer
+leurs fonctions régulatrices
+(\protect\hyperlink{ref-Cantorna.2010}{Cantorna, 2010}).
+
+La VitD est également capable d'agir non classiquement par des actions
+non-génomique, à savoir des actions de type protéine-protéine, telle que
+l'inhibition de la kinase IKκβ, un régulateur de la voie canonique de
+NF-κB, une des cytokines pro-inflammatoire clé de la réaction
+immunitaire (\protect\hyperlink{ref-Hii.2016}{Hii and Ferrante, 2016}).
+
+\begin{figure}
+\includegraphics{figures/calcitriol-immunomodulatory.jpg} 
+\caption[\textbf{Effets immunomodulateurs du calcitriol.}]{\textbf{Effets immunomodulateurs du calcitriol.} Source : [@Meza-Meza.2020]}\label{immunomod}
+\end{figure}
 
 \hypertarget{vitamine-d-et-covid-19}{%
 \section{Vitamine D et COVID-19}\label{vitamine-d-et-covid-19}}
@@ -740,6 +861,17 @@ Luderer, H.F., Lieben, L., Mathieu, C., and Demay, M. (2008). {Vitamin D
 and Human Health: Lessons from Vitamin D Receptor Null Mice}. Endocrine
 Reviews \emph{29}, 726--776. \url{https://doi.org/10.1210/er.2008-0004}.
 
+\leavevmode\vadjust pre{\hypertarget{ref-Cannell.2008}{}}%
+Cannell, J.J., and Hollis, B.W. (2008).
+\href{https://www.ncbi.nlm.nih.gov/pubmed/18377099}{{Use of vitamin D in
+clinical practice.}} Alternative Medicine Review : A Journal of Clinical
+Therapeutic \emph{13}, 6--20.
+
+\leavevmode\vadjust pre{\hypertarget{ref-Cantorna.2010}{}}%
+Cantorna, M.T. (2010). {Mechanisms underlying the effect of vitamin D on
+the immune system}. Proceedings of the Nutrition Society \emph{69},
+286--289. \url{https://doi.org/10.1017/s0029665110001722}.
+
 \leavevmode\vadjust pre{\hypertarget{ref-Caprio.2017}{}}%
 Caprio, M., Infante, M., Calanchini, M., Mammi, C., and Fabbri, A.
 (2017). {Vitamin D: not just the bone. Evidence for beneficial
@@ -752,6 +884,11 @@ Carmeliet, G., Dermauw, V., and Bouillon, R. (2015). {Vitamin D
 signaling in calcium and bone homeostasis: A delicate balance}. Best
 Practice \& Research Clinical Endocrinology \& Metabolism \emph{29},
 621--631. \url{https://doi.org/10.1016/j.beem.2015.06.001}.
+
+\leavevmode\vadjust pre{\hypertarget{ref-Cheroutre.2008}{}}%
+Cheroutre, H., and Lambolez, F. (2008). {Doubting the TCR Coreceptor
+Function of CD8αα}. Immunity \emph{28}, 149--159.
+\url{https://doi.org/10.1016/j.immuni.2008.01.005}.
 
 \leavevmode\vadjust pre{\hypertarget{ref-Christakos.2010}{}}%
 Christakos, S., Ajibade, D.V., Dhawan, P., Fechner, A.J., and Mady, L.J.
@@ -787,6 +924,10 @@ Hathcock, J.N., Shao, A., Vieth, R., and Heaney, R. (2007). {Risk
 assessment for vitamin D}. The American Journal of Clinical Nutrition
 \emph{85}, 6--18. \url{https://doi.org/10.1093/ajcn/85.1.6}.
 
+\leavevmode\vadjust pre{\hypertarget{ref-Hii.2016}{}}%
+Hii, C.S., and Ferrante, A. (2016). {The Non-Genomic Actions of Vitamin
+D}. Nutrients \emph{8}, 135. \url{https://doi.org/10.3390/nu8030135}.
+
 \leavevmode\vadjust pre{\hypertarget{ref-Holick.2015}{}}%
 Holick, M.F. (2015). {Vitamin D Is Not as Toxic as Was Once Thought: A
 Historical and an Up-to-Date Perspective}. Mayo Clinic Proceedings
@@ -799,6 +940,13 @@ Hanley, D.A., Heaney, R.P., Murad, M.H., Weaver, C.M., and Society, E.
 an Endocrine Society Clinical Practice Guideline}. The Journal of
 Clinical Endocrinology \& Metabolism \emph{96}, 1911--1930.
 \url{https://doi.org/10.1210/jc.2011-0385}.
+
+\leavevmode\vadjust pre{\hypertarget{ref-Hollis.2007}{}}%
+Hollis, B.W., Wagner, C.L., Drezner, M.K., and Binkley, N.C. (2007).
+{Circulating vitamin D3 and 25-hydroxyvitamin D in humans: An important
+tool to define adequate nutritional vitamin D status}. The Journal of
+Steroid Biochemistry and Molecular Biology \emph{103}, 631--634.
+\url{https://doi.org/10.1016/j.jsbmb.2006.12.066}.
 
 \leavevmode\vadjust pre{\hypertarget{ref-IOM.1997}{}}%
 IOM (1997). {Dietary Reference Intakes for Calcium, Phosphorus,
@@ -818,6 +966,12 @@ Płudowski, P., and Jones, G. (2018). {Vitamin D Toxicity--A Clinical
 Perspective}. Frontiers in Endocrinology \emph{9}, 550.
 \url{https://doi.org/10.3389/fendo.2018.00550}.
 
+\leavevmode\vadjust pre{\hypertarget{ref-Meza-Meza.2020}{}}%
+Meza-Meza, M.R., Ruiz-Ballesteros, A.I., and Cruz-Mosso, U. de la
+(2020). {Functional effects of vitamin D: From nutrient to
+immunomodulator}. Critical Reviews in Food Science and Nutrition
+\emph{62}, 1--21. \url{https://doi.org/10.1080/10408398.2020.1862753}.
+
 \leavevmode\vadjust pre{\hypertarget{ref-Norman.2008}{}}%
 Norman, A.W. (2008). {From vitamin D to hormone D: fundamentals of the
 vitamin D endocrine system essential for good health}. The American
@@ -835,6 +989,11 @@ Rosen, C.J., Adams, J.S., Bikle, D.D., Black, D.M., Demay, M.B., Manson,
 J.E., Murad, M.H., and Kovacs, C.S. (2012). {The Nonskeletal Effects of
 Vitamin D: An Endocrine Society Scientific Statement}. Endocrine Reviews
 \emph{33}, 456--492. \url{https://doi.org/10.1210/er.2012-1000}.
+
+\leavevmode\vadjust pre{\hypertarget{ref-VIDAL.2013}{}}%
+VIDAL (2013).
+\href{https://www.vidal.fr/medicaments/substances/calcitriol-4158.html}{{Calcitriol
+: substance active à effet thérapeutique}}.
 
 \end{CSLReferences}
 

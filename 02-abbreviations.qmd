@@ -1,8 +1,9 @@
-# Liste des abbréviations {.unnumbered}
+# Liste des abréviations {-}
 
-
-- 7-DHC : 7-déhydrocholestérol
-- DBP : Protéine de liaison de l'albumine
-- UI : Unité Internationale
-- VitD : Vitamine D
-- VDR : Récepteur de la vitamine D
+-   7-DHC : 7-déhydrocholestérol
+-   DBP : Protéine de liaison de l'albumine
+-   LOAEL : Lowest Observed Adverse Effect Level
+-   NOAEL : Non Observed Adverse Effect Level
+-   UI : Unité Internationale
+-   VitD : Vitamine D
+-   VDR : Récepteur de la vitamine D
