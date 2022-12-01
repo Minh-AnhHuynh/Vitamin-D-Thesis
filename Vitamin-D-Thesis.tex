@@ -159,7 +159,7 @@
 \date{12/1/22}
 
 \begin{document}
-\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[breakable, boxrule=0pt, sharp corners, interior hidden, frame hidden, borderline west={3pt}{0pt}{shadecolor}, enhanced]}{\end{tcolorbox}}\fi
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[boxrule=0pt, interior hidden, borderline west={3pt}{0pt}{shadecolor}, enhanced, frame hidden, breakable, sharp corners]}{\end{tcolorbox}}\fi
 
 \setstretch{1.5}
 \pagenumbering{gobble}
@@ -349,11 +349,10 @@ Cette enzyme peut également hydroxyler le calcidiol pour donner de la
 24,25(OH)\textsubscript{3}D\textsubscript{3}. Ces réactions permettent
 de diminuer la quantité de calcitriol et calcidiol disponible dans le
 sang, ainsi la 24-hydroxylase sert donc à jouer un rôle de catabolisme
-de la vitamine D \textbf{(Figure~\ref{fig-metabolism-vitd})} {[}Norman
-(\protect\hyperlink{ref-Norman.2008}{2008}){]}. La quantité de
-calcitriol est donc déterminée par un équilibre entre les enzymes
-CYP27B1 et CYP24A1 (\protect\hyperlink{ref-Dankers.2017}{Dankers et al.,
-2017}).
+de la vitamine D (\protect\hyperlink{ref-Norman.2008}{Norman, 2008})
+\textbf{(Figure~\ref{fig-metabolism-vitd})}. La quantité de calcitriol
+est donc déterminée par un équilibre entre les enzymes CYP27B1 et
+CYP24A1 (\protect\hyperlink{ref-Dankers.2017}{Dankers et al., 2017}).
 
 \begin{figure}
 
@@ -373,9 +372,9 @@ phosphate dans le sang, favorise l'induction de la CYP24A1 qui est
 l'enzyme de catabolisme du calcidiol, tandis que la PTH, induite par une
 faible concentration de calcium et inhibée par une forte concentration
 de calcitriol, va induire la CYP24A1 et donc l'anabolisme du calcitriol
-\textbf{(Figure~\ref{fig-reg-vitd})} {[}Dankers et al.
-(\protect\hyperlink{ref-Dankers.2017}{2017}); Christakos et al.
-(\protect\hyperlink{ref-Christakos.2010}{2010}){]}.
+(\protect\hyperlink{ref-Christakos.2010}{Christakos et al., 2010};
+\protect\hyperlink{ref-Dankers.2017}{Dankers et al., 2017})
+\textbf{(Figure~\ref{fig-reg-vitd})}.
 
 \begin{figure}
 
@@ -466,8 +465,8 @@ extra-squelettiques de la vitamine D.} Source: Caprio et al.
   La vitamine D exerce en plus de son action endocrine classique, médiée
   par le rein, une action paracrine de la VitD sur le VDR, par le biais
   d'une expression locale de CYP27B1
-  (\protect\hyperlink{ref-Carmeliet.2015}{Carmeliet et al., 2015}).
-  (\protect\hyperlink{ref-Cannell.2008}{Cannell and Hollis, 2008})
+  (\protect\hyperlink{ref-Cannell.2008}{Cannell and Hollis, 2008};
+  \protect\hyperlink{ref-Carmeliet.2015}{Carmeliet et al., 2015})
 \end{itemize}
 
 Cependant les bénéfices extra-squelettiques associés à la vitamine D ne
@@ -739,33 +738,49 @@ La VitD exerce son effet sur le système immunitaire en se liant au VDR.
 Elle possède une action intracrine, par l'intermédiaire des cellules
 immunitaires qui peuvent synthétiser l'enzyme clé permettant la
 conversion du 25(OH)\textsubscript{2}D\textsubscript{3} en
-1,25(OH)\textsubscript{2}D\textsubscript{3}, le cytochrome CYP27B1. Cela
-concerne des cellules telles que les monocytes, cellules dendritiques,
-macrophages, lymphocytes B et T
-(\protect\hyperlink{ref-Dankers.2017}{Dankers et al., 2017};
-\protect\hyperlink{ref-Meza-Meza.2020}{Meza-Meza et al., 2020}).
-L'action est jugée intracrine puisqu'elle se déroule à l'intérieur de la
-cellule, et non à l'extérieur de la cellule, ce qui correspondrait à une
-action autocrine.
+1,25(OH)\textsubscript{2}D\textsubscript{3}, le cytochrome CYP27B1 ou
+aussi appelée 1-α-hydroxylase. L'induction de cette enzyme concerne des
+cellules telles que les monocytes, cellules dendritiques, macrophages,
+lymphocytes B et T (\protect\hyperlink{ref-Dankers.2017}{Dankers et al.,
+2017}; \protect\hyperlink{ref-Meza-Meza.2020}{Meza-Meza et al., 2020}),
+qui survient grâce à un stimuli immun, médié en partie par
+l'interféron-gamma (IFN-γ). Plusieurs signaux sont nécessaires à
+l'induction de la 1-α-hydroxylase, tels que la présence d'activateurs de
+macrophages comme le lipopolysaccharide (LPS) et le TNF-α
+(\protect\hyperlink{ref-Overbergh.2006}{Overbergh et al., 2006}). Le TLR
+est également capable à son tour d'induire une immunité médiée par la
+vitamine en régulant positivement l'expression de VDR and les gènes
+codant pour la 1-α-hydroxylase (\protect\hyperlink{ref-Liu.2006}{Liu et
+al., 2006}). L'action de la vitamine D est jugée intracrine puisqu'elle
+se déroule à l'intérieur de la cellule, et non à l'extérieur de la
+cellule, ce qui correspondrait à une action autocrine.
 
 La VitD possède une action globalement anti-inflammatoire et donc
-régulatrice de l'inflammation \textbf{(Figure} \ref{fig:immunomod}). A
-l'initiation de la réponse inflammatoire, le calcitriol est essentiel
-afin de répondre à une infection. Le calcitriol, obtenu après conversion
-du calcidiol par les cellules immunitaires, permet la reconnaissance des
-pathogènes par le biais du TLR, cause le switch phénotypique de
-macrophage M1 vers M2 par la régulation positive d'IL-10, et promeut un
-état de tolérance immun. Le calcitriol inhibe également des cytokines
-majeures pro-inflammatoires, l'IL-6 et le TNF-α
-(\protect\hyperlink{ref-Meza-Meza.2020}{Meza-Meza et al., 2020}).
+régulatrice de l'inflammation \textbf{(Figure}
+\ref{fig:immunomod}\textbf{)}. Elle agit à la fois sur le système
+immunitaire inné et adaptatif. A l'initiation de la réponse
+inflammatoire, le calcitriol est essentiel afin de répondre à une
+infection. En agissant sur les macrophages, la VitD peut induire leur
+activation et leur différenciation, et augmente la production de
+peptides défensifs comme la cathélicidine et la β2-défensine
+(\protect\hyperlink{ref-Caprio.2017}{Caprio et al., 2017}).
 
-De plus, la VitD est capable d'induire une tolérance périphérique
+Le calcitriol est capable entre autre d'induire la reconnaissance des
+pathogènes par le biais du TLR et le switch phénotypique de macrophage
+M1 vers M2 par la régulation positive d'IL-10. Le calcitriol inhibe
+également des cytokines majeures pro-inflammatoires, l'IL-6 et le TNF-α
+(\protect\hyperlink{ref-Caprio.2017}{Caprio et al., 2017};
+\protect\hyperlink{ref-Meza-Meza.2020}{Meza-Meza et al., 2020}).
+
+De plus, la VitD agit également sur le système immunitaire adaptatif
+avec des effets inhibiteurs. Elle est capable d'induire une tolérance
 immunitaire en promotant des cellules présentatrices d'antigènes plus
 immatures (cellules dendritiques, macrophages, lymphocytes B), tout en
 diminuant l'expression du complexe majeur d'histocompatibilité de classe
 II (CMH II) ainsi que des marqueurs de co-stimulation, nécessaires à
 l'activation de la réponse immune, tels que le CD40, CD80 et CD86
-(\protect\hyperlink{ref-Meza-Meza.2020}{Meza-Meza et al., 2020}).
+(\protect\hyperlink{ref-Caprio.2017}{Caprio et al., 2017};
+\protect\hyperlink{ref-Meza-Meza.2020}{Meza-Meza et al., 2020}).
 
 Elle est également capable d'induire le changement phénotypique de
 sous-population de lymphocytes T CD4\textsuperscript{+}, favorisant le
@@ -773,7 +788,9 @@ passage de la population T auxiliaire (Th) Th1 et Th17 vers la
 population Th2. La sous-population Th2 régule à son tour les populations
 Th1 et Th17 dans une balance, diminuant ainsi globalement l'activité
 cytotoxique médiée par les cellules, qui est exacerbée dans les maladies
-autoimmunes et infections par des pathogènes.
+autoimmunes et infections par des
+pathogènes(\protect\hyperlink{ref-Holick.2011}{Holick et al., 2011};
+\protect\hyperlink{ref-Meza-Meza.2020}{Meza-Meza et al., 2020}).
 
 Il a aussi été montré que la VitD (et l'action sur son récepteur VDR)
 était nécessaire au fonctionnement des lymphocytes T régulateurs iNKT et
@@ -966,6 +983,13 @@ Diseases: A Hypothesis Confirmed by a Therapeutic High-Dose Vitamin D
 Protocol}. Frontiers in Immunology \emph{12}, 655739.
 \url{https://doi.org/10.3389/fimmu.2021.655739}.
 
+\leavevmode\vadjust pre{\hypertarget{ref-Liu.2006}{}}%
+Liu, P.T., Stenger, S., Li, H., Wenzel, L., Tan, B.H., Krutzik, S.R.,
+Ochoa, M.T., Schauber, J., Wu, K., Meinken, C., et al. (2006).
+{Toll-Like Receptor Triggering of a Vitamin D-Mediated Human
+Antimicrobial Response}. Science \emph{311}, 1770--1773.
+\url{https://doi.org/10.1126/science.1123933}.
+
 \leavevmode\vadjust pre{\hypertarget{ref-Marcinowska-Suchowierska.2018}{}}%
 Marcinowska-Suchowierska, E., Kupisz-Urbańska, M., Łukaszkiewicz, J.,
 Płudowski, P., and Jones, G. (2018). {Vitamin D Toxicity--A Clinical
@@ -983,6 +1007,14 @@ Norman, A.W. (2008). {From vitamin D to hormone D: fundamentals of the
 vitamin D endocrine system essential for good health}. The American
 Journal of Clinical Nutrition \emph{88}, 491S--499S.
 \url{https://doi.org/10.1093/ajcn/88.2.491s}.
+
+\leavevmode\vadjust pre{\hypertarget{ref-Overbergh.2006}{}}%
+Overbergh, L., Stoffels, K., Waer, M., Verstuyf, A., Bouillon, R., and
+Mathieu, C. (2006). {Immune Regulation of 25-Hydroxyvitamin
+D-1α-Hydroxylase in Human Monocytic THP1 Cells: Mechanisms of
+Interferon-γ-Mediated Induction}. The Journal of Clinical Endocrinology
+\& Metabolism \emph{91}, 3566--3574.
+\url{https://doi.org/10.1210/jc.2006-0678}.
 
 \leavevmode\vadjust pre{\hypertarget{ref-Pramyothin.2012}{}}%
 Pramyothin, P., and Holick, M.F. (2012). {Vitamin D supplementation:

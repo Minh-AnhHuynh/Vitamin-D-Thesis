@@ -81,9 +81,9 @@ calcitroïque. Cette enzyme peut également hydroxyler le calcidiol pour
 donner de la 24,25(OH)~3~D~3~. Ces réactions permettent de diminuer la
 quantité de calcitriol et calcidiol disponible dans le sang, ainsi la
 24-hydroxylase sert donc à jouer un rôle de catabolisme de la vitamine D
-**(@fig-metabolism-vitd)** \[@Norman.2008\]. La quantité de calcitriol
-est donc déterminée par un équilibre entre les enzymes CYP27B1 et
-CYP24A1 [@Dankers.2017].
+[@Norman.2008] **(@fig-metabolism-vitd)**. La quantité de calcitriol est
+donc déterminée par un équilibre entre les enzymes CYP27B1 et CYP24A1
+[@Dankers.2017].
 
 ![Métabolisme de la vitamine D. Source :
 @Norman.2008](figures/vitamin-d-metabolism.png){#fig-metabolism-vitd
@@ -96,7 +96,7 @@ phosphate dans le sang, favorise l'induction de la CYP24A1 qui est
 l'enzyme de catabolisme du calcidiol, tandis que la PTH, induite par une
 faible concentration de calcium et inhibée par une forte concentration
 de calcitriol, va induire la CYP24A1 et donc l'anabolisme du calcitriol
-**(@fig-reg-vitd)** \[@Dankers.2017; @Christakos.2010\].
+[@Dankers.2017; @Christakos.2010] **(@fig-reg-vitd)**.
 
 ![Métabolisme et Régulation de la vitamine D. Source :
 @Dankers.2017](figures/vitamin-d-metabolism-regulation.jpg){#fig-reg-vitd
@@ -147,8 +147,8 @@ d'obtenir du calcium.
 
 -   La vitamine D exerce en plus de son action endocrine classique,
     médiée par le rein, une action paracrine de la VitD sur le VDR, par
-    le biais d'une expression locale de CYP27B1 [@Carmeliet.2015].
-    [@Cannell.2008]
+    le biais d'une expression locale de CYP27B1 [@Carmeliet.2015;
+    @Cannell.2008]
 
 Cependant les bénéfices extra-squelettiques associés à la vitamine D ne
 serait visible que lorsque la concentration de vitamine D serait
@@ -382,30 +382,44 @@ fatigue intense.
 La VitD exerce son effet sur le système immunitaire en se liant au VDR.
 Elle possède une action intracrine, par l'intermédiaire des cellules
 immunitaires qui peuvent synthétiser l'enzyme clé permettant la
-conversion du 25(OH)~2~D~3~ en 1,25(OH)~2~D~3~, le cytochrome CYP27B1.
-Cela concerne des cellules telles que les monocytes, cellules
-dendritiques, macrophages, lymphocytes B et T [@Meza-Meza.2020;
-@Dankers.2017]. L'action est jugée intracrine puisqu'elle se déroule à
-l'intérieur de la cellule, et non à l'extérieur de la cellule, ce qui
-correspondrait à une action autocrine.
+conversion du 25(OH)~2~D~3~ en 1,25(OH)~2~D~3~, le cytochrome CYP27B1 ou
+aussi appelée 1-α-hydroxylase. L'induction de cette enzyme concerne des
+cellules telles que les monocytes, cellules dendritiques, macrophages,
+lymphocytes B et T [@Meza-Meza.2020; @Dankers.2017], qui survient grâce
+à un stimuli immun, médié en partie par l'interféron-gamma (IFN-γ).
+Plusieurs signaux sont nécessaires à l'induction de la 1-α-hydroxylase,
+tels que la présence d'activateurs de macrophages comme le
+lipopolysaccharide (LPS) et le TNF-α [@Overbergh.2006]. Le TLR est
+également capable à son tour d'induire une immunité médiée par la
+vitamine en régulant positivement l'expression de VDR and les gènes
+codant pour la 1-α-hydroxylase [@Liu.2006]. L'action de la vitamine D
+est jugée intracrine puisqu'elle se déroule à l'intérieur de la cellule,
+et non à l'extérieur de la cellule, ce qui correspondrait à une action
+autocrine.
 
 La VitD possède une action globalement anti-inflammatoire et donc
-régulatrice de l'inflammation **(Figure** \ref{fig:immunomod}). A
+régulatrice de l'inflammation **(Figure** \ref{fig:immunomod}**)**. Elle
+agit à la fois sur le système immunitaire inné et adaptatif. A
 l'initiation de la réponse inflammatoire, le calcitriol est essentiel
-afin de répondre à une infection. Le calcitriol, obtenu après conversion
-du calcidiol par les cellules immunitaires, permet la reconnaissance des
-pathogènes par le biais du TLR, cause le switch phénotypique de
-macrophage M1 vers M2 par la régulation positive d'IL-10, et promeut un
-état de tolérance immun. Le calcitriol inhibe également des cytokines
-majeures pro-inflammatoires, l'IL-6 et le TNF-α [@Meza-Meza.2020].
+afin de répondre à une infection. En agissant sur les macrophages, la
+VitD peut induire leur activation et leur différenciation, et augmente
+la production de peptides défensifs comme la cathélicidine et la
+β2-défensine [@Caprio.2017].
 
-De plus, la VitD est capable d'induire une tolérance périphérique
+Le calcitriol est capable entre autre d'induire la reconnaissance des
+pathogènes par le biais du TLR et le switch phénotypique de macrophage
+M1 vers M2 par la régulation positive d'IL-10. Le calcitriol inhibe
+également des cytokines majeures pro-inflammatoires, l'IL-6 et le TNF-α
+[@Meza-Meza.2020; @Caprio.2017].
+
+De plus, la VitD agit également sur le système immunitaire adaptatif
+avec des effets inhibiteurs. Elle est capable d'induire une tolérance
 immunitaire en promotant des cellules présentatrices d'antigènes plus
 immatures (cellules dendritiques, macrophages, lymphocytes B), tout en
 diminuant l'expression du complexe majeur d'histocompatibilité de classe
 II (CMH II) ainsi que des marqueurs de co-stimulation, nécessaires à
 l'activation de la réponse immune, tels que le CD40, CD80 et CD86
-[@Meza-Meza.2020].
+[@Meza-Meza.2020; @Caprio.2017].
 
 Elle est également capable d'induire le changement phénotypique de
 sous-population de lymphocytes T CD4^+^, favorisant le passage de la
@@ -413,15 +427,16 @@ population T auxiliaire (Th) Th1 et Th17 vers la population Th2. La
 sous-population Th2 régule à son tour les populations Th1 et Th17 dans
 une balance, diminuant ainsi globalement l'activité cytotoxique médiée
 par les cellules, qui est exacerbée dans les maladies autoimmunes et
-infections par des pathogènes.
+infections par des pathogènes[@Holick.2011; @Meza-Meza.2020].
 
-Il a aussi été montré que la VitD (et l'action sur son récepteur VDR)
-était nécessaire au fonctionnement des lymphocytes T régulateurs iNKT et
-CD8αα (possédant un caractère régulateur contrairement au lymphocyte
-CD8αβ classique [@Cheroutre.2008]), qui contribue à une homéostasie du
-tractus intestinal [@Cantorna.2010]. A l'inverse, les lymphocytes
-FoxP3^+^ T~reg~ sont fonctionnellement indépendant de l'expression de
-VDR pour effectuer leurs fonctions régulatrices [@Cantorna.2010].
+Il a aussi été montré que l'action de la vitamine D sur son récepteur
+VDR était nécessaire au fonctionnement des lymphocytes T régulateurs
+iNKT et CD8αα [@Cheroutre.2008]. Les lymphocytes T CD8αα possédent un
+caractère régulateur contrairement au lymphocyte CD8αβ classique. Ainsi,
+ces lymphocytes T régulateurs contribuent à l'homéostasie du tractus
+intestinal [@Cantorna.2010]. A l'inverse, les lymphocytes FoxP3^+^
+T~reg~ sont fonctionnellement indépendant de l'expression de VDR pour
+effectuer leurs fonctions régulatrices [@Cantorna.2010].
 
 La VitD est également capable d'agir non classiquement par des actions
 non-génomique, à savoir des actions de type protéine-protéine, telle que
