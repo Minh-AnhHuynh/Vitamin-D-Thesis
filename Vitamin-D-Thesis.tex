@@ -9,6 +9,7 @@
 
 \usepackage{amsmath,amssymb}
 \usepackage{lmodern}
+\usepackage{setspace}
 \usepackage{iftex}
 \ifPDFTeX
   \usepackage[T1]{fontenc}
@@ -90,8 +91,9 @@
 \newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
 
 \KOMAoption{captions}{tableheading}
-\usepackage{setspace}\spacing{1.5}
+\usepackage{setspace}
 \usepackage[font=small, labelfont=bf, justification=centering, singlelinecheck=false]{caption}
+\usepackage[french]{babel}
 \makeatletter
 \makeatother
 \makeatletter
@@ -154,11 +156,12 @@
   pdfcreator={LaTeX via pandoc}}
 
 \author{}
-\date{11/29/22}
+\date{12/1/22}
 
 \begin{document}
-\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[enhanced, breakable, boxrule=0pt, interior hidden, borderline west={3pt}{0pt}{shadecolor}, frame hidden, sharp corners]}{\end{tcolorbox}}\fi
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[breakable, boxrule=0pt, sharp corners, interior hidden, frame hidden, borderline west={3pt}{0pt}{shadecolor}, enhanced]}{\end{tcolorbox}}\fi
 
+\setstretch{1.5}
 \pagenumbering{gobble}
 
 \begin{centering}
@@ -200,12 +203,15 @@ September 2022
 
 \newpage{}
 
+\renewcommand{\contentsname}{Table des matières}
 \tableofcontents
 \newpage
 
+\renewcommand*\listfigurename{Liste des figures}
 \listoffigures
 \newpage
 
+\renewcommand*\listtablename{Liste des tables}
 \listoftables
 
 \newpage{}
@@ -743,7 +749,7 @@ cellule, et non à l'extérieur de la cellule, ce qui correspondrait à une
 action autocrine.
 
 La VitD possède une action globalement anti-inflammatoire et donc
-régulatrice de l'inflammation \textbf{(Figure} \ref{immunomod}). A
+régulatrice de l'inflammation \textbf{(Figure} \ref{fig:immunomod}). A
 l'initiation de la réponse inflammatoire, le calcitriol est essentiel
 afin de répondre à une infection. Le calcitriol, obtenu après conversion
 du calcidiol par les cellules immunitaires, permet la reconnaissance des
@@ -788,7 +794,7 @@ immunitaire (\protect\hyperlink{ref-Hii.2016}{Hii and Ferrante, 2016}).
 
 \begin{figure}
 \includegraphics{figures/calcitriol-immunomodulatory.jpg} 
-\caption[\textbf{Effets immunomodulateurs du calcitriol.}]{\textbf{Effets immunomodulateurs du calcitriol.} Source : [@Meza-Meza.2020]}\label{immunomod}
+\caption[\textbf{Effets immunomodulateurs du calcitriol.}]{\textbf{Effets immunomodulateurs du calcitriol.} Source : [@Meza-Meza.2020]}\label{fig:immunomod}
 \end{figure}
 
 \hypertarget{vitamine-d-et-covid-19}{%
@@ -819,9 +825,9 @@ réanimation}\label{etudes-en-phase-ruxe9animation}}
 
 \newpage{}
 
-\hypertarget{references}{%
-\section*{References}\label{references}}
-\addcontentsline{toc}{section}{References}
+\hypertarget{ruxe9fuxe9rences}{%
+\section*{Références}\label{ruxe9fuxe9rences}}
+\addcontentsline{toc}{section}{Références}
 
 \hypertarget{refs}{}
 \begin{CSLReferences}{0}{0}

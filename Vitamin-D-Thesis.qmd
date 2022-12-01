@@ -13,6 +13,7 @@ format:
       - left=25mm
       - heightrounded
     indent: true
+    linestretch: 1.5
     # pandoc_args: !expr acronymsdown::add_filter()
 # acronyms:
 #   keys:
@@ -29,9 +30,10 @@ cite-method: citeproc
 # biblio-style: "biblatex-chicago" # Doesn't work
 csl: "csl/cell.csl" # Used for citeproc from pandoc
 header-includes:
-- \usepackage{setspace}\spacing{1.5}
+- \usepackage{setspace}
 - \usepackage[font=small, labelfont=bf, justification=centering, singlelinecheck=false]{caption} # Set figure caption to bold, centered
 # - \usepackage[authordate,backend=biber]{biblatex-chicago} Use if biblatex
+- \usepackage[french]{babel}
 ---
 
 \pagenumbering{gobble}
@@ -78,12 +80,15 @@ September 2022
 {{< pagebreak >}}
 
 ```{=tex}
+\renewcommand{\contentsname}{Table des matières}
 \tableofcontents
 \newpage
 
+\renewcommand*\listfigurename{Liste des figures}
 \listoffigures
 \newpage
 
+\renewcommand*\listtablename{Liste des tables}
 \listoftables
 ```
 {{< pagebreak >}}
@@ -114,7 +119,7 @@ September 2022
 
 {{< pagebreak >}}
 
-# References {.unnumbered}
+# Références {.unnumbered}
 
 ::: {#refs}
 :::

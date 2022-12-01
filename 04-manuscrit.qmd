@@ -390,7 +390,7 @@ l'intérieur de la cellule, et non à l'extérieur de la cellule, ce qui
 correspondrait à une action autocrine.
 
 La VitD possède une action globalement anti-inflammatoire et donc
-régulatrice de l'inflammation **(Figure** \ref{immunomod}). A
+régulatrice de l'inflammation **(Figure** \ref{fig:immunomod}). A
 l'initiation de la réponse inflammatoire, le calcitriol est essentiel
 afin de répondre à une infection. Le calcitriol, obtenu après conversion
 du calcidiol par les cellules immunitaires, permet la reconnaissance des
@@ -432,7 +432,7 @@ immunitaire [@Hii.2016].
 ```{=tex}
 \begin{figure}
 \includegraphics{figures/calcitriol-immunomodulatory.jpg} 
-\caption[\textbf{Effets immunomodulateurs du calcitriol.}]{\textbf{Effets immunomodulateurs du calcitriol.} Source : [@Meza-Meza.2020]}\label{immunomod}
+\caption[\textbf{Effets immunomodulateurs du calcitriol.}]{\textbf{Effets immunomodulateurs du calcitriol.} Source : [@Meza-Meza.2020]}\label{fig:immunomod}
 \end{figure}
 ```
 # Vitamine D et COVID-19
