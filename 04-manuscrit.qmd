@@ -197,9 +197,9 @@ nettement supérieure que celle recommandée habituellement.
     recommandations de l'Autorité européenne de sécurité des aliments)
     [@ANSES.2022]
 
-@Cannell.2008 propose une dose idéale de vitamine D basée sur un
-rationnel lié à l'optimisation des bénéfices métaboliques apportées par
-la vitamine D. En effet, une concentration idéale de 34 ng/mL pour
+@Cannell.2008 proposent une dose idéale de vitamine D basée sur un
+raisonnement lié à l'optimisation des bénéfices métaboliques apportées
+par la vitamine D. En effet, une concentration idéale de 34 ng/mL pour
 optimiser l'absorption intestinale calcique serait moindre que celle
 pour optimiser les performances neuromusculaires (38 ng/mL). De plus,
 une concentration naturelle de vitamine D produite par l'exposition au
@@ -209,7 +209,7 @@ ces hommes reviennent à un niveau inférieur à 30 ng/mL d'ici la fin de
 l'été, ce qui indiquerait que le soleil ne peut maintenir un niveau
 adéquat de vitamine D.
 
-Un autre rationnel reposant sur la pharmacocinétique de la vitamine D
+Un autre raisonnement reposant sur la pharmacocinétique de la vitamine D
 est proposé par @Cannell.2008. En effet, le cholécalciférol (premier
 substrat des enzymes métabolisant la vitamine D) est immédiatement
 consommé et métabolisé en calcidiol et calcitriol par les enzymes, ce
@@ -242,6 +242,8 @@ vitaminorésistants [@VIDAL.2013].
 
 ## Toxicité
 
+### Seuil de toxicité actuel
+
 L'hypercalcémie est une toxicité fréquemment mentionnée comme étant
 dangereuse pour des doses de vitamine D~3~ supérieures à 4000 UI/j pour
 des adultes avec une limite supérieure de sécurité de la concentration
@@ -261,144 +263,156 @@ Les symptômes associés à une hypervitaminose D peuvent se manifester par
 des maux de tête, nausées, vomissements, une perte de poids, ou une
 fatigue intense.
 
--   La toxicité de la vitamine D est considéré comme rare mais
-    dangereuse [@Marcinowska-Suchowierska.2018; @Holick.2015].
+La toxicité de la vitamine D est considéré comme rare mais dangereuse
+[@Marcinowska-Suchowierska.2018; @Holick.2015].
 
--   La toxicité de la vitamine D est donc souvent due à un apport
-    exogène, puisque les apports endogènes ne permettent pas une
-    concentration de vitamine D aussi élevé. Cependant, il existe une
-    toxicité endogène rapportée dans la littérature à partir d'une
-    production excessive de 25(OH)D et de 1,25(OH)~2~D dans des troubles
-    congénitaux, tels que le syndrome de Williams-Beuren, qui
-    s'accompagne d'une déficience en 24-hydroxylase, et donc ne permet
-    pas la métabolisation de 25(OH)D3 and 1,25(OH)~2~D3 en métabolites
-    inactifs [@Marcinowska-Suchowierska.2018; @Holick.2015]. Ce syndrome
-    cause ainsi une hypercalcémie, néphrolithiase, et néphrocalcinose
-    [@Azer.2021].
+La toxicité de la vitamine D est donc souvent due à un apport exogène,
+puisque les apports endogènes ne permettent pas une concentration de
+vitamine D aussi élevé. Cependant, il existe une toxicité endogène
+rapportée dans la littérature à partir d'une production excessive de
+25(OH)D et de 1,25(OH)~2~D dans des troubles congénitaux, tels que le
+syndrome de Williams-Beuren, qui s'accompagne d'une déficience en
+24-hydroxylase, et donc ne permet pas la métabolisation de 25(OH)D3 and
+1,25(OH)~2~D3 en métabolites inactifs [@Marcinowska-Suchowierska.2018;
+@Holick.2015]. Ce syndrome cause ainsi une hypercalcémie,
+néphrolithiase, et néphrocalcinose [@Azer.2021].
 
--   La toxicité de la vitamine D endogène peut également survenir lors
-    de troubles de formation de granulomes et dans les lymphomes, ainsi
-    dans l'hypercalcémie idiopathique infantile, qui serait selon
-    @Holick.2015, un syndrome de Williams-Beuren non reconnu dans les
-    années 1950s.
+La toxicité de la vitamine D endogène peut également survenir lors de
+troubles de formation de granulomes et dans les lymphomes, ainsi dans
+l'hypercalcémie idiopathique infantile, qui serait selon @Holick.2015,
+un syndrome de Williams-Beuren non reconnu dans les années 1950s.
 
--   L'ANSM a publié un avis sur le bon usage de la vitamine D, suite à
-    des cas rapportés de surdosage de vitamine D entraînant une
-    hypercalcémie, parfois accompagnée de lithiase et néphrocalcinose
-    chez les enfants et nourrissons, après avoir pris une dose plus de
-    deux fois supérieure à la dose recommandée (400 UI par jour de 0 à
-    18 ans chez l'enfant en bonne santé sans facteur de risque, 800 UI
-    par jour de 0 à 18 ans chez l'enfant présentant un facteur de
-    risque) pendant plusieurs semaines, et deux cas d'intoxication
-    sévère à la vitamine D après avoir pris un complément alimentaire
-    acheté sur internet contenant une dose de 10 000 UI par goutte. Il
-    est notable de constater que ces cas surviennent suite à une très
-    grande dose de vitamine D par kg chez les nourrissons et enfant,
-    dont la dose devrait différer chez l'adulte [@ANSM.2021].
+L'ANSM a publié un avis sur le bon usage de la vitamine D, suite à des
+cas rapportés de surdosage de vitamine D entraînant une hypercalcémie,
+parfois accompagnée de lithiase et néphrocalcinose chez les enfants et
+nourrissons, après avoir pris une dose plus de deux fois supérieure à la
+dose recommandée (400 UI par jour de 0 à 18 ans chez l'enfant en bonne
+santé sans facteur de risque, 800 UI par jour de 0 à 18 ans chez
+l'enfant présentant un facteur de risque) pendant plusieurs semaines, et
+deux cas d'intoxication sévère à la vitamine D après avoir pris un
+complément alimentaire acheté sur internet contenant une dose de 10 000
+UI par goutte. Il est notable de constater que ces cas surviennent suite
+à une très grande dose de vitamine D par kg chez les nourrissons et
+enfant, dont la dose devrait différer chez l'adulte [@ANSM.2021].
 
-### Seuil de toxicité plus élevé qu'attendu
+### Réévaluation du seuil de toxicité
 
--   Le protocole Coimbra au Brésil utilise des doses de vitamine D
-    nettement supérieurs aux doses attendues les recommandations, pour
-    traiter des patients ayant des pathologies autoimmunes de la peau,
-    telles que le psoriasis ou vitiligo. @Amon.2022 ont effectué une
-    étude sur la sécurité du protocole pour répondre aux préoccupations
-    autour du risque d'hypercalcémie et de problèmes rénaux. Les
-    patients prennent en moyenne 35,291 ± 21,791 UI par jour, et peuvent
-    même aller jusqu'à 300 000 UI par jour pour certaines pathologies.
-    Pour la sclérose en plaque le protocole recommande jusqu'à 1000
-    UI/kg/j, avec jusque là pas d'effets indésirables avec plusieurs
-    mois de traitements @Lemke.2021. Il existe un cas rapporté où un
-    patient de 38 ans était en hypercalcémie avec une concentration de
-    3,0 mmol/L, après 7 mois de traitement 100 000 UI de vitamine D par
-    jour. Les auteurs supposent que le patient possédait un gène causant
-    des doses élevées de PTH et donc une hyperthyroïdie, ce qui serait
-    la cause du cas clinique observé. @Lemke.2021 concluent que les cas
-    de toxicité de vitamine D sont ainsi rares, mais que dans le cadre
-    de leur protocole, un dépistage d'une hyperthyroïdie et une
-    surveillance endocrinologique serait nécessaire.
+Le protocole Coimbra au Brésil utilise des doses de vitamine D nettement
+supérieurs aux doses attendues les recommandations, pour traiter des
+patients ayant des pathologies autoimmunes de la peau, telles que le
+psoriasis ou vitiligo. @Amon.2022 ont effectué une étude sur la sécurité
+du protocole pour répondre aux préoccupations autour du risque
+d'hypercalcémie et de problèmes rénaux. Les patients prennent en moyenne
+35,291 ± 21,791 UI par jour, et peuvent même aller jusqu'à 300 000 UI
+par jour pour certaines pathologies. Pour la sclérose en plaque le
+protocole recommande jusqu'à 1000 UI/kg/j, avec jusque là pas d'effets
+indésirables avec plusieurs mois de traitements @Lemke.2021. Il existe
+un cas rapporté où un patient de 38 ans était en hypercalcémie avec une
+concentration de 3,0 mmol/L, après 7 mois de traitement 100 000 UI de
+vitamine D par jour. Les auteurs supposent que le patient possédait un
+gène causant des doses élevées de PTH et donc une hyperthyroïdie, ce qui
+serait la cause du cas clinique observé. @Lemke.2021 concluent que les
+cas de toxicité de vitamine D sont ainsi rares, mais que dans le cadre
+de leur protocole, un dépistage d'une hyperthyroïdie et une surveillance
+endocrinologique serait nécessaire.
 
--   Une étude rétrospective conduite sur 20 308 patients dans une
-    période de 10 ans de suivi a été réalisée dans le but de déterminer
-    l'incidence de l'hypercalcémie, principale toxicité considérée de la
-    vitamine D. @Dudenkov.2015 examinent les patients ayant plus de 50
-    ng/mL et l'incidence des cas d'hypercalcémies associés à des
-    évènements cliniques. Les auteurs concluent que malgré que
-    l'incidence de patients ayant un taux supérieur à 50 ng/mL ait
-    augmenté, l'incidence de cas de toxicité clinique aiguë de vitamine
-    D reste la même.
+Similairement, une étude clinique réalisée sur des patients atteints de
+cancer utilise des doses de 10 000 UI de vitamine D\~3\~ sans observer
+d'effets indésirables [@Amir.2009].
 
--   Puisque d'autres effets bénéfiques semblent apparaître lorsque la
-    dose de vitamine D est supérieure à la dose recommandée (600-800
-    UI/j), @Hathcock.20072gf ont cherché à identifier la NOAEL (Non
-    Observed Adversed Effect Level), seuil pour laquelle aucun effet
-    indésirable n'est observé. Sur la base de deux études cliniques
-    robustes, les auteurs ont considéré qu'une dose de 10 000 UI par
-    jour, correspondant à 100 ng/mL serait adéquate pour définir la
-    NOAEL, associant une augmentation de la vitamine D sans pour autant
-    observer un changement anormal de la calcémie. Aucun effet
-    indésirable n'a été observé dans les essais cliniques utilisant une
-    dose inférieure à ce seuil. Les auteurs notent que les cas de
-    toxicité rapportés à la vitamine D surviennent pour des
-    concentrations de vitamine D, allant à des doses supérieures à 280
-    ng/mL jusqu'à 640 ng/mL. De plus, les auteurs ont identifié une
-    LOAEL (Lowest Observed Adversed Effect Level), seuil pour laquelle
-    des effets indésirables sont observés, sur la base d'une étude
-    nécessitant 77 000 UI/j, ce qui correspond à 240 ng/mL, une dose
-    entraînant l'hypercalcémie. Les auteurs notent également que les
-    patients utilisés dans l'étude ont une sensibilité accrue à la
-    vitamine D, et donc que le seuil identifié est donc conservatif, et
-    augmente l'assurance du seuil NOAEL et LOAEL.
+Une étude rétrospective conduite sur 20 308 patients dans une période de
+10 ans de suivi a été réalisée dans le but de déterminer l'incidence de
+l'hypercalcémie, principale toxicité considérée de la vitamine D.
+@Dudenkov.2015 examinent les patients ayant plus de 50 ng/mL et
+l'incidence des cas d'hypercalcémies associés à des évènements
+cliniques. Les auteurs concluent que malgré que l'incidence de patients
+ayant un taux supérieur à 50 ng/mL ait augmenté, l'incidence de cas de
+toxicité clinique aiguë de vitamine D reste la même.
 
--   Les origines de la dose si basse en vitamine D viennent d'une
-    succession d'évènement débutant vers la fin du 19^ème^ début
-    20^ème^. Ainsi, plus de 80% des enfants possédaient des déformations
-    associés au rachitisme ainsi qu'un retard de la croissance osseuse
-    et des difformités osseuses en Europe et sur la côte Est des
-    Etats-Unis. En 1921, Hess et Unger rapportent que l'exposition au
-    soleil guérissent les enfants du rachitisme, ce qui a entraîné la
-    fortification du lait en vitamine D2 (produite à partir de
-    l'ergostérol végétal) et d'autres aliments tels que du pain, des
-    boissons gazeuses, de la bière, de la crème anglaise et même des
-    hot-dogs. Vers les années 1950s, plusieurs cas ont été signalé en
-    Angleterre de nourrissons présentant des anomalies faciales
-    accompagnées d'hypercalcémie et de sténose aortique
-    supra-valvulaire. Les médecins concluent indirectement en se basant
-    sur la littérature et les données cliniques disponibles qu'il s'agit
-    d'une intoxication à la vitamine D. Cela a engendré un mouvement
-    contraire où les recommandations sur les doses de vitamine D ont été
-    établies conservativement afin d'éviter l'hypercalcémie chez les
-    nourrissons, ainsi que l'interdiction dans de nombreux pays de
-    fortifier le lait avec de la vitamine D. Cependant, avec
-    rétrospection, la littérature suggère que les nourrissons alors
-    rapportés avaient le syndrome de Williams-Beuren, et donc étaient
-    hypersensible à la vitamine D et présentaient les symptômes
-    rapportés. Il ne s'agissait donc pas d'une situation clinique
-    normale liée à la toxicité vitamine D mais à l'hypersensibilité à la
-    vitamine D [@Holick.2015].
+Puisque d'autres effets bénéfiques semblent apparaître lorsque la dose
+de vitamine D est supérieure à la dose recommandée (600-800 UI/j),
+@Hathcock.20072gf ont cherché à identifier la NOAEL (Non Observed
+Adversed Effect Level), seuil pour laquelle aucun effet indésirable
+n'est observé. Sur la base de deux études cliniques robustes, les
+auteurs ont considéré qu'une dose de 10 000 UI par jour, correspondant à
+100 ng/mL serait adéquate pour définir la NOAEL, associant une
+augmentation de la vitamine D sans pour autant observer un changement
+anormal de la calcémie. Aucun effet indésirable n'a été observé dans les
+essais cliniques utilisant une dose inférieure à ce seuil. Les auteurs
+notent que les cas de toxicité rapportés à la vitamine D surviennent
+pour des concentrations de vitamine D, allant à des doses supérieures à
+280 ng/mL jusqu'à 640 ng/mL. De plus, les auteurs ont identifié une
+LOAEL (Lowest Observed Adversed Effect Level), seuil pour laquelle des
+effets indésirables sont observés, sur la base d'une étude nécessitant
+77 000 UI/j, ce qui correspond à 240 ng/mL, une dose entraînant
+l'hypercalcémie. Les auteurs notent également que les patients utilisés
+dans l'étude ont une sensibilité accrue à la vitamine D, et donc que le
+seuil identifié est donc conservatif, et augmente l'assurance du seuil
+NOAEL et LOAEL.
+
+Les origines de la dose si basse en vitamine D viennent d'une succession
+d'évènement débutant vers la fin du 19^ème^ début 20^ème^. Ainsi, plus
+de 80% des enfants possédaient des déformations associés au rachitisme
+ainsi qu'un retard de la croissance osseuse et des difformités osseuses
+en Europe et sur la côte Est des Etats-Unis. En 1921, Hess et Unger
+rapportent que l'exposition au soleil guérissent les enfants du
+rachitisme, ce qui a entraîné la fortification du lait en vitamine D2
+(produite à partir de l'ergostérol végétal) et d'autres aliments tels
+que du pain, des boissons gazeuses, de la bière, de la crème anglaise et
+même des hot-dogs. Vers les années 1950s, plusieurs cas ont été signalé
+en Angleterre de nourrissons présentant des anomalies faciales
+accompagnées d'hypercalcémie et de sténose aortique supra-valvulaire.
+Les médecins concluent indirectement en se basant sur la littérature et
+les données cliniques disponibles qu'il s'agit d'une intoxication à la
+vitamine D. Cela a engendré un mouvement contraire où les
+recommandations sur les doses de vitamine D ont été établies
+conservativement afin d'éviter l'hypercalcémie chez les nourrissons,
+ainsi que l'interdiction dans de nombreux pays de fortifier le lait avec
+de la vitamine D. Cependant, avec rétrospection, la littérature suggère
+que les nourrissons alors rapportés avaient le syndrome de
+Williams-Beuren, et donc étaient hypersensible à la vitamine D et
+présentaient les symptômes rapportés. Il ne s'agissait donc pas d'une
+situation clinique normale liée à la toxicité vitamine D mais à
+l'hypersensibilité à la vitamine D [@Holick.2015].
 
 # Vitamine D et système immunitaire
 
-La VitD exerce son effet sur le système immunitaire en se liant au VDR.
-Elle possède une action intracrine, par l'intermédiaire des cellules
-immunitaires qui peuvent synthétiser l'enzyme clé permettant la
-conversion du 25(OH)~2~D~3~ en 1,25(OH)~2~D~3~, le cytochrome CYP27B1 ou
-aussi appelée 1-α-hydroxylase. L'induction de cette enzyme concerne des
-cellules telles que les monocytes, cellules dendritiques, macrophages,
-lymphocytes B et T [@Meza-Meza.2020; @Dankers.2017], qui survient grâce
-à un stimuli immun, médié en partie par l'interféron-gamma (IFN-γ).
+## Action de la vitamine D sur les cellules immunitaires
+
+La vitamine D exerce son effet sur le système immunitaire grâce à la
+présence de la 1-α-hydroxylase aussi appelée cytochrome CYP27B1,
+permettant la conversion du 25(OH)~2~D~3~ (calcidiol) en 1,25(OH)~2~D~3~
+(calcitriol), la forme active de la vitamine D~3~. Ainsi, cette forme
+active est responsable des actions sur le système immunitaire, en se
+liant à son récepteur, le VDR. Ce récepteur fait partie de la famille
+des récepteurs nucléaires, et régule la transcription en se liant à un
+domaine de liaison à l'ADN appelé VDRE (Vitamin D Response Element). La
+liaison du calcitriol sur le VDR crée un complexe protéique qui permet
+de modifier la transcription des gènes cibles.
+
+L'action de la vitamine D peut être jugée intracrine puisqu'elle se
+déroule à l'intérieur de la cellule, et non à l'extérieur de la cellule,
+ce qui correspondrait à une action autocrine.
+
+Immunologic effects of vitamin D on human health and disease
+
+Plusieurs cellules immunitaires peuvent synthétiser l'enzyme clé
+permettant la conversion du 25(OH)~2~D~3~ en 1,25(OH)~2~D~3~, le
+cytochrome CYP27B1 ou aussi appelée 1-α-hydroxylase. L'induction de
+cette enzyme concerne des cellules telles que les monocytes, cellules
+dendritiques, macrophages, lymphocytes B et T [@Meza-Meza.2020;
+@Dankers.2017], qui survient grâce à un stimuli immun, médié en partie
+par l'interféron-gamma (IFN-γ).
+
 Plusieurs signaux sont nécessaires à l'induction de la 1-α-hydroxylase,
 tels que la présence d'activateurs de macrophages comme le
 lipopolysaccharide (LPS) et le TNF-α [@Overbergh.2006]. Le TLR est
 également capable à son tour d'induire une immunité médiée par la
 vitamine en régulant positivement l'expression de VDR and les gènes
-codant pour la 1-α-hydroxylase [@Liu.2006]. L'action de la vitamine D
-est jugée intracrine puisqu'elle se déroule à l'intérieur de la cellule,
-et non à l'extérieur de la cellule, ce qui correspondrait à une action
-autocrine.
+codant pour la 1-α-hydroxylase [@Liu.2006].
 
 La VitD possède une action globalement anti-inflammatoire et donc
-régulatrice de l'inflammation **(Figure** \ref{fig:immunomod}**)**. Elle
+régulatrice de l'inflammation **(Figure** \ref{fig:immunomod}). Elle
 agit à la fois sur le système immunitaire inné et adaptatif. A
 l'initiation de la réponse inflammatoire, le calcitriol est essentiel
 afin de répondre à une infection. En agissant sur les macrophages, la
@@ -414,10 +428,10 @@ M1 vers M2 par la régulation positive d'IL-10. Le calcitriol inhibe
 
 De plus, la VitD agit également sur le système immunitaire adaptatif
 avec des effets inhibiteurs. Elle est capable d'induire une tolérance
-immunitaire en promotant des cellules présentatrices d'antigènes plus
-immatures (cellules dendritiques, macrophages, lymphocytes B), tout en
-diminuant l'expression du complexe majeur d'histocompatibilité de classe
-II (CMH II) ainsi que des marqueurs de co-stimulation, nécessaires à
+immunitaire en favorisant l'adoption d'un phénotype immature (cellules
+dendritiques, macrophages, lymphocytes B), par une diminution de
+l'expression du complexe majeur d'histocompatibilité de classe II
+(CMH-II) ainsi que des marqueurs de co-stimulation, nécessaires à
 l'activation de la réponse immune, tels que le CD40, CD80 et CD86
 [@Meza-Meza.2020; @Caprio.2017].
 
@@ -425,20 +439,20 @@ Elle est également capable d'induire le changement phénotypique de
 sous-population de lymphocytes T CD4^+^, favorisant le passage de la
 population T auxiliaire (Th) Th1 et Th17 vers la population Th2. La
 sous-population Th2 régule à son tour les populations Th1 et Th17 dans
-une balance, diminuant ainsi globalement l'activité cytotoxique médiée
+un équilibre, diminuant ainsi globalement l'activité cytotoxique médiée
 par les cellules, qui est exacerbée dans les maladies autoimmunes et
 infections par des pathogènes[@Holick.2011; @Meza-Meza.2020].
 
 Il a aussi été montré que l'action de la vitamine D sur son récepteur
 VDR était nécessaire au fonctionnement des lymphocytes T régulateurs
-iNKT et CD8αα [@Cheroutre.2008]. Les lymphocytes T CD8αα possédent un
+iNKT et CD8αα [@Cheroutre.2008]. Les lymphocytes T CD8αα possèdent un
 caractère régulateur contrairement au lymphocyte CD8αβ classique. Ainsi,
 ces lymphocytes T régulateurs contribuent à l'homéostasie du tractus
 intestinal [@Cantorna.2010]. A l'inverse, les lymphocytes FoxP3^+^
 T~reg~ sont fonctionnellement indépendant de l'expression de VDR pour
 effectuer leurs fonctions régulatrices [@Cantorna.2010].
 
-La VitD est également capable d'agir non classiquement par des actions
+La VitD est également capable d'agir non-classiquement par des actions
 non-génomique, à savoir des actions de type protéine-protéine, telle que
 l'inhibition de la kinase IKκβ, un régulateur de la voie canonique de
 NF-κB, une des cytokines pro-inflammatoire clé de la réaction
@@ -451,6 +465,15 @@ immunitaire [@Hii.2016].
 \end{figure}
 ```
 # Vitamine D et COVID-19
+
+## Physiopathologie de la COVID-19
+
+## Rationnel physiologique de l'usage de la vitamine D dans la COVID-19
+
+@Li.2002 ont établi une relation entre la rénine et le système
+rénine-angiotensine-aldostérone. Ainsi la vitamine D~3~ sous sa forme
+active a été observée comme étant un régulateur négatif de ce système
+permettant de réguler la pression artérielle.
 
 ## Etudes pré-cliniques
 
