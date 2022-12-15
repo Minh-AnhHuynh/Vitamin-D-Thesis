@@ -6,7 +6,7 @@ bibliography: "bibliography/vitamin-d.bib"
 
 ## Structure
 
-La vitamine D (VitD) est un nutriment vital, nécessaire pour le
+La vitamine D (VitD) est un nutriment vital, nécessaire pour notre
 métabolisme. La VitD possède un rôle de vitamine qui est définie comme
 étant une substance organique essentielle en quantités infimes, à la
 nutrition de la plupart des animaux et de certaines plantes. Les
@@ -16,10 +16,10 @@ ne servent pas d'unités de construction [@Ellison.2020].
 
 La VitD est une molécule liposoluble, semblable à une hormone stéroïde.
 Celle-ci possède plusieurs formes, la vitamine D~2~ ou ergocalciférol,
-synthétisée par les plantes, et la vitamine D3 ou cholécalciférol ,
+synthétisée par les plantes, et la vitamine D~3~ ou cholécalciférol ,
 synthétisée dans la peau après une exposition aux rayons ultraviolets B
 ou à la lumière du soleil. Généralement, la mention de vitamine D fait
-référence à la vitamine D3.
+référence à la vitamine D~3~. La vitamine D~2~ ou ergocalciférol, est une vitamine créée et obtenue par les plantes. Elle est généralement encore utilisée en tant que supplément aux Etats-Unis [@Houghton.2006], cependant l'ergocalciférol est généralement moins efficace pour maintenir concentration de vitamine D adéquate. En effet, une expérience montre que la vitamine D~3~ à une dose de 4000 UI dans des conditions de faible exposition au soleil est capable d'élever la concentration en 25(OH)D environ deux fois plus par rapport à la vitamine D~2~ [@Trang.1998]. Cela s'explique par la pharmacocinétique différente entre les deux molécules, où la voie métabolique permettant l'élimination de 25(OH)D est différente [@Houghton.2006].
 
 Curieusement la VitD possède une structure ressemblant à une hormone
 stéroïdienne classique, telle que le cortisol et l'aldostérone

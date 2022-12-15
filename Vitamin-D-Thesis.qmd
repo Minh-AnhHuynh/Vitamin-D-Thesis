@@ -2,7 +2,13 @@
 date: last-modified
 format:
   pdf:
+    papersize: a4
+    documentclass: scrreprt
+    classoption: listof=totoc # This setting adds list of table and list of figure in table of content
+    # Quarto uses a KOMA class by default, so let's follow the pattern and use listof=totoc as an option for the scrreprt class
+    # documentclass: memoir # Use this documentclass to have a whole different look and integrated lof/lot in toc
     toc: false # Put to false and use latex to include where you want
+    toc-title: Table des Matières
     number-sections: true
     colorlinks: false # Render bibliography links from blue to black 
     pagenumbering: true
@@ -81,7 +87,7 @@ September 2022
 
 ```{=tex}
 \renewcommand{\contentsname}{Table des matières}
-\tableofcontents
+\tableofcontents{}
 \newpage
 
 \renewcommand*\listfigurename{Liste des figures}
