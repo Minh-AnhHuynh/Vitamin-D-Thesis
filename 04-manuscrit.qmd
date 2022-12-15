@@ -16,10 +16,10 @@ ne servent pas d'unités de construction [@Ellison.2020].
 
 La VitD est une molécule liposoluble, semblable à une hormone stéroïde.
 Celle-ci possède plusieurs formes, la vitamine D~2~ ou ergocalciférol,
-synthétisée par les plantes, et la vitamine D~3~ ou cholécalciférol ,
-synthétisée dans la peau après une exposition aux rayons ultraviolets B
-ou à la lumière du soleil. Généralement, la mention de vitamine D fait
-référence à la vitamine D~3~. La vitamine D~2~ ou ergocalciférol, est une vitamine créée et obtenue par les plantes. Elle est généralement encore utilisée en tant que supplément aux Etats-Unis [@Houghton.2006], cependant l'ergocalciférol est généralement moins efficace pour maintenir concentration de vitamine D adéquate. En effet, une expérience montre que la vitamine D~3~ à une dose de 4000 UI dans des conditions de faible exposition au soleil est capable d'élever la concentration en 25(OH)D environ deux fois plus par rapport à la vitamine D~2~ [@Trang.1998]. Cela s'explique par la pharmacocinétique différente entre les deux molécules, où la voie métabolique permettant l'élimination de 25(OH)D est différente [@Houghton.2006].
+synthétisée par les plantes et les champignons, et la vitamine D~3~ ou
+cholécalciférol , synthétisée dans la peau après une exposition aux
+rayons ultraviolets B ou à la lumière du soleil. Généralement, la
+mention de vitamine D fait référence à la vitamine D~3~.
 
 Curieusement la VitD possède une structure ressemblant à une hormone
 stéroïdienne classique, telle que le cortisol et l'aldostérone
@@ -101,6 +101,68 @@ de calcitriol, va induire la CYP24A1 et donc l'anabolisme du calcitriol
 ![Métabolisme et Régulation de la vitamine D. Source :
 @Dankers.2017](figures/vitamin-d-metabolism-regulation.jpg){#fig-reg-vitd
 fig-align="center"}
+
+## Ergostérol
+
+L'ergostérol ou vitamine D~2~ est une autre forme de vitamine D. Les
+deux formes de vitamine sont perçues comme interchangeable, cependant la
+vitamine D~3~ est considérée plus intéressante en terme de traitement,
+car son utilisation est plus effiace que la vitamine D~2~ afin d'élever
+la concentration de calcidiol et donc pour traiter les carences. En
+effet, la vitamine D~2~, étant de nature végatale ou fongique, possède
+une structure très similaire mais différente de la vitamine D~3~. De ce
+fait, elle possède une pharmacocinétique différente, où l'étape de
+métabolisation est fonctionnellement différente entre la vitamine D~2~
+et vitamine D~3~. Ainsi, lors de l'étape du catabolisme des métabolites
+de la vitamine D~2~, la 24-hydroxylation du 25(OH)D~2~ et du
+1,25(OH)D~2~ dans le rein conduit aux métabolites 24,25(OH)D~2~ et
+1,24,25(OH)D~2~ respectivement. La formation de 1,24,25(OH)D~2~ conduit
+à sa désactivation, contrairement à son analogue 1,24,25(OH)D~3~ qui
+nécessite une oxydation supplémentaire afin d'être désactivée, et
+possède entre autre une affinité au VDR (jusqu'à 40% plus que
+1,25(OH)D~3~). De plus, la 24-hydroxylation peut se également se
+conduire dans le foie, conduisant à la formation de 24(OH)D~2~. Le
+métabolite en résultant, la 1,24(OH)D~2~, est moins affin pour le VDR
+comparé à son analogue D~3~. En revanche, la vitamine D~3~ ne se subit
+pas cette première 24-hydroxylation et donc ne conduit pas à un
+métabolite qui diminuerait son affinité au VDR [@Houghton.2006].
+
+```{=tex}
+\begin{figure}
+\includegraphics{figures/ergo_vs_chole.png} 
+\caption[\textbf{Comparaison de la structure de l'ergocalciférol par rapport au cholécalciférol.}]{Comparaison de la structure de l'ergocalciférol par rapport au cholécalciférol. La structure de l'ergocalciférol comprend une double liaison et un groupement méthyl (CH~3~) supplémentaire par rapport au cholécalciférol. Cela implique une voie de métabolisation différente, notamment une voie d'élimination plus rapide, et donc une diminution de la concentration en métabolite biologiquement actif issue de l'ergocalciférol.}
+\label{fig:ergo-struc}
+\end{figure}
+```
+Ainsi, cette différence de structure cause une différence dans
+l'évolution de la concentration de 25(OH)D. Une expérience consistant en
+une administration d'une dose de 50 000 UI pour les deux types de
+vitamine D permet de comparer l'évolution des concentrations respectives
+en 25(OH)D **(@fig-PK-VD)**. La vitamine D~2~ est inférieure à la
+vitamine D~3~ concernant le maintien d'une concentration adéquate de
+25(OH)D, puisqu'elle s'élimine beaucoup plus rapidement, malgré une
+phase d'absorption identique les trois premiers jours. On observe ainsi
+qu'au jour 14, la concentration de 25(OH)D obtenue par ergostérol est
+redevenue identique à celle au jour 1, tandis que celle obtenue par
+vitamine D~3~ continue de croître [@Armas.2004].
+
+![Evolution de la concentration en 25(OH)D après administration d'une
+dose de 50 000 UI de vitamine D~2~ ou D~3~ chez 10 patients. D'après
+@Armas.2004 .](figures/PK_D2_vs_D3.jpeg){#fig-PK-VD}
+
+Ainsi, la vitamine D~3~ est généralement capable d'augmenter la
+concentration en 25(OH)D environ deux fois plus qu'avec la vitamine
+D~2~, comme le montre @Trang.1998 lors d'une comparaison avec une dose
+unique de 4000 UI. Une comparaison de l'aire sous la courbe entre les
+deux formes montrent un potentiel 3 fois plus important chez la vitamine
+D~3~ [@Armas.2004].
+
+L'ergocalciférol continue d'être généralement encore utilisée en tant
+que supplément aux Etats-Unis [@Houghton.2006], mais le cholécalciférol
+étant une forme supérieure plus adéquate au traitement, elle devrait
+être privilégiée. Pour ces raisons, nous ne discuterons seulement que de
+la vitamine D~3~ lorsque nous examinerons l'usage et le potentiel
+thérapeutique de la vitamine D.
 
 ## Propriétés
 

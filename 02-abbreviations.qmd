@@ -1,4 +1,4 @@
-# Liste des abréviations {-}
+# Liste des abréviations {.unnumbered}
 
 -   7-DHC : 7-déhydrocholestérol
 -   DBP : Protéine de liaison de l'albumine
