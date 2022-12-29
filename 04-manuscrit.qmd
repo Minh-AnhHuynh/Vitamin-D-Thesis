@@ -6,23 +6,24 @@ bibliography: "bibliography/vitamin-d.bib"
 
 ## Structure
 
-La vitamine D (VitD) est un nutriment vital, nécessaire pour notre
-métabolisme. La VitD possède un rôle de vitamine qui est définie comme
-étant une substance organique essentielle en quantités infimes, à la
-nutrition de la plupart des animaux et de certaines plantes. Les
-vitamines agissent comme coenzymes et précurseurs de coenzymes pour
-réguler les processus métaboliques mais ne fournissent pas d'énergie et
-ne servent pas d'unités de construction [@Ellison.2020].
+La vitamine D est un nutriment vital, nécessaire pour notre métabolisme.
+Elle possède un rôle de vitamine qui est définie comme étant une
+substance organique essentielle en quantités infimes, à la nutrition de
+la plupart des animaux et de certaines plantes. Les vitamines agissent
+comme coenzymes et précurseurs de coenzymes pour réguler les processus
+métaboliques mais ne fournissent pas d'énergie et ne servent pas
+d'unités de construction [@Ellison.2020].
 
-La VitD est une molécule liposoluble, semblable à une hormone stéroïde.
-Celle-ci possède plusieurs formes, la vitamine D~2~ ou ergocalciférol,
-synthétisée par les plantes et les champignons, et la vitamine D~3~ ou
-cholécalciférol , synthétisée dans la peau après une exposition aux
-rayons ultraviolets B ou à la lumière du soleil. Généralement, la
-mention de vitamine D fait référence à la vitamine D~3~.
+La vitamine D est une molécule liposoluble, semblable à une hormone
+stéroïde. Celle-ci possède plusieurs formes, la vitamine D~2~ ou
+ergocalciférol, synthétisée par les plantes et les champignons, et la
+vitamine D~3~ ou cholécalciférol , synthétisée dans la peau après une
+exposition aux rayons ultraviolets B ou à la lumière du soleil.
+Généralement, la mention de vitamine D fait référence à la vitamine
+D~3~.
 
-Curieusement la VitD possède une structure ressemblant à une hormone
-stéroïdienne classique, telle que le cortisol et l'aldostérone
+Curieusement la vitamine D possède une structure ressemblant à une
+hormone stéroïdienne classique, telle que le cortisol et l'aldostérone
 [@Norman.2008] **(@fig-vitd3)**. Une hormone est une substance chimique
 qui aide à contrôler et à réguler différentes activités dans l'organisme
 [@Ellison.2020]. La vitamine D est capable d'agir en tant que facteur de
@@ -31,7 +32,7 @@ Pratiquement toutes les cellules de l'organisme possèdent un récepteur à
 la vitamine D (VDR), ce qui explique ses effets pléiotropiques dans
 diverses maladies [@Ellison.2020; @Caprio.2017; @Norman.2008]. Le VDR
 est un récepteur faisant partie de la classe des facteurs de
-transcription nucléaire. Ainsi la liaison de la vitamine D sur son
+transcription nucléaire. Ainsi, la liaison de la vitamine D sur son
 récepteur conduit à une séquence classique de translocation nucléaire et
 de liaison à l'ADN [@Bouillon.2008]. De plus, la vitamine D est la seule
 vitamine qui peut être synthétisée par l'organisme, contrairement aux
@@ -50,7 +51,7 @@ d'apports alimentaires, mais est principalement obtenue par synthèse
 endogène de l'organisme. Initialement, le 7-déhydrocholestérol (7-DHC),
 un dérivé du cholestérol situé dans la peau, se transforme en vitamine
 D~3~ (cholécalciférol) sous l'action des ondes ultraviolettes provenant
-du soleil.
+du soleil [@Bikle.2014aso].
 
 La vitamine D~3~ doit ensuite être métabolisée dans le foie pour obtenir
 la forme active qui permettra d'exercer ses effets à travers le
@@ -58,28 +59,30 @@ récepteur de la vitamine D (VDR). Pour cela, elle est transportée à
 travers le sang par la protéine de liaison de la vitamine D (DBP),
 appartenant à la famille des albumines [@Christakos.2010; @Chun.2012].
 La DBP peut également lier les autres formes de vitamine D, telles que
-la vitamine D~2~ (ergocalciférol), vitamine D~3~, 25(OH)D~3~ et
-1,25(OH)D~3~.
+la vitamine D~2~ (ergocalciférol), vitamine D~3~, ou les métabolites du
+cholécalciférol, 25-hydroxycholécalciferol et
+1,25-dihydroxycholécalciférol.
 
-Par la suite, la vitamine D~3~ est métabolisée en 25(OH)D~3~ ou
-calcidiol, par une des enzymes cytochrome P450 vitamine D
-25-hydroxylases (dont CYP2R1, CYP2D11, CYP2D25) dans le foie, qui est la
-forme majoritaire circulante dans l'organisme [@Norman.2008;
-@Christakos.2010]. Ultérieurement, cette forme est transportée par la
-DBP dans le rein, est filtrée par le glomérule et se retrouve hydroxylée
-à nouveau dans le tube proximal du rein par la CYP27B1 ou 1α(OH)ase pour
-donner la 1,25-dihydroxyvitamine D~3~ (1,25(OH)~2~D~3~) ou calcitriol,
-nommée ainsi puisqu'elle possède trois groupes hydroxyles. Le calcitriol
-représente la forme active de la vitamine D, responsable de la majorité
-de ses effets, en se liant au VDR contenu dans divers tissus
-[@Norman.2008; @Dankers.2017].
+Par la suite, la vitamine D~3~ est métabolisée en
+25-hydroxycholécalciferol (25(OH)D~3~), aussi appelée calcidiol, par une
+des enzymes cytochrome P450 vitamine D 25-hydroxylases (telles que
+CYP2R1, CYP2D11, CYP2D25) dans le foie, qui est la forme majoritaire
+circulante dans l'organisme [@Norman.2008; @Christakos.2010].
+Ultérieurement, cette forme est transportée par la DBP dans le rein, est
+filtrée par le glomérule et se retrouve hydroxylée à nouveau dans le
+tube proximal du rein par la CYP27B1 (25(OH) vitamin D~3~
+1α-hydroxylase) pour donner la 1,25-dihydroxycholécalciférol
+(1,25(OH)~2~D~3~) ou calcitriol, nommée ainsi puisqu'elle possède trois
+groupes hydroxyles. Le calcitriol représente la forme active de la
+vitamine D, responsable de la majorité de ses effets, en se liant au VDR
+contenu dans divers tissus [@Norman.2008; @Dankers.2017].
 
-Finalement, le catabolisme de la vitamine D se produit par une
+Dernièrement, le catabolisme de la vitamine D se produit par une
 hydroxylation par la 24-hydroxylase ou CYP24A1, une enzyme P450
 mitochrondriale, donnant le métabolite 1,24,25(OH)~3~D~3~ ou l'acide
 calcitroïque. Cette enzyme peut également hydroxyler le calcidiol pour
 donner de la 24,25(OH)~3~D~3~. Ces réactions permettent de diminuer la
-quantité de calcitriol et calcidiol disponible dans le sang, ainsi la
+quantité de calcidiol et calcitriol disponible dans le sang, ainsi la
 24-hydroxylase sert donc à jouer un rôle de catabolisme de la vitamine D
 [@Norman.2008] **(@fig-metabolism-vitd)**. La quantité de calcitriol est
 donc déterminée par un équilibre entre les enzymes CYP27B1 et CYP24A1
@@ -102,6 +105,14 @@ de calcitriol, va induire la CYP24A1 et donc l'anabolisme du calcitriol
 @Dankers.2017](figures/vitamin-d-metabolism-regulation.jpg){#fig-reg-vitd
 fig-align="center"}
 
+```{=tex}
+\begin{figure}
+\includegraphics{figures/figures/vitamin-d-metabolism-regulation.jpg} 
+\caption[\textbf{Métabolisme et régulation de la vitamine D.}]{Source: Le métabolisme de la vitamine D débute lorsque le 7-déhydrocholestérol contenu dans la peau, est transformé par les rayons ultraviolets provenant du soleil en cholécalciférol. Le cholécalciférol ou vitamine D\textsubscript{3} est ensuite transporté par la protéine de liaison à la vitamine D, et est métabolisé dans le foie par des enzymes 25-hydroxylases telles que le CYP2R1 en calcidiol (25(OH)D\textsubscript{3}. L'autre étape de du métabolisme se situe dans le rein, où après transport du calcidiol, celui-ci se retrouve métabolisé en calcitriol ou 1,25(OH)\textsubsrcipt{2}D\textsubscript{3} par le CYP27B1.
+@Dankers.2017}
+\label{fig:reg-vitd}
+\end{figure}
+```
 ## Ergostérol
 
 L'ergostérol ou vitamine D~2~ est une autre forme de vitamine D. Les
@@ -130,7 +141,7 @@ métabolite qui diminuerait son affinité au VDR [@Houghton.2006].
 ```{=tex}
 \begin{figure}
 \includegraphics{figures/ergo_vs_chole.png} 
-\caption[\textbf{Comparaison de la structure de l'ergocalciférol par rapport au cholécalciférol.}]{Comparaison de la structure de l'ergocalciférol par rapport au cholécalciférol. La structure de l'ergocalciférol comprend une double liaison et un groupement méthyl (CH~3~) supplémentaire par rapport au cholécalciférol. Cela implique une voie de métabolisation différente, notamment une voie d'élimination plus rapide, et donc une diminution de la concentration en métabolite biologiquement actif issue de l'ergocalciférol.}
+\caption[\textbf{Comparaison de la structure de l'ergocalciférol par rapport au cholécalciférol.}]{Comparaison de la structure de l'ergocalciférol par rapport au cholécalciférol. La structure de l'ergocalciférol comprend une double liaison et un groupement méthyl (CH\textsubscript{3}) supplémentaire par rapport au cholécalciférol. Cela implique une voie de métabolisation différente, notamment une voie d'élimination plus rapide, et donc une diminution de la concentration en métabolite biologiquement actif issue de l'ergocalciférol. \cite{Houghton.2006}}
 \label{fig:ergo-struc}
 \end{figure}
 ```
@@ -154,15 +165,20 @@ Ainsi, la vitamine D~3~ est généralement capable d'augmenter la
 concentration en 25(OH)D environ deux fois plus qu'avec la vitamine
 D~2~, comme le montre @Trang.1998 lors d'une comparaison avec une dose
 unique de 4000 UI. Une comparaison de l'aire sous la courbe entre les
-deux formes montrent un potentiel 3 fois plus important chez la vitamine
+deux formes montre un potentiel 3 fois plus important chez la vitamine
 D~3~ [@Armas.2004].
 
 L'ergocalciférol continue d'être généralement encore utilisée en tant
-que supplément aux Etats-Unis [@Houghton.2006], mais le cholécalciférol
-étant une forme supérieure plus adéquate au traitement, elle devrait
-être privilégiée. Pour ces raisons, nous ne discuterons seulement que de
-la vitamine D~3~ lorsque nous examinerons l'usage et le potentiel
-thérapeutique de la vitamine D.
+que supplément aux Etats-Unis [@Houghton.2006]. Cependant, cette forme
+de traitement reste moins efficace voire est insuffisante pour corriger
+les déficiences en vitamine D comparé au cholécalciférol, comme le
+montre certains essais cliniques [@Boyle.2005].
+
+Le cholécalciférol étant une forme de vitamine D possédant une meilleure
+capacité à augmenter la concentration de vitamine D au long terme, elle
+devrait être privilégiée lors de supplémentations. Pour ces raisons,
+nous ne discuterons seulement que de la vitamine D~3~ lorsque nous
+examinerons l'usage et le potentiel thérapeutique de la vitamine D.
 
 ## Propriétés
 
@@ -208,9 +224,9 @@ d'obtenir du calcium.
 @Caprio.2017](figures/extra-skeletal-effect.png){#fig-extra-skeletal}
 
 -   La vitamine D exerce en plus de son action endocrine classique,
-    médiée par le rein, une action paracrine de la VitD sur le VDR, par
-    le biais d'une expression locale de CYP27B1 [@Carmeliet.2015;
-    @Cannell.2008]
+    médiée par le rein, une action paracrine de la vitamine D sur le
+    VDR, par le biais d'une expression locale de CYP27B1
+    [@Carmeliet.2015; @Cannell.2008]
 
 Cependant les bénéfices extra-squelettiques associés à la vitamine D ne
 serait visible que lorsque la concentration de vitamine D serait
@@ -393,7 +409,7 @@ toxicité clinique aiguë de vitamine D reste la même.
 
 Puisque d'autres effets bénéfiques semblent apparaître lorsque la dose
 de vitamine D est supérieure à la dose recommandée (600-800 UI/j),
-@Hathcock.20072gf ont cherché à identifier la NOAEL (Non Observed
+@Hathcock.2007t9 ont cherché à identifier la NOAEL (Non Observed
 Adversed Effect Level), seuil pour laquelle aucun effet indésirable
 n'est observé. Sur la base de deux études cliniques robustes, les
 auteurs ont considéré qu'une dose de 10 000 UI par jour, correspondant à
@@ -473,14 +489,14 @@ lipopolysaccharide (LPS) et le TNF-α [@Overbergh.2006]. Le TLR est
 vitamine en régulant positivement l'expression de VDR and les gènes
 codant pour la 1-α-hydroxylase [@Liu.2006].
 
-La VitD possède une action globalement anti-inflammatoire et donc
+La vitamine D possède une action globalement anti-inflammatoire et donc
 régulatrice de l'inflammation **(Figure** \ref{fig:immunomod}). Elle
 agit à la fois sur le système immunitaire inné et adaptatif. A
 l'initiation de la réponse inflammatoire, le calcitriol est essentiel
 afin de répondre à une infection. En agissant sur les macrophages, la
-VitD peut induire leur activation et leur différenciation, et augmente
-la production de peptides défensifs comme la cathélicidine et la
-β2-défensine [@Caprio.2017].
+vitamine D peut induire leur activation et leur différenciation, et
+augmente la production de peptides défensifs comme la cathélicidine et
+la β2-défensine [@Caprio.2017].
 
 Le calcitriol est capable entre autre d'induire la reconnaissance des
 pathogènes par le biais du TLR et le switch phénotypique de macrophage
@@ -488,11 +504,11 @@ M1 vers M2 par la régulation positive d'IL-10. Le calcitriol inhibe
 également des cytokines majeures pro-inflammatoires, l'IL-6 et le TNF-α
 [@Meza-Meza.2020; @Caprio.2017].
 
-De plus, la VitD agit également sur le système immunitaire adaptatif
-avec des effets inhibiteurs. Elle est capable d'induire une tolérance
-immunitaire en favorisant l'adoption d'un phénotype immature (cellules
-dendritiques, macrophages, lymphocytes B), par une diminution de
-l'expression du complexe majeur d'histocompatibilité de classe II
+De plus, la vitamine D agit également sur le système immunitaire
+adaptatif avec des effets inhibiteurs. Elle est capable d'induire une
+tolérance immunitaire en favorisant l'adoption d'un phénotype immature
+(cellules dendritiques, macrophages, lymphocytes B), par une diminution
+de l'expression du complexe majeur d'histocompatibilité de classe II
 (CMH-II) ainsi que des marqueurs de co-stimulation, nécessaires à
 l'activation de la réponse immune, tels que le CD40, CD80 et CD86
 [@Meza-Meza.2020; @Caprio.2017].
@@ -514,11 +530,11 @@ intestinal [@Cantorna.2010]. A l'inverse, les lymphocytes FoxP3^+^
 T~reg~ sont fonctionnellement indépendant de l'expression de VDR pour
 effectuer leurs fonctions régulatrices [@Cantorna.2010].
 
-La VitD est également capable d'agir non-classiquement par des actions
-non-génomique, à savoir des actions de type protéine-protéine, telle que
-l'inhibition de la kinase IKκβ, un régulateur de la voie canonique de
-NF-κB, une des cytokines pro-inflammatoire clé de la réaction
-immunitaire [@Hii.2016].
+La vitamine D est également capable d'agir non-classiquement par des
+actions non-génomique, à savoir des actions de type protéine-protéine,
+telle que l'inhibition de la kinase IKκβ, un régulateur de la voie
+canonique de NF-κB, une des cytokines pro-inflammatoire clé de la
+réaction immunitaire [@Hii.2016].
 
 ```{=tex}
 \begin{figure}
@@ -538,6 +554,10 @@ active a été observée comme étant un régulateur négatif de ce système
 permettant de réguler la pression artérielle.
 
 ## Etudes pré-cliniques
+
+1.Qayyum, S., Slominski, R.M., Raman, C., and Slominski, A.T. (2022).
+Novel CYP11A1-Derived Vitamin D and Lumisterol Biometabolites for the
+Management of COVID-19. Nutrients *14*, 4779. 10.3390/nu14224779.
 
 ## Etudes cliniques
 

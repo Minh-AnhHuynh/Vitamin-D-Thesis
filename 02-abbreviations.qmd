@@ -5,5 +5,4 @@
 -   LOAEL : Lowest Observed Adverse Effect Level
 -   NOAEL : Non Observed Adverse Effect Level
 -   UI : Unité Internationale
--   VitD : Vitamine D
 -   VDR : Récepteur de la vitamine D
