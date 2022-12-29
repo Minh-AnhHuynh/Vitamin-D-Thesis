@@ -37,7 +37,7 @@ cite-method: citeproc
 csl: "csl/cell.csl" # Used for citeproc from pandoc
 header-includes:
 - \usepackage{setspace} #\setspace{1.5}
-- \usepackage[font=small, labelfont=bf, justification=centering, singlelinecheck=false]{caption} # Set figure caption to bold, centered
+- \usepackage[font=small, labelfont=bf, justification=justified, singlelinecheck=false]{caption} # Set figure caption to bold, centered
 # - \usepackage[authordate,backend=biber]{biblatex-chicago} Use if biblatex
 - \usepackage[french]{babel}
 ---
