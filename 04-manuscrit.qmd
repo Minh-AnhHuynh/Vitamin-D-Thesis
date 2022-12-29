@@ -82,8 +82,8 @@ hydroxylation par la 24-hydroxylase ou CYP24A1, une enzyme P450
 mitochrondriale, donnant le métabolite 1,24,25(OH)~3~D~3~ ou l'acide
 calcitroïque. Cette enzyme peut également hydroxyler le calcidiol pour
 donner de la 24,25(OH)~3~D~3~. Ces réactions permettent de diminuer la
-quantité de calcidiol et calcitriol disponible dans le sang, ainsi la
-24-hydroxylase sert donc à jouer un rôle de catabolisme de la vitamine D
+quantité de calcidiol et calcitriol disponible dans le sang; la
+24-hydroxylase sert à jouer un rôle de catabolisme de la vitamine D
 [@Norman.2008] **(@fig-metabolism-vitd)**. La quantité de calcitriol est
 donc déterminée par un équilibre entre les enzymes CYP27B1 et CYP24A1
 [@Dankers.2017].
@@ -98,18 +98,14 @@ par la haute concentration de calcitriol et une faible concentration de
 phosphate dans le sang, favorise l'induction de la CYP24A1 qui est
 l'enzyme de catabolisme du calcidiol, tandis que la PTH, induite par une
 faible concentration de calcium et inhibée par une forte concentration
-de calcitriol, va induire la CYP24A1 et donc l'anabolisme du calcitriol
-[@Dankers.2017; @Christakos.2010] **(@fig-reg-vitd)**.
-
-![Métabolisme et Régulation de la vitamine D. Source :
-@Dankers.2017](figures/vitamin-d-metabolism-regulation.jpg){#fig-reg-vitd
-fig-align="center"}
+de calcitriol, va induire la CYP24A1 et donc contribuer au catabolisme
+du calcitriol **(Figure** \ref{fig:reg-vitd}) [@Dankers.2017;
+@Christakos.2010].
 
 ```{=tex}
 \begin{figure}
-\includegraphics{figures/figures/vitamin-d-metabolism-regulation.jpg} 
-\caption[\textbf{Métabolisme et régulation de la vitamine D.}]{Source: Le métabolisme de la vitamine D débute lorsque le 7-déhydrocholestérol contenu dans la peau, est transformé par les rayons ultraviolets provenant du soleil en cholécalciférol. Le cholécalciférol ou vitamine D\textsubscript{3} est ensuite transporté par la protéine de liaison à la vitamine D, et est métabolisé dans le foie par des enzymes 25-hydroxylases telles que le CYP2R1 en calcidiol (25(OH)D\textsubscript{3}. L'autre étape de du métabolisme se situe dans le rein, où après transport du calcidiol, celui-ci se retrouve métabolisé en calcitriol ou 1,25(OH)\textsubsrcipt{2}D\textsubscript{3} par le CYP27B1.
-@Dankers.2017}
+\includegraphics{figures/vitamin-d-metabolism-regulation.jpg} 
+\caption[\textbf{Métabolisme et régulation de la vitamine D.}]{Le métabolisme de la vitamine D débute lorsque le 7-déhydrocholestérol contenu dans la peau, est transformé par les rayons ultraviolets provenant du soleil en cholécalciférol. Le cholécalciférol ou vitamine D\textsubscript{3} est ensuite transporté par la protéine de liaison à la vitamine D, et est métabolisé dans le foie par des enzymes 25-hydroxylases telles que le CYP2R1 en calcidiol ou 25(OH)D\textsubscript{3}. L'autre étape de du métabolisme se situe dans le rein, où après transport du calcidiol, celui-ci se retrouve métabolisé en calcitriol ou 1,25(OH)\textsubscript{2}D\textsubscript{3} par le CYP27B1. Le calcitriol augmente la concentration de l'hormone de croissance fibroblastique 23 (FGF23) et l'absorbtion du calcium et diminue la concentration de l'hormone parathyroïde (PTH), tandis que ceux-ci exercent un rétrocontrôle négatif sur la concentration de calcitriol, en inhibant directement ou indirectement la 1-hydroxylase, ce qui va diminuer la formation de calcitriol. @Dankers.2017}
 \label{fig:reg-vitd}
 \end{figure}
 ```
@@ -184,54 +180,80 @@ examinerons l'usage et le potentiel thérapeutique de la vitamine D.
 
 ### Propriétés classiques osseuses
 
--   Homéostasie du calcium :
+La vitamine D a été identifiée pour la première fois comme un nutriment
+essentiel au début du XXe siècle, lorsque Mellanby propose en 1921 que
+l'huile de foie de morue pouvait prévenir les cas de rachitismes dont
+les causes étaient inexpliquées, le rachitisme étant une maladie
+caractérisée par le ramollissement et l'affaiblissement des os
+[@Mavrotas.2021]. La même année, Hess et Unger ont rapporté que
+l'exposition des enfants à la lumière du soleil était un traitement
+efficace efficace contre le rachitisme. [@Holick.2015] L'importance de
+la vitamine D s'est accrue puisque les scientifiques ont découvert son
+rôle crucial dans le métabolisme du calcium et du phosphore. Depuis
+lors, de nombreuses études ont été menées pour étudier le rôle de la
+vitamine D dans la santé des os, et il est désormais largement admis que
+la vitamine D joue un rôle essentiel dans le maintien de la santé des os
+et des dents. Une carence en vitamine D est associée à un risque accru
+d'ostéomalacie (une affection qui entraîne une diminution de la masse
+osseuse) et d'ostéoporose (une affection caractérisée par des os
+fragiles et cassants).
 
-La liaison du calcitriol sur le VDR situé dans les ostéoprogéniteurs
-entraîne une augmentation de l'absorption de calcium dans les os
-(diminution de RANKL, facteur de transcription activant les
+De nos jours, l'action de la vitamine D est reconnu comme étant médiée
+par la liaison de son métabolite actif, le calcitriol, au récepteur VDR
+[@Norman.2008; @Dankers.2017]. La vitamine D joue notamment un rôle dans
+l'homéostasie du calcium. Le métabolisme du calcium passe par
+l'absorption du calcium dans l'intestin, et sa réabsorption dans le
+foie. Le calcium est absorbé grâce à des transporteurs transcellulaires
+(actifs) et paracellulaires (passifs), grâce au signalement du
+calcitriol. Celui-ci est considéré comme le principal facteur régulateur
+de l'absorption instestinal de calcium. Lorsque les flux de calciums
+sont insuffisants afin de maintenir l'équilibre calcique, les os peuvent
+constituer un réservoir de calcium temporaire. La réabsorption du
+calcium par le rein passe par l'action du calcitriol sur le VDR qui à
+une stimulation de la réabsorption du calcium dans le tubule contourné
+distal du rein [@Carmeliet.2015].
+
+De plus, la liaison du calcitriol sur le VDR situé dans les
+ostéoprogéniteurs entraîne une augmentation de l'absorption de calcium
+dans les os (diminution de RANKL, facteur de transcription activant les
 ostéoclastes, et augmentation de LRP5) [@Carmeliet.2015]. Lorsque la
 calcémie est basse, l'augmentation de PTH conduit à une augmentation de
 RANKL ce qui favorise la résorption des os par les ostéoclastes afin
 d'obtenir du calcium.
 
--   Transport intestinal du calcium : Calcitriol et VDR joue un rôle
-    dans le transport intestinal du calcium, par une voie
-    transcellulaire à l'aide de transporteurs de calcium.
-
--   Réabsorption du calcium par le rein : L'action du calcitriol sur le
-    VDR conduit à une stimulation de la réabsorption du calcium dans le
-    tubule contourné distal du rein [@Carmeliet.2015].
-
 ### Propriétés extra-osseuses
 
--   La découverte de la présence de VDR dans la majorité des tissus et
-    populations cellulaires, a augmenté l'appréciation du rôle
-    pléiotropique de la vitamine D [@Rosen.2012] et les recherches
-    associées.
+La découverte des propriétés extra-osseuses de la vitamine D n'a pu
+commencer que grâce au clonage du récepteur VDR en 1987. Par la suite,
+son identification dans la majorité des tissus et populations
+cellulaires a augmenté l'intérêt scientifique et le nombre d'études
+fondamentales et cliniques autour du rôle pléiotropique de la vitamine D
+\[@Rosen.2012\]. La présence du VDR est ubiquitaire, cependant certaines
+cellules ou tissus possèdent une expression faible de VDR tels que les
+globules rouges, les muscles striés matures, et certaines cellules
+hautement différenciés du cerveau tel que les cellules de Purkinje du
+cervelet [@Bouillon.2008].
 
--   Certaines cellules ou tissus possèdent une expression faible de VDR
-    tels que les globules rouges, les muscles striés matures, et
-    certaines cellules hautement différenciés du cerveau tel que les
-    cellules de Purkinje du cervelet [@Bouillon.2008].
-
--   Intérêt renouvelé pour la vitamine D, en particulier dans le cancer,
-    les maladies cardiovasculaires (obésité et diabète de type 2,
-    métabolisme du glucose) et les maladies auto-immunes (diabète de
-    type 1, sclérose en plaques, troubles thyroïdiens auto-immuns)
-    [@Dankers.2017; @Caprio.2017]
+L'intérêt est ainsi renouvelé pour la vitamine D, en particulier dans le
+cancer, les maladies cardiovasculaires (obésité et diabète de type 2,
+métabolisme du glucose) et les maladies auto-immunes (diabète de type 1,
+sclérose en plaques, troubles thyroïdiens auto-immuns) [@Dankers.2017;
+@Caprio.2017].
 
 ![**Effets classiques et extra-squelettiques de la vitamine D.** Source:
 @Caprio.2017](figures/extra-skeletal-effect.png){#fig-extra-skeletal}
 
 -   La vitamine D exerce en plus de son action endocrine classique,
-    médiée par le rein, une action paracrine de la vitamine D sur le
-    VDR, par le biais d'une expression locale de CYP27B1
-    [@Carmeliet.2015; @Cannell.2008]
+    médiée par le rein, une action locale paracrine de la vitamine D sur
+    le VDR, par le biais d'une expression locale de CYP27B1 des cellules
+    concernées [@Carmeliet.2015; @Cannell.2008].
 
 Cependant les bénéfices extra-squelettiques associés à la vitamine D ne
 serait visible que lorsque la concentration de vitamine D serait
-supérieure au seuil de 40 ng/mL, ce qui nécessite une dose journalière
-nettement supérieure que celle recommandée habituellement.
+supérieure au seuil de 40 ng/mL, et plus précisément, de calcidiol,
+puisque c'est le marqueur actuel utilisé pour mesurer la concentration
+de vitamine D dans le sang [@Caprio.2017], ce qui nécessite une dose
+journalière nettement supérieure que celle recommandée habituellement.
 
 ## Dose
 
@@ -409,20 +431,20 @@ toxicité clinique aiguë de vitamine D reste la même.
 
 Puisque d'autres effets bénéfiques semblent apparaître lorsque la dose
 de vitamine D est supérieure à la dose recommandée (600-800 UI/j),
-@Hathcock.2007t9 ont cherché à identifier la NOAEL (Non Observed
-Adversed Effect Level), seuil pour laquelle aucun effet indésirable
-n'est observé. Sur la base de deux études cliniques robustes, les
-auteurs ont considéré qu'une dose de 10 000 UI par jour, correspondant à
-100 ng/mL serait adéquate pour définir la NOAEL, associant une
-augmentation de la vitamine D sans pour autant observer un changement
-anormal de la calcémie. Aucun effet indésirable n'a été observé dans les
-essais cliniques utilisant une dose inférieure à ce seuil. Les auteurs
-notent que les cas de toxicité rapportés à la vitamine D surviennent
-pour des concentrations de vitamine D, allant à des doses supérieures à
-280 ng/mL jusqu'à 640 ng/mL. De plus, les auteurs ont identifié une
-LOAEL (Lowest Observed Adversed Effect Level), seuil pour laquelle des
-effets indésirables sont observés, sur la base d'une étude nécessitant
-77 000 UI/j, ce qui correspond à 240 ng/mL, une dose entraînant
+@Hathcock.2007ev5 cherché à identifier la NOAEL (Non Observed Adversed
+Effect Level), seuil pour laquelle aucun effet indésirable n'est
+observé. Sur la base de deux études cliniques robustes, les auteurs ont
+considéré qu'une dose de 10 000 UI par jour, correspondant à 100 ng/mL
+serait adéquate pour définir la NOAEL, associant une augmentation de la
+vitamine D sans pour autant observer un changement anormal de la
+calcémie. Aucun effet indésirable n'a été observé dans les essais
+cliniques utilisant une dose inférieure à ce seuil. Les auteurs notent
+que les cas de toxicité rapportés à la vitamine D surviennent pour des
+concentrations de vitamine D, allant à des doses supérieures à 280 ng/mL
+jusqu'à 640 ng/mL. De plus, les auteurs ont identifié une LOAEL (Lowest
+Observed Adversed Effect Level), seuil pour laquelle des effets
+indésirables sont observés, sur la base d'une étude nécessitant 77 000
+UI/j, ce qui correspond à 240 ng/mL, une dose entraînant
 l'hypercalcémie. Les auteurs notent également que les patients utilisés
 dans l'étude ont une sensibilité accrue à la vitamine D, et donc que le
 seuil identifié est donc conservatif, et augmente l'assurance du seuil
@@ -542,6 +564,10 @@ réaction immunitaire [@Hii.2016].
 \caption[\textbf{Effets immunomodulateurs du calcitriol.}]{\textbf{Effets immunomodulateurs du calcitriol.} Source : [@Meza-Meza.2020]}\label{fig:immunomod}
 \end{figure}
 ```
+## Dose de vitamine D nécessaire
+
+@Hewison.2007
+
 # Vitamine D et COVID-19
 
 ## Physiopathologie de la COVID-19
