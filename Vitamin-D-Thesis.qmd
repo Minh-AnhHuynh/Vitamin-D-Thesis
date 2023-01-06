@@ -39,9 +39,10 @@ csl: "csl/cell.csl" # Used for citeproc from pandoc
 header-includes:
 - \usepackage{setspace} #\setspace{1.5}
 - \usepackage[font=small, labelfont=bf, justification=justified, singlelinecheck=true]{caption} # Set figure caption to bold, centered
-# - \usepackage[authordate,backend=biber]{biblatex-chicago} Use if biblatex
+- \usepackage[authordate,backend=biber]{biblatex-chicago} # Use if biblatex
 - \usepackage[french]{babel}
-- \usepackage{bookmark}
+- \usepackage{bookmark} # To add toc to pdf bookmarks
+- \usepackage{acronym} # Needs suffix and e-TeX
 ---
 
 \pagenumbering{gobble}
@@ -103,7 +104,7 @@ Janvier 2023
 ```
 {{< pagebreak >}}
 
-```{r child="02-abbreviations.qmd"}
+```{r child="02-acronyms.qmd"}
 
 ```
 

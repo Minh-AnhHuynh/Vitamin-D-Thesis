@@ -71,8 +71,10 @@
 \KOMAoption{captions}{tableheading}
 \usepackage{setspace}
 \usepackage[font=small, labelfont=bf, justification=justified, singlelinecheck=true]{caption}
+\usepackage[authordate,backend=biber]{biblatex-chicago}
 \usepackage[french]{babel}
 \usepackage{bookmark}
+\usepackage{acronym}
 \makeatletter
 \makeatother
 \makeatletter
@@ -141,7 +143,7 @@
 \date{1/6/23}
 
 \begin{document}
-\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[frame hidden, sharp corners, breakable, enhanced, interior hidden, borderline west={3pt}{0pt}{shadecolor}, boxrule=0pt]}{\end{tcolorbox}}\fi
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[sharp corners, borderline west={3pt}{0pt}{shadecolor}, breakable, boxrule=0pt, enhanced, interior hidden, frame hidden]}{\end{tcolorbox}}\fi
 
 \setstretch{1.5}
 \pagenumbering{gobble}
@@ -199,27 +201,20 @@ Janvier 2023
 
 \newpage{}
 
-\hypertarget{liste-des-abruxe9viations}{%
-\chapter*{Liste des abréviations}\label{liste-des-abruxe9viations}}
-\addcontentsline{toc}{chapter}{Liste des abréviations}
+\hypertarget{liste-des-acronymes}{%
+\chapter*{Liste des acronymes}\label{liste-des-acronymes}}
+\addcontentsline{toc}{chapter}{Liste des acronymes}
 
-\begin{itemize}
-\tightlist
-\item
-  7-DHC : 7-déhydrocholestérol
-\item
-  AJR : Apport Journalier Recommandé
-\item
-  DBP : Protéine de liaison de l'albumine
-\item
-  LOAEL : Lowest Observed Adverse Effect Level
-\item
-  NOAEL : Non Observed Adverse Effect Level
-\item
-  UI : Unité Internationale
-\item
-  VDR : Récepteur de la vitamine D
-\end{itemize}
+\begin{acronym}
+\acro{7-DHC}{7-déhydrocholestérol}
+\acro{AJR}{Apport Journalier Recommandé}
+\acro{DBP}{Protéine de liaison de l'albumine}
+\acro{IOM}{Institute of Medicine}
+\acro{LOAEL}{Non Observed Adverse Effect Level}
+\acro{NOAEL}{Lowest Observed Adverse Effect Level}
+\acro{UI}{Unité Internationale}
+\acro{VDR}{Récepteur de la vitamine D}
+\end{acronym}
 
 \newpage{}
 
@@ -414,13 +409,13 @@ vitamine D\textsubscript{3} continue de croître \autocite{Armas.2004}.
 
 \begin{figure}
 
-{\centering \includegraphics{figures/PK_D2_vs_D3.jpeg}
+{\centering \includegraphics[width=4.64583in,height=\textheight]{figures/PK_D2_vs_D3.jpeg}
 
 }
 
 \caption{\label{fig-PK-VD}Evolution de la concentration en 25(OH)D après
 administration d'une dose de 50 000 UI de vitamine D\textsubscript{2} ou
-D\textsubscript{3} chez 10 patients. D'après \textcite{Armas.2004} .}
+D\textsubscript{3} chez 10 patients. \textcite{Armas.2004}}
 
 \end{figure}
 
@@ -548,10 +543,9 @@ La mesure de la dose de la vitamine D peut se faire en plusieurs unités.
 Classiquement, la vitamine D se mesure en UI (Unité Internationale). La
 concentration de vitamine D est définie en ng/mL ou nmol/L. Pour passer
 de ng/mL en nmol/L, il suffit de multiplier par 2.5
-\autocite{Pramyothin.2012}. Ainsi, 30 ng/mL, le seuil recommandé par
-l'Institut de Médecine (IOM) correspond à 75 nmol/L. De plus, la
-vitamine D peut également être exprimée en masse lors de prises de
-comprimés. De ce fait, \(1 µg = 40 UI\) ou \(1 UI = 0.025 µg\). Il
+\autocite{Pramyothin.2012}. Ainsi, 30 ng/mL correspond à 75 nmol/L. De
+plus, la vitamine D peut également être exprimée en masse lors de prises
+de comprimés. De ce fait, \(1 µg = 40 UI\) ou \(1 UI = 0.025 µg\). Il
 faudrait donc par exemple 100 µg de cholécalciférol pour avoir une
 équivalence de 4000 UI.
 
@@ -569,7 +563,8 @@ Cependant la FDA (Food and Drugs Administration) a décidé depuis Janvier
 fabricants à montrer l'information en microgramme, bien que la
 dénomination en UI reste possible en parallèle.
 (\href{https://www.govinfo.gov/content/pkg/FR-2016-05-27/pdf/2016-11867.pdf}{Federal
-Register / Vol. 81, No.~103 / Friday, May 27, 2016})
+Register / Vol. 81, No.~103 / Friday, May 27, 2016}) \textbf{{[}Je ne
+sais pas comment citer ce document.{]}}
 
 Une comparaison de la dose de vitamine D pour 1000 UI par jour, ou
 l'équivalent de la dose en semaine ou en mois dans un essai clinique
@@ -588,16 +583,16 @@ forme d'une courbe logarithmique ou polynomiale
 \subsection{Dose recommandée
 journalière}\label{dose-recommanduxe9e-journaliuxe8re}}
 
-Actuellement, l'Institut de Médecine (IOM), une organisation privée à
-but non lucratif, est responsable des recommandations issues par la Food
-and Drugs Administration (FDA), l'équivalent de l'Agence Nationale de
-Sécurité des Médicaments (ANSM) en France. L'apport journalier
-recommandé (AJR) pour la vitamine D est de 600 UI par jour pour les
-personnes âgées de 1 à 70 ans, pour les enfants, hommes, femmes et reste
-la même durant la période de grossesse et d'allaitement
-\autocite[pp.~9]{IOM.2011.org}. La AJR est augmentée à 800 UI/jour chez
-les personnes de plus de 70 ans en raison de la plus grande variance des
-données disponibles concernant cette catégorie d'âge.
+Actuellement, \ac{IOM}, une organisation privée à but non lucratif, est
+responsable des recommandations issues par la Food and Drugs
+Administration (FDA), l'équivalent de l'Agence Nationale de Sécurité des
+Médicaments (ANSM) en France. L'apport journalier recommandé (AJR) pour
+la vitamine D est de 600 UI par jour pour les personnes âgées de 1 à 70
+ans, pour les enfants, hommes, femmes et reste la même durant la période
+de grossesse et d'allaitement \autocite[pp.~9]{IOM.2011.org}. L'AJR est
+augmentée à 800 UI/jour chez les personnes de plus de 70 ans en raison
+de la plus grande variance des données disponibles concernant cette
+catégorie d'âge.
 
 Le taux sérique de 25(OH)D est l'indicateur établi pour évaluer le
 statut en vitamine D et un taux de 20 ng/mL ou plus est considéré par
@@ -650,7 +645,7 @@ catégories de 40 ng/mL à \textgreater70 ng/mL
 
 \begin{figure}
 
-{\centering \includegraphics{figures/vd-hazard-ratio.jpg}
+{\centering \includegraphics[width=3.375in,height=\textheight]{figures/vd-hazard-ratio.jpg}
 
 }
 
@@ -691,7 +686,7 @@ conclusions de \textcite{Veugelers.2014}.
 
 \begin{figure}
 
-\begin{minipage}[t]{0.50\linewidth}
+\begin{minipage}[t]{0.39\linewidth}
 
 {\centering 
 
@@ -709,7 +704,17 @@ vitamine D et le taux sérique de 25 hydroxyvitamine D.
 
 \end{minipage}%
 %
-\begin{minipage}[t]{0.50\linewidth}
+\begin{minipage}[t]{0.03\linewidth}
+
+{\centering 
+
+~
+
+}
+
+\end{minipage}%
+%
+\begin{minipage}[t]{0.58\linewidth}
 
 {\centering 
 
@@ -796,7 +801,7 @@ L'hypercalcémie est une toxicité fréquemment mentionnée comme étant
 dangereuse pour des doses de vitamine D\textsubscript{3} supérieures à
 4000 UI/j pour des adultes avec une limite supérieure de sécurité de la
 concentration de vitamine D\textsubscript{3} de 50 ng/mL (125 nmol/L)
-selon l'Institut de Médecine (IOM)
+selon \ac{iom} l'Institut de Médecine (IOM)
 \autocites[pp.~9-10]{IOM.2011.org}{Holick.2011}. En revanche, la Société
 d'Endrocrinologie recommande une marge de sécurité de 100 ng/mL (250
 nmol/L) afin d'éviter l'hypercalcémie \autocite{Holick.2011}, en
