@@ -1,0 +1,22 @@
+# Vitamine D et COVID-19
+
+## Physiopathologie de la COVID-19
+
+## Rationnel physiologique de l'usage de la vitamine D dans la COVID-19
+
+@Li.2002 ont établi une relation entre la rénine et le système rénine-angiotensine-aldostérone. Ainsi la vitamine D~3~ sous sa forme active a été observée comme étant un régulateur négatif de ce système permettant de réguler la pression artérielle.
+
+## Etudes pré-cliniques
+
+1.Qayyum, S., Slominski, R.M., Raman, C., and Slominski, A.T. (2022). Novel CYP11A1-Derived Vitamin D and Lumisterol Biometabolites for the Management of COVID-19. Nutrients *14*, 4779. 10.3390/nu14224779.
+
+## Etudes cliniques
+
+### Etude en phase de prévention
+
+### Etudes en phase curative
+
+### Etudes en phase réanimation
+
+
+1.Leaf, D.E., Raed, A., Donnino, M.W., Ginde, A.A., and Waikar, S.S. (2014). Randomized Controlled Trial of Calcitriol in Severe Sepsis. Am J Resp Crit Care *190*, 533--541. 10.1164/rccm.201405-0988oc.

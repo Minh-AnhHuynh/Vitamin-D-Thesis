@@ -1,6 +1,7 @@
 # Liste des abréviations {.unnumbered}
 
 -   7-DHC : 7-déhydrocholestérol
+-   AJR : Apport Journalier Recommandé
 -   DBP : Protéine de liaison de l'albumine
 -   LOAEL : Lowest Observed Adverse Effect Level
 -   NOAEL : Non Observed Adverse Effect Level

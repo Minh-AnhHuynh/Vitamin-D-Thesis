@@ -2,6 +2,7 @@
 date: last-modified
 format:
   pdf:
+    pdf-engine: xelatex
     papersize: a4
     documentclass: scrreprt
     classoption: listof=totoc # This setting adds list of table and list of figure in table of content
@@ -31,15 +32,16 @@ mainfont: "Times New Roman"
 execute:
   echo: false
 keep-tex: true
-bibliography: "bibliography/vitamin-d.bib"
-cite-method: citeproc
+bibliography: ["bibliography/vitamin-d.bib", "bibliography/organization.bib"]
+cite-method: biblatex
 # biblio-style: "biblatex-chicago" # Doesn't work
 csl: "csl/cell.csl" # Used for citeproc from pandoc
 header-includes:
 - \usepackage{setspace} #\setspace{1.5}
-- \usepackage[font=small, labelfont=bf, justification=justified, singlelinecheck=false]{caption} # Set figure caption to bold, centered
+- \usepackage[font=small, labelfont=bf, justification=justified, singlelinecheck=true]{caption} # Set figure caption to bold, centered
 # - \usepackage[authordate,backend=biber]{biblatex-chicago} Use if biblatex
 - \usepackage[french]{babel}
+- \usepackage{bookmark}
 ---
 
 \pagenumbering{gobble}
@@ -71,7 +73,7 @@ THESE
 
 \large Sous la direction du Pr. Jean-Pascal De Bandt
 
-September 2022
+Janvier 2023
 
 \end{centering}
 ```
@@ -86,7 +88,9 @@ September 2022
 {{< pagebreak >}}
 
 ```{=tex}
+% From package bookmark
 \renewcommand{\contentsname}{Table des matières}
+\pdfbookmark[section]{\contentsname}{toc}
 \tableofcontents{}
 \newpage
 
@@ -113,13 +117,28 @@ September 2022
 
 {{< pagebreak >}}
 
-```{r child="04-manuscrit.qmd"}
+```{r child="04-chapitre_1.qmd"}
 
 ```
-
 {{< pagebreak >}}
 
-```{r child="05-conclusion.qmd"}
+
+
+```{r child="05-chapitre_2.qmd"}
+
+```
+{{< pagebreak >}}
+
+
+
+```{r child="06-chapitre_3.qmd"}
+
+```
+{{< pagebreak >}}
+
+
+
+```{r child="07-conclusion.qmd"}
 
 ```
 
