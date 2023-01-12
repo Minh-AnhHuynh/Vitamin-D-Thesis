@@ -14,7 +14,9 @@ format:
     colorlinks: false # Render bibliography links from blue to black 
     pagenumbering: true
     lof: false
+    lof-title: Liste des Figures
     lot: false
+    lot-title: Liste des Tables
     geometry:
       - top=35mm
       - left=25mm
@@ -27,6 +29,9 @@ format:
 #     - key: yaml
 #       shortname: YAML
 #       longname: YAML Ain't Markup Language
+crossref:
+  lof-title: Liste des Figures
+  lot-title: Liste des Tables
 link-citations: true
 mainfont: "Times New Roman"
 execute:
@@ -90,16 +95,18 @@ Janvier 2023
 
 ```{=tex}
 % From package bookmark
-\renewcommand{\contentsname}{Table des matières}
+\renewcommand{\contentsname}{Table des Matières}
 \pdfbookmark[section]{\contentsname}{toc}
 \tableofcontents{}
 \newpage
 
-\renewcommand*\listfigurename{Liste des figures}
+% Use the following command to rename the lof with latex :
+% \renewcommand*\listfigurename{Liste des Figures}
+% However, with Quarto and Pandoc, we could use "lof-title"in "crossref: in the YAML"
 \listoffigures
 \newpage
 
-\renewcommand*\listtablename{Liste des tables}
+% \renewcommand*\listtablename{Liste des Tables}
 \listoftables
 ```
 {{< pagebreak >}}
