@@ -2,21 +2,24 @@
 
 ## Action de la vitamine D sur les cellules immunitaires
 
-La vitamine D exerce son effet sur le système immunitaire grâce à la présence de la 1-α-hydroxylase aussi appelée cytochrome CYP27B1, permettant la conversion du 25(OH)~2~D~3~ (calcidiol) en 1,25(OH)~2~D~3~ (calcitriol), la forme active de la vitamine D~3~. Ainsi, cette forme active est responsable des actions sur le système immunitaire, en se liant à son récepteur, le VDR. Ce récepteur fait partie de la famille des récepteurs nucléaires, et régule la transcription en se liant à un domaine de liaison à l'ADN appelé VDRE (Vitamin D Response Element). La liaison du calcitriol sur le VDR crée un complexe protéique qui permet de modifier la transcription des gènes cibles.
+La vitamine D exerce son effet sur le système immunitaire grâce à la présence de la 1-α-hydroxylase aussi appelée cytochrome CYP27B1, permettant la conversion du 25(OH)~2~D~3~ (calcidiol) en 1,25(OH)~2~D~3~ (calcitriol), la forme active de la vitamine D~3~. Ainsi, cette forme active est responsable des actions sur le système immunitaire, en se liant à son récepteur, le VDR. Ce récepteur fait partie de la famille des récepteurs nucléaires, et régule la transcription en se liant à un domaine de liaison à l'ADN appelé \ac{VDRE}. La liaison du calcitriol sur le VDR crée un complexe protéique qui permet de modifier la transcription des gènes cibles.
 
 L'action de la vitamine D peut être jugée intracrine puisqu'elle se déroule à l'intérieur de la cellule, et non à l'extérieur de la cellule, ce qui correspondrait à une action autocrine.
 
 Immunologic effects of vitamin D on human health and disease
 
-Plusieurs cellules immunitaires peuvent synthétiser l'enzyme clé permettant la conversion du 25(OH)~2~D~3~ en 1,25(OH)~2~D~3~, le cytochrome CYP27B1 ou aussi appelée 1-α-hydroxylase. L'induction de cette enzyme concerne des cellules telles que les monocytes, cellules dendritiques, macrophages, lymphocytes B et T [@Meza-Meza.2020; @Dankers.2017], qui survient grâce à un stimuli immun, médié en partie par l'interféron-gamma (IFN-γ).
+Plusieurs cellules immunitaires peuvent synthétiser l'enzyme clé permettant la conversion du 25(OH)~2~D~3~ en 1,25(OH)~2~D~3~, le cytochrome CYP27B1 ou aussi appelée 1-α-hydroxylase. L'induction de cette enzyme concerne des cellules telles que les monocytes, cellules dendritiques, macrophages, lymphocytes B et T [@Meza-Meza.2020; @Dankers.2017], qui survient grâce à un stimuli immun, médié en partie par \ac{ifng}.
 
-Plusieurs signaux sont nécessaires à l'induction de la 1-α-hydroxylase, tels que la présence d'activateurs de macrophages comme le lipopolysaccharide (LPS) et le TNF-α [@Overbergh.2006]. Le TLR est également capable à son tour d'induire une immunité médiée par la vitamine en régulant positivement l'expression de VDR and les gènes codant pour la 1-α-hydroxylase [@Liu.2006].
+Plusieurs signaux sont nécessaires à l'induction de la 1-α-hydroxylase, tels que la présence d'activateurs de macrophages comme le lipopolysaccharide et le TNF-α unicode
+\symbol{"03B1}
+
+\ac{tnfa} [@Overbergh.2006]. Le \ac{TLR} est également capable à son tour d'induire une immunité médiée par la vitamine en régulant positivement l'expression de VDR et les gènes codant pour la 1-α-hydroxylase [@Liu.2006].
 
 La vitamine D possède une action globalement anti-inflammatoire et donc régulatrice de l'inflammation **(Figure** \ref{fig:immunomod}). Elle agit à la fois sur le système immunitaire inné et adaptatif. A l'initiation de la réponse inflammatoire, le calcitriol est essentiel afin de répondre à une infection. En agissant sur les macrophages, la vitamine D peut induire leur activation et leur différenciation, et augmente la production de peptides défensifs comme la cathélicidine et la β2-défensine [@Caprio.2017].
 
-Le calcitriol est capable entre autre d'induire la reconnaissance des pathogènes par le biais du TLR et le switch phénotypique de macrophage M1 vers M2 par la régulation positive d'IL-10. Le calcitriol inhibe également des cytokines majeures pro-inflammatoires, l'IL-6 et le TNF-α [@Meza-Meza.2020; @Caprio.2017].
+Le calcitriol est capable entre autre d'induire la reconnaissance des pathogènes par le biais du TLR et le switch phénotypique de macrophage M1 vers M2 par la régulation positive d'IL-10. Le calcitriol inhibe également des cytokines majeures pro-inflammatoires, l'IL-6 et le \ac{tnfa} [@Meza-Meza.2020; @Caprio.2017].
 
-De plus, la vitamine D agit également sur le système immunitaire adaptatif avec des effets inhibiteurs. Elle est capable d'induire une tolérance immunitaire en favorisant l'adoption d'un phénotype immature (cellules dendritiques, macrophages, lymphocytes B), par une diminution de l'expression du complexe majeur d'histocompatibilité de classe II (CMH-II) ainsi que des marqueurs de co-stimulation, nécessaires à l'activation de la réponse immune, tels que le CD40, CD80 et CD86 [@Meza-Meza.2020; @Caprio.2017].
+De plus, la vitamine D agit également sur le système immunitaire adaptatif avec des effets inhibiteurs. Elle est capable d'induire une tolérance immunitaire en favorisant l'adoption d'un phénotype immature (cellules dendritiques, macrophages, lymphocytes B), par une diminution de l'expression du \ac{CMH-II} ainsi que des marqueurs de co-stimulation, nécessaires à l'activation de la réponse immune, tels que le CD40, CD80 et CD86 [@Meza-Meza.2020; @Caprio.2017].
 
 Elle est également capable d'induire le changement phénotypique de sous-population de lymphocytes T CD4^+^, favorisant le passage de la population T auxiliaire (Th) Th1 et Th17 vers la population Th2. La sous-population Th2 régule à son tour les populations Th1 et Th17 dans un équilibre, diminuant ainsi globalement l'activité cytotoxique médiée par les cellules, qui est exacerbée dans les maladies autoimmunes et infections par des pathogènes[@Holick.2011; @Meza-Meza.2020].
 
@@ -27,18 +30,37 @@ La vitamine D est également capable d'agir non-classiquement par des actions no
 ```{=tex}
 \begin{figure}
 \includegraphics{figures/calcitriol-immunomodulatory.jpg} 
-\caption[\textbf{Effets immunomodulateurs du calcitriol.}]{\textbf{Effets immunomodulateurs du calcitriol.} Source : [@Meza-Meza.2020]}\label{fig:immunomod}
+\caption[\textbf{Effets immunomodulateurs du calcitriol.}]
+{\textbf{Effets immunomodulateurs du calcitriol.} \cite{Meza-Meza.2020}
+\label{fig:immunomod}
+}
 \end{figure}
 ```
-## Mécanisme d'action de la vitamine D sur le système immunitaire
+## Mécanisme d'action de la vitamine D
 
-Le mécanisme d'action moléculaire de la vitamine D sur le système n'a que peu été étudié depuis la découverte des effets immunitaires sur la vitamine D. L'effet de la vitamine D a été observé lors d'une infection par *Mycobacterium tuberculosis* sur les monocytes, où lors d'une expérience in vitro, des monocytes traités avec du calcitriol, la forme active de la vitamine D, conduisent à une réduction de la croissance de *M. tuberculosis* [@Hewison.2011]. Ces observations concernant un pathogène bactérien et il n'y a actuellement pas de mécanismes élucidés concernant la vitamine D en réponse à une infection virale **(Je n'ai pas encore trouvé de références sur la vitamine D et l'infection virale).**
+Le mécanisme d'action moléculaire de la vitamine D sur le système est étudié depuis la découverte de l'existence concomitante du VDR et du CYPB27B1 dans les cellules immunitaires. L'expression de CYP27B1 est régulée de manière indépendante à l'homéostasie du calcium, par la présence de pathogène ou non, ce qui montre que la vitamine D possède un rôle central dans la régulation du système immunitaire.
+
+L'effet de la vitamine D a été observé lors d'une infection par *Mycobacterium tuberculosis* sur les monocytes, où lors d'une expérience in vitro, des monocytes traités avec du calcitriol, la forme active de la vitamine D, conduisent à une réduction de la croissance de *M. tuberculosis* [@Hewison.2011]. Ces observations concernent un pathogène bactérien.
 
 ![Méchanisme d'action de l'induction de la cathélicidine par la vitamine D.](figures/vd-mecha-cathelicidin.jpg){alt="Méchanisme d'action de l'induction de la cathélicidine par la vitamine D." fig-align="center"}
 
+### Action antivirale sur le système immunitaire inné
+
+Récemment, les études ont élucidés l'importance de la vitamine D dans de multiples régulations au sujet de l'immunité innée. Le calcitriol stimule ainsi la transcription de multiples éléments intervenants dans la réponse immunitaire innée tels que les PRRs, le CD14, cofacteur du TLR4, TLR2 et NOD2 [@White.2022].
+
+La vitamine D stimule également le signalement cytokinique, avec induction de chimiokines comme l'IL-8/CXCL8, une chimiokine de neutrophile.
+
+Elle stimule la production de peptides antimicrobiens, AMPs, CAMP, HBD2, DEFB4, les 2 derniers éléments contiennent/permettent le VDRE.
+
+TLR2 induit CYP27B1, ce qui convertit le calcidiol en calcitriol. Le calcitriol induit alors CAMP. Cette induction dépend de la concentration en calcidiol, et une concentration insuffisante ne permet pas une induction en CAMP, ce qui renforce l'importance d'une concentration adéquate en vitamine D appropriée pour le système immunitaire [@White.2022]. *Le calcitriol induit plusieurs fois la transcription de CAMP dans les cellules épithéliales et myéloïdes in vitro; il est plus efficace pour augmenter l'expression de HBD2/DEFB4 stimulée par d'autres signaux. L'expression de HBD2/DEFB4 stimulée par d'autres signaux tels que l'IL-1β servant ainsi davantage de régulateur secondaire du gène.*
+
+@White.2022
+
+![Contribution de l'immunité induite par AMP sur le SARS-CoV-2](figures/vd-amp.png)
+
 ### Action paracrine et intracrine
 
-![Mécanismes des réponses immunitaires innées et adaptatives à la vitamine D. @Hewison.2012.ClinicalEndocrinology](figures/meca-intracrine.jpg){alt="Mécanismes des réponses immunitaires innées et adaptatives à la vitamine D. @Hewison.2012.ClinicalEndocrinology" fig-align="center"}
+![Mécanismes des réponses immunitaires innées et adaptatives à la vitamine D. @Hewison.2012.ClinicalEndocrinology](figures/meca-intracrine.jpg){alt="Mécanismes des réponses immunitaires innées et adaptatives à la vitamine D." fig-align="center"}
 
 ## Dose de vitamine D nécessaire à l'immunité
 

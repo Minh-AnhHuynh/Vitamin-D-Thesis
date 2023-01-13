@@ -1,14 +1,28 @@
-# Liste des acronymes {.unnumbered}
+# Liste des Acronymes {.unnumbered}
 
+<!-- Unfortunately, we have to sort manually -->
+
+<!-- TODO Remplir les acronymes -->
+
+Faudrait-il mettre les acronymes en anglais ou français ?
+
+```{=tex}
 \begin{acronym}
-\acro{7-DHC}{7-déhydrocholestérol}
-\acro{AJR}{Apport Journalier Recommandé}
-\acro{DBP}{Protéine de liaison de l'albumine}
+\acro{ADN}{\LU{A}{a}cide \LU{D}{d}ésoxyribonucléique}
+\acro{AJR}{\LU{A}{a}pport \LU{J}{j}ournalier \LU{R}{r}ecommandé}
+\acro{CMH-II}{\LU{C}{c}omplexe \LU{M}{m}ajeur d'\LU{H}{h}istocompatibilité de \LU{C}{c}lasse II}
+\acro{DBP}{protéine de liaison de l'albumine}
+\acro{FDA}{Food and Drugs Administration}
 \acro{IOM}{Institute of Medicine}
+\acro{ifng}[IFN-$\mupgamma$]{interféron gamma}
 \acro{LOAEL}{Non Observed Adverse Effect Level}
 \acro{NOAEL}{Lowest Observed Adverse Effect Level}
-\acro{UI}{Unité Internationale}
-\acro{VDR}{Récepteur de la vitamine D}
+\acro{PTH}{hormone parathyroïde}
+\acro{tnfa}[TNF-$\mupalpha$]{tumor necrosis factor alpha}
+\acro{TLR}{toll-like receptor}
+\acro{UI}{unité internationale}
+\acro{VDR}{récepteur de la vitamine D}
+\acro{VDRE}{\LU{V}{v}itamin D \LU{R}{r}esponse \LU{E}{e}lement}
+\acro{FGF23}{\LU{F}{f}acteur 23 de \LU{C}{c}roissance du \LU{F}{f}ibroblaste}
 \end{acronym}
-
-
+```
