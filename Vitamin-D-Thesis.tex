@@ -74,7 +74,14 @@
 \usepackage[authordate,backend=biber]{biblatex-chicago}
 \usepackage[french]{babel}
 \usepackage{bookmark}
+\unimathsetup{math-style=french}
 \usepackage{acronym}
+\usepackage{etoolbox}
+\makeatletter
+\newif\if@in@acrolist
+\AtBeginEnvironment{acronym}{\@in@acrolisttrue}
+\newrobustcmd{\LU}[2]{\if@in@acrolist#1\else#2\fi}
+\newcommand{\ACF}[1]{{\@in@acrolisttrue\acf{#1}}}
 \makeatletter
 \makeatother
 \makeatletter
@@ -88,14 +95,14 @@
   \newcommand\contentsname{Table of contents}
 \fi
 \ifdefined\listfigurename
-  \renewcommand*\listfigurename{List of Figures}
+  \renewcommand*\listfigurename{Liste des Figures}
 \else
-  \newcommand\listfigurename{List of Figures}
+  \newcommand\listfigurename{Liste des Figures}
 \fi
 \ifdefined\listtablename
-  \renewcommand*\listtablename{List of Tables}
+  \renewcommand*\listtablename{Liste des Tables}
 \else
-  \newcommand\listtablename{List of Tables}
+  \newcommand\listtablename{Liste des Tables}
 \fi
 \ifdefined\figurename
   \renewcommand*\figurename{Figure}
@@ -140,16 +147,13 @@
   pdfcreator={LaTeX via pandoc}}
 
 \author{}
-\date{1/6/23}
+\date{1/13/23}
 
 \begin{document}
-\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[sharp corners, borderline west={3pt}{0pt}{shadecolor}, breakable, boxrule=0pt, enhanced, interior hidden, frame hidden]}{\end{tcolorbox}}\fi
-
-\setstretch{1.5}
-\pagenumbering{gobble}
 
 \begin{centering}
-\large 
+\setstretch{1.5} %linestretch is 1.5 in YAML but hasn't registered in this .tex
+\large
 
 UNIVERSITE PARIS CITE
 
@@ -173,47 +177,63 @@ THESE
 
 \large Sous la direction du Pr. Jean-Pascal De Bandt
 
-Janvier 2023
+\today
 
 \end{centering}
+\pagenumbering{gobble}
+\clearpage
 
-\newpage{}
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[sharp corners, interior hidden, borderline west={3pt}{0pt}{shadecolor}, breakable, enhanced, boxrule=0pt, frame hidden]}{\end{tcolorbox}}\fi
 
+\setstretch{1.5}
 \hypertarget{remerciements}{%
 \chapter*{Remerciements}\label{remerciements}}
 
-\pagenumbering {gobble}
+\pagenumbering{gobble}
 
 \newpage{}
 
 % From package bookmark
-\renewcommand{\contentsname}{Table des matières}
+\renewcommand{\contentsname}{Table des Matières}
 \pdfbookmark[section]{\contentsname}{toc}
 \tableofcontents{}
 \newpage
 
-\renewcommand*\listfigurename{Liste des figures}
+% Use the following command to rename the lof with latex :
+% \renewcommand*\listfigurename{Liste des Figures}
+% However, with Quarto and Pandoc, we could use "lof-title"in "crossref: in the YAML"
 \listoffigures
 \newpage
 
-\renewcommand*\listtablename{Liste des tables}
+% \renewcommand*\listtablename{Liste des Tables}
 \listoftables
 
 \newpage{}
 
 \hypertarget{liste-des-acronymes}{%
-\chapter*{Liste des acronymes}\label{liste-des-acronymes}}
-\addcontentsline{toc}{chapter}{Liste des acronymes}
+\chapter*{Liste des Acronymes}\label{liste-des-acronymes}}
+\addcontentsline{toc}{chapter}{Liste des Acronymes}
+
+Faudrait-il mettre les acronymes en anglais ou français ?
 
 \begin{acronym}
-\acro{7-DHC}{7-déhydrocholestérol}
-\acro{AJR}{Apport Journalier Recommandé}
-\acro{DBP}{Protéine de liaison de l'albumine}
+\acro{ADN}{\LU{A}{a}cide \LU{D}{d}ésoxyribonucléique}
+\acro{AJR}{\LU{A}{a}pport \LU{J}{j}ournalier \LU{R}{r}ecommandé}
+\acro{CMH-II}{\LU{C}{c}omplexe \LU{M}{m}ajeur d'\LU{H}{h}istocompatibilité de \LU{C}{c}lasse II}
+\acro{CYP27B1}{cytochrome P450 27B1 ou 25-hydroxyvitamin D\textsubscript{3}-1α-hydroxylase}
+\acro{DBP}{protéine de liaison de l'albumine}
+\acro{FDA}{Food and Drugs Administration}
 \acro{IOM}{Institute of Medicine}
+\acro{ifng}[IFN-$\mupgamma$]{interféron gamma}
 \acro{LOAEL}{Non Observed Adverse Effect Level}
 \acro{NOAEL}{Lowest Observed Adverse Effect Level}
-\acro{UI}{Unité Internationale}
-\acro{VDR}{Récepteur de la vitamine D}
+\acro{PTH}{hormone parathyroïde}
+\acro{tnfa}[TNF-$\mupalpha$]{tumor necrosis factor alpha}
+\acro{TLR}{toll-like receptor}
+\acro{UI}{unité internationale}
+\acro{VDR}{récepteur de la vitamine D}
+\acro{VDRE}{\LU{V}{v}itamin D \LU{R}{r}esponse \LU{E}{e}lement}
+\acro{FGF23}{\LU{F}{f}acteur 23 de \LU{C}{c}roissance du \LU{F}{f}ibroblaste}
 \end{acronym}
 
 \newpage{}
@@ -255,12 +275,12 @@ est une substance chimique qui aide à contrôler et à réguler différentes
 activités dans l'organisme \autocite{Ellison.2020}. La vitamine D est
 capable d'agir en tant que facteur de transcription et de modifier le
 métabolisme de diverses manières. Pratiquement toutes les cellules de
-l'organisme possèdent un récepteur à la vitamine D (VDR), ce qui
-explique ses effets pléiotropiques dans diverses maladies
+l'organisme possèdent un \ac{VDR}, ce qui explique ses effets
+pléiotropiques dans diverses maladies
 \autocite{Ellison.2020,Caprio.2017,Norman.2008}. Le VDR est un récepteur
 faisant partie de la classe des facteurs de transcription nucléaire.
 Ainsi, la liaison de la vitamine D sur son récepteur conduit à une
-séquence classique de translocation nucléaire et de liaison à l'ADN
+séquence classique de translocation nucléaire et de liaison à l'\ac{ADN}
 \autocite{Bouillon.2008}. De plus, la vitamine D est la seule vitamine
 qui peut être synthétisée par l'organisme, contrairement aux vitamines
 A, B, C, E ce qui contribue à l'idée que la vitamine D serait plutôt une
@@ -268,7 +288,7 @@ hormone.
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.5\textwidth,height=\textheight]{figures/vitamin-d3.png}
+{\centering \includegraphics[width=0.5\textwidth,height=\textheight]{figures/cholecalciferol.png}
 
 }
 
@@ -285,20 +305,19 @@ qui doit être transformé en plusieurs métabolites actifs dans le foie et
 les reins. La vitamine D\textsubscript{3} peut être obtenue à partir de
 compléments et d'apports alimentaires, mais est principalement obtenue
 par synthèse endogène de l'organisme. Initialement, le
-7-déhydrocholestérol (7-DHC), un dérivé du cholestérol situé dans la
-peau, se transforme en vitamine D\textsubscript{3} (cholécalciférol)
-sous l'action des ondes ultraviolettes provenant du soleil
+7-déhydrocholestérol, un dérivé du cholestérol situé dans la peau, se
+transforme en vitamine D\textsubscript{3} (cholécalciférol) sous
+l'action des ondes ultraviolettes provenant du soleil
 \autocite{Bikle.2014}.
 
 La vitamine D\textsubscript{3} doit ensuite être métabolisée dans le
 foie pour obtenir la forme active qui permettra d'exercer ses effets à
 travers le récepteur de la vitamine D (VDR). Pour cela, elle est
-transportée à travers le sang par la protéine de liaison de la vitamine
-D (DBP), appartenant à la famille des albumines
-\autocite{Christakos.2010,Chun.2012}. La DBP peut également lier les
-autres formes de vitamine D, telles que la vitamine D\textsubscript{2}
-(ergocalciférol), vitamine D\textsubscript{3}, ou les métabolites du
-cholécalciférol, 25-hydroxycholécalciferol et
+transportée à travers le sang par la \ac{DBP}, appartenant à la famille
+des albumines \autocite{Christakos.2010,Chun.2012}. La DBP peut
+également lier les autres formes de vitamine D, telles que la vitamine
+D\textsubscript{2} (ergocalciférol), vitamine D\textsubscript{3}, ou les
+métabolites du cholécalciférol, 25-hydroxycholécalciferol et
 1,25-dihydroxycholécalciférol.
 
 Par la suite, la vitamine D\textsubscript{3} est métabolisée en
@@ -309,8 +328,7 @@ est la forme majoritaire circulante dans l'organisme
 \autocite{Norman.2008,Christakos.2010}. Ultérieurement, cette forme est
 transportée par la DBP dans le rein, est filtrée par le glomérule et se
 retrouve hydroxylée à nouveau dans le tube proximal du rein par la
-CYP27B1 (25(OH) vitamin D\textsubscript{3} 1α-hydroxylase) pour donner
-la 1,25-dihydroxycholécalciférol
+\ac{CYP27B1} pour donner la 1,25-dihydroxycholécalciférol
 (1,25(OH)\textsubscript{2}D\textsubscript{3}) ou calcitriol, nommée
 ainsi puisqu'elle possède trois groupes hydroxyles. Le calcitriol
 représente la forme active de la vitamine D, responsable de la majorité
@@ -341,15 +359,14 @@ CYP24A1 \autocite{Dankers.2017}.
 
 \end{figure}
 
-Le calcitriol est régulé par deux facteurs, l'hormone parathyroïde (PTH)
-et l'hormone de croissance fibroblastique 23 (FGF23). La FGF23, induite
-par la haute concentration de calcitriol et une faible concentration de
-phosphate dans le sang, favorise l'induction de la CYP24A1 qui est
-l'enzyme de catabolisme du calcidiol, tandis que la PTH, induite par une
-faible concentration de calcium et inhibée par une forte concentration
-de calcitriol, va induire la CYP24A1 et donc contribuer au catabolisme
-du calcitriol \textbf{(Figure} \ref{fig:reg-vitd})
-\autocite{Dankers.2017,Christakos.2010}.
+Le calcitriol est régulé par deux facteurs, l'\ac{PTH} et le \ac{FGF23}.
+Le \ac{FGF23}, induite par la haute concentration de calcitriol et une
+faible concentration de phosphate dans le sang, favorise l'induction de
+la CYP24A1 qui est l'enzyme de catabolisme du calcidiol, tandis que la
+\ac{PTH}, induite par une faible concentration de calcium et inhibée par
+une forte concentration de calcitriol, va induire la CYP24A1 et donc
+contribuer au catabolisme du calcitriol \textbf{(Figure}
+\ref{fig:reg-vitd}) \autocite{Dankers.2017,Christakos.2010}.
 
 \begin{figure}
 \includegraphics{figures/vitamin-d-metabolism-regulation.jpg} 
@@ -540,14 +557,13 @@ habituellement.
 \subsection{Unités}\label{unituxe9s}}
 
 La mesure de la dose de la vitamine D peut se faire en plusieurs unités.
-Classiquement, la vitamine D se mesure en UI (Unité Internationale). La
-concentration de vitamine D est définie en ng/mL ou nmol/L. Pour passer
-de ng/mL en nmol/L, il suffit de multiplier par 2.5
-\autocite{Pramyothin.2012}. Ainsi, 30 ng/mL correspond à 75 nmol/L. De
-plus, la vitamine D peut également être exprimée en masse lors de prises
-de comprimés. De ce fait, \(1 µg = 40 UI\) ou \(1 UI = 0.025 µg\). Il
-faudrait donc par exemple 100 µg de cholécalciférol pour avoir une
-équivalence de 4000 UI.
+Classiquement, la vitamine D se mesure en \ac{UI}. La concentration de
+vitamine D est définie en ng/mL ou nmol/L. Pour passer de ng/mL en
+nmol/L, il suffit de multiplier par 2.5 \autocite{Pramyothin.2012}.
+Ainsi, 30 ng/mL correspond à 75 nmol/L. De plus, la vitamine D peut
+également être exprimée en masse lors de prises de comprimés. De ce
+fait, \(1 µg = 40 UI\) ou \(1 UI = 0.025 µg\). Il faudrait donc par
+exemple 100 µg de cholécalciférol pour avoir une équivalence de 4000 UI.
 
 \begin{itemize}
 \tightlist
@@ -558,10 +574,10 @@ faudrait donc par exemple 100 µg de cholécalciférol pour avoir une
   seuil de 30 ng/mL recommandé par IOM, seuil de 40 ng/mL\ldots)}
 \end{itemize}
 
-Cependant la FDA (Food and Drugs Administration) a décidé depuis Janvier
-2021 de passer à une dose écrite en microgramme, ce qui oblige les
-fabricants à montrer l'information en microgramme, bien que la
-dénomination en UI reste possible en parallèle.
+Cependant la \ac{FDA} a décidé depuis Janvier 2021 de passer à une dose
+écrite en microgramme, ce qui oblige les fabricants à montrer
+l'information en microgramme, bien que la dénomination en UI reste
+possible en parallèle.
 (\href{https://www.govinfo.gov/content/pkg/FR-2016-05-27/pdf/2016-11867.pdf}{Federal
 Register / Vol. 81, No.~103 / Friday, May 27, 2016}) \textbf{{[}Je ne
 sais pas comment citer ce document.{]}}
@@ -586,13 +602,12 @@ journalière}\label{dose-recommanduxe9e-journaliuxe8re}}
 Actuellement, \ac{IOM}, une organisation privée à but non lucratif, est
 responsable des recommandations issues par la Food and Drugs
 Administration (FDA), l'équivalent de l'Agence Nationale de Sécurité des
-Médicaments (ANSM) en France. L'apport journalier recommandé (AJR) pour
-la vitamine D est de 600 UI par jour pour les personnes âgées de 1 à 70
-ans, pour les enfants, hommes, femmes et reste la même durant la période
-de grossesse et d'allaitement \autocite[pp.~9]{IOM.2011.org}. L'AJR est
-augmentée à 800 UI/jour chez les personnes de plus de 70 ans en raison
-de la plus grande variance des données disponibles concernant cette
-catégorie d'âge.
+Médicaments (ANSM) en France. L'\ac{AJR} pour la vitamine D est de 600
+UI par jour pour les personnes âgées de 1 à 70 ans, pour les enfants,
+hommes, femmes et reste la même durant la période de grossesse et
+d'allaitement \autocite[pp.~9]{IOM.2011.org}. L'AJR est augmentée à 800
+UI/jour chez les personnes de plus de 70 ans en raison de la plus grande
+variance des données disponibles concernant cette catégorie d'âge.
 
 Le taux sérique de 25(OH)D est l'indicateur établi pour évaluer le
 statut en vitamine D et un taux de 20 ng/mL ou plus est considéré par
@@ -817,7 +832,7 @@ de vitamine D, dépassant le seuil suggéré par \textcite{Holick.2011} de
 manifester par des maux de tête, nausées, vomissements, une perte de
 poids, ou une fatigue intense.
 
-La toxicité de la vitamine D est considéré comme rare mais dangereuse
+La toxicité de la vitamine D est considérée comme rare mais dangereuse
 \autocite{Marcinowska-Suchowierska.2018,Holick.2015}.
 
 La toxicité de la vitamine D est donc souvent due à un apport exogène,
@@ -942,6 +957,16 @@ l'hypersensibilité à la vitamine D \autocite{Holick.2015}.
 \chapter{Vitamine D et système
 immunitaire}\label{vitamine-d-et-systuxe8me-immunitaire}}
 
+L'importance du rôle de la vitamine D sur le système immunitaire
+commence à prendre l'intérêt des scientifiques depuis la découverte de
+l'existence concomitante du \ac{VDR} et du CYP27B1 dans des tissus qui
+n'ont pas un rôle associé à l'homéostasie du calcium
+\autocite{Zehnder.2001}. Notamment, l'expression de CYP27B1 dans les
+cellules immunitaires est régulée de manière indépendante à
+l'homéostasie du calcium, par la présence de pathogène ou non, ce qui
+montre que la vitamine D possède un rôle central dans la régulation du
+système immunitaire \autocite{White.2022}.
+
 \hypertarget{action-de-la-vitamine-d-sur-les-cellules-immunitaires}{%
 \section{Action de la vitamine D sur les cellules
 immunitaires}\label{action-de-la-vitamine-d-sur-les-cellules-immunitaires}}
@@ -954,9 +979,9 @@ la forme active de la vitamine D\textsubscript{3}. Ainsi, cette forme
 active est responsable des actions sur le système immunitaire, en se
 liant à son récepteur, le VDR. Ce récepteur fait partie de la famille
 des récepteurs nucléaires, et régule la transcription en se liant à un
-domaine de liaison à l'ADN appelé VDRE (Vitamin D Response Element). La
-liaison du calcitriol sur le VDR crée un complexe protéique qui permet
-de modifier la transcription des gènes cibles.
+domaine de liaison à l'ADN appelé \ac{VDRE}. La liaison du calcitriol
+sur le VDR crée un complexe protéique qui permet de modifier la
+transcription des gènes cibles.
 
 L'action de la vitamine D peut être jugée intracrine puisqu'elle se
 déroule à l'intérieur de la cellule, et non à l'extérieur de la cellule,
@@ -970,15 +995,16 @@ permettant la conversion du 25(OH)\textsubscript{2}D\textsubscript{3} en
 aussi appelée 1-α-hydroxylase. L'induction de cette enzyme concerne des
 cellules telles que les monocytes, cellules dendritiques, macrophages,
 lymphocytes B et T \autocite{Meza-Meza.2020,Dankers.2017}, qui survient
-grâce à un stimuli immun, médié en partie par l'interféron-gamma
-(IFN-γ).
+grâce à un stimuli immun, médié en partie par \ac{ifng}.
 
 Plusieurs signaux sont nécessaires à l'induction de la 1-α-hydroxylase,
 tels que la présence d'activateurs de macrophages comme le
-lipopolysaccharide (LPS) et le TNF-α \autocite{Overbergh.2006}. Le TLR
-est également capable à son tour d'induire une immunité médiée par la
-vitamine en régulant positivement l'expression de VDR and les gènes
-codant pour la 1-α-hydroxylase \autocite{Liu.2006}.
+lipopolysaccharide et le \ac{tnfa}.
+
+\ac{tnfa} \autocite{Overbergh.2006}. Le \ac{TLR} est également capable à
+son tour d'induire une immunité médiée par la vitamine en régulant
+positivement l'expression de VDR et les gènes codant pour la
+1-α-hydroxylase \autocite{Liu.2006}.
 
 La vitamine D possède une action globalement anti-inflammatoire et donc
 régulatrice de l'inflammation \textbf{(Figure} \ref{fig:immunomod}).
@@ -991,18 +1017,17 @@ la β2-défensine \autocite{Caprio.2017}.
 
 Le calcitriol est capable entre autre d'induire la reconnaissance des
 pathogènes par le biais du TLR et le switch phénotypique de macrophage
-M1 vers M2 par la régulation positive d'IL-10. Le calcitriol inhibe
-également des cytokines majeures pro-inflammatoires, l'IL-6 et le TNF-α
-\autocite{Meza-Meza.2020,Caprio.2017}.
+M1 vers M2 par la régulation positive de l'\ac{IL-10}. Le calcitriol
+inhibe également des cytokines majeures pro-inflammatoires, l'\ac{IL-6}
+et le \ac{tnfa} \autocite{Meza-Meza.2020,Caprio.2017}.
 
 De plus, la vitamine D agit également sur le système immunitaire
 adaptatif avec des effets inhibiteurs. Elle est capable d'induire une
 tolérance immunitaire en favorisant l'adoption d'un phénotype immature
 (cellules dendritiques, macrophages, lymphocytes B), par une diminution
-de l'expression du complexe majeur d'histocompatibilité de classe II
-(CMH-II) ainsi que des marqueurs de co-stimulation, nécessaires à
-l'activation de la réponse immune, tels que le CD40, CD80 et CD86
-\autocite{Meza-Meza.2020,Caprio.2017}.
+de l'expression du \ac{CMH-II} ainsi que des marqueurs de
+co-stimulation, nécessaires à l'activation de la réponse immune, tels
+que le CD40, CD80 et CD86 \autocite{Meza-Meza.2020,Caprio.2017}.
 
 Elle est également capable d'induire le changement phénotypique de
 sous-population de lymphocytes T CD4\textsuperscript{+}, favorisant le
@@ -1031,24 +1056,24 @@ réaction immunitaire \autocite{Hii.2016}.
 
 \begin{figure}
 \includegraphics{figures/calcitriol-immunomodulatory.jpg} 
-\caption[\textbf{Effets immunomodulateurs du calcitriol.}]{\textbf{Effets immunomodulateurs du calcitriol.} Source : [@Meza-Meza.2020]}\label{fig:immunomod}
+\caption[\textbf{Effets immunomodulateurs du calcitriol.}]
+{\textbf{Effets immunomodulateurs du calcitriol.} \cite{Meza-Meza.2020}
+\label{fig:immunomod}
+}
 \end{figure}
 
-\hypertarget{muxe9canisme-daction-de-la-vitamine-d-sur-le-systuxe8me-immunitaire}{%
-\section{Mécanisme d'action de la vitamine D sur le système
-immunitaire}\label{muxe9canisme-daction-de-la-vitamine-d-sur-le-systuxe8me-immunitaire}}
+\hypertarget{muxe9canisme-daction-de-la-vitamine-d}{%
+\section{Mécanisme d'action de la vitamine
+D}\label{muxe9canisme-daction-de-la-vitamine-d}}
 
-Le mécanisme d'action moléculaire de la vitamine D sur le système n'a
-que peu été étudié depuis la découverte des effets immunitaires sur la
-vitamine D. L'effet de la vitamine D a été observé lors d'une infection
-par \emph{Mycobacterium tuberculosis} sur les monocytes, où lors d'une
+L'effet de la vitamine D a été observé lors d'une infection par
+\emph{Mycobacterium tuberculosis} sur les monocytes, où lors d'une
 expérience in vitro, des monocytes traités avec du calcitriol, la forme
 active de la vitamine D, conduisent à une réduction de la croissance de
 \emph{M. tuberculosis} \autocite{Hewison.2011}. Ces observations
-concernant un pathogène bactérien et il n'y a actuellement pas de
-mécanismes élucidés concernant la vitamine D en réponse à une infection
-virale \textbf{(Je n'ai pas encore trouvé de références sur la vitamine
-D et l'infection virale).}
+concernent un pathogène bactérien, cependant il existe des parallèles
+importants entre les mécanismes de réponses antibactériens et antiviraux
+dans la réponse immunitaire innée \autocite{White.2022}.
 
 \begin{figure}
 
@@ -1058,6 +1083,45 @@ D et l'infection virale).}
 
 \caption{Méchanisme d'action de l'induction de la cathélicidine par la
 vitamine D.}
+
+\end{figure}
+
+\hypertarget{action-antivirale-sur-le-systuxe8me-immunitaire-innuxe9}{%
+\subsection{Action antivirale sur le système immunitaire
+inné}\label{action-antivirale-sur-le-systuxe8me-immunitaire-innuxe9}}
+
+Récemment, les études ont élucidés l'importance de la vitamine D dans de
+multiples régulations au sujet de l'immunité innée. Le calcitriol
+stimule ainsi la transcription de multiples éléments intervenants dans
+la réponse immunitaire innée tels que les PRRs, le CD14, cofacteur du
+TLR4, TLR2 et NOD2 \autocite{White.2022}.
+
+La vitamine D stimule également le signalement cytokinique, avec
+induction de chimiokines comme l'IL-8/CXCL8, une chimiokine de
+neutrophile.
+
+Elle stimule la production de peptides antimicrobiens, AMPs, CAMP, HBD2,
+DEFB4, les 2 derniers éléments contiennent/permettent le VDRE.
+
+Le TLR2 induit CYP27B1, ce qui convertit le calcidiol en calcitriol. Le
+calcitriol induit alors CAMP. Cette induction dépend de la concentration
+en calcidiol, et une concentration insuffisante ne permet pas une
+induction en CAMP, ce qui renforce l'importance d'une concentration
+adéquate en vitamine D appropriée pour le système immunitaire
+\autocite{White.2022}. \emph{Le calcitriol induit plusieurs fois la
+transcription de CAMP dans les cellules épithéliales et myéloïdes in
+vitro; il est plus efficace pour augmenter l'expression de HBD2/DEFB4
+stimulée par d'autres signaux. L'expression de HBD2/DEFB4 stimulée par
+d'autres signaux tels que l'IL-1β servant ainsi davantage de régulateur
+secondaire du gène.}
+
+\begin{figure}
+
+{\centering \includegraphics{figures/vd-amp.png}
+
+}
+
+\caption{Contribution de l'immunité induite par AMP sur le SARS-CoV-2}
 
 \end{figure}
 

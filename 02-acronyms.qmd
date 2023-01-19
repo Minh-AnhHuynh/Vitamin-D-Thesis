@@ -11,6 +11,7 @@ Faudrait-il mettre les acronymes en anglais ou français ?
 \acro{ADN}{\LU{A}{a}cide \LU{D}{d}ésoxyribonucléique}
 \acro{AJR}{\LU{A}{a}pport \LU{J}{j}ournalier \LU{R}{r}ecommandé}
 \acro{CMH-II}{\LU{C}{c}omplexe \LU{M}{m}ajeur d'\LU{H}{h}istocompatibilité de \LU{C}{c}lasse II}
+\acro{CYP27B1}{cytochrome P450 27B1 ou 25-hydroxyvitamin D\textsubscript{3}-1α-hydroxylase}
 \acro{DBP}{protéine de liaison de l'albumine}
 \acro{FDA}{Food and Drugs Administration}
 \acro{IOM}{Institute of Medicine}
