@@ -84,6 +84,7 @@
 \AtBeginEnvironment{acronym}{\@in@acrolisttrue}
 \newrobustcmd{\LU}[2]{\if@in@acrolist#1\else#2\fi}
 \newcommand{\ACF}[1]{{\@in@acrolisttrue\acf{#1}}}
+\usepackage{pdflscape}
 \makeatletter
 \makeatother
 \makeatletter
@@ -149,7 +150,7 @@
   pdfcreator={LaTeX via pandoc}}
 
 \author{}
-\date{2/16/23}
+\date{2/22/23}
 
 \begin{document}
 
@@ -168,7 +169,7 @@ Année 2022 \hfill \hfill N°
 \vspace{2cm}
 THESE
 
-\vspace{1cm} \Large \textbf{Pour l'obtention du diplôme d'Etat de DOCTEUR EN PHARMACIE Presentée et soutenue publiquement}
+\vspace{1cm} \Large \textbf{Pour l'obtention du diplôme d'Etat de DOCTEUR EN PHARMACIE Présentée et soutenue publiquement}
 
 
 \Large \textbf {Vitamine D et COVID-19} \vspace{2 cm}
@@ -185,7 +186,7 @@ THESE
 \pagenumbering{gobble}
 \clearpage
 
-\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[sharp corners, boxrule=0pt, interior hidden, enhanced, frame hidden, borderline west={3pt}{0pt}{shadecolor}, breakable]}{\end{tcolorbox}}\fi
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[boxrule=0pt, interior hidden, borderline west={3pt}{0pt}{shadecolor}, enhanced, frame hidden, breakable, sharp corners]}{\end{tcolorbox}}\fi
 
 \setstretch{1.5}
 \hypertarget{remerciements}{%
@@ -216,8 +217,6 @@ THESE
 \chapter*{Liste des Acronymes}\label{liste-des-acronymes}}
 \addcontentsline{toc}{chapter}{Liste des Acronymes}
 
-Faudrait-il mettre les acronymes en anglais ou français ?
-
 \begin{acronym}
 \acro{1,24,25(OH)3D3}[1,24,25(OH)\textsubscript{3}D\textsubscript{3}]{1,24(R),25‐trihydroxycholecalciferol\acroextra{ (acide calcitroïque)}}
 \acro{1,25(OH)2D3}[1,25(OH)\textsubscript{2}D\textsubscript{3}]{1,25-dihydroxycholécalciférol\acroextra{ (calcitriol)}}
@@ -227,18 +226,18 @@ Faudrait-il mettre les acronymes en anglais ou français ?
 \acro{ADN}{acide désoxyribonucléique}
 \acro{AJR}{\LU{A}{a}pport \LU{J}{j}ournalier \LU{R}{r}ecommandé}
 \acro{CMH-II}{\LU{C}{c}omplexe \LU{M}{m}ajeur d'\LU{H}{h}istocompatibilité de \LU{C}{c}lasse II}
-\acro{CYP27B1}{25-hydroxyvitamine D\textsubscript{3}-1α-hydroxylase}
 \acro{CYP24A1}{24-hydroxylase}
+\acro{CYP27B1}{25-hydroxyvitamine D\textsubscript{3}-1α-hydroxylase}
 \acro{DBP}{D binding protein}
 \acro{FDA}{Food and Drugs Administration}
 \acro{FGF23}{fibroblast growth factor 23}
-\acro{IOM}{Institute of Medicine}
 \acro{ifng}[IFN-$\mupgamma$]{interféron gamma}
+\acro{IOM}{Institute of Medicine}
 \acro{LOAEL}{Non Observed Adverse Effect Level}
 \acro{NOAEL}{Lowest Observed Adverse Effect Level}
 \acro{PTH}{hormone parathyroïde}
-\acro{tnfa}[TNF-$\mupalpha$]{tumor necrosis factor alpha}
 \acro{TLR}{toll-like receptor}
+\acro{tnfa}[TNF-$\mupalpha$]{tumor necrosis factor alpha}
 \acro{UI}{unité internationale}
 \acro{VDR}{vitamin D receptor}
 \acro{VDRE}{\LU{V}{v}itamin D \LU{R}{r}esponse \LU{E}{e}lement}
@@ -376,40 +375,32 @@ du calcitriol \textbf{(Figure \ref{fig:reg-vitd})}
 
 \begin{figure}
 \includegraphics{figures/vitamin-d-metabolism-regulation.jpg} 
-\caption[\textbf{Métabolisme et régulation de la vitamine D.}]{\textbf{Métabolisme et régulation de la vitamine D.} Le métabolisme de la vitamine D débute lorsque le 7-déhydrocholestérol contenu dans la peau, est transformé par les rayons ultraviolets provenant du soleil en cholécalciférol. Le cholécalciférol ou vitamine D\textsubscript{3} est ensuite transporté par la protéine de liaison à la vitamine D, et est métabolisé dans le foie par des enzymes 25-hydroxylases telles que le CYP2R1 en calcidiol ou 25(OH)D\textsubscript{3}. L'autre étape de du métabolisme se situe dans le rein, où après transport du calcidiol, celui-ci se retrouve métabolisé en calcitriol ou 1,25(OH)\textsubscript{2}D\textsubscript{3} par le CYP27B1. Le calcitriol augmente la concentration de l'hormone de croissance fibroblastique 23 (FGF23) et l'absorbtion du calcium et diminue la concentration de l'hormone parathyroïde (PTH), tandis que ceux-ci exercent un rétrocontrôle négatif sur la concentration de calcitriol, en inhibant directement ou indirectement la 1-hydroxylase, ce qui va diminuer la formation de calcitriol. \cite{Dankers.2017}}
+\caption[\textbf{Métabolisme et régulation de la vitamine D.}]{\textbf{Métabolisme et régulation de la vitamine D.} Le métabolisme de la vitamine D débute lorsque le 7-déhydrocholestérol présent dans la peau, est transformé par les rayons ultraviolets provenant du soleil en cholécalciférol. Le cholécalciférol ou vitamine D\textsubscript{3} est ensuite transporté par la protéine de liaison à la vitamine D, et est métabolisé dans le foie par des enzymes 25-hydroxylases telles que le CYP2R1 en calcidiol ou 25(OH)D\textsubscript{3}. L'autre étape de du métabolisme se situe dans le rein, où après transport du calcidiol, celui-ci se retrouve métabolisé en calcitriol ou 1,25(OH)\textsubscript{2}D\textsubscript{3} par le CYP27B1. Le calcitriol augmente la concentration de l'hormone de croissance des fibroblastes 23 (FGF23) et l'absorption du calcium et diminue la concentration de parathormone \ac{PTH}, tandis que ceux-ci exercent un rétrocontrôle négatif sur la concentration de calcitriol, en inhibant directement ou indirectement la 1-hydroxylase, ce qui va diminuer la formation de calcitriol. \cite{Dankers.2017}}
 \label{fig:reg-vitd}
 \end{figure}
 
 \hypertarget{place-de-lergostuxe9rol}{%
 \section{Place de l'ergostérol}\label{place-de-lergostuxe9rol}}
 
-L'ergostérol ou vitamine D\textsubscript{2} est une autre forme de
-vitamine D. Les deux formes de vitamine sont perçues comme
-interchangeables, cependant la vitamine D\textsubscript{3} est
-considérée plus intéressante en terme de traitement, car son utilisation
-est plus effiace que la vitamine D\textsubscript{2} afin d'élever la
-concentration de calcidiol et donc pour traiter les carences. En effet,
-la vitamine D\textsubscript{2}, étant de nature végatale ou fongique,
-possède une structure très similaire mais différente de la vitamine
-D\textsubscript{3}. De ce fait, elle possède une pharmacocinétique
-différente, où l'étape de métabolisation est fonctionnellement
-différente entre la vitamine D\textsubscript{2} et vitamine
-D\textsubscript{3}. Ainsi, lors de l'étape du catabolisme des
-métabolites de la vitamine D\textsubscript{2}, la 24-hydroxylation du
-25(OH)D\textsubscript{2} et du 1,25(OH)D\textsubscript{2} dans le rein
-conduit aux métabolites 24,25(OH)D\textsubscript{2} et
-1,24,25(OH)D\textsubscript{2} respectivement. La formation de
-1,24,25(OH)D\textsubscript{2} conduit à sa désactivation, contrairement
-à son analogue 1,24,25(OH)D\textsubscript{3} qui nécessite une oxydation
-supplémentaire afin d'être désactivée, et possède entre autre une
-affinité au VDR (jusqu'à 40\% plus que 1,25(OH)D\textsubscript{3}). De
-plus, la 24-hydroxylation peut se également se conduire dans le foie,
-conduisant à la formation de 24(OH)D\textsubscript{2}. Le métabolite en
-résultant, la 1,24(OH)D\textsubscript{2}, est moins affin pour le VDR
-comparé à son analogue D\textsubscript{3}. En revanche, la vitamine
-D\textsubscript{3} ne se subit pas cette première 24-hydroxylation et
-donc ne conduit pas à un métabolite qui diminuerait son affinité au VDR
-\autocite{Houghton.2006}.
+De ce fait, elle possède une pharmacocinétique différente, où l'étape de
+métabolisation est fonctionnellement différente entre la vitamine
+D\textsubscript{2} et vitamine D\textsubscript{3}. Ainsi, lors du
+catabolisme de la vitamine D\textsubscript{2}, la 24-hydroxylation du
+25(OH)D\textsubscript{2} et du
+1,25(OH)\textsubscript{2}D\textsubscript{2} dans le rein conduit aux
+métabolites 24,25(OH)\textsubscript{2}D\textsubscript{2} et
+1,24,25(OH)\textsubscript{3}D\textsubscript{2} respectivement. Le
+1,24,25(OH)\textsubscript{3}D\textsubscript{2} est inactif à la
+différence de son analogue \ac{1,24,25(OH)3D3} qui nécessite une
+oxydation supplémentaire afin d'être désactivée, et possède entre autres
+une affinité pour le \ac{VDR} (jusqu'à 40\% plus forte que
+\ac{1,25(OH)2D3}). De plus, la 24-hydroxylation pourrait également avoir
+lieu dans le foie, conduisant à la formation de
+24(OH)D\textsubscript{2}. Le métabolite en résultant, la
+1,24(OH)\textsubscript{2}D2, est moins affin pour le \ac{VDR} comparé à
+son analogue D\textsubscript{3}. En revanche, la vitamine
+D\textsubscript{3} ne se subit pas cette première 24-hydroxylation
+hépatique \autocite{Houghton.2006}.
 
 \begin{figure}
 \includegraphics{figures/ergo_vs_chole.png} 
@@ -421,7 +412,7 @@ Ainsi, cette différence de structure cause une différence dans
 l'évolution de la concentration de 25(OH)D. Une expérience consistant en
 une administration d'une dose de 50 000 UI pour les deux types de
 vitamine D permet de comparer l'évolution des concentrations respectives
-en 25(OH)D \textbf{(Figure~\ref{fig-PK-VD})}. La vitamine
+en 25(OH)D \textbf{(Figure \ref{fig:PK-VD})}. La vitamine
 D\textsubscript{2} est inférieure à la vitamine D\textsubscript{3}
 concernant le maintien d'une concentration adéquate de 25(OH)D,
 puisqu'elle s'élimine beaucoup plus rapidement, malgré une phase
@@ -431,15 +422,11 @@ redevenue identique à celle au jour 1, tandis que celle obtenue par
 vitamine D\textsubscript{3} continue de croître \autocite{Armas.2004}.
 
 \begin{figure}
-
-{\centering \includegraphics[width=4.64583in,height=\textheight]{figures/PK_D2_vs_D3.jpeg}
-
-}
-
-\caption{\label{fig-PK-VD}Evolution de la concentration en 25(OH)D après
-administration d'une dose de 50 000 UI de vitamine D\textsubscript{2} ou
-D\textsubscript{3} chez 10 patients. \textcite{Armas.2004}}
-
+\includegraphics{figures/PK_D2_vs_D3.jpeg} 
+\caption[\textbf{Evolution de la concentration en 25(OH)D après administration d'une
+dose de 50 000 UI de vitamine D~2~ ou D~3~ chez 10 patients.}]{Evolution de la concentration en 25(OH)D après administration d'une
+dose de 50 000 UI de vitamine D~2~ ou D~3~ chez 10 patients. \cite{Armas.2004}}
+\label{fig:PK-VD}
 \end{figure}
 
 Ainsi, la vitamine D\textsubscript{3} est généralement capable
@@ -470,94 +457,134 @@ vitamine D.
 \subsection{Propriétés classiques
 osseuses}\label{propriuxe9tuxe9s-classiques-osseuses}}
 
-La vitamine D a été identifiée pour la première fois comme un nutriment
-essentiel au début du XXe siècle, lorsque Mellanby propose en 1921 que
-l'huile de foie de morue pouvait prévenir les cas de rachitismes dont
-les causes étaient inexpliquées, le rachitisme étant une maladie
-caractérisée par le ramollissement et l'affaiblissement des os
-\autocite{Mavrotas.2021}. La même année, Hess et Unger ont rapporté que
-l'exposition des enfants à la lumière du soleil était un traitement
-efficace efficace contre le rachitisme. \autocite{Holick.2015}
-L'importance de la vitamine D s'est accrue puisque les scientifiques ont
-découvert son rôle crucial dans le métabolisme du calcium et du
-phosphore. Depuis lors, de nombreuses études ont été menées pour étudier
-le rôle de la vitamine D dans la santé des os, et il est désormais
-largement admis que la vitamine D joue un rôle essentiel dans le
-maintien de la santé des os et des dents. Une carence en vitamine D est
-associée à un risque accru d'ostéomalacie (une affection qui entraîne
-une diminution de la masse osseuse) et d'ostéoporose (une affection
-caractérisée par des os fragiles et cassants).
+L'usage de la vitamine D par le biais de l'huile de foie de morue a été
+décrite dans la littérature au plus tôt par Thomas Percival en 1782, qui
+rapporte son usage et les effets bénéfiques constatés sur le rhumatisme
+chronique en Angleterre \autocite{Percival.1782}. A cette époque,
+plusieurs cas de rachitismes causent des morts inexpliquées, le
+rachitisme étant une maladie caractérisée par le ramollissement et
+l'affaiblissement des os. En France, Armand Trousseau publie dans
+l'ouvrage de 1844 du Bulletin général de thérapeutique sur l'utilisation
+de l'huile de foie de morue par Armand Trousseau pour le traitement du
+rachitisme \autocite{bulletin.1844}. Il publie également son ouvrage
+Clinique Médicale de l'Hôtel-Dieu en 1861, où il déclare que le
+rachitisme est causé par une alimentation déséquilibrée que l'huile de
+foie de morue peut résoudre \autocite{Hernigou.2019}.
 
-De nos jours, l'action de la vitamine D est reconnu comme étant médiée
-par la liaison de son métabolite actif, le calcitriol, au récepteur VDR
-\autocite{Norman.2008,Dankers.2017}. La vitamine D joue notamment un
-rôle dans l'homéostasie du calcium. Le métabolisme du calcium passe par
-l'absorption du calcium dans l'intestin, et sa réabsorption dans le
-foie. Le calcium est absorbé grâce à des transporteurs transcellulaires
-(actifs) et paracellulaires (passifs), grâce au signalement du
-calcitriol. Celui-ci est considéré comme le principal facteur régulateur
-de l'absorption intestinal de calcium. Lorsque les flux de calciums sont
-insuffisants afin de maintenir l'équilibre calcique, les os peuvent
-constituer un réservoir de calcium temporaire. La réabsorption du
-calcium par le rein passe par l'action du calcitriol sur le VDR qui à
-une stimulation de la réabsorption du calcium dans le tubule contourné
-distal du rein \autocite{Carmeliet.2015}.
+Dans les années 1917--1922, les progrès concernant les causes et le
+traitement du rachitisme se sont accélérées. \textcite{Hess.1917}
+démontre que l'administration de l'huile de foie de morue permet de
+prévenir et guérir du rachitisme chez les enfants afro-américains à New
+York. En 1918, Mellanby a montré qu'il pouvait prévenir le rachitisme
+expérimental chez les chiots avec de l'huile de foie de morue et a
+discuté du rôle d'un ``facteur accessoire'' dans la production du
+rachitisme \autocite{O’Riordan.2014}. Par la suite, \textcite{Hess.1921}
+ont rapporté que l'exposition au soleil permettait de guérir du
+rachitisme. Ce sera \textcite{McCollum.1922} qui donnera le nom de
+Vitamine D au ``facteur accessoire'' proposé par Mellanby
+\autocite{Hernigou.2019,Mavrotas.2021}
 
-De plus, la liaison du calcitriol sur le VDR situé dans les
-ostéoprogéniteurs entraîne une augmentation de l'absorption de calcium
-dans les os (diminution de RANKL, facteur de transcription activant les
-ostéoclastes, et augmentation de LRP5) \autocite{Carmeliet.2015}.
-Lorsque la calcémie est basse, l'augmentation de PTH conduit à une
-augmentation de RANKL ce qui favorise la résorption des os par les
-ostéoclastes afin d'obtenir du calcium.
+L'intérêt pour la vitamine D s'est ensuite accru avec la découverte par
+les scientifiques de son rôle crucial dans le métabolisme du calcium et
+du phosphore. Depuis lors, de nombreuses études ont été menées pour
+évaluer le rôle de la vitamine D dans le métabolisme osseux, et il est
+désormais largement admis que la vitamine D joue un rôle essentiel dans
+le maintien de la santé des os et des dents. Une carence en vitamine D
+est associée à un risque accru d'ostéomalacie (une affection qui
+entraîne une diminution de la masse osseuse) et d'ostéoporose (une
+affection caractérisée par une fragilité des os).
+
+Cette action de la vitamine D est médiée par la liaison du calcitriol,
+au récepteur \ac{VDR} \autocite{Norman.2008,Dankers.2017}. La vitamine D
+agit directement sur le renouvellement osseux mais joue également un
+rôle dans l'homéostasie du calcium. L'homéostasie du calcium dépend de
+son absorption dans l'intestin, de sa réabsorption dans le rein et de
+fixation/libération dans l'os. Le calcium est absorbé grâce à des
+transporteurs transcellulaires (actifs) et paracellulaires (passifs),
+grâce au signalement du calcitriol. Celui-ci est considéré comme le
+principal facteur régulateur de l'absorption intestinal de calcium.
+Lorsque les flux de calcium sont déséquilibrés, les os servent de
+réservoir de calcium afin de maintenir l'équilibre calcique. La
+réabsorption du calcium par le rein est contrôlée dans le tubule
+contourné distal par l'action du calcitriol sur le \ac{VDR}
+\autocite{Carmeliet.2015}.
+
+De plus, la liaison du calcitriol sur le VDR situé dans les ostéoblastes
+entraîne une augmentation de la minéralisation osseuse et donc de la
+fixation du calcium dans les os (diminution de RANKL, facteur de
+transcription activant les ostéoclastes, et augmentation de LRP5)
+\autocite{Carmeliet.2015}. Lorsque la calcémie est basse, l'augmentation
+de \ac{PTH} conduit à une augmentation de RANKL ce qui favorise la
+résorption des os par les ostéoclastes afin d'obtenir du calcium.
 
 \hypertarget{propriuxe9tuxe9s-extra-osseuses}{%
 \subsection{Propriétés
 extra-osseuses}\label{propriuxe9tuxe9s-extra-osseuses}}
 
-La découverte des propriétés extra-osseuses de la vitamine D n'a pu
-commencer que grâce au clonage du récepteur VDR en 1987. Par la suite,
-son identification dans la majorité des tissus et populations
-cellulaires a augmenté l'intérêt scientifique et le nombre d'études
-fondamentales et cliniques autour du rôle pléiotropique de la vitamine D
-\autocite{Rosen.2012}. La présence du VDR est ubiquitaire, cependant
-certaines cellules ou tissus possèdent une expression faible de VDR tels
-que les globules rouges, les muscles striés matures, et certaines
-cellules hautement différenciés du cerveau tel que les cellules de
-Purkinje du cervelet \autocite{Bouillon.2008}.
+La découverte des propriétés extra-osseuses de la vitamine D a commencé
+avec le clonage du récepteur \ac{VDR} en 1987. Son identification dans
+la majorité des tissus et populations cellulaires a a ouvert la voie à
+de nombreuses études fondamentales et cliniques autour du rôle
+pléiotrope de la vitamine D \autocite{Rosen.2012}. Le \ac{VDR} est
+exprimé de façon ubiquitaire ; cependant, certaines cellules ou tissus,
+tels que les globules rouges, les muscles striés, et certaines cellules
+hautement différenciés du cerveau telles que les cellules de Purkinje du
+cervelet, n'expriment que faiblement \ac{VDR} \autocite{Bouillon.2008}.
 
-L'intérêt est ainsi renouvelé pour la vitamine D, en particulier dans le
-cancer, les maladies cardiovasculaires (obésité et diabète de type 2,
-métabolisme du glucose) et les maladies auto-immunes (diabète de type 1,
-sclérose en plaques, troubles thyroïdiens auto-immuns)
-\autocite{Dankers.2017,Caprio.2017} (Figure~\ref{fig-extra-skeletal}).
+Plus récemment l'intérêt pour la vitamine D a été étendue à différentes
+pathologies diversement associées à des désordres osseux, en particulier
+dans le cancer, les maladies cardio-métaboliques (obésité et diabète de
+type 2, métabolisme du glucose) et les maladies auto-immunes (diabète de
+type 1, sclérose en plaques, troubles thyroïdiens auto-immuns)
+\autocite{Dankers.2017,Caprio.2017}. En effet, plusieurs recherchent
+suggèrent que la vitamine D joue un rôle dans le diabète de type 2, en
+stimulant l'expression des récepteurs à l'insuline et en augmentant la
+sensibilité à l'insuline. Elle jouerait aussi un rôle dans l'obésité au
+niveau du tissu adipeux, où des corrélations inverses ont été observées
+entre le taux de calcidiol et la leptine (hormone régulant l'appétit) et
+résistine (hormone pro-inflammatoire et contribue à la résistance à
+l'insuline), et une association positive avec l'adiponectine (hormone
+augmentant la sensibilité à l'insuline)
+\autocite{Caprio.2017,Bellia.2013}. Il existe une association inverse
+entre le taux de calcidiol et de marqueurs d'inflammation systémique
+observée chez les sujets obèses \autocite{Bellia.2013}. En ce qui
+concerne les bénéfices liés à l'immunité, les effets observés de la
+vitamine D sont généralement associés à une régulation négative de
+l'inflammation, par l'inhibition de \ac{CMH-II}, des molécules de
+co-stimulation, une diminution de l'activité des Th1 et Th17,
+lymphocytes pro-inflammatoires, et une augmentation des
+T\textsubscript{regs}, lymphocytes anti-inflammatoires \textbf{(Figure
+\ref{fig:extra-skeletal})}. Un autre domaine d'intérêt concernant les
+effets extra-squelettiques de la vitamine D concerne son rôle au niveau
+des muscles squelettiques. Plusieurs études suggèrent que le rôle de la
+vitamine D stimule la synthèse des protéines musculaires ainsi que la
+réabsorption du calcium dans le réticulum sarcoplasmique, ce qui permet
+de maintenir une force musculaire adéquate.
 
+\begin{landscape}
 \begin{figure}
-
-{\centering \includegraphics{figures/extra-skeletal-effect.png}
-
-}
-
-\caption{\label{fig-extra-skeletal}\textbf{Effets classiques et
-extra-squelettiques de la vitamine D.} \textcite{Caprio.2017}}
-
+\includegraphics{figures/extra-skeletal-effect.png} 
+\caption[\textbf{Effets classiques et extra-squelettiques de la vitamine D.}]
+{Effets classiques et extra-squelettiques de la vitamine D. \cite{Caprio.2017}}
+\label{fig:extra-skeletal}
 \end{figure}
+\end{landscape}
 
-La vitamine D exerce en plus de son action endocrine classique, médiée
-par le rein, une action locale autocrine, paracrine de la vitamine D sur
-le VDR, par le biais d'une expression locale de CYP27B1 des cellules
-concernées \autocite{Carmeliet.2015,Cannell.2008}.
+La vitamine D exerce en plus de son action endocrine classique,
+dépendante de la 1-hydroxylation par le rein, une action locale
+autocrine et paracrine, par le biais d'une expression locale de
+l'hydroxylase \ac{CYP27B1} dans différents tissus
+\autocite{Carmeliet.2015,Cannell.2008}.
 
-Cependant les bénéfices extra-squelettiques associés à la vitamine D ne
-serait visible que lorsque la concentration de vitamine D serait
-supérieure au seuil de 40 ng/mL, et plus précisément, de calcidiol,
-puisque c'est le marqueur actuel utilisé pour mesurer la concentration
-de vitamine D dans le sang \autocite{Caprio.2017}, ce qui nécessite une
-dose journalière nettement supérieure que celle recommandée
-habituellement.
+Cependant, les bénéfices extra-squelettiques associés à la vitamine D ne
+seraient visibles que lorsque la concentration de calcidiol serait
+supérieure au seuil de 40 ng/mL, ce qui nécessiterait une dose
+journalière nettement supérieure à celle recommandée habituellement
+\autocite{Caprio.2017}.
 
-\hypertarget{dose}{%
-\section{Dose}\label{dose}}
+\hypertarget{doses-thuxe9rapeutiques-efficaces}{%
+\section{Doses thérapeutiques
+efficaces}\label{doses-thuxe9rapeutiques-efficaces}}
 
 \hypertarget{unituxe9s}{%
 \subsection{Unités}\label{unituxe9s}}
@@ -611,8 +638,8 @@ Administration (FDA), l'équivalent de l'Agence Nationale de Sécurité des
 Médicaments (ANSM) en France. L'\ac{AJR} pour la vitamine D est de 600
 UI par jour pour les personnes âgées de 1 à 70 ans, pour les enfants,
 hommes, femmes et reste la même durant la période de grossesse et
-d'allaitement \autocite[pp.~9]{IOM.2011.org}. L'AJR est augmentée à 800
-UI/jour chez les personnes de plus de 70 ans en raison de la plus grande
+d'allaitement \autocite{IOM.2011.org}. L'AJR est augmentée à 800 UI/jour
+chez les personnes de plus de 70 ans en raison de la plus grande
 variance des données disponibles concernant cette catégorie d'âge.
 
 Le taux sérique de 25(OH)D est l'indicateur établi pour évaluer le
@@ -707,7 +734,7 @@ conclusions de \textcite{Veugelers.2014}.
 
 \begin{figure}
 
-\begin{minipage}[t]{0.39\linewidth}
+\begin{minipage}[t]{0.50\linewidth}
 
 {\centering 
 
@@ -725,17 +752,7 @@ vitamine D et le taux sérique de 25 hydroxyvitamine D.
 
 \end{minipage}%
 %
-\begin{minipage}[t]{0.03\linewidth}
-
-{\centering 
-
-~
-
-}
-
-\end{minipage}%
-%
-\begin{minipage}[t]{0.58\linewidth}
+\begin{minipage}[t]{0.50\linewidth}
 
 {\centering 
 
@@ -822,13 +839,13 @@ L'hypercalcémie est une toxicité fréquemment mentionnée comme étant
 dangereuse pour des doses de vitamine D\textsubscript{3} supérieures à
 4000 UI/j pour des adultes avec une limite supérieure de sécurité de la
 concentration de vitamine D\textsubscript{3} de 50 ng/mL (125 nmol/L)
-selon \ac{iom} l'Institut de Médecine (IOM)
-\autocites[pp.~9-10]{IOM.2011.org}{Holick.2011}. En revanche, la Société
-d'Endrocrinologie recommande une marge de sécurité de 100 ng/mL (250
-nmol/L) afin d'éviter l'hypercalcémie \autocite{Holick.2011}, en
-rapportant que la majorité des études sur la vitamine D suggèrent que le
-taux de vitamine D nécessite d'être supérieur à 150 ng/mL avant de
-considérer une éventuelle toxicité.
+selon l'Institut de Médecine \acs{IOM} \autocites[
+]{IOM.2011.org}{Holick.2011}. En revanche, la Société d'Endrocrinologie
+recommande une marge de sécurité de 100 ng/mL (250 nmol/L) afin d'éviter
+l'hypercalcémie \autocite{Holick.2011}, en rapportant que la majorité
+des études sur la vitamine D suggèrent que le taux de vitamine D
+nécessite d'être supérieur à 150 ng/mL avant de considérer une
+éventuelle toxicité.
 
 La toxicité de la vitamine D se manifeste par une hypercalcémie et
 hypercalciurie, accompagnée par une activité très faible de PTH
@@ -965,8 +982,8 @@ immunitaire}\label{vitamine-d-et-systuxe8me-immunitaire}}
 
 L'importance du rôle de la vitamine D sur le système immunitaire
 commence à prendre l'intérêt des scientifiques depuis la découverte de
-l'existence concomitante du \ac{VDR} et du CYP27B1 dans des tissus qui
-n'ont pas un rôle associé à l'homéostasie du calcium
+l'existence concomitante du \ac{VDR} et du \ac{CYP27B1} dans des tissus
+qui n'ont pas un rôle associé à l'homéostasie du calcium
 \autocite{Zehnder.2001}. Notamment, l'expression de CYP27B1 dans les
 cellules immunitaires est régulée de manière indépendante à
 l'homéostasie du calcium, par la présence de pathogène ou non, ce qui
@@ -978,7 +995,7 @@ système immunitaire \autocite{White.2022}.
 immunitaires}\label{action-de-la-vitamine-d-sur-les-cellules-immunitaires}}
 
 La vitamine D exerce son effet sur le système immunitaire grâce à la
-présence de la 1-α-hydroxylase aussi appelée cytochrome CYP27B1,
+présence de la 1-α-hydroxylase aussi appelée cytochrome \ac{CYP27B1},
 permettant la conversion du 25(OH)\textsubscript{2}D\textsubscript{3}
 (calcidiol) en 1,25(OH)\textsubscript{2}D\textsubscript{3} (calcitriol),
 la forme active de la vitamine D\textsubscript{3}. Ainsi, cette forme
@@ -986,7 +1003,7 @@ active est responsable des actions sur le système immunitaire, en se
 liant à son récepteur, le VDR. Ce récepteur fait partie de la famille
 des récepteurs nucléaires, et régule la transcription en se liant à un
 domaine de liaison à l'ADN appelé \ac{VDRE}. La liaison du calcitriol
-sur le VDR crée un complexe protéique qui permet de modifier la
+sur le \ac{VDR} crée un complexe protéique qui permet de modifier la
 transcription des gènes cibles.
 
 L'action de la vitamine D peut être jugée intracrine puisqu'elle se
@@ -1063,9 +1080,8 @@ réaction immunitaire \autocite{Hii.2016}.
 \begin{figure}
 \includegraphics{figures/calcitriol-immunomodulatory.jpg} 
 \caption[\textbf{Effets immunomodulateurs du calcitriol.}]
-{\textbf{Effets immunomodulateurs du calcitriol.} \cite{Meza-Meza.2020}
+{\textbf{Effets immunomodulateurs du calcitriol.} \cite{Meza-Meza.2020}}
 \label{fig:immunomod}
-}
 \end{figure}
 
 \hypertarget{muxe9canisme-daction-de-la-vitamine-d}{%

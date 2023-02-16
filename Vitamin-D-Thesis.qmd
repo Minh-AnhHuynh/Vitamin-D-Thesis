@@ -62,6 +62,7 @@ header-includes:
 - \AtBeginEnvironment{acronym}{\@in@acrolisttrue}
 - \newrobustcmd{\LU}[2]{\if@in@acrolist#1\else#2\fi}
 - \newcommand{\ACF}[1]{{\@in@acrolisttrue\acf{#1}}}
+- \usepackage{pdflscape} # Allow \begin{landscape} for figures
 include-before-body: "00-thesis_cover_page.tex"
 ---
 
