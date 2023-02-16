@@ -71,7 +71,9 @@
 \KOMAoption{captions}{tableheading}
 \usepackage{setspace}
 \usepackage[font=small, labelfont=bf, justification=justified, singlelinecheck=true]{caption}
-\usepackage[authordate,backend=biber]{biblatex-chicago}
+\counterwithout{figure}{chapter}
+\counterwithout{figure}{section}
+\usepackage[authordate,backend=biber, doi=false,isbn=false]{biblatex-chicago}
 \usepackage[french]{babel}
 \usepackage{bookmark}
 \unimathsetup{math-style=french}
@@ -147,7 +149,7 @@
   pdfcreator={LaTeX via pandoc}}
 
 \author{}
-\date{1/13/23}
+\date{2/16/23}
 
 \begin{document}
 
@@ -166,10 +168,10 @@ Année 2022 \hfill \hfill N°
 \vspace{2cm}
 THESE
 
-\vspace{1cm} \Large \textbf{Pour l'obtention du diplôme d'Etat de DOCTEUR EN PHARMACIE Presenté et soutenue publiquement}
+\vspace{1cm} \Large \textbf{Pour l'obtention du diplôme d'Etat de DOCTEUR EN PHARMACIE Presentée et soutenue publiquement}
 
 
-\Large \textbf {Intérêt de la Vitamine D et COVID-19} \vspace{2 cm}
+\Large \textbf {Vitamine D et COVID-19} \vspace{2 cm}
 
 \large Par \vspace{0.5 cm}
 
@@ -183,7 +185,7 @@ THESE
 \pagenumbering{gobble}
 \clearpage
 
-\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[sharp corners, interior hidden, borderline west={3pt}{0pt}{shadecolor}, breakable, enhanced, boxrule=0pt, frame hidden]}{\end{tcolorbox}}\fi
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[sharp corners, boxrule=0pt, interior hidden, enhanced, frame hidden, borderline west={3pt}{0pt}{shadecolor}, breakable]}{\end{tcolorbox}}\fi
 
 \setstretch{1.5}
 \hypertarget{remerciements}{%
@@ -217,12 +219,19 @@ THESE
 Faudrait-il mettre les acronymes en anglais ou français ?
 
 \begin{acronym}
-\acro{ADN}{\LU{A}{a}cide \LU{D}{d}ésoxyribonucléique}
+\acro{1,24,25(OH)3D3}[1,24,25(OH)\textsubscript{3}D\textsubscript{3}]{1,24(R),25‐trihydroxycholecalciferol\acroextra{ (acide calcitroïque)}}
+\acro{1,25(OH)2D3}[1,25(OH)\textsubscript{2}D\textsubscript{3}]{1,25-dihydroxycholécalciférol\acroextra{ (calcitriol)}}
+\acro{24,25(OH)3D3}[24,25(OH)\textsubscript{3}D\textsubscript{3}]{24,25-dihydroxycholécalciférol}
+\acro{25(OH)D3}[25(OH)D\textsubscript{3}]{25-hydroxycholécalciferol\acroextra{ (calcidiol ou calcifédiol)}}
+\acro{7-DHC}{7-déhydrocholestérol}
+\acro{ADN}{acide désoxyribonucléique}
 \acro{AJR}{\LU{A}{a}pport \LU{J}{j}ournalier \LU{R}{r}ecommandé}
 \acro{CMH-II}{\LU{C}{c}omplexe \LU{M}{m}ajeur d'\LU{H}{h}istocompatibilité de \LU{C}{c}lasse II}
-\acro{CYP27B1}{cytochrome P450 27B1 ou 25-hydroxyvitamin D\textsubscript{3}-1α-hydroxylase}
-\acro{DBP}{protéine de liaison de l'albumine}
+\acro{CYP27B1}{25-hydroxyvitamine D\textsubscript{3}-1α-hydroxylase}
+\acro{CYP24A1}{24-hydroxylase}
+\acro{DBP}{D binding protein}
 \acro{FDA}{Food and Drugs Administration}
+\acro{FGF23}{fibroblast growth factor 23}
 \acro{IOM}{Institute of Medicine}
 \acro{ifng}[IFN-$\mupgamma$]{interféron gamma}
 \acro{LOAEL}{Non Observed Adverse Effect Level}
@@ -231,17 +240,16 @@ Faudrait-il mettre les acronymes en anglais ou français ?
 \acro{tnfa}[TNF-$\mupalpha$]{tumor necrosis factor alpha}
 \acro{TLR}{toll-like receptor}
 \acro{UI}{unité internationale}
-\acro{VDR}{récepteur de la vitamine D}
+\acro{VDR}{vitamin D receptor}
 \acro{VDRE}{\LU{V}{v}itamin D \LU{R}{r}esponse \LU{E}{e}lement}
-\acro{FGF23}{\LU{F}{f}acteur 23 de \LU{C}{c}roissance du \LU{F}{f}ibroblaste}
 \end{acronym}
 
 \newpage{}
 
+\pagenumbering{arabic}
+
 \hypertarget{introduction}{%
 \chapter{Introduction}\label{introduction}}
-
-\pagenumbering{arabic}
 
 \newpage{}
 
@@ -255,118 +263,116 @@ D}\label{guxe9nuxe9ralituxe9s-sur-la-vitamine-d}}
 La vitamine D est un nutriment vital, nécessaire pour notre métabolisme.
 Elle possède un rôle de vitamine qui est définie comme étant une
 substance organique essentielle en quantités infimes, à la nutrition de
-la plupart des animaux et de certaines plantes. Les vitamines agissent
-comme coenzymes et précurseurs de coenzymes pour réguler les processus
-métaboliques mais ne fournissent pas d'énergie et ne servent pas
-d'unités de construction \autocite{Ellison.2020}.
+la plupart des animaux et de certaines plantes. La plupart des vitamines
+agissent comme coenzymes et précurseurs de coenzymes pour réguler les
+processus métaboliques mais ne fournissent pas d'énergie et ne servent
+pas d'unités de construction \autocite{Ellison.2020} ; la vitamine D
+intervient comme précurseur d'une hormone, le calcitriol.
 
-La vitamine D est une molécule liposoluble, semblable à une hormone
-stéroïde. Celle-ci possède plusieurs formes, la vitamine
+La vitamine D est une molécule liposoluble dérivée du cholestérol se
+distinguant des hormones stéroïdes par l'ouverture du cycle B de la
+structure cyclopentanoperhydrophénanthrène \autocite{Norman.2008}
+\textbf{(Figure \ref{fig:vitd3})}. Il en existe deux formes, la vitamine
 D\textsubscript{2} ou ergocalciférol, synthétisée par les plantes et les
-champignons, et la vitamine D\textsubscript{3} ou cholécalciférol ,
+champignons, et la vitamine D\textsubscript{3} ou cholécalciférol,
 synthétisée dans la peau après une exposition aux rayons ultraviolets B
-ou à la lumière du soleil. Généralement, la mention de vitamine D fait
-référence à la vitamine D\textsubscript{3}.
-
-Curieusement la vitamine D possède une structure ressemblant à une
-hormone stéroïdienne classique, telle que le cortisol et l'aldostérone
-\autocite{Norman.2008} \textbf{(Figure~\ref{fig-vitd3})}. Une hormone
-est une substance chimique qui aide à contrôler et à réguler différentes
-activités dans l'organisme \autocite{Ellison.2020}. La vitamine D est
-capable d'agir en tant que facteur de transcription et de modifier le
-métabolisme de diverses manières. Pratiquement toutes les cellules de
-l'organisme possèdent un \ac{VDR}, ce qui explique ses effets
+ou à la lumière du soleil. A la différence des autres vitamines, la
+vitamine D peut donc être synthétisée par l'organisme humain, mais en
+quantité insuffisante par rapport aux besoins, d'où l'impérative
+nécessité d'un apport exogène. Généralement, la mention de vitamine D
+fait référence à la vitamine D\textsubscript{3}. Pour être active, la
+vitamine D doit subir une double hydroxylation en positions 1 et 25,
+formant ainsi une hormone, le calcitriol ou 1,25-dihydroxycalciférol.
+Techniquement, le calcitriol est responsable des effets biologiques de
+la vitamine D. La mention des effets de la vitamine D sous-entend
+généralement les effets de la forme active de cette vitamine, sauf si la
+distinction est importante lors de la mention des effets biologiques de
+la vitamine D. Une hormone est une substance chimique qui aide à
+contrôler et à réguler différentes activités dans l'organisme
+\autocite{Ellison.2020}. La vitamine D est capable d'agir comme une
+hormone en régulant la transcription de différents gènes et en modifiant
+le métabolisme de diverses manières. Elle agit par le biais du
+calcitriol, la forme active de la vitamine D qui se lie à son récepteur,
+le récepteur de la vitamine D \acs{VDR}. Pratiquement toutes les
+cellules de l'organisme possèdent des VDR, ce qui explique ses effets
 pléiotropiques dans diverses maladies
-\autocite{Ellison.2020,Caprio.2017,Norman.2008}. Le VDR est un récepteur
-faisant partie de la classe des facteurs de transcription nucléaire.
-Ainsi, la liaison de la vitamine D sur son récepteur conduit à une
-séquence classique de translocation nucléaire et de liaison à l'\ac{ADN}
-\autocite{Bouillon.2008}. De plus, la vitamine D est la seule vitamine
-qui peut être synthétisée par l'organisme, contrairement aux vitamines
-A, B, C, E ce qui contribue à l'idée que la vitamine D serait plutôt une
-hormone.
+\autocite{Ellison.2020,Caprio.2017,Norman.2008}. Le \ac{VDR} est un
+récepteur faisant partie de la classe des récepteurs nucléaires. Ainsi,
+la liaison de la vitamine D sur son récepteur conduit à sa translocation
+nucléaire et à sa liaison à l'ADN au niveau des séquences de réponse
+(\acs{VDRE}) situées dans les séquences promoteurs de différents gènes
+\autocite{Bouillon.2008}.
 
 \begin{figure}
-
-{\centering \includegraphics[width=0.5\textwidth,height=\textheight]{figures/cholecalciferol.png}
-
-}
-
-\caption{\label{fig-vitd3}Structure chimique de la vitamine D3 ou
-cholécalciférol. Source : Wikipédia}
-
+\centering
+\includegraphics[width=0.7\columnwidth]{figures/cholecalciferol-chemspider.png} 
+\caption[\textbf{Structure chimique de la vitamine D3 ou cholécalciférol.}]{\textbf{Structure chimique de la vitamine D3 ou cholécalciférol.} (\cite{chemspider.2023})}
+\label{fig:vitd3}
 \end{figure}
 
 \hypertarget{muxe9tabolisme}{%
 \section{Métabolisme}\label{muxe9tabolisme}}
 
-La vitamine D provient initialement d'un composé métaboliquement inactif
-qui doit être transformé en plusieurs métabolites actifs dans le foie et
-les reins. La vitamine D\textsubscript{3} peut être obtenue à partir de
-compléments et d'apports alimentaires, mais est principalement obtenue
-par synthèse endogène de l'organisme. Initialement, le
-7-déhydrocholestérol, un dérivé du cholestérol situé dans la peau, se
-transforme en vitamine D\textsubscript{3} (cholécalciférol) sous
-l'action des ondes ultraviolettes provenant du soleil
-\autocite{Bikle.2014}.
+L'activation de la vitamine D en calcitriol nécessite sa métabolisation
+successivement dans le foie et les reins. La vitamine D\textsubscript{3}
+peut être obtenue à partir de compléments et d'apports alimentaires,
+mais est principalement obtenue par synthèse endogène dans l'organisme.
+Initialement, au niveau de la peau, le \ac{7-DHC}, un dérivé du
+cholestérol, se transforme en vitamine D\textsubscript{3}
+(cholécalciférol) sous l'action des ondes ultraviolettes provenant du
+soleil \autocite{Bikle.2014}.
 
-La vitamine D\textsubscript{3} doit ensuite être métabolisée dans le
-foie pour obtenir la forme active qui permettra d'exercer ses effets à
-travers le récepteur de la vitamine D (VDR). Pour cela, elle est
-transportée à travers le sang par la \ac{DBP}, appartenant à la famille
-des albumines \autocite{Christakos.2010,Chun.2012}. La DBP peut
-également lier les autres formes de vitamine D, telles que la vitamine
+La vitamine D\textsubscript{3} doit ensuite être hydroxylée en position
+25 dans le foie, puis en position 1 dans les reins pour obtenir la forme
+active qui permettra d'exercer ses effets à travers le récepteur de la
+vitamine D (\acs{VDR}). Pour cela, elle est transportée dans le sang
+essentiellement par la protéine de liaison de la vitamine D (\acs{DBP})
+\autocite{Christakos.2010,Chun.2012}. La \ac{DBP} peut également lier
+les autres formes de vitamine D, telles que la vitamine
 D\textsubscript{2} (ergocalciférol), vitamine D\textsubscript{3}, ou les
 métabolites du cholécalciférol, 25-hydroxycholécalciferol et
 1,25-dihydroxycholécalciférol.
 
 Par la suite, la vitamine D\textsubscript{3} est métabolisée en
-25-hydroxycholécalciferol (25(OH)D\textsubscript{3}), aussi appelée
-calcidiol, par une des enzymes cytochrome P450 vitamine D
-25-hydroxylases (telles que CYP2R1, CYP2D11, CYP2D25) dans le foie, qui
-est la forme majoritaire circulante dans l'organisme
-\autocite{Norman.2008,Christakos.2010}. Ultérieurement, cette forme est
-transportée par la DBP dans le rein, est filtrée par le glomérule et se
-retrouve hydroxylée à nouveau dans le tube proximal du rein par la
-\ac{CYP27B1} pour donner la 1,25-dihydroxycholécalciférol
-(1,25(OH)\textsubscript{2}D\textsubscript{3}) ou calcitriol, nommée
-ainsi puisqu'elle possède trois groupes hydroxyles. Le calcitriol
-représente la forme active de la vitamine D, responsable de la majorité
-de ses effets, en se liant au VDR contenu dans divers tissus
-\autocite{Norman.2008,Dankers.2017}.
+\ac{25(OH)D3}, ou calcidiol ou calcifédiol, par une des enzymes
+cytochrome P450 vitamine D 25-hydroxylases (telles que CYP2R1, CYP2D11,
+CYP2D25) dans le foie, qui est la forme majoritaire circulante dans
+l'organisme \autocite{Norman.2008,Christakos.2010}. Ultérieurement,
+cette forme est transportée par la \ac{DBP} dans le rein, filtrée par le
+glomérule et réabsorbée puis hydroxylée à nouveau dans le tube proximal
+du rein par la \ac{CYP27B1} pour donner la \ac{1,25(OH)2D3} ou
+calcitriol, nommée ainsi puisqu'il possède trois groupes hydroxyles. Le
+calcitriol représente la forme active de la vitamine D, responsable de
+la majorité de ses effets, en se liant au \ac{VDR} contenu dans divers
+tissus \autocite{Norman.2008,Dankers.2017}.
 
-Dernièrement, le catabolisme de la vitamine D se produit par une
-hydroxylation par la 24-hydroxylase ou CYP24A1, une enzyme P450
-mitochrondriale, donnant le métabolite
-1,24,25(OH)\textsubscript{3}D\textsubscript{3} ou l'acide calcitroïque.
-Cette enzyme peut également hydroxyler le calcidiol pour donner de la
-24,25(OH)\textsubscript{3}D\textsubscript{3}. Ces réactions permettent
-de diminuer la quantité de calcidiol et calcitriol disponible dans le
-sang; la 24-hydroxylase sert à jouer un rôle de catabolisme de la
-vitamine D \autocite{Norman.2008}
-\textbf{(Figure~\ref{fig-metabolism-vitd})}. La quantité de calcitriol
-est donc déterminée par un équilibre entre les enzymes CYP27B1 et
-CYP24A1 \autocite{Dankers.2017}.
+Enfin, la vitamine D peut subir une hydroxylation par la 24-hydroxylase
+ou \acs{CYP24A1}, une enzyme P450 mitochrondriale. Ceci conduit à partir
+du calcitriol au \acs{1,24,25(OH)3D3} ou l'acide calcitroïque. Cette
+enzyme peut également hydroxyler le calcidiol pour donner de la
+\ac{24,25(OH)3D3}. Ces réactions permettent de diminuer la quantité de
+calcidiol et calcitriol disponible dans le sang ; la 24-hydroxylase sert
+ainsi de catabolisme de la vitamine D \autocite{Norman.2008}
+\textbf{(Figure \ref{fig:metabolism-vitd})}. La quantité de calcitriol
+est donc déterminée par un équilibre entre les enzymes \ac{CYP27B1} et
+\ac{CYP24A1} \autocite{Dankers.2017}.
 
 \begin{figure}
-
-{\centering \includegraphics{figures/vitamin-d-metabolism.png}
-
-}
-
-\caption{\label{fig-metabolism-vitd}Métabolisme de la vitamine D.
-\textcite{Norman.2008}}
-
+\centering
+\includegraphics{figures/vitamin-d-metabolism.png} 
+\caption[\textbf{Métabolisme de la vitamine D.}]{\textbf{Structure chimique de la vitamine D3 ou cholécalciférol.} (\cite{Norman.2008})}
+\label{fig:metabolism-vitd}
 \end{figure}
 
-Le calcitriol est régulé par deux facteurs, l'\ac{PTH} et le \ac{FGF23}.
-Le \ac{FGF23}, induite par la haute concentration de calcitriol et une
-faible concentration de phosphate dans le sang, favorise l'induction de
-la CYP24A1 qui est l'enzyme de catabolisme du calcidiol, tandis que la
-\ac{PTH}, induite par une faible concentration de calcium et inhibée par
-une forte concentration de calcitriol, va induire la CYP24A1 et donc
-contribuer au catabolisme du calcitriol \textbf{(Figure}
-\ref{fig:reg-vitd}) \autocite{Dankers.2017,Christakos.2010}.
+La synthèse du calcitriol est régulée par deux hormones, l'\ac{PTH} et
+l'hormone de croissance des fibroblastes 23 \acs{FGF23}. Le \ac{FGF23},
+induite par une concentration élevée de calcitriol et une faible
+concentration de phosphate dans le sang, favorise l'induction de la
+\ac{CYP24A1}, tandis que la \ac{PTH}, induite par une faible
+concentration de calcium et inhibée par une forte concentration de
+calcitriol, va induire la \ac{CYP24A1} et donc contribuer au catabolisme
+du calcitriol \textbf{(Figure \ref{fig:reg-vitd})}
+\autocite{Dankers.2017,Christakos.2010}.
 
 \begin{figure}
 \includegraphics{figures/vitamin-d-metabolism-regulation.jpg} 
@@ -379,9 +385,9 @@ contribuer au catabolisme du calcitriol \textbf{(Figure}
 
 L'ergostérol ou vitamine D\textsubscript{2} est une autre forme de
 vitamine D. Les deux formes de vitamine sont perçues comme
-interchangeable, cependant la vitamine D\textsubscript{3} est considérée
-plus intéressante en terme de traitement, car son utilisation est plus
-effiace que la vitamine D\textsubscript{2} afin d'élever la
+interchangeables, cependant la vitamine D\textsubscript{3} est
+considérée plus intéressante en terme de traitement, car son utilisation
+est plus effiace que la vitamine D\textsubscript{2} afin d'élever la
 concentration de calcidiol et donc pour traiter les carences. En effet,
 la vitamine D\textsubscript{2}, étant de nature végatale ou fongique,
 possède une structure très similaire mais différente de la vitamine
@@ -1081,7 +1087,7 @@ dans la réponse immunitaire innée \autocite{White.2022}.
 
 }
 
-\caption{Méchanisme d'action de l'induction de la cathélicidine par la
+\caption{Mécanisme d'action de l'induction de la cathélicidine par la
 vitamine D.}
 
 \end{figure}
@@ -1197,7 +1203,7 @@ Resp Crit Care \emph{190}, 533--541. 10.1164/rccm.201405-0988oc.
 \newpage{}
 
 
-\printbibliography[title=Références]
+\printbibliography[title=Bibliographie]
 
 
 \end{document}

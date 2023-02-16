@@ -40,11 +40,14 @@ keep-tex: true
 bibliography: ["bibliography/vitamin-d.bib", "bibliography/organization.bib"]
 cite-method: biblatex
 # biblio-style: "biblatex-chicago" # Doesn't work
-csl: "csl/cell.csl" # Used for citeproc from pandoc
+csl: "csl/chicago-author-date-fr.csl" # Used for citeproc from pandoc
 header-includes:
 - \usepackage{setspace} #\setspace{1.5}
 - \usepackage[font=small, labelfont=bf, justification=justified, singlelinecheck=true]{caption} # Set figure caption to bold, centered
-- \usepackage[authordate,backend=biber]{biblatex-chicago} # Use if biblatex
+# Separate chapter from figure numbering : continuous figure numbering.
+- \counterwithout{figure}{chapter} 
+- \counterwithout{figure}{section}
+- \usepackage[authordate,backend=biber, doi=false,isbn=false]{biblatex-chicago} # Use if biblatex
 - \usepackage[french]{babel} # Citation adds "Author ET author"
 - \usepackage{bookmark} # To add toc to pdf bookmarks
 - \unimathsetup{math-style=french} # {unicode-math} is already loaded, so we choose maths-style=french to have upright greek letters. Use \mupalpha to get alpha.
@@ -60,7 +63,6 @@ header-includes:
 - \newrobustcmd{\LU}[2]{\if@in@acrolist#1\else#2\fi}
 - \newcommand{\ACF}[1]{{\@in@acrolisttrue\acf{#1}}}
 include-before-body: "00-thesis_cover_page.tex"
-  
 ---
 
 ```{r child="01-remerciements.qmd"}
@@ -95,34 +97,33 @@ include-before-body: "00-thesis_cover_page.tex"
 
 {{< pagebreak >}}
 
+\pagenumbering{arabic}
+
 ```{r child="03-introduction.qmd"}
 
 ```
 
-\pagenumbering{arabic}
+
 
 {{< pagebreak >}}
 
 ```{r child="04-chapitre_1.qmd"}
 
 ```
+
 {{< pagebreak >}}
-
-
 
 ```{r child="05-chapitre_2.qmd"}
 
 ```
+
 {{< pagebreak >}}
-
-
 
 ```{r child="06-chapitre_3.qmd"}
 
 ```
+
 {{< pagebreak >}}
-
-
 
 ```{r child="07-conclusion.qmd"}
 
@@ -130,7 +131,7 @@ include-before-body: "00-thesis_cover_page.tex"
 
 {{< pagebreak >}}
 
-# Références {.unnumbered}
+# Bibliographie
 
 ::: {#refs}
 :::

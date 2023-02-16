@@ -42,7 +42,7 @@ La vitamine D est également capable d'agir non-classiquement par des actions no
 
 L'effet de la vitamine D a été observé lors d'une infection par *Mycobacterium tuberculosis* sur les monocytes, où lors d'une expérience in vitro, des monocytes traités avec du calcitriol, la forme active de la vitamine D, conduisent à une réduction de la croissance de *M. tuberculosis* [@Hewison.2011]. Ces observations concernent un pathogène bactérien, cependant il existe des parallèles importants entre les mécanismes de réponses antibactériens et antiviraux dans la réponse immunitaire innée [@White.2022].
 
-![Méchanisme d'action de l'induction de la cathélicidine par la vitamine D.](figures/vd-mecha-cathelicidin.jpg){alt="Méchanisme d'action de l'induction de la cathélicidine par la vitamine D." fig-align="center"}
+![Mécanisme d'action de l'induction de la cathélicidine par la vitamine D.](figures/vd-mecha-cathelicidin.jpg){alt="Méchanisme d'action de l'induction de la cathélicidine par la vitamine D." fig-align="center"}
 
 ### Action antivirale sur le système immunitaire inné
 
