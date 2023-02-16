@@ -4,8 +4,6 @@
 
 <!-- TODO Remplir les acronymes -->
 
-Faudrait-il mettre les acronymes en anglais ou français ?
-
 ```{=tex}
 \begin{acronym}
 \acro{1,24,25(OH)3D3}[1,24,25(OH)\textsubscript{3}D\textsubscript{3}]{1,24(R),25‐trihydroxycholecalciferol\acroextra{ (acide calcitroïque)}}
@@ -16,8 +14,8 @@ Faudrait-il mettre les acronymes en anglais ou français ?
 \acro{ADN}{acide désoxyribonucléique}
 \acro{AJR}{\LU{A}{a}pport \LU{J}{j}ournalier \LU{R}{r}ecommandé}
 \acro{CMH-II}{\LU{C}{c}omplexe \LU{M}{m}ajeur d'\LU{H}{h}istocompatibilité de \LU{C}{c}lasse II}
-\acro{CYP27B1}{25-hydroxyvitamine D\textsubscript{3}-1α-hydroxylase}
 \acro{CYP24A1}{24-hydroxylase}
+\acro{CYP27B1}{25-hydroxyvitamine D\textsubscript{3}-1α-hydroxylase}
 \acro{DBP}{D binding protein}
 \acro{FDA}{Food and Drugs Administration}
 \acro{FGF23}{fibroblast growth factor 23}
