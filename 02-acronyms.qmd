@@ -2,7 +2,6 @@
 
 <!-- Unfortunately, we have to sort manually -->
 
-
 ```{=tex}
 \begin{acronym}
 \acro{1,24,25(OH)3D3}[1,24,25(OH)\textsubscript{3}D\textsubscript{3}]{1,24(R),25‐trihydroxycholecalciferol\acroextra{ (acide calcitroïque)}}
