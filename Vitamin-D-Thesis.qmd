@@ -37,6 +37,8 @@ mainfont: "Times New Roman"
 execute:
   echo: false
 keep-tex: true
+filters:
+  - "pandoc-filters/short-captions.lua"
 bibliography: ["bibliography/vitamin-d.bib", "bibliography/organization.bib"]
 cite-method: biblatex
 # biblio-style: "biblatex-chicago" # Doesn't work
@@ -103,8 +105,6 @@ include-before-body: "00-thesis_cover_page.tex"
 ```{r child="03-introduction.qmd"}
 
 ```
-
-
 
 {{< pagebreak >}}
 

@@ -150,7 +150,7 @@
   pdfcreator={LaTeX via pandoc}}
 
 \author{}
-\date{2/22/23}
+\date{3/10/23}
 
 \begin{document}
 
@@ -186,7 +186,7 @@ THESE
 \pagenumbering{gobble}
 \clearpage
 
-\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[boxrule=0pt, interior hidden, borderline west={3pt}{0pt}{shadecolor}, enhanced, frame hidden, breakable, sharp corners]}{\end{tcolorbox}}\fi
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[sharp corners, frame hidden, interior hidden, borderline west={3pt}{0pt}{shadecolor}, enhanced, boxrule=0pt, breakable]}{\end{tcolorbox}}\fi
 
 \setstretch{1.5}
 \hypertarget{remerciements}{%
@@ -375,7 +375,8 @@ du calcitriol \textbf{(Figure \ref{fig:reg-vitd})}
 
 \begin{figure}
 \includegraphics{figures/vitamin-d-metabolism-regulation.jpg} 
-\caption[\textbf{Métabolisme et régulation de la vitamine D.}]{\textbf{Métabolisme et régulation de la vitamine D.} Le métabolisme de la vitamine D débute lorsque le 7-déhydrocholestérol présent dans la peau, est transformé par les rayons ultraviolets provenant du soleil en cholécalciférol. Le cholécalciférol ou vitamine D\textsubscript{3} est ensuite transporté par la protéine de liaison à la vitamine D, et est métabolisé dans le foie par des enzymes 25-hydroxylases telles que le CYP2R1 en calcidiol ou 25(OH)D\textsubscript{3}. L'autre étape de du métabolisme se situe dans le rein, où après transport du calcidiol, celui-ci se retrouve métabolisé en calcitriol ou 1,25(OH)\textsubscript{2}D\textsubscript{3} par le CYP27B1. Le calcitriol augmente la concentration de l'hormone de croissance des fibroblastes 23 (FGF23) et l'absorption du calcium et diminue la concentration de parathormone \ac{PTH}, tandis que ceux-ci exercent un rétrocontrôle négatif sur la concentration de calcitriol, en inhibant directement ou indirectement la 1-hydroxylase, ce qui va diminuer la formation de calcitriol. \cite{Dankers.2017}}
+\caption[\textbf{Métabolisme et régulation de la vitamine D.}]
+{\textbf{Métabolisme et régulation de la vitamine D.} Le métabolisme de la vitamine D débute lorsque le 7-déhydrocholestérol présent dans la peau, est transformé par les rayons ultraviolets provenant du soleil en cholécalciférol. Le cholécalciférol ou vitamine D\textsubscript{3} est ensuite transporté par la protéine de liaison à la vitamine D, et est métabolisé dans le foie par des enzymes 25-hydroxylases telles que le CYP2R1 en calcidiol ou 25(OH)D\textsubscript{3}. L'autre étape de du métabolisme se situe dans le rein, où après transport du calcidiol, celui-ci se retrouve métabolisé en calcitriol ou 1,25(OH)\textsubscript{2}D\textsubscript{3} par le CYP27B1. Le calcitriol augmente la concentration de l'hormone de croissance des fibroblastes 23 (FGF23) et l'absorption du calcium et diminue la concentration de parathormone \ac{PTH}, tandis que ceux-ci exercent un rétrocontrôle négatif sur la concentration de calcitriol, en inhibant directement ou indirectement la 1-hydroxylase, ce qui va diminuer la formation de calcitriol. (\cite{Dankers.2017})}
 \label{fig:reg-vitd}
 \end{figure}
 
@@ -404,7 +405,8 @@ hépatique \autocite{Houghton.2006}.
 
 \begin{figure}
 \includegraphics{figures/ergo_vs_chole.png} 
-\caption[\textbf{Comparaison de la structure de l'ergocalciférol par rapport au cholécalciférol.}]{\textbf{Comparaison de la structure de l'ergocalciférol par rapport au cholécalciférol.} La structure de l'ergocalciférol comprend une double liaison et un groupement méthyl (CH\textsubscript{3}) supplémentaire par rapport au cholécalciférol. Cela implique une voie de métabolisation différente, notamment une voie d'élimination plus rapide, et donc une diminution de la concentration en métabolite biologiquement actif issue de l'ergocalciférol. \cite{Houghton.2006}}
+\caption[\textbf{Comparaison de la structure de l'ergocalciférol par rapport au cholécalciférol.}]
+{\textbf{Comparaison de la structure de l'ergocalciférol par rapport au cholécalciférol.} La structure de l'ergocalciférol comprend une double liaison et un groupement méthyl (CH\textsubscript{3}) supplémentaire par rapport au cholécalciférol. Cela implique une voie de métabolisation différente, notamment une voie d'élimination plus rapide, et donc une diminution de la concentration en métabolite biologiquement actif issue de l'ergocalciférol. (\cite{Houghton.2006})}
 \label{fig:ergo-struc}
 \end{figure}
 
@@ -412,6 +414,7 @@ Ainsi, cette différence de structure cause une différence dans
 l'évolution de la concentration de 25(OH)D. Une expérience consistant en
 une administration d'une dose de 50 000 UI pour les deux types de
 vitamine D permet de comparer l'évolution des concentrations respectives
+
 en 25(OH)D \textbf{(Figure \ref{fig:PK-VD})}. La vitamine
 D\textsubscript{2} est inférieure à la vitamine D\textsubscript{3}
 concernant le maintien d'une concentration adéquate de 25(OH)D,
@@ -421,13 +424,19 @@ jour 14, la concentration de 25(OH)D obtenue par ergostérol est
 redevenue identique à celle au jour 1, tandis que celle obtenue par
 vitamine D\textsubscript{3} continue de croître \autocite{Armas.2004}.
 
+\hypertarget{fig:PK-VD}{%
 \begin{figure}
-\includegraphics{figures/PK_D2_vs_D3.jpeg} 
-\caption[\textbf{Evolution de la concentration en 25(OH)D après administration d'une
-dose de 50 000 UI de vitamine D~2~ ou D~3~ chez 10 patients.}]{Evolution de la concentration en 25(OH)D après administration d'une
-dose de 50 000 UI de vitamine D~2~ ou D~3~ chez 10 patients. \cite{Armas.2004}}
+\centering
+\includegraphics{figures/PK_D2_vs_D3.jpeg}
+\caption[{\textbf{Evolution de la concentration en 25(OH)D après
+administration d'une dose de 50 000 UI de vitamine D\textsubscript{2} ou
+D\textsubscript{3} chez 10 patients.}}]{\textbf{Evolution de la
+concentration en 25(OH)D après administration d'une dose de 50 000 UI de
+vitamine D\textsubscript{2} ou D\textsubscript{3} chez 10 patients.}
+\autocite{Armas.2004}}
 \label{fig:PK-VD}
 \end{figure}
+}
 
 Ainsi, la vitamine D\textsubscript{3} est généralement capable
 d'augmenter la concentration en 25(OH)D environ deux fois plus qu'avec
@@ -565,7 +574,7 @@ de maintenir une force musculaire adéquate.
 \begin{figure}
 \includegraphics{figures/extra-skeletal-effect.png} 
 \caption[\textbf{Effets classiques et extra-squelettiques de la vitamine D.}]
-{Effets classiques et extra-squelettiques de la vitamine D. \cite{Caprio.2017}}
+{Effets classiques et extra-squelettiques de la vitamine D. (\cite{Caprio.2017})}
 \label{fig:extra-skeletal}
 \end{figure}
 \end{landscape}
