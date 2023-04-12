@@ -1,0 +1,52 @@
+digraph vitd {
+  overlap = false;
+  DHC [label='7-déhydrocholestérol'];
+  vitd [label = 'Cholécalciférol'];
+  adipeux[label = 'Tissu adipeux'];
+  calcidiol [label='25(OH)D@_{3}'];
+  calcitriol [label='1,25(OH)@_{2}D@_{3}'];
+  calcitriol24 [label='1,24,25(OH)@_{2}D@_{3}'];
+  calcitroïque [label='Acide calcitroïque\n(excrétion)'];
+  calcidiol24 [label='24,25(OH)@_{2}D@_{3}'];
+  oxy [label='Oxydation, clivage de chaînes'];
+  tissus[label='Tissus cibles'];
+
+    subgraph cluster_peau {
+		style=filled;
+		color=lightgrey;
+		node [style=filled];
+    DHC;
+    vitd
+    label="Peau";
+  }
+
+  subgraph cluster_foie {
+		style=filled;
+		color=lightgrey;
+		node [style=filled];
+    calcidiol;
+    label="Foie";
+  }
+
+  subgraph cluster_rein {
+		style=filled;
+		color=lightgrey;
+		node [style=filled];
+    label = "Rein"
+    calcitriol;
+    calcidiol24;
+    calcitriol24;
+    }
+
+  DHC -> vitd [label = 'UVB'];
+  vitd -> adipeux
+  adipeux -> calcidiol;
+  vitd -> calcidiol[label='25-OH@_{ase}', lhead=cluster_foie];
+  calcidiol -> calcidiol24 [label='24(OH)@_{ase}'];
+  calcidiol -> calcitriol [label='1(OH)@_{ase}'];
+  calcitriol -> calcitriol24 [label='CYP24, CYP3A4'];
+  calcitriol24 -> calcitroïque;
+  calcidiol24 -> oxy;
+  calcitriol -> tissus;
+  calcidiol -> vitd [arrowhead=tee, color = red];
+}

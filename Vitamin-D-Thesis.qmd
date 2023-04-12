@@ -1,5 +1,4 @@
 ---
-date: last-modified
 format:
   pdf:
     pdf-engine: lualatex

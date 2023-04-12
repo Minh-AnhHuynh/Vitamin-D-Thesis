@@ -9,7 +9,6 @@
   listof=totoc]{scrreprt}
 
 \usepackage{amsmath,amssymb}
-\usepackage{lmodern}
 \usepackage{setspace}
 \usepackage{iftex}
 \ifPDFTeX
@@ -20,6 +19,10 @@
   \usepackage{unicode-math}
   \defaultfontfeatures{Scale=MatchLowercase}
   \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else  
+    % xetex/luatex font selection
   \setmainfont[]{Times New Roman}
 \fi
 % Use upquote if available, for straight quotes in verbatim environments
@@ -129,10 +132,12 @@
 \@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
 \makeatother
 \makeatletter
-\@ifpackageloaded{tcolorbox}{}{\usepackage[many]{tcolorbox}}
+\@ifpackageloaded{tcolorbox}{}{\usepackage[skins,breakable]{tcolorbox}}
 \makeatother
 \makeatletter
 \@ifundefined{shadecolor}{\definecolor{shadecolor}{rgb}{.97, .97, .97}}
+\makeatother
+\makeatletter
 \makeatother
 \makeatletter
 \makeatother
@@ -150,7 +155,7 @@
   pdfcreator={LaTeX via pandoc}}
 
 \author{}
-\date{3/10/23}
+\date{}
 
 \begin{document}
 
@@ -186,7 +191,7 @@ THESE
 \pagenumbering{gobble}
 \clearpage
 
-\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[frame hidden, interior hidden, sharp corners, borderline west={3pt}{0pt}{shadecolor}, enhanced, boxrule=0pt, breakable]}{\end{tcolorbox}}\fi
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[interior hidden, borderline west={3pt}{0pt}{shadecolor}, sharp corners, enhanced, boxrule=0pt, breakable, frame hidden]}{\end{tcolorbox}}\fi
 
 \setstretch{1.5}
 \hypertarget{remerciements}{%
@@ -353,15 +358,35 @@ enzyme peut également hydroxyler le calcidiol pour donner de la
 \ac{24,25(OH)3D3}. Ces réactions permettent de diminuer la quantité de
 calcidiol et calcitriol disponible dans le sang ; la 24-hydroxylase sert
 ainsi de catabolisme de la vitamine D \autocite{Norman.2008}
-\textbf{(Figure \ref{fig:metabolism-vitd}}). La quantité de calcitriol
+\textbf{(Figure~\ref{fig-vitd-metabolism})}. La quantité de calcitriol
 est donc déterminée par un équilibre entre les enzymes \ac{CYP27B1} et
 \ac{CYP24A1} \autocite{Dankers.2017}.
 
 \begin{figure}
-\centering
-\includegraphics{figures/vitamin-d-metabolism.png} 
-\caption[\textbf{Métabolisme de la vitamine D.}]{\textbf{Structure chimique de la vitamine D3 ou cholécalciférol.} (\cite{Norman.2008})}
-\label{fig:metabolism-vitd}
+
+{\centering \includegraphics{figures/vitd-metabolism-fr.png}
+
+}
+
+\caption[Métabolisme de la vitamine
+D.]{\label{fig-vitd-metabolism}\textbf{Métabolisme de la vitamine D.} Le
+métabolisme de la vitamine D débute lorsque le 7-déhydrocholestérol
+présent dans la peau, est transformé par les rayons ultraviolets
+provenant du soleil en cholécalciférol. Le cholécalciférol ou vitamine
+D3 est ensuite transporté par la protéine de liaison à la vitamine D, et
+est métabolisé dans le foie par des enzymes 25-hydroxylases telles que
+le CYP2R1 en calcidiol ou 25(OH)D\textsubscript{3}. L'autre étape de du
+métabolisme se situe dans le rein, où après transport du calcidiol,
+celui-ci se retrouve métabolisé en calcitriol ou
+1,25(OH)2D\textsubscript{3} par le CYP27B1. Le calcitriol augmente la
+concentration de l'hormone de croissance des fibroblastes 23 (FGF23) et
+l'absorption du calcium et diminue la concentration de parathormone PTH,
+tandis que ceux-ci exercent un rétrocontrôle négatif sur la
+concentration de calcitriol, en inhibant directement ou indirectement la
+1-hydroxylase, ce qui va diminuer la formation de calcitriol. D'après
+\textcite{Christakos.2010}, \textcite{Tsiaras.2011} et
+\textcite{Dankers.2017}}
+
 \end{figure}
 
 La synthèse du calcitriol est régulée par deux hormones, l'\ac{PTH} et
@@ -371,15 +396,7 @@ concentration de phosphate dans le sang, favorise l'induction de la
 \ac{CYP24A1}, tandis que la \ac{PTH}, induite par une faible
 concentration de calcium et inhibée par une forte concentration de
 calcitriol, va induire la \ac{CYP24A1} et donc contribuer au catabolisme
-du calcitriol \textbf{(Figure \ref{fig:reg-vitd}})
-\autocite{Dankers.2017,Christakos.2010}.
-
-\begin{figure}
-\includegraphics{figures/vitamin-d-metabolism-regulation.jpg} 
-\caption[\textbf{Métabolisme et régulation de la vitamine D.}]
-{\textbf{Métabolisme et régulation de la vitamine D.} Le métabolisme de la vitamine D débute lorsque le 7-déhydrocholestérol présent dans la peau, est transformé par les rayons ultraviolets provenant du soleil en cholécalciférol. Le cholécalciférol ou vitamine D\textsubscript{3} est ensuite transporté par la protéine de liaison à la vitamine D, et est métabolisé dans le foie par des enzymes 25-hydroxylases telles que le CYP2R1 en calcidiol ou 25(OH)D\textsubscript{3}. L'autre étape de du métabolisme se situe dans le rein, où après transport du calcidiol, celui-ci se retrouve métabolisé en calcitriol ou 1,25(OH)\textsubscript{2}D\textsubscript{3} par le CYP27B1. Le calcitriol augmente la concentration de l'hormone de croissance des fibroblastes 23 (FGF23) et l'absorption du calcium et diminue la concentration de parathormone \ac{PTH}, tandis que ceux-ci exercent un rétrocontrôle négatif sur la concentration de calcitriol, en inhibant directement ou indirectement la 1-hydroxylase, ce qui va diminuer la formation de calcitriol. (\cite{Dankers.2017})}
-\label{fig:reg-vitd}
-\end{figure}
+du calcitriol \autocite{Dankers.2017,Christakos.2010}.
 
 \hypertarget{place-de-lergostuxe9rol}{%
 \section{Place de l'ergostérol}\label{place-de-lergostuxe9rol}}
@@ -425,19 +442,18 @@ jour 14, la concentration de 25(OH)D obtenue par ergostérol est
 redevenue identique à celle au jour 1, tandis que celle obtenue par
 vitamine D\textsubscript{3} continue de croître \autocite{Armas.2004}.
 
-\hypertarget{fig-PK}{%
 \begin{figure}
-\centering
-\includegraphics{figures/PK_D2_vs_D3.jpeg}
-\caption[{\textbf{Evolution de la concentration en 25(OH)D après
-administration d'une dose de 50 000 UI de vitamine D\textsubscript{2} ou
-D\textsubscript{3} chez 10 patients.}}]{\textbf{Evolution de la
-concentration en 25(OH)D après administration d'une dose de 50 000 UI de
-vitamine D\textsubscript{2} ou D\textsubscript{3} chez 10 patients.}
-\autocite{Armas.2004}}
-\label{fig-PK}
-\end{figure}
+
+{\centering \includegraphics{figures/PK_D2_vs_D3.jpeg}
+
 }
+
+\caption{\label{fig-PK}\textbf{Evolution de la concentration en 25(OH)D
+après administration d'une dose de 50 000 UI de vitamine
+D\textsubscript{2} ou D\textsubscript{3} chez 10 patients.}
+\autocite{Armas.2004}}
+
+\end{figure}
 
 Ainsi, la vitamine D\textsubscript{3} est généralement capable
 d'augmenter la concentration en 25(OH)D environ deux fois plus qu'avec
@@ -608,47 +624,8 @@ marqueur du statut vitaminique) est définie en ng/mL ou en nmol/L. Pour
 passer de ng/mL en nmol/L, il suffit de multiplier par 2.5
 \autocite{Pramyothin.2012}
 
-\begin{longtable}[]{@{}
-  >{\centering\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2051}}
-  >{\centering\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2821}}
-  >{\centering\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2436}}
-  >{\centering\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1795}}
-  >{\centering\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.0897}}@{}}
-\toprule()
-\begin{minipage}[b]{\linewidth}\centering
-Seuils (ng/mL)
-\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-(IOM)
-\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-Endocrine Society
-\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-SIOMMMS
-\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
-ANSES
-\end{minipage} \\
-\midrule()
-\endhead
-\textless{} 12 & Déficience & Déficience & Déficience & \\
-12 - 19 & Inadéquation & Déficience & & \\
-20 - 29 & Suffisance & Insuffisance & Insuffisance & \\
-30 - 49 & Suffisance & Suffisance & Suffisance & \\
-\textgreater{} 50 & Raisons d'inquiétude & & & \\
-100 & & & Excès & \\
-\textgreater{} 150 & & & Intoxication & \\
-\bottomrule()
-\end{longtable}
-
-\begin{itemize}
-\tightlist
-\item
-  \emph{Il serait peut-être intéressant de faire un tableau pour montrer
-  les conversions et quels sont les chiffres pour certains seuils
-  intéressants (recommandation de IOM de 600 UI/j, dose de 4000 UI,
-  seuil de 30 ng/mL recommandé par IOM, seuil de 40 ng/mL\ldots)}
-\end{itemize}
-
 Cependant la \ac{FDA} a décidé depuis janvier 2021 de passer à une dose
-écrite en microgramme, ce qui oblige les fabricants à montrer
+écrite en microgramme, ce qui oblige les fabricants à donner
 l'information en microgramme, bien que la dénomination en UI reste
 possible en parallèle \autocite{HHS.2016}.
 
@@ -680,10 +657,15 @@ variance des données disponibles concernant cette catégorie d'âge. Une
 concentration sanguine de calcidiol de 20 ng/mL ou plus est considérée
 par l'\ac{IOM} comme étant le minimum adéquat chez 97,5 \% des personnes
 en bonne santé. Cette concentration minimum de 20 ng/mL a été démontré
-comme étant associée bénéfique pour la santé osseuse pour la majorité de
-la population générale. Les concentrations de calcitriol supérieures à
-30 ng/mL ne sont pas associées à un bénéfice accru selon l'\ac{IOM}
-\autocite[Caprio.2017]{IOM.2011}.
+comme étant associée bénéfique pour la santé osseuse concernant la
+majorité de la population générale. Les concentrations de calcitriol
+supérieures à 30 ng/mL ne sont pas associées à un bénéfice accru selon
+l'\ac{IOM} \autocite[Caprio.2017]{IOM.2011}.
+
+Un autre acteur français, l'ANSES, stipule que les recommandations
+journalières de cholécalciférol sont de 15 µg par jour soit l'équivalent
+d'une dose de 600 UI/j, s'appuyant sur les recommandations de l'Autorité
+européenne de sécurité des aliments) \autocite{ANSES.2022}
 
 Actuellement, la société d'endocrinologie recommande chez l'adulte (19 -
 50 ans) 600 UI/j pour maximiser la santé osseuse et le fonctionnement
@@ -693,40 +675,81 @@ carencés, ils suggèrent qu'une plus forte dose de 1500 UI/j à 2000 UI/j
 serait nécessaire pour maintenir constamment une concentration
 supérieure à 30 ng/mL \autocite{Holick.2011}.
 
-Un autre acteur français, l'ANSES, stipule que les recommandations
-journalières de cholécalciférol sont de 15 µg par jour soit l'équivalent
-d'une dose de 600 UI/j, s'appuyant sur les recommandations de l'Autorité
-européenne de sécurité des aliments) \autocite{ANSES.2022}
+\hypertarget{tbl-seuil}{}
+\begin{longtable}[]{@{}cccc@{}}
+\caption{\label{tbl-seuil}Seuils d'adéquation de la vitamine D par
+différentes sources.}\tabularnewline
+\toprule\noalign{}
+Seuils (ng/mL) & (IOM) & Endocrine Society & ANSES \\
+\midrule\noalign{}
+\endfirsthead
+\toprule\noalign{}
+Seuils (ng/mL) & (IOM) & Endocrine Society & ANSES \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\textless{} 12 & Déficience & Déficience & \\
+12 - 19 & Inadéquation & Déficience & \\
+20 - 29 & Suffisance & Insuffisance & \\
+30 - 49 & Suffisance & Suffisance & \\
+\textgreater{} 50 & Raisons d'inquiétude & & \\
+100 & & & \\
+\textgreater{} 150 & & & \\
+\end{longtable}
 
-D'après \textcite{Carmeliet.2015} les recommandations en 2015 sont de
-400-800 UI/j. Cependant une dose plus élevée pourrait être bénéfique
-concernant les effets extra-osseux, en fonction des résultats d'un large
-essai clinique d'ici 2018-2020. \textbf{Je ne trouve pas l'essai
-clinique en question afin de pouvoir commenter ce sujet.}
+\begin{itemize}
+\tightlist
+\item
+  \emph{Il serait peut-être intéressant de faire un tableau pour montrer
+  les conversions et quels sont les chiffres pour certains seuils
+  intéressants (recommandation de IOM de 600 UI/j, dose de 4000 UI,
+  seuil de 30 ng/mL recommandé par IOM, seuil de 40 ng/mL\ldots)}
+\end{itemize}
+
+\hypertarget{tbl-AJR}{}
+\begin{longtable}[]{@{}cccc@{}}
+\caption{\label{tbl-AJR}Apports journaliers recommandés de la vitamine D
+(UI/j). La mention de AJR indique que l'apport couvre les besoins
+minimes de 97.5\% population pour une concentration de 20 ng/mL selon
+l'\ac{IOM}. La société endocrine vise un AJR pouvant maintenir une
+concentration de 30 ng/mL \autocite{Pramyothin.2012}.}\tabularnewline
+\toprule\noalign{}
+AJR (UI/j) & IOM & ANSES/EFSA & Société Endocrine \\
+\midrule\noalign{}
+\endfirsthead
+\toprule\noalign{}
+AJR (UI/j) & IOM & ANSES/EFSA & Société Endocrine \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\textless{} 1 an & 400 & 600 & 400-1000 \\
+\textgreater{} 1 an & 600 & & 600-1000 \\
+\textgreater{} 19 ans & 600 & & 1500-2000 \\
+\textgreater{} 70 ans & 800 & & 1500-2000 \\
+\end{longtable}
 
 \hypertarget{ruxe9uxe9valuation-de-la-dose-recommanduxe9e-journaliuxe8re}{%
 \subsection{Réévaluation de la dose recommandée
 journalière}\label{ruxe9uxe9valuation-de-la-dose-recommanduxe9e-journaliuxe8re}}
 
-Une récente méta-analyse de \textcite{Garland.2014} a examiné la
-relation entre le taux sérique de 25(OH)D et la mortalité toutes causes
-confondues, ajustée à l'âge. Malgré la grande hétérogénéité des études,
-ce qui rend l'analyse conservative, les auteurs ont trouvé une forte
-association inverse entre la mortalité toutes causes confondues et le
-taux sérique de 25(OH)D, où le hazard ratio pour la catégorie de
-concentration la plus basse (0 - 9 ng/mL) est de 1.9, et décroit jusqu'à
-atteindre 1.0 pour une concentration de 40 ng/mL et reste stable pour
-une concentration supérieure à 40 ng/mL. Cette étude montre selon
-\textcite{Garland.2014} et \textcite{Papadimitriou.2017} que des niveaux
-inférieurs à 20 ng/mL seraient trop bas pour une bonne santé de la
-population et que le niveau de 30 ng/mL suggéré par l'IOM ne serait pas
-idéal, et qu'il serait préférable. De plus, selon
+Une méta-analyse de \textcite{Garland.2014} a examiné la relation entre
+calcidiol sérique et mortalité toutes causes confondues, ajustée à
+l'âge. Malgré la grande hétérogénéité des études, ce qui rend l'analyse
+conservative, les auteurs ont trouvé une association inverse entre la
+mortalité toutes causes confondues et le calcidiol, avec un risque
+(hazard ratio) pour les patients présentant les concentrations les plus
+basses (0 - 9 ng/mL) est de 1,9, significativement plus important que
+pour ceux ayant une concentration supérieure ou égale à 40 ng/mL. Cette
+étude montre selon \textcite{Garland.2014} et
+\textcite{Papadimitriou.2017} que la cible thérapeutique de 30 ng/mL,
+retenue par l'IOM, serait trop basse. De plus, selon
 \textcite{Papadimitriou.2017}, l'étude montre que la courbe de mortalité
 en forme de U concernant la vitamine D n'est pas vérifiée, puisque
 l'analyse montre que le hazard ratio reste stable à partir de
 concentrations supérieures à 40 ng/mL, comprenant des mesures allant de
-catégories de 40 ng/mL à \textgreater70 ng/mL
-(Figure~\ref{fig-vd-hazard-ratio}).
+catégories de 40 ng/mL à \textgreater70 ng/mL (Figure 2.7).
 
 \begin{figure}
 
@@ -734,33 +757,32 @@ catégories de 40 ng/mL à \textgreater70 ng/mL
 
 }
 
-\caption{\label{fig-vd-hazard-ratio}Hazard ratio globaux de mortalité
-ajustés en fonction de l'âge, dans 32 études sur l'association entre le
-taux sérique de 25-hydroxyvitamine D et la mortalité toutes causes
-confondues : 1966-2013. 25(OH)D = 25-hydroxyvitamine D.
-\textcite{Garland.2014}}
+\caption{\label{fig-vd-hazard-ratio}Hazard ratio de mortalité ajustés
+pour l'âge, dans 32 études sur l'association entre le calcidiol et la
+mortalité toutes causes confondues \textcite{Garland.2014} : 1966-2013.
+25(OH)D = 25-hydroxyvitamine D.}
 
 \end{figure}
 
 De plus, \textcite{Veugelers.2014} ont réanalysé les données utilisées
-par l'IOM lors de la détermination du seuil adéquat de vitamine D, et
-ont trouvé que l'IOM avait sous-estimé les concentrations nécessaires
-pour atteindre leurs recommandations. Ainsi, la courbe de régression
-réévaluée révèle que 600 UI/j de cholécalciférol permettrait d'obtenir
-pour 97.5\% de la population, une concentration en moyenne supérieure à
-10.72 ng/mL (valeurs converties de nmol/mL), bien en deçà des 20 ng/mL
-recommandé par l'IOM, et qu'il faudrait en réalité, avec les données
-utilisées par l'IOM, une dose minimale de 8895 UI/j pour atteindre des
-valeurs de 20 ng/mL ou plus. Les auteurs notent que cette dose est
-nettement supérieure à la dose journalière recommandée par l'IOM et bien
-supérieure à la limite supérieure de 4000 UI fixée par l'IOM
-(Figure~\ref{fig-vd-pk-estim}). Cette analyse est confirmée par
-\textcite{Heaney.2015} qui effectue des calculs similaires sur des
-données de patient différente venant de la base de donnée
-GrassrootsHealth, où il existe des données concernant des prises de
-cholécalciférol allant jusqu'à 10 000 UI/j, contrairement aux données
-prises par l'IOM où il existe une incertitude puisque les prises
-n'allaient jusqu'à 2400 UI/j. Ainsi, l'analyse de
+par l'\ac{IOM} lors de la détermination du seuil adéquat de vitamine D,
+et ont trouvé que l'\ac{IOM} avait sous-estimé les concentrations
+nécessaires pour atteindre leurs recommandations. Ainsi, la courbe de
+régression réévaluée révèle que 600 UI/j de cholécalciférol permettrait
+d'obtenir pour 97.5\% de la population, une concentration en moyenne
+supérieure à 10.72 ng/mL (valeurs converties de nmol/mL), bien en deçà
+des 20 ng/mL recommandé par l'\ac{IOM}, et qu'il faudrait en réalité,
+avec les données utilisées par l'\ac{IOM}, une dose minimale de 8895
+UI/j pour atteindre des valeurs de 20 ng/mL ou plus. Les auteurs notent
+que cette dose est nettement supérieure à la dose journalière
+recommandée par l'\ac{IOM} et bien supérieure à la limite supérieure de
+4000 UI fixée par l'\ac{IOM} (Figure~\ref{fig-vd-pk-estim}). Cette
+analyse est confirmée par \textcite{Heaney.2015} qui effectue des
+calculs similaires sur des données de patient différente venant de la
+base de donnée GrassrootsHealth, où il existe des données concernant des
+prises de cholécalciférol allant jusqu'à 10 000 UI/j, contrairement aux
+données prises par l'\ac{IOM} où il existe une incertitude puisque les
+prises n'allaient jusqu'à 2400 UI/j. Ainsi, l'analyse de
 \textcite{Heaney.2015}, rapporte qu'une concentration minimale de 3875
 ng/mL serait nécessaire pour obtenir 20 ng/mL
 (Figure~\ref{fig-vd-pk-heaney}). Les auteurs montrent également qu'il
@@ -856,14 +878,15 @@ limité par la quantité de substrat mais par ses propres régulations.
 \hypertarget{utilisation-thuxe9rapeutique}{%
 \section{Utilisation thérapeutique}\label{utilisation-thuxe9rapeutique}}
 
-La vitamine D est surtout utilisée en thérapie afin de prévenir les
-carences. Elle permet de prévenir du rachitisme chez les enfants et de
-l'ostéoporose chez les adultes et surtout chez les personnes âgées. De
-plus, le calcitriol, forme active de la vitamine D, est utilisé pour
-traiter des maladies métaboliques liées à la thyroïde, telle que les
-hypoparathyroïdies, les ostéodystrophies rénales, les ostéomalacies
-vitaminorésistantes, les pseudohypoparathyroïdies et les rachitismes
-vitaminorésistants \autocite{VIDAL.2013}.
+La vitamine D est surtout utilisée en thérapeutique afin de prévenir les
+carences à des fins de « bonne santé » osseuse. Elle permet de prévenir
+le rachitisme chez les enfants et l'ostéoporose chez les adultes et
+surtout chez les personnes âgées. De plus, le calcitriol, forme active
+de la vitamine D, est utilisé pour traiter des maladies métaboliques
+liées à la thyroïde, telle que les hypoparathyroïdies, les
+ostéodystrophies rénales, les ostéomalacies vitamino-résistantes, les
+pseudo-hypoparathyroïdies et les rachitismes vitamino-résistants
+\autocite{VIDAL.2013}.
 
 \hypertarget{toxicituxe9}{%
 \section{Toxicité}\label{toxicituxe9}}
@@ -1139,8 +1162,8 @@ dans la réponse immunitaire innée \autocite{White.2022}.
 
 }
 
-\caption{Mécanisme d'action de l'induction de la cathélicidine par la
-vitamine D.}
+\caption{Méchanisme d\textquotesingle action de
+l\textquotesingle induction de la cathélicidine par la vitamine D.}
 
 \end{figure}
 
@@ -1194,7 +1217,7 @@ intracrine}\label{action-paracrine-et-intracrine}}
 }
 
 \caption{Mécanismes des réponses immunitaires innées et adaptatives à la
-vitamine D. \textcite{Hewison.2012.ClinicalEndocrinology}}
+vitamine D.}
 
 \end{figure}
 
@@ -1254,8 +1277,12 @@ Resp Crit Care \emph{190}, 533--541. 10.1164/rccm.201405-0988oc.
 
 \newpage{}
 
+\hypertarget{bibliographie}{%
+\chapter{Bibliographie}\label{bibliographie}}
 
-\printbibliography[title=Bibliographie]
+\printbibliography[heading=none]
+
+
 
 
 \end{document}
