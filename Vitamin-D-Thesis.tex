@@ -191,7 +191,7 @@ THESE
 \pagenumbering{gobble}
 \clearpage
 
-\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[interior hidden, borderline west={3pt}{0pt}{shadecolor}, sharp corners, enhanced, boxrule=0pt, breakable, frame hidden]}{\end{tcolorbox}}\fi
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[enhanced, boxrule=0pt, sharp corners, borderline west={3pt}{0pt}{shadecolor}, frame hidden, breakable, interior hidden]}{\end{tcolorbox}}\fi
 
 \setstretch{1.5}
 \hypertarget{remerciements}{%
@@ -228,6 +228,7 @@ THESE
 \acro{24,25(OH)3D3}[24,25(OH)\textsubscript{3}D\textsubscript{3}]{24,25-dihydroxycholécalciférol}
 \acro{25(OH)D3}[25(OH)D\textsubscript{3}]{25-hydroxycholécalciferol\acroextra{ (calcidiol ou calcifédiol)}}
 \acro{7-DHC}{7-déhydrocholestérol}
+\acro{ANSES}{Agence Nationale de Sécurité sanitaire de l'alimentation, de l'Environnement et du Travail}
 \acro{ADN}{acide désoxyribonucléique}
 \acro{ANSM}{Agence Nationale de Sécurité des Médicaments}
 \acro{AJR}{\LU{A}{a}pport \LU{J}{j}ournalier \LU{R}{r}ecommandé}
@@ -235,6 +236,7 @@ THESE
 \acro{CYP24A1}{24-hydroxylase}
 \acro{CYP27B1}{25-hydroxyvitamine D\textsubscript{3}-1α-hydroxylase}
 \acro{DBP}{D binding protein}
+\acro{EFSA}{European Food Safety Authority}
 \acro{FDA}{Food and Drugs Administration}
 \acro{FGF23}{fibroblast growth factor 23}
 \acro{ifng}[IFN-$\mupgamma$]{interféron gamma}
@@ -368,9 +370,9 @@ est donc déterminée par un équilibre entre les enzymes \ac{CYP27B1} et
 
 }
 
-\caption[Métabolisme de la vitamine
-D.]{\label{fig-vitd-metabolism}\textbf{Métabolisme de la vitamine D.} Le
-métabolisme de la vitamine D débute lorsque le 7-déhydrocholestérol
+\caption[\textbf{Métabolisme de la vitamine
+D.}]{\label{fig-vitd-metabolism}\textbf{Métabolisme de la vitamine D.}
+Le métabolisme de la vitamine D débute lorsque le 7-déhydrocholestérol
 présent dans la peau, est transformé par les rayons ultraviolets
 provenant du soleil en cholécalciférol. Le cholécalciférol ou vitamine
 D3 est ensuite transporté par la protéine de liaison à la vitamine D, et
@@ -400,6 +402,15 @@ du calcitriol \autocite{Dankers.2017,Christakos.2010}.
 
 \hypertarget{place-de-lergostuxe9rol}{%
 \section{Place de l'ergostérol}\label{place-de-lergostuxe9rol}}
+
+L'ergostérol ou vitamine D2 est une autre forme de vitamine D. Les deux
+formes de vitamine sont perçues comme interchangeables ; cependant, la
+vitamine D3 est considérée plus intéressante en termes de traitement,
+car son administration est plus efficace que celle de la vitamine D2
+afin d'augmenter la concentration de calcidiol et donc pour traiter les
+carences. En effet, la vitamine D\textsubscript{2}, de nature végétale
+ou fongique, possède une structure légèrement différente de la vitamine
+D\textsubscript{3}.
 
 De ce fait, elle possède une pharmacocinétique différente, où l'étape de
 métabolisation est fonctionnellement différente entre la vitamine
@@ -432,7 +443,6 @@ Ainsi, cette différence de structure cause une différence dans
 l'évolution de la concentration de 25(OH)D. Une expérience consistant en
 une administration d'une dose de 50 000 UI pour les deux types de
 vitamine D permet de comparer l'évolution des concentrations respectives
-
 en 25(OH)D (\textbf{Figure \ref{fig-PK}}). La vitamine
 D\textsubscript{2} est inférieure à la vitamine D\textsubscript{3}
 concernant le maintien d'une concentration adéquate de 25(OH)D,
@@ -618,7 +628,7 @@ efficaces}\label{doses-thuxe9rapeutiques-efficaces}}
 L'expression de la dose de la vitamine D peut se faire en plusieurs
 unités. Classiquement, c'est l'\ac{UI} qui est utilisée. Elle peut
 également être exprimée en masse lors de prises de comprimés.
-L'équivalence est de 1 g pour 40 \ac{UI} ou 1 \ac{UI} pour 0,025 g. La
+L'équivalence est de 1 µg pour 40 \ac{UI} ou 1 \ac{UI} pour 0,025 g. La
 concentration de vitamine D (en fait celle de calcidiol utilisée comme
 marqueur du statut vitaminique) est définie en ng/mL ou en nmol/L. Pour
 passer de ng/mL en nmol/L, il suffit de multiplier par 2.5
@@ -629,18 +639,61 @@ Cependant la \ac{FDA} a décidé depuis janvier 2021 de passer à une dose
 l'information en microgramme, bien que la dénomination en UI reste
 possible en parallèle \autocite{HHS.2016}.
 
-Une comparaison de la dose de vitamine D pour 1000 UI par jour, ou
-l'équivalent de la dose en semaine ou en mois dans un essai clinique
-chez des patients (âge moyen de 53 ans ; taux de base moyen de calcidiol
-de \textasciitilde13 ng/mL) montre qu'une supplémentation en
+Un essai-clinique visant à établir l'efficacité de la supplémentation en
+cholécalciférol selon trois différents temps d'administration de la
+vitamine D a été réalisée sur 61 patients, en divisant les patients en
+trois groupes, selon la prise de 1000 UI par jour, 7000 UI par semaine
+ou 30 000 UI par mois de vitamine D. Les patients sélectionnés sont
+carencés avec une concentration de vitamine D inférieure à 20 ng/mL (en
+moyenne autour de 13,3 ng/mL) et ont été suivi pendant 3 mois. L'étude a
+permis de déterminer qu'en moyenne, une supplémentation en
 cholécalciférol augmente la concentration de calcidiol de 1.3 ng/100 UI
-\autocite{Bouillon.2017}. Toutefois, la courbe dose-réponse du calcidiol
-ne serait pas linéaire mais asymptotique, indiquant une saturation
-progressive du processus d'hydroxylation (Veugelers et Ekwaru 2014 ;
-Heaney et al.~2015) (Figures 7, 8). (Figure~\ref{fig-vd-pk-estim}).
+par jour \autocite{Takács.2017}.
 
-{[}\textbf{Ici, si vous pensez que les références ne sont pas adéquates,
-pourrait-on utiliser celles-ci ?}{]}
+Toutefois, la courbe dose-réponse du calcidiol ne serait pas linéaire
+indiquant une saturation progressive du processus d'hydroxylation
+\autocite{Garland.2011,IOM.2011}
+(\textbf{Figure~\ref{fig-vd-pk-heaney}}).
+
+\begin{figure}
+
+\begin{minipage}[t]{0.50\linewidth}
+
+{\centering 
+
+\raisebox{-\height}{
+
+\includegraphics{figures/vd-pk-heaney.jpg}
+
+}
+
+\caption{\label{fig-vd-pk-heaney}Concentration 25(OH)D en fonction de la
+prise de suppléments de vitamine D. \autocite{Heaney.2015}}
+
+}
+
+\end{minipage}%
+%
+\begin{minipage}[t]{0.50\linewidth}
+
+{\centering 
+
+\raisebox{-\height}{
+
+\includegraphics{figures/vd-expected-rise.jpeg}
+
+}
+
+\caption{\label{fig-vd-expected-rise}Graphique de l'augmentation
+attendue de la 25(OH)D sérique pour chaque supplément de 1 000 UI de
+vitamine D3 par jour, en fonction de la valeur de base de la 25(OH)D de
+base. \autocite{Garland.2011}}
+
+}
+
+\end{minipage}%
+
+\end{figure}
 
 \hypertarget{dose-recommanduxe9e-journaliuxe8re}{%
 \subsection{Dose recommandée
@@ -656,224 +709,82 @@ UI/jour chez les personnes de plus de 70 ans en raison de la plus grande
 variance des données disponibles concernant cette catégorie d'âge. Une
 concentration sanguine de calcidiol de 20 ng/mL ou plus est considérée
 par l'\ac{IOM} comme étant le minimum adéquat chez 97,5 \% des personnes
-en bonne santé. Cette concentration minimum de 20 ng/mL a été démontré
-comme étant associée bénéfique pour la santé osseuse concernant la
-majorité de la population générale. Les concentrations de calcitriol
-supérieures à 30 ng/mL ne sont pas associées à un bénéfice accru selon
-l'\ac{IOM} \autocite[Caprio.2017]{IOM.2011}.
+en bonne santé. Cette concentration minimum de 20 ng/mL a été observé
+comme étant bénéfique pour la santé osseuse concernant la majorité de la
+population générale, se manifestant par une augmentation de la densité
+minérale osseuse, l'accrétion osseuse et réduisant le risque de
+fractures. Les concentrations de calcitriol supérieures à 30 ng/mL ne
+sont pas associées à un bénéfice accru selon l'\ac{IOM}
+\autocite[Caprio.2017]{IOM.2011}.
 
-Un autre acteur français, l'ANSES, stipule que les recommandations
-journalières de cholécalciférol sont de 15 µg par jour soit l'équivalent
-d'une dose de 600 UI/j, s'appuyant sur les recommandations de l'Autorité
-européenne de sécurité des aliments) \autocite{ANSES.2022}
-
-Actuellement, la société d'endocrinologie recommande chez l'adulte (19 -
-50 ans) 600 UI/j pour maximiser la santé osseuse et le fonctionnement
-musculaire, admettant cependant que les bénéfices extra-squelettiques
-associé à cette dose leur est inconnu. De plus, pour des patients
-carencés, ils suggèrent qu'une plus forte dose de 1500 UI/j à 2000 UI/j
-serait nécessaire pour maintenir constamment une concentration
-supérieure à 30 ng/mL \autocite{Holick.2011}.
+Un autre acteur français, l'\ac{ANSES}, stipule que les recommandations
+journalières de cholécalciférol sont de 15 µg par jour pour un adulte,
+soit l'équivalent d'une dose de 600 UI/j, s'appuyant sur les
+recommandations de l'Autorité européenne de sécurité des aliments,
+\acsu{EFSA}) \autocite{ANSES.2021}. En effet, l'\ac{EFSA} a retenu une
+valeur de 15 µg/j (soit 600 UI/j) permettant aux hommes et femmes
+d'atteindre le seuil de calcitriol jugé adéquat de 50 nmol/L ou 20 ng/mL
+\autocite{ANSES.2022}.
 
 \hypertarget{tbl-seuil}{}
-\begin{longtable}[]{@{}cccc@{}}
-\caption{\label{tbl-seuil}Seuils d'adéquation de la vitamine D par
-différentes sources.}\tabularnewline
+\begin{longtable}[]{@{}ccc@{}}
+\caption{\label{tbl-seuil}Tableau comparatif des seuils d'adéquation de
+la vitamine D par différentes sources {[}\textcite{IOM.2011};
+ANSES.{]}.}\tabularnewline
 \toprule\noalign{}
-Seuils (ng/mL) & (IOM) & Endocrine Society & ANSES \\
+Seuil de vitamine D & IOM & ANSES \\
 \midrule\noalign{}
 \endfirsthead
 \toprule\noalign{}
-Seuils (ng/mL) & (IOM) & Endocrine Society & ANSES \\
+Seuil de vitamine D & IOM & ANSES \\
 \midrule\noalign{}
 \endhead
 \bottomrule\noalign{}
 \endlastfoot
-\textless{} 12 & Déficience & Déficience & \\
-12 - 19 & Inadéquation & Déficience & \\
-20 - 29 & Suffisance & Insuffisance & \\
-30 - 49 & Suffisance & Suffisance & \\
-\textgreater{} 50 & Raisons d'inquiétude & & \\
-100 & & & \\
-\textgreater{} 150 & & & \\
+Déficience en vitamine D & \textless{} 12 ng/mL & \textless{} 10
+ng/mL \\
+Insuffisance en vitamine D & 12-20 ng/mL & 10-20 ng/mL \\
+Valeurs recommandées & 20-30 ng/mL & 20-30 ng/mL \\
+Limite Supérieure de Sécurité & \textgreater{} 50 ng/mL & \textgreater{}
+100 ng/mL \\
 \end{longtable}
 
-\begin{itemize}
-\tightlist
-\item
-  \emph{Il serait peut-être intéressant de faire un tableau pour montrer
-  les conversions et quels sont les chiffres pour certains seuils
-  intéressants (recommandation de IOM de 600 UI/j, dose de 4000 UI,
-  seuil de 30 ng/mL recommandé par IOM, seuil de 40 ng/mL\ldots)}
-\end{itemize}
-
 \hypertarget{tbl-AJR}{}
-\begin{longtable}[]{@{}cccc@{}}
+\begin{longtable}[]{@{}ccc@{}}
 \caption{\label{tbl-AJR}Apports journaliers recommandés de la vitamine D
 (UI/j). La mention de AJR indique que l'apport couvre les besoins
 minimes de 97.5\% population pour une concentration de 20 ng/mL selon
-l'\ac{IOM}. La société endocrine vise un AJR pouvant maintenir une
-concentration de 30 ng/mL \autocite{Pramyothin.2012}.}\tabularnewline
+l'\ac{IOM}.
+\autocite{Pramyothin.2012,ANSES.2021,IOM.2011}.}\tabularnewline
 \toprule\noalign{}
-AJR (UI/j) & IOM & ANSES/EFSA & Société Endocrine \\
+Groupe d'âge & IOM & ANSES/EFSA \\
 \midrule\noalign{}
 \endfirsthead
 \toprule\noalign{}
-AJR (UI/j) & IOM & ANSES/EFSA & Société Endocrine \\
+Groupe d'âge & IOM & ANSES/EFSA \\
 \midrule\noalign{}
 \endhead
 \bottomrule\noalign{}
 \endlastfoot
-\textless{} 1 an & 400 & 600 & 400-1000 \\
-\textgreater{} 1 an & 600 & & 600-1000 \\
-\textgreater{} 19 ans & 600 & & 1500-2000 \\
-\textgreater{} 70 ans & 800 & & 1500-2000 \\
+Nourrissons (0-12 mois) & 400 & 400 \\
+Enfants (1 - 11 ans) & 600 & 600 \\
+Adolescents (11 - 17 ans) & 600 & 600 \\
+Hommes et Femmes & 800 & 600 \\
+Femmes enceintes & 600 & 600 \\
 \end{longtable}
 
-\hypertarget{ruxe9uxe9valuation-de-la-dose-recommanduxe9e-journaliuxe8re}{%
-\subsection{Réévaluation de la dose recommandée
-journalière}\label{ruxe9uxe9valuation-de-la-dose-recommanduxe9e-journaliuxe8re}}
+\hypertarget{controverse-autour-de-la-dose-recommanduxe9e-journaliuxe8re}{%
+\subsection{Controverse autour de la dose recommandée
+journalière}\label{controverse-autour-de-la-dose-recommanduxe9e-journaliuxe8re}}
 
-Une méta-analyse de \textcite{Garland.2014} a examiné la relation entre
-calcidiol sérique et mortalité toutes causes confondues, ajustée à
-l'âge. Malgré la grande hétérogénéité des études, ce qui rend l'analyse
-conservative, les auteurs ont trouvé une association inverse entre la
-mortalité toutes causes confondues et le calcidiol, avec un risque
-(hazard ratio) pour les patients présentant les concentrations les plus
-basses (0 - 9 ng/mL) est de 1,9, significativement plus important que
-pour ceux ayant une concentration supérieure ou égale à 40 ng/mL. Cette
-étude montre selon \textcite{Garland.2014} et
-\textcite{Papadimitriou.2017} que la cible thérapeutique de 30 ng/mL,
-retenue par l'IOM, serait trop basse. De plus, selon
-\textcite{Papadimitriou.2017}, l'étude montre que la courbe de mortalité
-en forme de U concernant la vitamine D n'est pas vérifiée, puisque
-l'analyse montre que le hazard ratio reste stable à partir de
-concentrations supérieures à 40 ng/mL, comprenant des mesures allant de
-catégories de 40 ng/mL à \textgreater70 ng/mL (Figure 2.7).
-
-\begin{figure}
-
-{\centering \includegraphics[width=3.375in,height=\textheight]{figures/vd-hazard-ratio.jpg}
-
-}
-
-\caption{\label{fig-vd-hazard-ratio}Hazard ratio de mortalité ajustés
-pour l'âge, dans 32 études sur l'association entre le calcidiol et la
-mortalité toutes causes confondues \textcite{Garland.2014} : 1966-2013.
-25(OH)D = 25-hydroxyvitamine D.}
-
-\end{figure}
-
-De plus, \textcite{Veugelers.2014} ont réanalysé les données utilisées
-par l'\ac{IOM} lors de la détermination du seuil adéquat de vitamine D,
-et ont trouvé que l'\ac{IOM} avait sous-estimé les concentrations
-nécessaires pour atteindre leurs recommandations. Ainsi, la courbe de
-régression réévaluée révèle que 600 UI/j de cholécalciférol permettrait
-d'obtenir pour 97.5\% de la population, une concentration en moyenne
-supérieure à 10.72 ng/mL (valeurs converties de nmol/mL), bien en deçà
-des 20 ng/mL recommandé par l'\ac{IOM}, et qu'il faudrait en réalité,
-avec les données utilisées par l'\ac{IOM}, une dose minimale de 8895
-UI/j pour atteindre des valeurs de 20 ng/mL ou plus. Les auteurs notent
-que cette dose est nettement supérieure à la dose journalière
-recommandée par l'\ac{IOM} et bien supérieure à la limite supérieure de
-4000 UI fixée par l'\ac{IOM} (Figure~\ref{fig-vd-pk-estim}). Cette
-analyse est confirmée par \textcite{Heaney.2015} qui effectue des
-calculs similaires sur des données de patient différente venant de la
-base de donnée GrassrootsHealth, où il existe des données concernant des
-prises de cholécalciférol allant jusqu'à 10 000 UI/j, contrairement aux
-données prises par l'\ac{IOM} où il existe une incertitude puisque les
-prises n'allaient jusqu'à 2400 UI/j. Ainsi, l'analyse de
-\textcite{Heaney.2015}, rapporte qu'une concentration minimale de 3875
-ng/mL serait nécessaire pour obtenir 20 ng/mL
-(Figure~\ref{fig-vd-pk-heaney}). Les auteurs montrent également qu'il
-existe au préalable un AJR de 3000 UI issu de la nourriture et du soleil
-qui s'ajoute en plus de ce seuil, déterminé via la régression linéaire
-ce qui constituerait un AJR de 7000 UI/j, ce qui se rapproche des
-conclusions de \textcite{Veugelers.2014}.
-
-\begin{figure}
-
-\begin{minipage}[t]{0.50\linewidth}
-
-{\centering 
-
-\raisebox{-\height}{
-
-\includegraphics{figures/vd-pk-estim.jpg}
-
-}
-
-\caption{\label{fig-vd-pk-estim}Relation dose-réponse entre l'apport en
-vitamine D et le taux sérique de 25 hydroxyvitamine D.
-\textcite{Veugelers.2014}}
-
-}
-
-\end{minipage}%
-%
-\begin{minipage}[t]{0.50\linewidth}
-
-{\centering 
-
-\raisebox{-\height}{
-
-\includegraphics{figures/vd-pk-heaney.jpg}
-
-}
-
-\caption{\label{fig-vd-pk-heaney}Concentration 25(OH)D en fonction de la
-prise de suppléments de vitamine D. \textcite{Heaney.2015}}
-
-}
-
-\end{minipage}%
-
-\end{figure}
-
-\textcite{Cannell.2008} proposent une dose idéale de vitamine D basée
-sur un raisonnement lié à l'optimisation des bénéfices métaboliques
-apportées par la vitamine D. En effet, une concentration idéale de 34
-ng/mL pour optimiser l'absorption intestinale calcique serait moindre
-que celle pour optimiser les performances neuromusculaires (38 ng/mL).
-De plus, une concentration naturelle de vitamine D produite par
-l'exposition au soleil de 30 hommes passant du temps à travailler à
-l'extérieur pendant l'été serait autour de 50 ng/mL, mais Cannell note
-que plus de 50\% de ces hommes reviennent à un niveau inférieur à 30
-ng/mL d'ici la fin de l'été, ce qui indiquerait que le soleil ne peut
-maintenir un niveau adéquat de vitamine D.
-
-\textcite{Hollis.2005} raisonne que la définition du niveau ``normal''
-de la vitamine D est discutable et qu'il pourrait reposer sur la
-concentration de 25(OH)D chez les sujets sains qui travaillent en
-dehors, sous l'exposition du soleil, sans trop de vêtements ou sans
-crème solaire. Le corps humain ayant évolué dans un environnement avec
-une exposition abondante au soleil, le taux normal de vitamine D devrait
-être celui obtenu dans ces conditions. Ainsi, une étude à Puerto Rico
-rapporte que la concentration de 25(OH)D varie entre 54 et 90 ng/mL, une
-concentration qui ne serait donc pas toxique \textbf{{[}Pas de référence
-trouvée pour : Haddock 1982 25(OH)D serum levels in the normal Puerto
-Rican population and in subjects with tropical sprue and parathyroid
-disease. Puerto Rico Health Science{]}}.
-
-Un autre raisonnement reposant sur la pharmacocinétique de la vitamine D
-est proposé par \textcite{Cannell.2008}. En effet, le cholécalciférol
-(premier substrat des enzymes métabolisant la vitamine D) est
-immédiatement consommé et métabolisé en calcidiol et calcitriol par les
-enzymes, ce qui rend le cholécalciférol indétectable dans le sang,
-indiquant que toutes les molécules de vitamine D sont utilisées dans des
-réactions métaboliques. \textcite{Hollis.2007} ont étudié la cinétique
-des réactions enzymatiques concernant la vitamine D, et ont déterminé
-que la vitesse maximale pour laquelle la réaction enzymatique de la
-25-hydroxylase arrive à saturation est lorsque le calcidiol arrive à 40
-ng/mL. Le substrat initial (cholécalciférol) est donc alors détectable
-dans le sang au-delà de cette concentration, et la réaction enzymatique
-devient alors saturable et régulée, comme il s'agit les autres systèmes
-hormonaux stéroïques \autocite{Cannell.2008}. \textcite{Hollis.2007}
-suppose ainsi que les humains fonctionnent à un niveau en-deçà de la
-V\textsubscript{max} de la 25-hydroxylase à cause d'une déficience de
-son substrat, le cholécalciférol, et que le niveau ``normal'' de
-vitamine D serait donc atteint lorsque le système ne devient donc pas
-limité par la quantité de substrat mais par ses propres régulations.
+Plusieurs acteurs tels que la Société d'Endocrinologie et recherches
+récentes sur la vitamine D suggèrent que l'\ac{AJR} établi par les
+autorités sont insuffisantes. La Société d'Endocrinologie suggère un AJR
+de 1000 UI/j pouvant aller à 2000 UI/j. L'IOM suggère dans une réponse à
+la Société d'Endocrinologie que les auteurs ont fait un amalgame entre
+apports nutritionnels chez la personne saine et l'intérêt de la vitamine
+D dans la prise en charge de certaines maladies plus spécifiques
+\autocite{Rosen.2012}.
 
 \hypertarget{utilisation-thuxe9rapeutique}{%
 \section{Utilisation thérapeutique}\label{utilisation-thuxe9rapeutique}}

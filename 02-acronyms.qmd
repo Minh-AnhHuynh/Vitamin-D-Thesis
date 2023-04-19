@@ -9,6 +9,7 @@
 \acro{24,25(OH)3D3}[24,25(OH)\textsubscript{3}D\textsubscript{3}]{24,25-dihydroxycholécalciférol}
 \acro{25(OH)D3}[25(OH)D\textsubscript{3}]{25-hydroxycholécalciferol\acroextra{ (calcidiol ou calcifédiol)}}
 \acro{7-DHC}{7-déhydrocholestérol}
+\acro{ANSES}{Agence Nationale de Sécurité sanitaire de l'alimentation, de l'Environnement et du Travail}
 \acro{ADN}{acide désoxyribonucléique}
 \acro{ANSM}{Agence Nationale de Sécurité des Médicaments}
 \acro{AJR}{\LU{A}{a}pport \LU{J}{j}ournalier \LU{R}{r}ecommandé}
@@ -16,6 +17,7 @@
 \acro{CYP24A1}{24-hydroxylase}
 \acro{CYP27B1}{25-hydroxyvitamine D\textsubscript{3}-1α-hydroxylase}
 \acro{DBP}{D binding protein}
+\acro{EFSA}{European Food Safety Authority}
 \acro{FDA}{Food and Drugs Administration}
 \acro{FGF23}{fibroblast growth factor 23}
 \acro{ifng}[IFN-$\mupgamma$]{interféron gamma}
