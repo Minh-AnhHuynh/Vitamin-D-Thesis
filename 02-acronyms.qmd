@@ -23,10 +23,14 @@
 \acro{ifng}[IFN-$\mupgamma$]{interféron gamma}
 \acro{IOM}{Institute of Medicine}
 \acro{LOAEL}{Non Observed Adverse Effect Level}
+\acro{LPS}{lipopolysaccharide}
+
+
 \acro{NOAEL}{Lowest Observed Adverse Effect Level}
 \acro{PTH}{hormone parathyroïde}
 \acro{TLR}{toll-like receptor}
-\acro{tnfa}[TNF-$\mupalpha$]{tumor necrosis factor alpha}
+%\acro{tnfa}[TNF-\tnfalpha]{tumor necrosis factor alpha}
+\acro{tnfa}[TNF-\ensuremath{\mupalpha}]{tumor necrosis factor alpha}
 \acro{UI}{unité internationale}
 \acro{VDR}{vitamin D receptor}
 \acro{VDRE}{\LU{V}{v}itamin D \LU{R}{r}esponse \LU{E}{e}lement}

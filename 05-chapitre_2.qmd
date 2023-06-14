@@ -1,50 +1,91 @@
 # Vitamine D et système immunitaire
 
-L'importance du rôle de la vitamine D sur le système immunitaire
-commence à prendre l'intérêt des scientifiques depuis la découverte de
-l'existence concomitante du \ac{VDR} et du \ac{CYP27B1} dans des tissus
-qui n'ont pas un rôle associé à l'homéostasie du calcium
-[@Zehnder.2001]. Notamment, l'expression de CYP27B1 dans les cellules
-immunitaires est régulée de manière indépendante à l'homéostasie du
-calcium, par la présence de pathogène ou non, ce qui montre que la
-vitamine D possède un rôle central dans la régulation du système
-immunitaire [@White.2022].
+L'importance cruciale du rôle de la vitamine D sur le système immunitaire a récemment captivé l'attention des chercheurs depuis la découverte de la coexistence du \ac{VDR} et du \ac{CYP27B1} dans des tissus dont la fonction n'est pas directement liée à l'homéostasie du calcium [@Zehnder.2001]. En particulier, l'expression du \ac{CYP27B1} dans les cellules immunitaires est régulée indépendamment de l'homéostasie du calcium, en présence ou non de pathogènes, ce qui démontre le rôle central de la vitamine D dans la régulation du système immunitaire [@White.2022].
+
+La vitamine D agit à la fois sur les cellules du système immunitaire innée et adaptatif par de nombreuses fonctions et effets (**\ref{tbl-vd-immu}**). Deux observations principales supportent la théorie du rôle de la vitamine D dans le système immunitaire : le récepteur au calcitriol est présent dans toutes les cellules immunitaires, et la présence de l'enzyme de conversion finale du calcidiol en calcitriol, la 1-α-hydroxylase est uprégulée par certaines cellules immunes.
+
+```{=tex}
+
+\begin{table}
+\centering
+\caption{Effets de la vitamine D sur le système immunitaire. Le tableau montre les effets de la vitamine D sur le système immunitaire inné et adaptatif. D'après \autocite{Giannini.2022}.}
+\label{tbl-vd-immu}
+\begin{tabular}{|c|>{\centering\arraybackslash}p{0.5\textwidth}|}
+\hline
+\textbf{Fonction/Cellules} & \textbf{Effet} \\
+\hline
+\textbf{Immunité Innée} & \\
+Différenciation des macrophages & Augmentation \\
+Elimination des bactéries & Augmentation \\
+Maturation des cellules dendritiques & Diminution \\
+Présentation antigénique & Diminution \\
+\hline
+\textbf{Immunité adaptative} & \\
+Cytokines Th$_1$ & Diminution \\
+Cytokines Th$_2$ & Augmentation \\
+Différentiation des Th${_{17}}$ & Diminution \\
+Différentiation des T\textsubscript{reg} & Augmentation \\
+\multirow{4}{*}{\begin{tabular}[c]{@{}c@{}}Lymphocytes B\end{tabular}} & Diminution de la prolifération \\
+& Induction de l'apoptose \\
+& Inhibition de la génération des plasmocytes \\
+& Inhibition de la sécrétion des immunoglobulines \\
+\hline
+\end{tabular}
+\end{table}
+```
+
+Ainsi, plusieurs cellules immunitaires peuvent synthétiser l'enzyme clé
+permettant la conversion du 25(OH)~2~D~3~ en 1,25(OH)~2~D~3~, le
+cytochrome CYP27B1 ou aussi appelée 1-α-hydroxylase. L'induction de
+cette enzyme concerne des cellules telles que les cellules
+dendritiques, monocytes, macrophages, lymphocytes B et T [@Giannini.2022 ; @Dankers.2017].
+
+Dans ce contexte, l'enzyme 1-α-hydroxylase n'est pas uprégulée par la \ac{PTH}. Par conséquent, la production de 1,25(OH)~2~D~3~ dépend des niveaux de substrat de 25(OH)D~3~ et peut être régulée par des signaux inflammatoires, tels que le \ac{LPS} et les cytokines [@Giannini.2022].
+
+<!-- TODO: Développer intracrine extracrine, peut-être même une sous-partie avec PREUVE et REFERENCE -->
+<!-- L'action de la vitamine D peut être jugée intracrine puisqu'elle se -->
+<!-- déroule à l'intérieur de la cellule, et non à l'extérieur de la cellule, -->
+<!-- ce qui correspondrait à une action autocrine. -->
+
 
 ## Action de la vitamine D sur les cellules immunitaires
 
-La vitamine D exerce son effet sur le système immunitaire grâce à la
-présence de la 1-α-hydroxylase aussi appelée cytochrome \ac{CYP27B1},
-permettant la conversion du 25(OH)~2~D~3~ (calcidiol) en 1,25(OH)~2~D~3~
-(calcitriol), la forme active de la vitamine D~3~. Ainsi, cette forme
-active est responsable des actions sur le système immunitaire, en se
-liant à son récepteur, le VDR. Ce récepteur fait partie de la famille
-des récepteurs nucléaires, et régule la transcription en se liant à un
-domaine de liaison à l'ADN appelé \ac{VDRE}. La liaison du calcitriol
-sur le \ac{VDR} crée un complexe protéique qui permet de modifier la
-transcription des gènes cibles.
+<!-- La vitamine D exerce son effet sur le système immunitaire grâce à la -->
+<!-- présence de la 1-α-hydroxylase aussi appelée cytochrome \ac{CYP27B1}, -->
+<!-- permettant la conversion du 25(OH)~2~D~3~ (calcidiol) en 1,25(OH)~2~D~3~ -->
+<!-- (calcitriol), la forme active de la vitamine D~3~. Ainsi, cette forme -->
+<!-- active est responsable des actions sur le système immunitaire, en se -->
+<!-- liant à son récepteur, le VDR. Ce récepteur fait partie de la famille -->
+<!-- des récepteurs nucléaires, et régule la transcription en se liant à un -->
+<!-- domaine de liaison à l'ADN appelé \ac{VDRE}. La liaison du calcitriol -->
+<!-- sur le \ac{VDR} crée un complexe protéique qui permet de modifier la -->
+<!-- transcription des gènes cibles. -->
 
-L'action de la vitamine D peut être jugée intracrine puisqu'elle se
-déroule à l'intérieur de la cellule, et non à l'extérieur de la cellule,
-ce qui correspondrait à une action autocrine.
+<!-- Jugé non utile, car superflu (décrit plus haut). A voir si fusion possible -->
+
+
 
 Immunologic effects of vitamin D on human health and disease
+@Charoenngam.2020
 
-Plusieurs cellules immunitaires peuvent synthétiser l'enzyme clé
-permettant la conversion du 25(OH)~2~D~3~ en 1,25(OH)~2~D~3~, le
-cytochrome CYP27B1 ou aussi appelée 1-α-hydroxylase. L'induction de
-cette enzyme concerne des cellules telles que les monocytes, cellules
-dendritiques, macrophages, lymphocytes B et T [@Meza-Meza.2020;
-@Dankers.2017], qui survient grâce à un stimuli immun, médié en partie
-par \ac{ifng}.
+
+
+
+
+<!-- tels que le \ac{tnfa} et l'{ifng}, deux cytokines qui sont essentielles au processus inflammatoire. [citation needed] [@Overbergh.2006]-->
+
+<!-- Par exemple, l'{ifng} est un stimuli immun qui lors de sa liaison sur son récepteur, va stimuler la production de 1-α-hydroxylase. [citation needed] -->
+
 
 Plusieurs signaux sont nécessaires à l'induction de la 1-α-hydroxylase,
 tels que la présence d'activateurs de macrophages comme le
-lipopolysaccharide et le \ac{tnfa}.
 
-\ac{tnfa} [@Overbergh.2006]. Le \ac{TLR} est également capable à son
+\ac{tnfa}. Le \ac{TLR} est également capable à son
 tour d'induire une immunité médiée par la vitamine en régulant
 positivement l'expression de VDR et les gènes codant pour la
 1-α-hydroxylase [@Liu.2006].
+
+__________
 
 La vitamine D possède une action globalement anti-inflammatoire et donc
 régulatrice de l'inflammation **(Figure** \ref{fig:immunomod}). Elle
@@ -59,7 +100,7 @@ Le calcitriol est capable entre autre d'induire la reconnaissance des
 pathogènes par le biais du TLR et le switch phénotypique de macrophage
 M1 vers M2 par la régulation positive de l'\ac{IL-10}. Le calcitriol
 inhibe également des cytokines majeures pro-inflammatoires, l'\ac{IL-6}
-et le \ac{tnfa} [@Meza-Meza.2020; @Caprio.2017].
+et le \ac{tnfa} [@Meza-Meza.2022; @Caprio.2017].
 
 De plus, la vitamine D agit également sur le système immunitaire
 adaptatif avec des effets inhibiteurs. Elle est capable d'induire une
@@ -154,3 +195,9 @@ fig-align="center"}
 ## Dose de vitamine D nécessaire à l'immunité
 
 @Hewison.2007
+
+## Molecular Mechanisms Underlying Immunomodulation
+
+@Dankers.2017
+
+In addition to the studies where cholecalciferol has been supplemented, attention has also focused on understanding the immunomodulatory effects of 1,25(OH)2D3 on a cellular level. Based on the current knowledge, 1,25(OH)2D3 reduced the pathogenicity of DCs, macrophages, CD4+ T cells, CD8+ T cells, and B cells. Similar effects have been observed in γδ T cells, iNKT cells, and ILCs, but more research is necessary to confirm these data (see section 5). It should be noted that 1,25(OH)2D3 does not merely work as an anti-inflammatory agent. Instead, 1,25(OH)2D3 assists in maintaining the balance between a pro- and anti-inflammatory state and is thereby able to restore the disturbed balance that is associated with autoimmunity. This balancing effect of 1,25(OH)2D3 is best illustrated in monocytes and macrophages, where it has pro-inflammatory effects in the early stages of activation but later shifts to an antiinflammatory state (242). Therefore, it is interesting to study the effects of 1,25(OH)2D3 in more detail in the various stages of differentiation and activation from monocyte to macrophage. The Carlberg lab has performed ChIP-seq experiments in the monocytic THP-1 cell line at early time points (5). Detailed studies have revealed several primary target genes such as ASAP2 and THBD (243–245), but also identified Bcl6 as a primary target that mediates important secondary responses (246). Next to the primary target genes, combining the ChIP-seq dataset with publically available ChIA-PET and FAIRE-seq datasets has improved the knowledge on VDR binding kinetics (247, 248).

@@ -38,7 +38,7 @@ execute:
 keep-tex: true
 filters:
   - "pandoc-filters/short-captions.lua"
-bibliography: ["bibliography/vitamin-d.bib", "bibliography/organization.bib"]
+bibliography: ["bibliography/vitamin-d.bib", "bibliography/organization.bib", "bibliography/manual.bib"]
 cite-method: biblatex
 # biblio-style: "biblatex-chicago" # Doesn't work
 csl: "csl/chicago-author-date-fr.csl" # Used for citeproc from pandoc
@@ -48,12 +48,14 @@ header-includes:
 # Separate chapter from figure numbering : continuous figure numbering.
 - \counterwithout{figure}{chapter} 
 - \counterwithout{figure}{section}
+- \counterwithout{table}{chapter} 
+- \counterwithout{table}{section}
 - \usepackage[authordate,backend=biber, doi=false,isbn=false]{biblatex-chicago} # Use if biblatex
 - \usepackage[french]{babel} # Citation adds "Author ET author"
 - \usepackage{bookmark} # To add toc to pdf bookmarks
 - \unimathsetup{math-style=french} # {unicode-math} is already loaded, so we choose maths-style=french to have upright greek letters. Use \mupalpha to get alpha.
 # - \usepackage[math-style=french]{unicode-math} will not work and somehow conflict with the acronym package
-# \usepackage{upgreek} # alternatively upgreek can be used 
+# - \usepackage{upgreek} # alternatively upgreek can be used, \upalpha
 - \usepackage{acronym} # Needs suffix and e-TeX
 # Use the following to make mixed case acronyms
 # See: https://tex.stackexchange.com/a/70894/284278
@@ -64,6 +66,10 @@ header-includes:
 - \newrobustcmd{\LU}[2]{\if@in@acrolist#1\else#2\fi}
 - \newcommand{\ACF}[1]{{\@in@acrolisttrue\acf{#1}}}
 - \usepackage{pdflscape} # Allow \begin{landscape} for figures
+- \usepackage{makecell} # Make multiline cell in latex
+- \usepackage{multirow} # Required for table and ref
+# - \usepackage[capitalise,noabbrev]{cleveref} # Allows \cref{} to cite latex table as "Table 3"
+# - \usepackage{textgreek} # Use \textalpha
 include-before-body: "00-thesis_cover_page.tex"
 ---
 
