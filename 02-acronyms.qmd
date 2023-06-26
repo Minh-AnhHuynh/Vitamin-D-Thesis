@@ -14,22 +14,28 @@
 \acro{ANSM}{Agence Nationale de Sécurité des Médicaments}
 \acro{AJR}{\LU{A}{a}pport \LU{J}{j}ournalier \LU{R}{r}ecommandé}
 \acro{CMH-II}{\LU{C}{c}omplexe \LU{M}{m}ajeur d'\LU{H}{h}istocompatibilité de \LU{C}{c}lasse II}
+\acro{CPA}{cellules présentatrices d'antigènes}
 \acro{CYP24A1}{24-hydroxylase}
 \acro{CYP27B1}{25-hydroxyvitamine D\textsubscript{3}-1α-hydroxylase}
 \acro{DBP}{D binding protein}
 \acro{EFSA}{European Food Safety Authority}
+\acro{eNOS}{endothelial nitric oxide synthase}
 \acro{FDA}{Food and Drugs Administration}
 \acro{FGF23}{fibroblast growth factor 23}
 \acro{ifng}[IFN-$\mupgamma$]{interféron gamma}
+\acro{IL-2}{interleukine-2}
+\acro{IL-6}{interleukine-6}
+\acro{IL-10}{interleukine-10}
+\acro{IL-12}{interleukine-12}
+\acro{IL-17}{interleukine-17}
 \acro{IOM}{Institute of Medicine}
+\acro{NK}{lymphocytes natural killer}
 \acro{LOAEL}{Non Observed Adverse Effect Level}
 \acro{LPS}{lipopolysaccharide}
-
-
 \acro{NOAEL}{Lowest Observed Adverse Effect Level}
 \acro{PTH}{hormone parathyroïde}
+\acro{Th}[T helpers]{lymphocytes T helpers}
 \acro{TLR}{toll-like receptor}
-%\acro{tnfa}[TNF-\tnfalpha]{tumor necrosis factor alpha}
 \acro{tnfa}[TNF-\ensuremath{\mupalpha}]{tumor necrosis factor alpha}
 \acro{UI}{unité internationale}
 \acro{VDR}{vitamin D receptor}
