@@ -202,7 +202,7 @@ THESE
 \pagenumbering{gobble}
 \clearpage
 
-\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[breakable, boxrule=0pt, interior hidden, sharp corners, frame hidden, borderline west={3pt}{0pt}{shadecolor}, enhanced]}{\end{tcolorbox}}\fi
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[frame hidden, breakable, boxrule=0pt, interior hidden, borderline west={3pt}{0pt}{shadecolor}, sharp corners, enhanced]}{\end{tcolorbox}}\fi
 
 \setstretch{1.5}
 \hypertarget{remerciements}{%
@@ -243,6 +243,8 @@ THESE
 \acro{ADN}{acide désoxyribonucléique}
 \acro{ANSM}{Agence Nationale de Sécurité des Médicaments}
 \acro{AJR}{\LU{A}{a}pport \LU{J}{j}ournalier \LU{R}{r}ecommandé}
+\acro{CCR10}{C-C chemokine receptor type 10}
+\acro{CD}{cluster de différenciation}
 \acro{CMH-II}{\LU{C}{c}omplexe \LU{M}{m}ajeur d'\LU{H}{h}istocompatibilité de \LU{C}{c}lasse II}
 \acro{CPA}{cellules présentatrices d'antigènes}
 \acro{CYP24A1}{24-hydroxylase}
@@ -252,18 +254,26 @@ THESE
 \acro{eNOS}{endothelial nitric oxide synthase}
 \acro{FDA}{Food and Drugs Administration}
 \acro{FGF23}{fibroblast growth factor 23}
+\acro{ifna}[IFN-$\mupalpha$]{interféron alpha}
 \acro{ifng}[IFN-$\mupgamma$]{interféron gamma}
+\acro{IKκβ}{I-κB kinase}
 \acro{IL-2}{interleukine-2}
+\acro{IL-4}{interleukine-4}
 \acro{IL-6}{interleukine-6}
+\acro{IL-8}{interleukine-8}
 \acro{IL-10}{interleukine-10}
 \acro{IL-12}{interleukine-12}
 \acro{IL-17}{interleukine-17}
 \acro{IOM}{Institute of Medicine}
+\acro{iNKT}{invariant NK T cell}
+\acro{nfkb}[NF-κB]{nuclear factor-kappa B}
 \acro{NK}{lymphocytes natural killer}
+\acro{NO}{oxyde nitrique}
 \acro{LOAEL}{Non Observed Adverse Effect Level}
 \acro{LPS}{lipopolysaccharide}
 \acro{NOAEL}{Lowest Observed Adverse Effect Level}
 \acro{PTH}{hormone parathyroïde}
+\acro{TCR}{T cell receptor}
 \acro{Th}[T helpers]{lymphocytes T helpers}
 \acro{TLR}{toll-like receptor}
 \acro{tnfa}[TNF-\ensuremath{\mupalpha}]{tumor necrosis factor alpha}
@@ -1042,7 +1052,11 @@ La vitamine D possède une action globalement anti-inflammatoire et donc
 régulatrice de l'inflammation (\cref{fig-vd-immune-effect}). Elle agit à
 la fois sur le système immunitaire inné et adaptatif. A l'initiation de
 la réponse inflammatoire, le calcitriol est essentiel afin de répondre à
-une infection.
+une infection. Les effets de la vitamine D ne répriment pas totalement
+le système immunitaire mais plutôt induit une modulation immunitaire, en
+faisant évoluer le système immunitaire adaptatif vers une tolérance
+antigénique, et le système immunitaire inné vers une meilleure
+élimination virale et bactérienne \autocite{Martens.2020}.
 
 \begin{figure}
 
@@ -1141,8 +1155,9 @@ cellules dendritiques, macrophages et lymphocytes B, et les \ac{NK} en
 les rendant plus immature et tolérogéniques, par le biais d'une
 diminution de l'expression de \ac{CMH-II} qui leur permet de présenter
 des antigènes étrangers, ainsi que l'expression de molécules de
-co-stimulation (CD40, CD80, CD86) qui jouent un rôle essentiel dans la
-stimulation des lymphocytes (\textbf{Figure~\ref{fig-vd-action}})
+co-stimulation (\ac{CD} 40, CD80, CD86) qui jouent un rôle essentiel
+dans la stimulation des lymphocytes
+(\textbf{Figure~\ref{fig-vd-action}})
 \autocite{Charoenngam.2020,Meza-Meza.2022,Caprio.2017}. Ce changement
 phénotypique s'accompagne donc d'une diminution de la capacité de
 présentation d'antigènes et de production d'\ac{IL-12}, interleukine clé
@@ -1170,8 +1185,8 @@ manière non génomique, le cholécalciférol étant plus puissante que le
 calcidiol et calcitriol à cet égard. En outre, le calcitriol agit comme
 un régulateur transcriptionnel de l'oxyde nitrique synthase endothéliale
 (\acs{eNOS})\acused{eNOS}, favorisant l'uprégulation de l'expression
-génétique de l'\ac{eNOS} et augmentant la production NO par les cellules
-endothéliales. L'apparition rapide en une minute de l'effet du
+génétique de l'\ac{eNOS} et augmentant la production de \ac{NO} par les
+cellules endothéliales. L'apparition rapide en une minute de l'effet du
 calcitriol suggère un mécanisme d'action non génomique, soit une action
 ne passant pas par une transcription de gènes. L'activation du \ac{VDR}
 au niveau de la membrane des cellules endothéliales déclenche des voies
@@ -1180,19 +1195,26 @@ qui entraîne une augmentation de la concentration de calcium
 intracellulaire et l'activation de la \ac{eNOS}. En outre, des études
 ont montré que le calcitriol favorise la formation de jonctions
 cellule-cellule et inhibe l'organisation des fibres de stress dans
-l'endothélium, protégeant ainsi contre les lésions endothéliales en
-présence d'une maladie rénale chronique \autocite{Charoenngam.2020}.
-
-Dans l'ensemble, les résultats soulignent les effets pléiotropiques de
-la vitamine D et de ses métabolites sur l'endothélium vasculaire, qui
-contribuent à protéger contre le dysfonctionnement vasculaire et les
-lésions tissulaires causées par l'inflammation, tant au niveau local que
-systémique.
+l'endothélium \autocite{Charoenngam.2020}.
 
 Le calcitriol possède d'autres effets au regard de l'épithélium
 intestinal et des cellules de Paneth en augmentant la viabilité des
 cellules épithéliales intestinales et atténue les dommages causés à
-l'épithélium intestinal par le \ac{LPS} bactérien.
+l'épithélium intestinal par le \ac{LPS} bactérien. La vitamine D est
+également capable d'agir non-classiquement par des actions
+non-génomique, c'est-à-dire que l'effet de la liaison du calcitriol sur
+le VDR ne nécessite pas nécessairement sa translocation dans le noyau
+pour avoir des effets et donc l'usage du \ac{VDRE}, mais peut agir
+directement par des actions de type protéine-protéine. Cela permet à la
+vitamine D de moduler des voies dont les ligands n'interagissent pas
+avec la vitamine D, telle que l'inhibition de la kinase \ac{IKκβ}, un
+régulateur de la voie canonique de \ac{NF-κB} passant par le ligand
+\ac{tnfa}, une des cytokines pro-inflammatoire clé de la réaction
+immunitaire, ou l'interaction avec STAT1 qui permet de moduler cette
+voie dont le ligand est l'\ac{ifna}, par la transcription de gène
+anti-viraux. Ce mécanisme non-génomique permet à la vitamine D de
+moduler entre autre des réponses immunes anti-virales
+\autocite{Hii.2016}.
 
 \hypertarget{effets-de-la-vitamine-d-sur-limmunituxe9-adaptative}{%
 \subsection{Effets de la vitamine D sur l'immunité
@@ -1227,41 +1249,119 @@ Th\textsubscript{17}), et les lymphocytes T CD8\textsuperscript{+} qui
 sont les lymphocytes effecteurs capables d'induire l'apoptose des
 cellules. La population Th\textsubscript{1} et Th\textsubscript{17} a
 principalement pour rôle de stimuler une réponse cytotoxique, en
-stimulant les macrophages pour une réponse intracellulaire
-antibactérienne et antiprotozoaire comme le toxoplasme, et les
-neutrophiles pour une réponse extracellulaire antibactérienne et
+stimulant respectivement les macrophages pour une réponse
+intracellulaire antibactérienne et antiprotozoaire comme le toxoplasme,
+et les neutrophiles pour une réponse extracellulaire antibactérienne et
 fongique. La population Th\textsubscript{2} en revanche est centrée sur
 une stimulation de la réponse humorale ou médiée par les anticorps,
 contre les parasites extracellulaires, les bactéries, les allergènes et
 les toxines, médiée par le biais de cytokines causant une forte
 production d'anticorps, l'activation des éosinophiles et de l'inhibition
 de plusieurs fonctions des macrophages, fournissant ainsi des réponses
-protectrices indépendantes des phagocytes \autocite{Walker.2018}.
+protectrices indépendantes des phagocytes
+\autocite{Cantorna.2015,Walker.2018}.
+
+Il a été observé que les lymphocytes reposant à l'état basal n'expriment
+pas de \ac{VDR} contrairement aux monocytes. Cependant les lymphocytes
+activés expriment le \ac{VDR}, et expriment eux-mêmes le CYP27B1
+nécessaire pour convertir le calcidiol en calcitriol et bénéficier de
+l'activation intracrine du \ac{VDR} \autocite{Charoenngam.2020}.
 
 Le calcitriol est capable d'induire le changement phénotypique de ces
-sous-population de lymphocytes T CD4\textsuperscript{+}, favorisant le
-passage de la population T auxiliaire Th\textsubscript{1} et
-Th\textsubscript{17} vers la population Th\textsubscript{2} La
-sous-population Th\textsubscript{2} régule à son tour les populations
-Th\textsubscript{1} et Th\textsubscript{17} dans un équilibre, diminuant
-ainsi globalement l'activité cytotoxique médiée par les cellules, qui
-est exacerbée dans les maladies autoimmunes et infections par des
-pathogènes \autocite{Meza-Meza.2022}.
+sous-population de lymphocytes T CD4\textsuperscript{+}, favorisant un
+changement de la population T auxiliaire Th\textsubscript{1} et
+Th\textsubscript{17} vers la population Th\textsubscript{2}, en inhibant
+les cytokines favorisant la population Th\textsubscript{1} et
+Th\textsubscript{17}et en augmentant l'expression des cytokines
+Th\textsubscript{2}. La sous-population Th\textsubscript{2} régule à son
+tour les populations Th\textsubscript{1} et Th\textsubscript{17} dans un
+équilibre, diminuant ainsi globalement l'activité cytotoxique médiée par
+les cellules, qui est exacerbée dans les maladies auto-immunes et
+infections par des pathogènes \autocite{Meza-Meza.2022}. De plus, le
+calcitriol en plus de moduler la production des cytokines, inhibe la
+prolifération des lymphocytes T \autocite{Cantorna.2015}.
 
 Il existe également un sous-type de lymphocytes T régulateurs, qui ont
-pour rôle de freiner l'inflammation et donc la réponse immunitaire. Il a
-été montré que l'action de la vitamine D sur son récepteur VDR était
-nécessaire au fonctionnement des lymphocytes T régulateurs iNKT et CD8αα
-\autocite{Cheroutre.2008}. Les lymphocytes T CD8αα possèdent un
-caractère régulateur contrairement au lymphocyte CD8αβ classique. Ainsi,
-ces lymphocytes T régulateurs contribuent à l'homéostasie du tractus
-intestinal \autocite{Cantorna.2010}. A l'inverse, les lymphocytes
-FoxP3\textsuperscript{+} T\textsubscript{reg} sont fonctionnellement
-indépendant de l'expression de VDR pour effectuer leurs fonctions
-régulatrices \autocite{Cantorna.2010}.
+pour rôle de réguler l'inflammation et donc la réponse immunitaire. Le
+calcitriol favorise la différenciation des lymphocytes
+T\textsubscript{reg} à la fois directement et indirectement par contact
+avec les \ac{CPA}, où cette différenciation dépend du contact entre le
+\ac{CMH-II} des \ac{CPA} et le récepteur \ac{IL-2} présent sur les
+lymphocytes \autocite{Charoenngam.2020}. Cependant, les recherches
+montrent que les lymphocytes FoxP3\textsuperscript{+}
+T\textsubscript{reg} sont fonctionnellement indépendant de l'expression
+de VDR pour effectuer leurs fonctions régulatrices
+\autocite{Cantorna.2010}.
+
+Concernant les lymphocytes T CD8\textsuperscript{+}, les recherches ont
+observé une uprégulation du VDR ainsi que de l'enzyme CYP27B1, qui
+reflète une réponse à une infection. L'administration d'une dose de
+vitamine D modifie un ratio bas de CD4/CD8 reflétant une activation
+immunitaire plus forte à un ratio plus élevé de CD4/CD8, impliquant une
+suppression immunitaire \autocite{Meza-Meza.2022}. Cependant le
+mécanisme exact du calcitriol sur les lymphocytes T
+CD8\textsuperscript{+} reste encore indéterminé. Les effets du
+calcitriol sur la prolifération, différenciation et fonction seraient
+probablement lié à l'effet direct et indirect du VDR.
+
+De plus, il a été montré que l'action de la vitamine D sur son récepteur
+VDR était nécessaire au fonctionnement de deux types de lymphocytes T
+qui jouent un rôle régulateur, les lymphocytes \ac{iNKT} et lymphocytes
+T CD8αα qui sont intraépithéliaux \autocite{Cheroutre.2008}. La
+désignation CD8αα signifie que le co-récepteur CD8 du \ac{TCR} possède
+deux chaînes alpha contrairement à l'arrangement usuel αβ. Les cellules
+NKT sont des lymphocytes NK qui expriment les récepteurs de la lignée
+NK, ainsi qu'un \ac{TCR} de chaîne αβ. Ils seraient parmi les premiers
+producteurs de cytokines dans une réponse immunitaire, tels que
+l'\ac{ifng} et l'\ac{IL-4}. La majorité des cellules NKT expriment un
+TCR invariant \acs{iNKT} \autocite{Cantorna.2010}.
+
+Les lymphocytes T CD8αα possèdent un caractère régulateur contrairement
+au lymphocyte CD8αβ classique. Ces lymphocytes sont capables de produire
+l'\ac{IL-10} qui régule l'inflammation \autocite{Cantorna.2010}.
+
+De ce fait, la présence de calcitriol et du \ac{VDR} est essentielle
+pour le caractère régulateur des lymphocytes T, et favorise un
+changement phénotypique des lignées lymphocytaires vers une immunité
+plus tolérogène en induisant des sous-types de population Th2, ainsi que
+d'autres types de lymphocytes ayant un caractère régulateur. Les
+lymphocytes T\textsubscript{reg} FoxP3\textsuperscript{+} ne semblent
+eux ne pas nécessiter la présence de vitamine D et du \ac{VDR} pour
+exercer leurs fonctions régulatrices.
 
 \hypertarget{lymphocytes-b}{%
 \subsubsection{Lymphocytes B}\label{lymphocytes-b}}
+
+Les lymphocytes B sont des cellules capables de produire des anticorps
+lorsqu'ils sont activés, sous la forme de plasmocytes. Ceux-ci ne
+possèdent pas de VDR à l'état basal mais l'expriment seulement lors de
+leurs activations. Le calcitriol joue similairement un rôle
+immunomodulateur des lymphocytes B en diminuant la réponse immune des
+lymphocytes B hyperactivés. Cela se passe directement par l'induction de
+cytokines anti-inflammatoires chez les lymphocytes B, telles que
+l'\ac{IL-10} le \ac{CCR10}, la diminution de la formation des
+lymphocytes B en plasmocytes et des lymphocytes B mémoires après
+commutation de classe isotypique, en modulant le CD40 et donc
+indirectement le \ac{nfkb}, ainsi que l'induction de l'apoptose des
+lymphocytes B activés et les plasmocytes. Le calcitriol réduit aussi le
+pouvoir activateur des lymphocytes B par la downrégulation du CD86 et la
+régulation à la hausse du CD74, qui permettent d'activer les lymphocytes
+T lorsque le lymphocyte B joue son rôle de présentateur d'antigènes. Il
+est intéressant de remarquer que les lymphocytes B expriment le
+\ac{CYP27B1} mais la capacité de produire le calcitriol n'a pas encore
+été observé par ceux-ci \autocite{Meza-Meza.2022,Martens.2020}.
+
+\begin{figure}
+
+{\centering \includegraphics{figures/calcitriol-immunomodulatory.jpg}
+
+}
+
+\caption[\textbf{Schéma récapitulatif des effets immunomodulateurs du
+calcitriol.}]{\label{fig-immunomod}\textbf{Schéma récapitulatif des
+effets immunomodulateurs du calcitriol.} \textcite{Meza-Meza.2022}}
+
+\end{figure}
 
 \hypertarget{implications-de-la-vitamine-d-dans-la-ruxe9ponse-immunitaire-antivirale}{%
 \subsection{Implications de la vitamine D dans la réponse immunitaire
@@ -1280,103 +1380,11 @@ antivirale}\label{implications-de-la-vitamine-d-dans-la-ruxe9ponse-immunitaire-a
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
-La vitamine D est également capable d'agir non-classiquement par des
-actions non-génomique, à savoir des actions de type protéine-protéine,
-telle que l'inhibition de la kinase IKκβ, un régulateur de la voie
-canonique de NF-κB, une des cytokines pro-inflammatoire clé de la
-réaction immunitaire \autocite{Hii.2016}.
-
-\_\_\_\_\_\_\_\_\_\_\_
-
-\begin{figure}
-
-{\centering \includegraphics{figures/calcitriol-immunomodulatory.jpg}
-
-}
-
-\caption[\textbf{Effets immunomodulateurs du
-calcitriol.}]{\label{fig-immunomod}\textbf{Effets immunomodulateurs du
-calcitriol.} \textcite{Meza-Meza.2022}}
-
-\end{figure}
-
-\hypertarget{muxe9canisme-daction-de-la-vitamine-d}{%
-\section{Mécanisme d'action de la vitamine
-D}\label{muxe9canisme-daction-de-la-vitamine-d}}
-
-L'effet de la vitamine D a été observé lors d'une infection par
-\emph{Mycobacterium tuberculosis} sur les monocytes, où lors d'une
-expérience in vitro, des monocytes traités avec du calcitriol, la forme
-active de la vitamine D, conduisent à une réduction de la croissance de
-\emph{M. tuberculosis} \autocite{Hewison.2011}. Ces observations
-concernent un pathogène bactérien, cependant il existe des parallèles
-importants entre les mécanismes de réponses antibactériens et antiviraux
-dans la réponse immunitaire innée \autocite{White.2022}.
-
-\begin{figure}
-
-{\centering \includegraphics{figures/vd-mecha-cathelicidin.jpg}
-
-}
-
-\caption{Méchanisme d'action de l'induction de la cathélicidine par la
-vitamine D.}
-
-\end{figure}
-
-\hypertarget{action-antivirale-sur-le-systuxe8me-immunitaire-innuxe9}{%
-\subsection{Action antivirale sur le système immunitaire
-inné}\label{action-antivirale-sur-le-systuxe8me-immunitaire-innuxe9}}
-
-Récemment, les études ont élucidés l'importance de la vitamine D dans de
-multiples régulations au sujet de l'immunité innée. Le calcitriol
-stimule ainsi la transcription de multiples éléments intervenants dans
-la réponse immunitaire innée tels que les PRRs, le CD14, cofacteur du
-TLR4, TLR2 et NOD2 \autocite{White.2022}.
-
-La vitamine D stimule également le signalement cytokinique, avec
-induction de chimiokines comme l'IL-8/CXCL8, une chimiokine de
-neutrophile.
-
-Elle stimule la production de peptides antimicrobiens, AMPs, CAMP, HBD2,
-DEFB4, les 2 derniers éléments contiennent/permettent le VDRE.
-
-Le TLR2 induit CYP27B1, ce qui convertit le calcidiol en calcitriol. Le
-calcitriol induit alors CAMP. Cette induction dépend de la concentration
-en calcidiol, et une concentration insuffisante ne permet pas une
-induction en CAMP, ce qui renforce l'importance d'une concentration
-adéquate en vitamine D appropriée pour le système immunitaire
-\autocite{White.2022}. \emph{Le calcitriol induit plusieurs fois la
-transcription de CAMP dans les cellules épithéliales et myéloïdes in
-vitro; il est plus efficace pour augmenter l'expression de HBD2/DEFB4
-stimulée par d'autres signaux. L'expression de HBD2/DEFB4 stimulée par
-d'autres signaux tels que l'IL-1β servant ainsi davantage de régulateur
-secondaire du gène.}
-
-\begin{figure}
-
-{\centering \includegraphics{figures/vd-amp.png}
-
-}
-
-\caption{Contribution de l'immunité induite par AMP sur le SARS-CoV-2}
-
-\end{figure}
+\autocite{Bishop.2021}
 
 \hypertarget{action-paracrine-et-intracrine}{%
 \subsection{Action paracrine et
 intracrine}\label{action-paracrine-et-intracrine}}
-
-\begin{figure}
-
-{\centering \includegraphics{figures/meca-intracrine.jpg}
-
-}
-
-\caption{Mécanismes des réponses immunitaires innées et adaptatives à la
-vitamine D.}
-
-\end{figure}
 
 \hypertarget{dose-de-vitamine-d-nuxe9cessaire-uxe0-limmunituxe9}{%
 \section{Dose de vitamine D nécessaire à
