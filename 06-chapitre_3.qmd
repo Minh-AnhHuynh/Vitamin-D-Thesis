@@ -6,6 +6,20 @@
 
 @Li.2002 ont établi une relation entre la rénine et le système rénine-angiotensine-aldostérone. Ainsi la vitamine D~3~ sous sa forme active a été observée comme étant un régulateur négatif de ce système permettant de réguler la pression artérielle.
 
+![Contribution de l'immunité induite par AMP sur le SARS-CoV-2 [@White.2022]](figures/vd-amp.png)
+
+
+@Bishop.2021
+
+## Etudes observationnelles
+
+@Bishop.2021
+
+Les pays et populations ayant un déficit en vitamine D ont une plus haute mortalité.
+
+La norvège possède une plus basse mortalité et une plus grande consommation d'huile de foie de morue.
+
+
 ## Etudes pré-cliniques
 
 1.Qayyum, S., Slominski, R.M., Raman, C., and Slominski, A.T. (2022). Novel CYP11A1-Derived Vitamin D and Lumisterol Biometabolites for the Management of COVID-19. Nutrients *14*, 4779. 10.3390/nu14224779.
