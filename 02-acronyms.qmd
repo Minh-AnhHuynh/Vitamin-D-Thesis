@@ -24,9 +24,9 @@
 \acro{eNOS}{endothelial nitric oxide synthase}
 \acro{FDA}{Food and Drugs Administration}
 \acro{FGF23}{fibroblast growth factor 23}
-\acro{ifna}[IFN-$\mupalpha$]{interféron alpha}
-\acro{ifng}[IFN-$\mupgamma$]{interféron gamma}
-\acro{IKκβ}{I-κB kinase}
+\acro{ifna}[IFN-α]{interféron alpha}
+\acro{ifng}[IFN-γ]{interféron gamma}
+\acro{IKκβ}{IkappaB kinase kinase}
 \acro{IL-2}{interleukine-2}
 \acro{IL-4}{interleukine-4}
 \acro{IL-6}{interleukine-6}
@@ -39,9 +39,10 @@
 \acro{nfkb}[NF-κB]{nuclear factor-kappa B}
 \acro{NK}{lymphocytes natural killer}
 \acro{NO}{oxyde nitrique}
-\acro{LOAEL}{Non Observed Adverse Effect Level}
+\acro{NOD2}{Nucleotide-binding oligomerization domain-containing protein 2}
+\acro{LOAEL}{Lowest Observed Adverse Effect Level}
 \acro{LPS}{lipopolysaccharide}
-\acro{NOAEL}{Lowest Observed Adverse Effect Level}
+\acro{NOAEL}{Non Observed Adverse Effect Level}
 \acro{PTH}{hormone parathyroïde}
 \acro{TCR}{T cell receptor}
 \acro{Th}[T helpers]{lymphocytes T helpers}

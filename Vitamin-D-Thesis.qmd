@@ -32,7 +32,7 @@ crossref:
   lof-title: Liste des Figures
   lot-title: Liste des Tables
 link-citations: true
-mainfont: "Times New Roman"
+# mainfont: "Times New Roman"
 execute:
   echo: false
 keep-tex: true
@@ -44,6 +44,7 @@ cite-method: biblatex
 csl: "csl/chicago-author-date-fr.csl" # Used for citeproc from pandoc
 header-includes:
 - \usepackage{setspace} #\setspace{1.5}
+- \usepackage{libertine}
 - \usepackage[font=small, labelfont=bf, justification=justified, singlelinecheck=true]{caption} # Set figure caption to bold, centered
 # Separate chapter from figure numbering : continuous figure numbering.
 - \counterwithout{figure}{chapter} 
@@ -81,7 +82,7 @@ include-before-body:
 - "00-thesis_cover_page.tex"
 ---
 
-```{r child="01-remerciements.qmd"}
+```{r remerciements, child="01-remerciements.qmd"}
 
 ```
 
@@ -107,7 +108,7 @@ include-before-body:
 ```
 {{< pagebreak >}}
 
-```{r child="02-acronyms.qmd"}
+```{r acronyms, child="02-acronyms.qmd"}
 
 ```
 
@@ -115,31 +116,31 @@ include-before-body:
 
 \pagenumbering{arabic}
 
-```{r child="03-introduction.qmd"}
+```{r introduction, child="03-introduction.qmd"}
 
 ```
 
 {{< pagebreak >}}
 
-```{r child="04-chapitre_1.qmd"}
+```{r chapitre_1, child="04-chapitre_1.qmd"}
 
 ```
 
 {{< pagebreak >}}
 
-```{r child="05-chapitre_2.qmd"}
+```{r chapitre_2, child="05-chapitre_2.qmd"}
 
 ```
 
 {{< pagebreak >}}
 
-```{r child="06-chapitre_3.qmd"}
+```{r chapitre_3, child="06-chapitre_3.qmd"}
 
 ```
 
 {{< pagebreak >}}
 
-```{r child="07-conclusion.qmd"}
+```{r conclusion, child="07-conclusion.qmd"}
 
 ```
 
