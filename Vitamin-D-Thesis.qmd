@@ -44,7 +44,7 @@ cite-method: biblatex
 csl: "csl/chicago-author-date-fr.csl" # Used for citeproc from pandoc
 header-includes:
 - \usepackage{setspace} #\setspace{1.5}
-- \usepackage{libertine}
+- \usepackage{libertine} # My new font to make greek letters work
 - \usepackage[font=small, labelfont=bf, justification=justified, singlelinecheck=true]{caption} # Set figure caption to bold, centered
 # Separate chapter from figure numbering : continuous figure numbering.
 - \counterwithout{figure}{chapter} 

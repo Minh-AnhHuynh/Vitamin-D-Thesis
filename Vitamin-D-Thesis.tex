@@ -23,7 +23,6 @@
 \usepackage{lmodern}
 \ifPDFTeX\else  
     % xetex/luatex font selection
-  \setmainfont[]{Times New Roman}
 \fi
 % Use upquote if available, for straight quotes in verbatim environments
 \IfFileExists{upquote.sty}{\usepackage{upquote}}{}
@@ -73,6 +72,7 @@
 
 \KOMAoption{captions}{tableheading}
 \usepackage{setspace}
+\usepackage{libertine}
 \usepackage[font=small, labelfont=bf, justification=justified, singlelinecheck=true]{caption}
 \counterwithout{figure}{chapter}
 \counterwithout{figure}{section}
@@ -202,7 +202,7 @@ THESE
 \pagenumbering{gobble}
 \clearpage
 
-\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[frame hidden, breakable, boxrule=0pt, interior hidden, borderline west={3pt}{0pt}{shadecolor}, sharp corners, enhanced]}{\end{tcolorbox}}\fi
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[boxrule=0pt, borderline west={3pt}{0pt}{shadecolor}, enhanced, sharp corners, interior hidden, frame hidden, breakable]}{\end{tcolorbox}}\fi
 
 \setstretch{1.5}
 \hypertarget{remerciements}{%
@@ -254,9 +254,9 @@ THESE
 \acro{eNOS}{endothelial nitric oxide synthase}
 \acro{FDA}{Food and Drugs Administration}
 \acro{FGF23}{fibroblast growth factor 23}
-\acro{ifna}[IFN-$\mupalpha$]{interféron alpha}
-\acro{ifng}[IFN-$\mupgamma$]{interféron gamma}
-\acro{IKκβ}{I-κB kinase}
+\acro{ifna}[IFN-α]{interféron alpha}
+\acro{ifng}[IFN-γ]{interféron gamma}
+\acro{IKκβ}{IkappaB kinase kinase}
 \acro{IL-2}{interleukine-2}
 \acro{IL-4}{interleukine-4}
 \acro{IL-6}{interleukine-6}
@@ -269,10 +269,12 @@ THESE
 \acro{nfkb}[NF-κB]{nuclear factor-kappa B}
 \acro{NK}{lymphocytes natural killer}
 \acro{NO}{oxyde nitrique}
-\acro{LOAEL}{Non Observed Adverse Effect Level}
+\acro{NOD2}{Nucleotide-binding oligomerization domain-containing protein 2}
+\acro{LOAEL}{Lowest Observed Adverse Effect Level}
 \acro{LPS}{lipopolysaccharide}
-\acro{NOAEL}{Lowest Observed Adverse Effect Level}
+\acro{NOAEL}{Non Observed Adverse Effect Level}
 \acro{PTH}{hormone parathyroïde}
+\acro{PRR}{pattern recognition receptor}
 \acro{TCR}{T cell receptor}
 \acro{Th}[T helpers]{lymphocytes T helpers}
 \acro{TLR}{toll-like receptor}
@@ -1074,10 +1076,11 @@ présentation de l'antigène et en supprimant l'immunité adaptative
 (fonctions des lymphocytes B et de certains lymphocytes T). Cependant,
 dans des conditions normales, la
 1,25(OH)\textsubscript{2}D\textsubscript{3} augmente les cytokines T
-helper (Th\textsubscript{2}) (c'est-à-dire l'interleukine 10\}) et
-l'efficacité des lymphocytes T régulateurs (T\textsubscript{reg}). DC,
-cellules dendritiques ; APC, cellules présentatrices d'antigènes ; TLR,
-Toll-like receptor. D'après \textcite{Cutolo.2014}}
+helper (Th\textsubscript{2}) (c'est-à-dire l'interleukine 10) et
+l'efficacité des T\textsubscript{reg}. DC, cellules dendritiques ; APC,
+cellules présentatrices d'antigènes ; TLR, Toll-like receptor ;
+T\textsubscript{reg}, lymphocytes T régulateurs. D'après
+\textcite{Cutolo.2014}}
 
 \end{figure}
 
@@ -1208,7 +1211,7 @@ pour avoir des effets et donc l'usage du \ac{VDRE}, mais peut agir
 directement par des actions de type protéine-protéine. Cela permet à la
 vitamine D de moduler des voies dont les ligands n'interagissent pas
 avec la vitamine D, telle que l'inhibition de la kinase \ac{IKκβ}, un
-régulateur de la voie canonique de \ac{NF-κB} passant par le ligand
+régulateur de la voie canonique de \ac{nfkb} passant par le ligand
 \ac{tnfa}, une des cytokines pro-inflammatoire clé de la réaction
 immunitaire, ou l'interaction avec STAT1 qui permet de moduler cette
 voie dont le ligand est l'\ac{ifna}, par la transcription de gène
@@ -1263,7 +1266,7 @@ protectrices indépendantes des phagocytes
 
 Il a été observé que les lymphocytes reposant à l'état basal n'expriment
 pas de \ac{VDR} contrairement aux monocytes. Cependant les lymphocytes
-activés expriment le \ac{VDR}, et expriment eux-mêmes le CYP27B1
+activés expriment le \ac{VDR}, et expriment eux-mêmes le \ac{CYP27B1}
 nécessaire pour convertir le calcidiol en calcitriol et bénéficier de
 l'activation intracrine du \ac{VDR} \autocite{Charoenngam.2020}.
 
@@ -1327,7 +1330,7 @@ plus tolérogène en induisant des sous-types de population Th2, ainsi que
 d'autres types de lymphocytes ayant un caractère régulateur. Les
 lymphocytes T\textsubscript{reg} FoxP3\textsuperscript{+} ne semblent
 eux ne pas nécessiter la présence de vitamine D et du \ac{VDR} pour
-exercer leurs fonctions régulatrices.
+exercer leurs fonctions régulatrices \autocite{Cantorna.2010}.
 
 \hypertarget{lymphocytes-b}{%
 \subsubsection{Lymphocytes B}\label{lymphocytes-b}}
@@ -1359,7 +1362,16 @@ est intéressant de remarquer que les lymphocytes B expriment le
 
 \caption[\textbf{Schéma récapitulatif des effets immunomodulateurs du
 calcitriol.}]{\label{fig-immunomod}\textbf{Schéma récapitulatif des
-effets immunomodulateurs du calcitriol.} \textcite{Meza-Meza.2022}}
+effets immunomodulateurs du calcitriol.} Le calcitriol se fixe sur le
+VDR qui en interagissant avec le VDRE provoque une transcription de
+gènes régulateurs de l'immunité, conduisant à des effets globalement
+favorisant la suppression et tolérance immunitaire. Cette modulation se
+manifeste directement par l'inhibition de facteurs cytokines
+pro-inflammatoires et l'augmentation de cytokines anti-inflammatoires ou
+indirectement en favorisant le phénotype de cellules immunes
+immunosuppressives comme les macrophages de type M2, les sous-types de
+lymphocytes Th\textsubscript{2} et T\textsubscript{reg} ou le phénotype
+tolérogénique des cellules dendritiques. \textcite{Meza-Meza.2022}}
 
 \end{figure}
 
@@ -1367,16 +1379,70 @@ effets immunomodulateurs du calcitriol.} \textcite{Meza-Meza.2022}}
 \subsection{Implications de la vitamine D dans la réponse immunitaire
 antivirale}\label{implications-de-la-vitamine-d-dans-la-ruxe9ponse-immunitaire-antivirale}}
 
-\begin{itemize}
-\item
-  Discuter des mécanismes par lesquels la vitamine D peut influencer la
-  réponse immunitaire antivirale, notamment en régulant la production
-  d'interférons et en modulant la fonction des cellules immunitaires
-  antivirales.
-\item
-  Mettre en évidence les études qui ont examiné le rôle de la vitamine D
-  dans la lutte contre les infections virales, y compris le COVID-19.
-\end{itemize}
+Les études démontrent globalement que la vitamine D augmente l'immunité
+antivirale et en particulier la réponse innée immune, et inhibe les
+réponses cytokiniques pro-inflammatoires. La vitamine D possède une
+implication dans la réponse immunitaire antivirale car de nombreux virus
+respiratoires ciblent les cellules épithéliales pulmonaires, qui sont
+très sensibles à la présence de vitamine D. Les cellules épithéliales
+induisent fortement le \ac{CYP27B1} lors de présence du calcidiol ainsi
+que lors de la détection d'ARN viraux double brins
+\autocite{Bishop.2021}. La réponse antivirale innée passe en partie par
+l'activation des \acp{TLR}, qui cause la uprégulation du CYPB27B1 et du
+VDR, médié par l'activation du TLR2, induisant par la suite l'expression
+de \emph{CAMP} \autocite{Liu.2006}. La vitamine D est ainsi un très fort
+inducteur du gène \emph{CAMP} qui transcrit le peptide antimicrobien
+cathélicidine LL-37 capable de se lier aux \ac{LPS} et de causer la
+perméabilisation des membranes, ainsi que celui de CD14. En effet, le
+CD14 est le cofacteur du TLR4 qui permet de reconnaître classiquement le
+LPS. Le calcitriol inhibe également le signalement du facteur
+pro-inflammatoire \ac{nfkb} dans les cellules pulmonaires
+\autocite{Bishop.2021}.
+
+La vitamine D régule la production d'interférons et module la fonction
+des cellules immunitaires antivirales ainsi qu'en induisant la
+production de peptides antimicrobiens. En effet, elle stimule la
+production des AMPs, \emph{CAMP}, \emph{HBD2}, \emph{DEFB4}, dont les
+deux derniers éléments contiennent/permettent la génération du complexe
+\ac{VDRE} \autocite{Bishop.2021}.
+
+Les réponses transcriptionnelles initiales ayant lieu lors d'une
+infection virale concernent en particulier les membres de la famille des
+facteurs de régulation de l'interféron tels que IRF3 et IRF7, les
+membres de la famille AP-1 et \ac{nfkb}. Le calcitriol agit en inhibant
+le \ac{nfkb} qui est un puissant pro-inflammatoire, grâce à l'induction
+de \ac{IKBa} \autocite{Bishop.2021}.
+
+Un mécanisme clé de la réponse antivirale médiée par la vitamine D est
+l'induction puissante de l'expression de \emph{CAMP}, gène codant pour
+la forme active de la cathélicidine LL-37 qui va à son tour favoriser la
+détection des ARN viraux double brins par le \ac{PRR} TLR3. Le LL-37
+peut se lier à l'ARN double brin viral qui se retrouve dans les
+endosomes, où est situé le TLR3. Le TLR3 est un \ac{PRR} important dans
+la reconnaissance du virus, et enclenche à son tour l'activation du
+mécanisme immunitaire inné, en passant par le \ac{nfkb}. Les études
+montrent également que le LL-37 possède une activité antivirale directe
+qui perturbe les membranes virales \autocite{Bishop.2021}. Une étude
+montre que lorsque la concentration de vitamine D est insuffisante, ou
+lorsqu'un anticorps anti-LL37 est utilisé afin de bloquer l'effet de la
+forme active de la cathélicidine, l'activité antivirale observé dans les
+poumons est bloqué, et la supplémentation en vitamine D restaure le
+pouvoir antiviral de LL-37 \autocite{Buonfiglio.2017}.
+
+Le calcitriol est capable d'induire NOD2 qui induit l'autophagie pour
+augmenter la clairance virale. L'autophagie est un mécanisme clé dans le
+contrôle de la réplication et l'infection virale, permettant la
+dégradation des composants intracellulaires, y compris les protéines
+virales et les acides nucléiques. En effet, le calcitriol induit
+directement l'expression d'enzymes clés de l'autophagie comme Beclin1 et
+PI3KC. en favorisant la cathélicidine qui induit Beclin1. Il peut
+également favoriser indirectement l'autophagie en supprimant
+l'inhibition de l'autophagie par la voie de signalisation mTOR, et en
+stimulant le calcium intracellulaire et le \ac{NO} par le calcitriol
+afin d'augmenter l'activité de PI3KC3 \autocite{Bishop.2021}.
+
+Il est également rapporté que le HBD2 induit indirectement par la
+vitamine D \autocite{White.2022}
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
@@ -1439,6 +1505,30 @@ COVID-19}\label{rationnel-physiologique-de-lusage-de-la-vitamine-d-dans-la-covid
 rénine-angiotensine-aldostérone. Ainsi la vitamine D\textsubscript{3}
 sous sa forme active a été observée comme étant un régulateur négatif de
 ce système permettant de réguler la pression artérielle.
+
+\begin{figure}
+
+{\centering \includegraphics{figures/vd-amp.png}
+
+}
+
+\caption{Contribution de l'immunité induite par AMP sur le SARS-CoV-2
+\autocite{White.2022}}
+
+\end{figure}
+
+\textcite{Bishop.2021}
+
+\hypertarget{etudes-observationnelles}{%
+\section{Etudes observationnelles}\label{etudes-observationnelles}}
+
+\textcite{Bishop.2021}
+
+Les pays et populations ayant un déficit en vitamine D ont une plus
+haute mortalité.
+
+La norvège possède une plus basse mortalité et une plus grande
+consommation d'huile de foie de morue.
 
 \hypertarget{etudes-pruxe9-cliniques}{%
 \section{Etudes pré-cliniques}\label{etudes-pruxe9-cliniques}}

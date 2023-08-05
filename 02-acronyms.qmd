@@ -44,6 +44,7 @@
 \acro{LPS}{lipopolysaccharide}
 \acro{NOAEL}{Non Observed Adverse Effect Level}
 \acro{PTH}{hormone parathyroïde}
+\acro{PRR}{pattern recognition receptor}
 \acro{TCR}{T cell receptor}
 \acro{Th}[T helpers]{lymphocytes T helpers}
 \acro{TLR}{toll-like receptor}
