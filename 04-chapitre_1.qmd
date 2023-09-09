@@ -133,32 +133,62 @@ Toutefois, la courbe dose-réponse du calcidiol ne serait pas linéaire indiquan
 
 Actuellement, l’Académie de médecine américaine (anciennement Institute of Medecine, \acsu{IOM}) est responsable des recommandations émises par la \ac{FDA}, l’équivalent de l’\ac{ANSM} en France. L'\ac{AJR} pour la vitamine D est de 600 UI par jour pour les personnes tous sexes confondus de 1 à 70 ans, et reste la même en cas de grossesse ou d’allaitement [@IOM.2011]. L’\ac{AJR} est augmentée à 800 UI/jour chez les personnes de plus de 70 ans en raison de la plus grande variance des données disponibles concernant cette catégorie d’âge.  Une concentration sanguine de calcidiol de 20 ng/mL ou plus est considérée par l’\ac{IOM} comme étant le minimum adéquat chez 97,5 % des personnes en bonne santé. Cette concentration minimum de 20 ng/mL a été observé comme étant bénéfique pour la santé osseuse concernant la majorité de la population générale, se manifestant par une augmentation de la densité minérale osseuse et de l'absorption du calcium, de l'accrétion osseuse et de la maintenance osseuse, diminution de l'ostéomalacie et de rachitisme. Les concentrations de calcitriol supérieures à 30 ng/mL ne sont pas associées à une augmentation de ces bénéfices considérés selon l'\ac{IOM} [@IOM.2011; @Rosen.2012].
 
-Un autre acteur français, l'\ac{ANSES}, stipule que les recommandations journalières de cholécalciférol sont de 15 µg par jour pour un adulte, soit l'équivalent d'une dose de 600 UI/j, s'appuyant sur les recommandations de l'Autorité européenne de sécurité des aliments, \acsu{EFSA}) [@ANSES.2021]. En effet, l'\ac{EFSA} a retenu une valeur de 15 µg/j (soit 600 UI/j) permettant aux hommes et femmes d'atteindre le seuil de calcitriol jugé adéquat de 50 nmol/L ou 20 ng/mL [@ANSES.2022].
+Un autre acteur français, l'\ac{ANSES}, stipule que les recommandations journalières de cholécalciférol sont de 15 µg par jour pour un adulte, soit l'équivalent d'une dose de 600 UI/j, s'appuyant sur les recommandations de l'Autorité européenne de sécurité des aliments, \acsu{EFSA}) [@ANSES.2021]. En effet, l'\ac{EFSA} a retenu une valeur de 15 µg/j (soit 600 UI/j) permettant aux hommes et femmes d'atteindre le seuil de calcitriol jugé adéquat de 50 nmol/L ou 20 ng/mL [@ANSES.2022] (\cref{tbl-seuil}).
 
 <!-- Actuellement, la société d'endocrinologie recommande chez l'adulte (19 - 50 ans) 600 UI/j pour maximiser la santé osseuse et le fonctionnement musculaire, admettant cependant que les bénéfices extra-squelettiques associé à cette dose leur est inconnu. De plus, pour des patients carencés, ils suggèrent qu'une plus forte dose de 1500 UI/j à 2000 UI/j serait nécessaire pour maintenir constamment une concentration supérieure à 30 ng/mL [@Holick.2011]. -->
 
 <!-- TODO : Compléter le tableau -->
 
-|      Seuil de vitamine D      |     IOM     |    ANSES    |
-|:-----------------------------:|:-----------:|:-----------:|
-| Déficience en vitamine D      | < 12 ng/mL  | < 10 ng/mL  |
-| Insuffisance en vitamine D    | 12-20 ng/mL | 10-20 ng/mL |
-| Valeurs recommandées          | 20-30 ng/mL | 20-30 ng/mL |
-| Limite Supérieure de Sécurité | > 50 ng/mL  | > 100 ng/mL |
-: **Tableau comparatif des seuils d'adéquation de la vitamine D par différentes sources** [@IOM.2011; @ANSES.2021]. {#tbl-seuil}
+<!-- |      Seuil de vitamine D      |     IOM     |    ANSES    | -->
+<!-- |:-----------------------------:|:-----------:|:-----------:| -->
+<!-- | Déficience en vitamine D      | < 12 ng/mL  | < 10 ng/mL  | -->
+<!-- | Insuffisance en vitamine D    | 12-20 ng/mL | 10-20 ng/mL | -->
+<!-- | Valeurs recommandées          | 20-30 ng/mL | 20-30 ng/mL | -->
+<!-- | Limite Supérieure de Sécurité | > 50 ng/mL  | > 100 ng/mL | -->
+<!-- : **Tableau comparatif des seuils d'adéquation de la vitamine D par différentes sources** [@IOM.2011; @ANSES.2021]. {#tbl-seuil} -->
 
-|       Groupe d'âge        | IOM | ANSES/EFSA |
-| :-----------------------: | :-: | :--------: |
-|  Nourrissons (0-12 mois)  | 400 |    400     |
-|   Enfants (1 - 11 ans)    | 600 |    600     |
-| Adolescents (11 - 17 ans) | 600 |    600     |
-|     Hommes et Femmes      | 800 |    600     |
-|     Femmes enceintes      | 600 |    600     |
-: **Apports journaliers recommandés de la vitamine D (UI/j).** La mention de \ac{AJR} indique que l'apport couvre les besoins minimes de 97.5% population pour une concentration de 20 ng/mL selon l'\ac{IOM}. [@ANSES.2021; @IOM.2011]. {#tbl-AJR}
+```{=tex}
+\begin{table}
+\caption[\textbf{Tableau comparatif des seuils d'adéquation de la vitamine D par différentes sources.}]{Tableau comparatif des seuils d'adéquation de la vitamine D par différentes sources. IOM : Institut de Médecine ; ANSES : Agence nationale de sécurité sanitaire de l’alimentation, de l’environnement et du travail. D'après \textcite{IOM.2011} et \textcite{ANSES.2021}}
+\label{tbl-seuil}
+\centering
+\begin{tabular}{ccc}
+\toprule
+\textbf{Seuil de vitamine D} & \textbf{IOM} & \textbf{ANSES}\\
+\midrule
+Déficience en vitamine D & < 12 ng/mL & < 10 ng/mL\\
+Insuffisance en vitamine D & 12-20 ng/mL & 10-20 ng/mL\\
+Valeurs recommandées & 20-30 ng/mL & 20-30 ng/mL\\
+Limite Supérieure de Sécurité & > 50 ng/mL  & > 100 ng/mL \\
+\bottomrule
+\end{tabular}
+\end{table}
+```
+
+\begin{table}
+\centering
+\caption[{\textbf{Apports journaliers recommandés de la vitamine D (UI/j)}}]{\textbf{Apports journaliers recommandés de la vitamine D (UI/j).} La mention de \ac{AJR} indique que l'apport couvre les besoins minimes de 97.5\% de la population pour une concentration de 20 ng/mL selon l'\ac{IOM}. D'après \textcite{ANSES.2021, IOM.2011}}
+\label{tbl-AJR}
+\begin{tabular}{ccc}
+\toprule
+\textbf{Groupe d'âge} & \textbf{IOM} & \textbf{ANSES/EFSA} \\
+\midrule
+Nourrissons (0-12 mois) & 400 & 400 \\
+Enfants (1 - 11 ans) & 600 & 600 \\
+Adolescents (11 - 17 ans) & 600 & 600 \\
+Hommes et Femmes & 800 & 600 \\
+Femmes enceintes & 600 & 600 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+
+
 
 ### Controverse autour de la dose recommandée journalière
 
-Plusieurs acteurs tels que la Société d'Endocrinologie suggèrent que l'\ac{AJR} établi par l'\ac{IOM} est insuffisante. La Société d'Endocrinologie suggère un \ac{AJR} de 1500 UI/j pouvant aller à 2000 UI/j pour des adultes, avec des recommandations ciblées pour des populations à risque avec des maladies spécifiques visant un seuil jugé optimal de 30 ng/mL. L'\ac{IOM} suggère dans une réponse à la Société d'Endocrinologie que les auteurs ont fait un amalgame entre apports nutritionnels chez la personne saine et l'intérêt de la vitamine D dans la prise en charge de certaines maladies plus spécifiques [@Rosen.2012]. De plus, l'\ac{IOM} est en désaccord concernant les bénéfices osseux, concluant sur la base de la littérature qu'il n'y a pas de bénéfices osseux observés au-delà de 20 ng/mL, qui est le seuil permettant de couvrir les besoins minimes de 97.5% de la population (@tbl-seuil).
+Plusieurs acteurs tels que la Société d'Endocrinologie suggèrent que l'\ac{AJR} établi par l'\ac{IOM} est insuffisante. La Société d'Endocrinologie suggère un \ac{AJR} de 1500 UI/j pouvant aller à 2000 UI/j pour des adultes, avec des recommandations ciblées pour des populations à risque avec des maladies spécifiques visant un seuil jugé optimal de 30 ng/mL. L'\ac{IOM} suggère dans une réponse à la Société d'Endocrinologie que les auteurs ont fait un amalgame entre apports nutritionnels chez la personne saine et l'intérêt de la vitamine D dans la prise en charge de certaines maladies plus spécifiques [@Rosen.2012]. De plus, l'\ac{IOM} est en désaccord concernant les bénéfices osseux, concluant sur la base de la littérature qu'il n'y a pas de bénéfices osseux observés au-delà de 20 ng/mL, qui est le seuil permettant de couvrir les besoins minimes de 97.5% de la population (\cref{tbl-seuil}).
 
 <!-- Archive : -->
 
@@ -177,7 +207,7 @@ Plusieurs acteurs tels que la Société d'Endocrinologie suggèrent que l'\ac{AJ
 
 ## Utilisation thérapeutique
 
-La vitamine D est surtout utilisée en thérapeutique afin de prévenir les carences à des fins de bonne santé osseuse. Elle permet de prévenir le rachitisme chez les enfants et l’ostéoporose chez les adultes et surtout chez les personnes âgées. Elle permet de maintenir une bonne densité osseuse et une absorption du calcium adéquat et prévient du rachitisme et de l'ostéomalacie.
+La vitamine D est surtout utilisée en thérapeutique afin de prévenir les carences à des fins de bonne santé osseuse. Elle permet de prévenir le rachitisme chez les enfants et l'ostéoporose chez les adultes et surtout chez les personnes âgées. Elle permet de maintenir une bonne densité osseuse et une absorption du calcium adéquat et prévient du rachitisme et de l'ostéomalacie.
 <!-- La vitamine D est également impliquée dans la régulation hormonale, la différenciation et l’activité des cellules du système immunitaire, la différenciation de certaines cellules cutanées. https://www.anses.fr/fr/content/vitamine-d-pourquoi-et-comment-assurer-un-apport-suffisant
 
 Ou mettre ?-->
@@ -185,6 +215,9 @@ Ou mettre ?-->
 ## Toxicité
 
 ### Seuil de toxicité actuel
+
+L'\ac{IOM} a déterminé la limite supérieure de sécurité à 4000 UI/j de cholécalciférol. Ainsi, au-delà de cette limite, les auteurs considèrent que le risque de toxicité augmente. Ce seuil a été déterminé en partant du point d'observation où la prise de 10 000 UI/j de cholécalciférol n'est pas associée à une toxicité classique pour des adultes. Cette valeur est ensuite corrigée pour des raisons d'incertitudes sur des données comme la mortalité toute causes, concernant les prises inférieures à 10 000 UI/j, présentant des signes de toxicité classiques pour des concentrations de calcidiol précédemment considéré comme étant à la norme haute des valeurs physiologiques. Les auteurs ont également considéré des différences ethniques potentielles. La limite supérieure de sécurité des adultes concerne également les enfants de 9 à 18 ans mais est réduite pour les enfants de 1 à 8 ans (2500 à 3000 UI/j) [@IOM.2011].
+
 
 L'hypercalcémie est une toxicité fréquemment mentionnée comme étant dangereuse pour des doses de vitamine D~3~ supérieures à 4000 UI/j pour des adultes avec une limite supérieure de sécurité de la concentration de vitamine D~3~ de 50 ng/mL (125 nmol/L) selon l'Institut de Médecine \acs{IOM} [@IOM.2011; @Holick.2011]. En revanche, la Société d'Endrocrinologie recommande une marge de sécurité de 100 ng/mL (250 nmol/L) afin d'éviter l'hypercalcémie [@Holick.2011], en rapportant que la majorité des études sur la vitamine D suggèrent que le taux de vitamine D nécessite d'être supérieur à 150 ng/mL avant de considérer une éventuelle toxicité.
 
