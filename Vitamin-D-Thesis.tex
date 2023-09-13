@@ -203,7 +203,7 @@ THESE
 \pagenumbering{gobble}
 \clearpage
 
-\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[frame hidden, enhanced, interior hidden, borderline west={3pt}{0pt}{shadecolor}, breakable, sharp corners, boxrule=0pt]}{\end{tcolorbox}}\fi
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[sharp corners, interior hidden, borderline west={3pt}{0pt}{shadecolor}, enhanced, frame hidden, breakable, boxrule=0pt]}{\end{tcolorbox}}\fi
 
 \setstretch{1.5}
 \hypertarget{remerciements}{%
@@ -416,23 +416,29 @@ la vitamine D, et est métabolisé dans le foie par des enzymes
 le rein, où après transport du calcidiol, celui-ci se retrouve
 métabolisé en calcitriol ou 1,25(OH)2D\textsubscript{3} par le CYP27B1.
 Le calcitriol augmente la concentration de l'hormone de croissance des
-fibroblastes 23 et l'absorption du calcium et diminue la concentration
-d'\acf{PTH}, tandis que ceux-ci exercent un rétrocontrôle négatif sur la
-concentration de calcitriol, en inhibant directement ou indirectement la
-1\mupalpha-hydroxylase, ce qui va diminuer la formation de calcitriol.
-D'après \textcite{Christakos.2010}, \textcite{Tsiaras.2011} et
+fibroblastes 23 \acs{FGF23} et l'absorption du calcium et diminue la
+concentration d'\acf{PTH}, tandis que ceux-ci exercent un rétrocontrôle
+négatif sur la concentration de calcitriol, en inhibant directement ou
+indirectement la 1α-hydroxylase, ce qui va diminuer la formation de
+calcitriol. Lorsque la PTH et le FGF23 sont stimulés lorsque la calcémie
+et la phosphatémie est basse respectivement, ce qui va engendrer des
+régulations métaboliques permettant de synthétiser d'avantage de
+calcitriol afin de réguler le niveau de calcium et de phosphate. D'après
+\textcite{Christakos.2010}, \textcite{Tsiaras.2011} et
 \textcite{Dankers.2017}}
 
 \end{figure}
 
 La synthèse du calcitriol est régulée par deux hormones, l'\acf{PTH} et
-l'hormone de croissance des fibroblastes 23 \acs{FGF23}. Le \ac{FGF23},
-induite par une concentration élevée de calcitriol et une faible
-concentration de phosphate dans le sang, favorise l'induction de la
-\ac{CYP24A1}, tandis que la \ac{PTH}, induite par une faible
+l'hormone de croissance des fibroblastes 23 (\acsu{FGF23}). Le
+\ac{FGF23}, induite par une concentration élevée de calcitriol et une
+faible concentration de phosphate dans le sang, favorise l'induction de
+la \ac{CYP24A1}, tandis que la \ac{PTH}, induite par une faible
 concentration de calcium et inhibée par une forte concentration de
 calcitriol, va induire la \ac{CYP24A1} et donc contribuer au catabolisme
-du calcitriol \autocite{Dankers.2017,Christakos.2010}.
+du calcitriol \autocite{Dankers.2017,Christakos.2010}. La \ac{PTH} agit
+également directement sur les os en augmentant la résorption osseuse et
+augmentant ainsi la calcémie.
 
 \hypertarget{place-de-lergostuxe9rol}{%
 \section{Place de l'ergostérol}\label{place-de-lergostuxe9rol}}
@@ -566,8 +572,8 @@ est associée à un risque accru d'ostéomalacie (une affection qui
 entraîne une diminution de la masse osseuse) et d'ostéoporose (une
 affection caractérisée par une fragilité des os).
 
-Cette action de la vitamine D est médiée par la liaison du calcitriol,
-au récepteur \ac{VDR} \autocite{Norman.2008,Dankers.2017}. La vitamine D
+L'action de la vitamine D est médiée par la liaison du calcitriol, au
+récepteur \ac{VDR} \autocite{Norman.2008,Dankers.2017}. La vitamine D
 agit directement sur le renouvellement osseux mais joue également un
 rôle dans l'homéostasie du calcium. L'homéostasie du calcium dépend de
 son absorption dans l'intestin, de sa réabsorption dans le rein et de
@@ -579,7 +585,9 @@ Lorsque les flux de calcium sont déséquilibrés, les os servent de
 réservoir de calcium afin de maintenir l'équilibre calcique. La
 réabsorption du calcium par le rein est contrôlée dans le tubule
 contourné distal par l'action du calcitriol sur le \ac{VDR}
-\autocite{Carmeliet.2015}.
+\autocite{Carmeliet.2015}. Ainsi, la vitamine D joue un rôle crucial
+dans l'absorption intestinale du calcium et du phosphore, assurant ainsi
+l'homéostasie des niveaux calciques et phosphoriques dans l'organisme.
 
 De plus, la liaison du calcitriol sur le VDR situé dans les ostéoblastes
 entraîne une augmentation de la minéralisation osseuse et donc de la
@@ -850,35 +858,100 @@ mais est réduite pour les enfants de 1 à 8 ans (2500 à 3000 UI/j)
 \autocite{IOM.2011}.
 
 La toxicité de la vitamine D est habituellement due à une cause
-iatrogène ou un excès accidentel de surdosage de vitamine D.
+iatrogène ou un excès de surdosage de vitamine D, pouvant être lié à un
+accident, à des mauvaises pratiques médicales ou à un malentendu des
+recommandations médicales \autocite{Lim.2020vd}. Elle peut aussi
+survenir par une production endogène anormale de calcitriol chez les
+patients à désordre granulomateux comme la sarcoidose, la granulomatose,
+les maladies fongiques, la léprose et bérylliose
+\autocite{Marcinowska-Suchowierska.2018}.
 
 \begin{quote}
 La toxicité de la vitamine D, c'est quoi ? Par quels mécanismes ? Et je
 le répète le calcidiol n'est pas la question.
 \end{quote}
 
-Et celle du calcidiol ?
+La toxicité de la vitamine D est définie comme un état hypercalcémique
+et hypercalciurique qui suggère un excès d'activité lié aux effets du
+calcitriol \autocite{Vieth.1990}. Cet état s'accompagne d'une
+suppression de l'activité de la \ac{PTH}, en raison de l'état
+hypercalcémique \autocite{Marcinowska-Suchowierska.2018}.
 
-La toxicité de la vitamine D par ingestion de cholécalciférol serait due
-à une trop forte concentration de ses métabolites, le calcidiol et le
-calcitriol, le calcidiol se métabolisant en calcitriol, où sa
-concentration libre trop élevée serait le résultat de la toxicité de la
-vitamine D. Une étude montre cependant que la toxicité de la vitamine D
-ne passe pas par le calcitriol. En effet, \textcite{DeLuca.2011} ont
-montré dans une expérience où des souris CYP27B1 KO constatent la même
-toxicité que le type sauvage \autocite{DeLuca.2011}.
+La vitamine D cause donc des problèmes associés à l'hypercalcémie,
+l'hyperphosphatémie ainsi que des symptômes associés à une insuffisance
+rénale résultant de ce déséquilibre.
 
-Les symptômes d'une intoxication à la vitamine D sont les suivants :
-soif, démangeaisons, diarrhée, malaise, amaigrissement, polyurie et
-diminution de l'appétit résultant principalement d'une insuffisance
-rénale. Ces symptômes sont dus à hypercalcémie, hyperphosphatémie, et un
-fort ratio calcium/phosphate présent dans le sérum. Cela conduit à une
-calcification des reins, cœurs, aortes et autres tissus
-\autocite{DeLuca.2011}.
+L'hypercalcémie est responsable de la plupart des symptômes de la
+toxicité de la vitamine D. Les premiers symptômes de la toxicité de la
+vitamine D comprennent donc des mécanismes causés par cette
+hypercalcémie, notamment des troubles gastro-intestinaux tels que
+l'anorexie, la diarrhée, la constipation, les nausées et les
+vomissements. Les douleurs osseuses, la somnolence, les maux de tête
+continus, les battements de cœur irréguliers, la perte d'appétit, les
+douleurs musculaires et articulaires sont d'autres symptômes
+susceptibles d'apparaître au bout de quelques jours ou semaines ; des
+mictions fréquentes, surtout la nuit, une soif excessive, de la
+faiblesse, de la nervosité et des démangeaisons ; des calculs rénaux
+\autocite{Alshahrani.2013} Les symptômes d'une intoxication à la
+vitamine D sont les suivants : soif, démangeaisons, diarrhée, malaise,
+amaigrissement, polyurie et diminution de l'appétit résultant
+principalement d'une insuffisance rénale. Ces symptômes sont dus à
+hypercalcémie, hyperphosphatémie, et un fort ratio calcium/phosphate
+présent dans le sérum. Cela conduit à une calcification des reins,
+cœurs, aortes et autres tissus \autocite{DeLuca.2011}.
 
-Lire \textcite{Lim.2020vd}
+Le mécanisme de la toxicité due à la vitamine D n'est pas encore
+totalement élucidé, mais il existe plusieurs hypothèses selon
+\textcite{Jones.2008} :
 
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+\begin{quote}
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\tightlist
+\item
+  La prise de vitamine D augmente les concentrations plasmatiques de
+  calcitriol, ce qui augmente les concentrations cellulaires de
+  calcitriol. L'étude de \textcite{DeLuca.2011} montre cependant que la
+  toxicité de la vitamine D ne passe pas par le calcitriol. En effet,
+  \textcite{DeLuca.2011} ont montré dans une expérience où des souris
+  \ac{CYP27B1} KO constatent la même toxicité que le type sauvage
+  possédant l'enzyme \ac{CYP27B1} .
+\end{enumerate}
+\end{quote}
+
+\begin{quote}
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{1}
+\tightlist
+\item
+  La prise de vitamine D augmente les concentrations plasmatiques de
+  calcidiol tomol/L qui dépassent la capacité de liaison de la \ac{DBP}
+  et le calcidiol libre pénètre dans la cellule, où elle a des effets
+  directs sur l'expression des gènes.
+\item
+  La prise de vitamine D augmente les concentrations de nombreux
+  métabolites de la vitamine D, en particulier la vitamine D elle-même
+  et la 25(OH)D. Ces concentrations dépassent la capacité de liaison de
+  la DBP et provoquent la libération de la 1,25(OH)2 D ``libre'', qui
+  pénètre dans les cellules cibles. Ces concentrations dépassent la
+  capacité de liaison de la DBP et entraînent la libération de 1,25(OH)2
+  D ``libre'', qui pénètre dans les cellules cibles.
+\end{enumerate}
+\end{quote}
+
+L'exposition au soleil ne peut pas résulter d'une intoxication à la
+vitamine D car le soleil détruit l'excès de cholécalciférol {[}??? no
+ref{]}
+
+\begin{quote}
+Vous mélangez dans une même phrase limite supérieure de
+sécurité/hypercalcémie/dose de vitamine D et concentration plasmatique
+de calcidiol. Il faut vraiment distinguer chaque aspect d'autant que la
+toxicité associe un xénobiotique (en l'occurrence la vit D exogène) et
+une toxicité (en l'occurrence une ostéolyse pouvant être à l'origine
+d'une hypercalcémie). \_\_\_\_\_\_\_\_\_\_
+\end{quote}
 
 L'hypercalcémie est une toxicité fréquemment mentionnée comme étant
 dangereuse pour des doses de vitamine D\textsubscript{3} supérieures à
@@ -1040,17 +1113,17 @@ inné et adaptatif par de nombreuses fonctions et effets
 théorie du rôle de la vitamine D dans le système immunitaire : le
 récepteur au calcitriol est présent dans toutes les cellules
 immunitaires, et la présence de l'enzyme de conversion finale du
-calcidiol en calcitriol, la 1-α-hydroxylase est uprégulée par certaines
+calcidiol en calcitriol, la 1α-hydroxylase est uprégulée par certaines
 cellules immunes \autocite{Giannini.2022}.
 
 Ainsi, plusieurs cellules immunitaires peuvent synthétiser l'enzyme clé
 permettant la conversion du 25(OH)\textsubscript{2}D\textsubscript{3} en
 1,25(OH)\textsubscript{2}D\textsubscript{3}, le cytochrome CYP27B1 ou
-aussi appelée 1-α-hydroxylase. L'induction de cette enzyme concerne des
+aussi appelée 1α-hydroxylase. L'induction de cette enzyme concerne des
 cellules telles que les cellules dendritiques, monocytes, macrophages,
 lymphocytes B et T \autocites[ ]{Giannini.2022}{Dankers.2017}.
 
-Dans ce contexte, l'enzyme 1-α-hydroxylase n'est pas uprégulée par la
+Dans ce contexte, l'enzyme 1α-hydroxylase n'est pas uprégulée par la
 \ac{PTH}. Par conséquent, la production de
 1,25(OH)\textsubscript{2}D\textsubscript{3} dépend des niveaux de
 substrat de 25(OH)D\textsubscript{3} et peut être régulée par des
@@ -1158,7 +1231,7 @@ T\textsubscript{reg}, lymphocytes T régulateurs. D'après
 \subsection{Effets de la vitamine D sur les cellules immunitaires
 innées}\label{effets-de-la-vitamine-d-sur-les-cellules-immunitaires-innuxe9es}}
 
-Plusieurs signaux sont nécessaires à l'induction de la 1-α-hydroxylase,
+Plusieurs signaux sont nécessaires à l'induction de la 1α-hydroxylase,
 tels que la présence d'activateurs de macrophages et de monocytes comme
 le \ac{tnfa} ou l'\ac{ifng}, ainsi que les récepteurs innés \acp{TLR}.
 Lorsque les cellules sont activées, elles expriment le \ac{CYP27B1} qui
