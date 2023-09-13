@@ -2,11 +2,11 @@
 
 L'importance cruciale du rôle de la vitamine D sur le système immunitaire a récemment captivé l'attention des chercheurs depuis la découverte de la coexistence du \ac{VDR} et du \ac{CYP27B1} dans des tissus dont la fonction n'est pas directement liée à l'homéostasie du calcium [@Zehnder.2001]. En particulier, l'expression du \ac{CYP27B1} dans les cellules immunitaires est régulée indépendamment de l'homéostasie du calcium, en présence ou non de pathogènes, ce qui démontre le rôle central de la vitamine D dans la régulation du système immunitaire [@White.2022].
 
-La vitamine D agit à la fois sur les cellules du système immunitaire inné et adaptatif par de nombreuses fonctions et effets (\cref{tbl-vd-immu}). Deux observations principales supportent la théorie du rôle de la vitamine D dans le système immunitaire : le récepteur au calcitriol est présent dans toutes les cellules immunitaires, et la présence de l'enzyme de conversion finale du calcidiol en calcitriol, la 1-α-hydroxylase est uprégulée par certaines cellules immunes [@Giannini.2022].
+La vitamine D agit à la fois sur les cellules du système immunitaire inné et adaptatif par de nombreuses fonctions et effets (\cref{tbl-vd-immu}). Deux observations principales supportent la théorie du rôle de la vitamine D dans le système immunitaire : le récepteur au calcitriol est présent dans toutes les cellules immunitaires, et la présence de l'enzyme de conversion finale du calcidiol en calcitriol, la 1α-hydroxylase est uprégulée par certaines cellules immunes [@Giannini.2022].
 
-Ainsi, plusieurs cellules immunitaires peuvent synthétiser l'enzyme clé permettant la conversion du 25(OH)~2~D~3~ en 1,25(OH)~2~D~3~, le cytochrome CYP27B1 ou aussi appelée 1-α-hydroxylase. L'induction de cette enzyme concerne des cellules telles que les cellules dendritiques, monocytes, macrophages, lymphocytes B et T [@Giannini.2022 ; @Dankers.2017].
+Ainsi, plusieurs cellules immunitaires peuvent synthétiser l'enzyme clé permettant la conversion du 25(OH)~2~D~3~ en 1,25(OH)~2~D~3~, le cytochrome CYP27B1 ou aussi appelée 1α-hydroxylase. L'induction de cette enzyme concerne des cellules telles que les cellules dendritiques, monocytes, macrophages, lymphocytes B et T [@Giannini.2022 ; @Dankers.2017].
 
-Dans ce contexte, l'enzyme 1-α-hydroxylase n'est pas uprégulée par la \ac{PTH}. Par conséquent, la production de 1,25(OH)~2~D~3~ dépend des niveaux de substrat de 25(OH)D~3~ et peut être régulée par des signaux inflammatoires, tels que le \ac{LPS} et les cytokines [@Giannini.2022].
+Dans ce contexte, l'enzyme 1α-hydroxylase n'est pas uprégulée par la \ac{PTH}. Par conséquent, la production de 1,25(OH)~2~D~3~ dépend des niveaux de substrat de 25(OH)D~3~ et peut être régulée par des signaux inflammatoires, tels que le \ac{LPS} et les cytokines [@Giannini.2022].
 
 <!-- TODO: Développer intracrine extracrine, peut-être même une sous-partie avec PREUVE et REFERENCE -->
 
@@ -45,6 +45,34 @@ Différentiation des T\textsubscript{reg} & Augmentation \\
 \end{tabular}
 \end{table}
 ```
+\begin{table}
+\centering
+\caption[\textbf{Effets de la vitamine D sur le système immunitaire.}]{\textbf{Effets de la vitamine D sur le système immunitaire.} Le tableau montre les effets de la vitamine D sur le système immunitaire inné et adaptatif. Globalement, la vitamine D possède un effet immunomodulateur. D'après \textcite{Giannini.2022}.}
+\label{tbl-vd-immu}
+\begin{tabular}{lc}
+\toprule
+\textbf{Fonction/Cellules} & \textbf{Effet} \\
+\midrule
+\textbf{Immunité Innée} & \\
+Différenciation des macrophages & Augmentation \\
+Elimination des bactéries & Augmentation \\
+Maturation des cellules dendritiques & Diminution \\
+Présentation antigénique & Diminution \\
+\midrule
+\textbf{Immunité adaptative} & \\
+Cytokines Th$_1$ & Diminution \\
+Cytokines Th$_2$ & Augmentation \\
+Différentiation des Th${_{17}}$ & Diminution \\
+Différentiation des T\textsubscript{reg} & Augmentation \\
+\addlinespace
+Lymphocytes B & \\
+Diminution de la prolifération & \\
+Induction de l'apoptose & \\
+Inhibition de la génération des plasmocytes & \\
+Inhibition de la sécrétion des immunoglobulines & \\
+\bottomrule
+\end{tabular}
+\end{table}
 
 
 ## Mécanismes d'action de la vitamine D sur le système immunitaire
@@ -55,7 +83,7 @@ La vitamine D possède une action globalement anti-inflammatoire et donc régula
 
 ### Effets de la vitamine D sur les cellules immunitaires innées
 
-Plusieurs signaux sont nécessaires à l'induction de la 1-α-hydroxylase, tels que la présence d'activateurs de macrophages et de monocytes comme le \ac{tnfa} ou l'\ac{ifng}, ainsi que les récepteurs innés \acp{TLR}. Lorsque les cellules sont activées, elles expriment le \ac{CYP27B1} qui va permettre de métaboliser le calcidiol en calcitriol [@Liu.2006; @Charoenngam.2020].
+Plusieurs signaux sont nécessaires à l'induction de la 1α-hydroxylase, tels que la présence d'activateurs de macrophages et de monocytes comme le \ac{tnfa} ou l'\ac{ifng}, ainsi que les récepteurs innés \acp{TLR}. Lorsque les cellules sont activées, elles expriment le \ac{CYP27B1} qui va permettre de métaboliser le calcidiol en calcitriol [@Liu.2006; @Charoenngam.2020].
 
 #### Macrophages et monocytes
 

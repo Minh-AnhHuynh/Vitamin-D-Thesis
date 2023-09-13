@@ -70,7 +70,7 @@ header-includes:
 - \usepackage{makecell} # Make multiline cell in latex
 - \usepackage{multirow} # Required for table and ref
 - \usepackage{booktabs} # For beautiful publication ready tables
-- \usepackage[capitalise,noabbrev, nameinlink]{cleveref} # Allows \cref{} to cite latex table as "Table 3"
+- \usepackage[capitalise, noabbrev, nameinlink]{cleveref} # Allows \cref{} to cite latex table as "Table 3"
 # Specify which cross-reference should automatically be bolded : Tables and Figures
 # Use \cref{} ; For some reason this only works with this exact disposition :
 # Only #1, nameinlink and each of the reference specified. namelink + #1#2#3 would give an error.

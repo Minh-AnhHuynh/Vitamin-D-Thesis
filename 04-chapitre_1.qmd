@@ -8,7 +8,7 @@ bibliography: "bibliography/vitamin-d.bib"
 
 La vitamine D est un nutriment vital, nécessaire pour notre métabolisme. Elle possède un rôle de vitamine qui est définie comme étant une substance organique essentielle en quantités infimes, à la nutrition de la plupart des animaux et de certaines plantes. La plupart des vitamines agissent comme coenzymes et précurseurs de coenzymes pour réguler les processus métaboliques mais ne fournissent pas d'énergie et ne servent pas d'unités de construction [@Ellison.2021] ; la vitamine D intervient comme précurseur d'une hormone, le calcitriol.
 
-La vitamine D est une molécule liposoluble dérivée du cholestérol se distinguant des hormones stéroïdes par l'ouverture du cycle B de la structure cyclopentanoperhydrophénanthrène [@Norman.2008] **(Figure \ref{fig:vitd3}**). Il en existe deux formes, la vitamine D~2~ ou ergocalciférol, synthétisée par les plantes et les champignons, et la vitamine D~3~ ou cholécalciférol, synthétisée dans la peau après une exposition aux rayons ultraviolets B ou à la lumière du soleil. A la différence des autres vitamines, la vitamine D peut donc être synthétisée par l'organisme humain, mais en quantité insuffisante par rapport aux besoins, d'où l'impérative nécessité d'un apport exogène. Généralement, la mention de vitamine D fait référence à la vitamine D~3~. Pour être active, la vitamine D doit subir une double hydroxylation en positions 1 et 25, formant ainsi une hormone, le calcitriol ou 1,25-dihydroxycalciférol. Techniquement, le calcitriol est responsable des effets biologiques de la vitamine D. La mention des effets de la vitamine D sous-entend généralement les effets de la forme active de cette vitamine, sauf si la distinction est importante lors de la mention des effets biologiques de la vitamine D. Une hormone est une substance chimique qui aide à contrôler et à réguler différentes activités dans l'organisme [@Ellison.2021]. La vitamine D est capable d'agir comme une hormone en régulant la transcription de différents gènes et en modifiant le métabolisme de diverses manières. Elle agit par le biais du calcitriol, la forme active de la vitamine D qui se lie à son récepteur, le récepteur de la vitamine D \acs{VDR}. Pratiquement toutes les cellules de l'organisme possèdent des VDR, ce qui explique ses effets pléiotropiques dans diverses maladies [@Ellison.2021; @Caprio.2017; @Norman.2008]. Le \ac{VDR} est un récepteur faisant partie de la classe des récepteurs nucléaires. Ainsi, la liaison de la vitamine D sur son récepteur conduit à sa translocation nucléaire et à sa liaison à l'ADN au niveau des séquences de réponse (\acs{VDRE}) situées dans les séquences promoteurs de différents gènes [@Bouillon.2008].
+La vitamine D est une molécule liposoluble dérivée du cholestérol se distinguant des hormones stéroïdes par l'ouverture du cycle B de la structure cyclopentanoperhydrophénanthrène [@Norman.2008] (\cref{fig:vitd3}). Il en existe deux formes, la vitamine D~2~ ou ergocalciférol, synthétisée par les plantes et les champignons, et la vitamine D~3~ ou cholécalciférol, synthétisée dans la peau après une exposition aux rayons ultraviolets B ou à la lumière du soleil. A la différence des autres vitamines, la vitamine D peut donc être synthétisée par l'organisme humain, mais en quantité insuffisante par rapport aux besoins, d'où l'impérative nécessité d'un apport exogène. Généralement, la mention de vitamine D fait référence à la vitamine D~3~. Pour être active, la vitamine D doit subir une double hydroxylation en positions 1 et 25, formant ainsi une hormone, le calcitriol ou 1,25-dihydroxycalciférol. Techniquement, le calcitriol est responsable des effets biologiques de la vitamine D. La mention des effets de la vitamine D sous-entend généralement les effets de la forme active de cette vitamine, sauf si la distinction est importante lors de la mention des effets biologiques de la vitamine D. Une hormone est une substance chimique qui aide à contrôler et à réguler différentes activités dans l'organisme [@Ellison.2021]. La vitamine D est capable d'agir comme une hormone en régulant la transcription de différents gènes et en modifiant le métabolisme de diverses manières. Elle agit par le biais du calcitriol, la forme active de la vitamine D qui se lie à son récepteur, le récepteur de la vitamine D \acs{VDR}. Pratiquement toutes les cellules de l'organisme possèdent des VDR, ce qui explique ses effets pléiotropiques dans diverses maladies [@Ellison.2021; @Caprio.2017; @Norman.2008]. Le \ac{VDR} est un récepteur faisant partie de la classe des récepteurs nucléaires, où la liaison de la vitamine D sur son récepteur conduit à sa translocation nucléaire et à sa liaison à l'ADN au niveau des séquences de réponse (\acs{VDRE}) situées dans les séquences promoteurs de différents gènes [@Bouillon.2008].
 
 ```{=tex}
 \begin{figure}
@@ -31,21 +31,20 @@ Enfin, la vitamine D peut subir une hydroxylation par la 24-hydroxylase ou \acs{
 ![**Métabolisme de la vitamine D.** Le métabolisme de la vitamine D débute
 lorsque le 7-déhydrocholestérol présent dans la peau, est transformé par les
 rayons ultraviolets provenant du soleil en cholécalciférol. Le cholécalciférol
-ou vitamine D3 est ensuite transporté par la protéine de liaison à la vitamine
+ou vitamine D~3~ est ensuite transporté par la protéine de liaison à la vitamine
 D, et est métabolisé dans le foie par des enzymes 25-hydroxylases telles que le
 CYP2R1 en calcidiol ou 25(OH)D~3~. L’autre étape de du métabolisme se situe dans
 le rein, où après transport du calcidiol, celui-ci se retrouve métabolisé en
 calcitriol ou 1,25(OH)2D~3~ par le CYP27B1. Le calcitriol augmente la
-concentration de l’hormone de croissance des fibroblastes 23 (FGF23) et
-l’absorption du calcium et diminue la concentration de parathormone PTH, tandis
+concentration de l’hormone de croissance des fibroblastes 23 et
+l’absorption du calcium et diminue la concentration d'\acf{PTH}, tandis
 que ceux-ci exercent un rétrocontrôle négatif sur la concentration de
-calcitriol, en inhibant directement ou indirectement la 1-hydroxylase, ce qui va
+calcitriol, en inhibant directement ou indirectement la 1α-hydroxylase, ce qui va
 diminuer la formation de calcitriol. D'après
-@Christakos.2010, @Tsiaras.2011 et
-@Dankers.2017](figures/vitd-metabolism-fr.png){#fig-vitd-metabolism
+@Christakos.2010, @Tsiaras.2011 et @Dankers.2017] (figures/vitd-metabolism-fr.png){#fig-vitd-metabolism
 fig-scap="**Métabolisme de la vitamine D.**" fig.pos="!htb"}
 
-La synthèse du calcitriol est régulée par deux hormones, l'\ac{PTH} et l'hormone de croissance des fibroblastes 23 \acs{FGF23}. Le \ac{FGF23}, induite par une concentration élevée de calcitriol et une faible concentration de phosphate dans le sang, favorise l'induction de la \ac{CYP24A1}, tandis que la \ac{PTH}, induite par une faible concentration de calcium et inhibée par une forte concentration de calcitriol, va induire la \ac{CYP24A1} et donc contribuer au catabolisme du calcitriol [@Dankers.2017; @Christakos.2010].
+La synthèse du calcitriol est régulée par deux hormones, l'\acf{PTH} et l'hormone de croissance des fibroblastes 23 \acs{FGF23}. Le \ac{FGF23}, induite par une concentration élevée de calcitriol et une faible concentration de phosphate dans le sang, favorise l'induction de la \ac{CYP24A1}, tandis que la \ac{PTH}, induite par une faible concentration de calcium et inhibée par une forte concentration de calcitriol, va induire la \ac{CYP24A1} et donc contribuer au catabolisme du calcitriol [@Dankers.2017; @Christakos.2010].
 
 
 ## Place de l'ergostérol
@@ -62,9 +61,9 @@ De ce fait, elle possède une pharmacocinétique différente, où l'étape de m�
 \label{fig:ergo-struc}
 \end{figure}
 ```
-Ainsi, cette différence de structure cause une différence dans l'évolution de la concentration de 25(OH)D. Une expérience consistant en une administration d'une dose de 50 000 UI pour les deux types de vitamine D permet de comparer l'évolution des concentrations respectives en 25(OH)D (**Figure \ref{fig-PK}**). La vitamine D~2~ est inférieure à la vitamine D~3~ concernant le maintien d'une concentration adéquate de 25(OH)D, puisqu'elle s'élimine beaucoup plus rapidement, malgré une phase d'absorption identique les trois premiers jours. On observe ainsi qu'au jour 14, la concentration de 25(OH)D obtenue par ergostérol est redevenue identique à celle au jour 1, tandis que celle obtenue par vitamine D~3~ continue de croître [@Armas.2004].
+Ainsi, cette différence de structure cause une différence dans l'évolution de la concentration de 25(OH)D. Une expérience consistant en une administration d'une dose de 50 000 UI pour les deux types de vitamine D permet de comparer l'évolution des concentrations respectives en 25(OH)D (\cref{fig-PK}). La vitamine D~2~ est inférieure à la vitamine D~3~ concernant le maintien d'une concentration adéquate de 25(OH)D, puisqu'elle s'élimine beaucoup plus rapidement, malgré une phase d'absorption identique les trois premiers jours. On observe ainsi qu'au jour 14, la concentration de 25(OH)D obtenue par ergostérol est redevenue identique à celle au jour 1, tandis que celle obtenue par vitamine D~3~ continue de croître [@Armas.2004].
 
-![**Evolution de la concentration en 25(OH)D après administration d'une dose de 50 000 UI de vitamine D~2~ ou D~3~ chez 10 patients.** [@Armas.2004]](figures/PK_D2_vs_D3.jpeg){#fig-PK short-caption="**Evolution de la concentration en 25(OH)D après administration d'une dose de 50 000 UI de vitamine D~2~ ou D~3~ chez 10 patients.**"}
+![**Evolution de la concentration en 25(OH)D après administration d'une dose de 50 000 UI de vitamine D~2~ ou D~3~ chez 10 patients.** [@Armas.2004]](figures/PK_D2_vs_D3.jpeg){#fig-PK fig-scap="**Evolution de la concentration en 25(OH)D après administration d'une dose de 50 000 UI de vitamine D~2~ ou D~3~ chez 10 patients.**"}
 
 Ainsi, la vitamine D~3~ est généralement capable d'augmenter la concentration en 25(OH)D environ deux fois plus qu'avec la vitamine D~2~, comme le montre @Trang.1998 lors d'une comparaison avec une dose unique de 4000 UI. Une comparaison de l'aire sous la courbe entre les deux formes montre un potentiel 3 fois plus important chez la vitamine D~3~ [@Armas.2004].
 
@@ -84,26 +83,26 @@ L'intérêt pour la vitamine D s'est ensuite accru avec la découverte par les s
 
 Cette action de la vitamine D est médiée par la liaison du calcitriol, au récepteur \ac{VDR} [@Norman.2008; @Dankers.2017]. La vitamine D agit directement sur le renouvellement osseux mais joue également un rôle dans l'homéostasie du calcium. L'homéostasie du calcium dépend de son absorption dans l'intestin, de sa réabsorption dans le rein et de fixation/libération dans l'os. Le calcium est absorbé grâce à des transporteurs transcellulaires (actifs) et paracellulaires (passifs), grâce au signalement du calcitriol. Celui-ci est considéré comme le principal facteur régulateur de l'absorption intestinal de calcium. Lorsque les flux de calcium sont déséquilibrés, les os servent de réservoir de calcium afin de maintenir l'équilibre calcique. La réabsorption du calcium par le rein est contrôlée dans le tubule contourné distal par l'action du calcitriol sur le \ac{VDR} [@Carmeliet.2015].
 
-De plus, la liaison du calcitriol sur le VDR situé dans les ostéoblastes entraîne une augmentation de la minéralisation osseuse et donc de la fixation du calcium dans les os (diminution de RANKL, facteur de transcription activant les ostéoclastes, et augmentation de LRP5) [@Carmeliet.2015]. Lorsque la calcémie est basse, l'augmentation de \ac{PTH} conduit à une augmentation de RANKL ce qui favorise la résorption des os par les ostéoclastes afin d'obtenir du calcium.
+De plus, la liaison du calcitriol sur le VDR situé dans les ostéoblastes entraîne une augmentation de la minéralisation osseuse et donc de la fixation du calcium dans les os (diminution de RANKL, facteur de transcription activant les ostéoclastes, et augmentation de LRP5) [@Carmeliet.2015]. Lorsque la calcémie est basse, l'augmentation de \ac{PTH} conduit à une augmentation de RANKL ce qui favorise la résorption des os par les ostéoclastes afin d'obtenir du calcium (\cref{fig-vitd-metabolism}).
 
 ### Propriétés extra-osseuses
 
 La découverte des propriétés extra-osseuses de la vitamine D a commencé avec le clonage du récepteur \ac{VDR} en 1987. Son identification dans la majorité des tissus et populations cellulaires a a ouvert la voie à de nombreuses études fondamentales et cliniques autour du rôle pléiotrope de la vitamine D [@Rosen.2012]. Le \ac{VDR} est exprimé de façon ubiquitaire ; cependant, certaines cellules ou tissus, tels que les globules rouges, les muscles striés, et certaines cellules hautement différenciés du cerveau telles que les cellules de Purkinje du cervelet, n'expriment que faiblement \ac{VDR} [@Bouillon.2008].
 
-Plus récemment l'intérêt pour la vitamine D a été étendue à différentes pathologies diversement associées à des désordres osseux, en particulier dans le cancer, les maladies cardio-métaboliques (obésité et diabète de type 2, métabolisme du glucose) et les maladies auto-immunes (diabète de type 1, sclérose en plaques, troubles thyroïdiens auto-immuns) [@Dankers.2017; @Caprio.2017]. En effet, plusieurs recherchent suggèrent que la vitamine D joue un rôle dans le diabète de type 2, en stimulant l'expression des récepteurs à l'insuline et en augmentant la sensibilité à l'insuline. Elle jouerait aussi un rôle dans l'obésité au niveau du tissu adipeux, où des corrélations inverses ont été observées entre le taux de calcidiol et la leptine (hormone régulant l'appétit) et résistine (hormone pro-inflammatoire et contribue à la résistance à l'insuline), et une association positive avec l'adiponectine (hormone augmentant la sensibilité à l'insuline) [@Caprio.2017; @Bellia.2013]. Il existe une association inverse entre le taux de calcidiol et de marqueurs d'inflammation systémique observée chez les sujets obèses [@Bellia.2013]. En ce qui concerne les bénéfices liés à l'immunité, les effets observés de la vitamine D sont généralement associés à une régulation négative de l'inflammation, par l'inhibition de \ac{CMH-II}, des molécules de co-stimulation, une diminution de l'activité des Th~1~ et Th~17~, lymphocytes pro-inflammatoires, et une augmentation des T~regs~, lymphocytes anti-inflammatoires **(Figure \ref{fig:extra-skeletal}**). Un autre domaine d'intérêt concernant les effets extra-squelettiques de la vitamine D concerne son rôle au niveau des muscles squelettiques. Plusieurs études suggèrent que le rôle de la vitamine D stimule la synthèse des protéines musculaires ainsi que la réabsorption du calcium dans le réticulum sarcoplasmique, ce qui permet de maintenir une force musculaire adéquate.
+Plus récemment l'intérêt pour la vitamine D a été étendue à différentes pathologies diversement associées à des désordres osseux, en particulier dans le cancer, les maladies cardio-métaboliques (obésité et diabète de type 2, métabolisme du glucose) et les maladies auto-immunes (diabète de type 1, sclérose en plaques, troubles thyroïdiens auto-immuns) [@Dankers.2017; @Caprio.2017]. En effet, plusieurs recherchent suggèrent que la vitamine D joue un rôle dans le diabète de type 2, en stimulant l'expression des récepteurs à l'insuline et en augmentant la sensibilité à l'insuline. Elle jouerait aussi un rôle dans l'obésité au niveau du tissu adipeux, où des corrélations inverses ont été observées entre le taux de calcidiol et la leptine (hormone régulant l'appétit) et résistine (hormone pro-inflammatoire et contribue à la résistance à l'insuline), et une association positive avec l'adiponectine (hormone augmentant la sensibilité à l'insuline) [@Caprio.2017; @Bellia.2013]. Il existe une association inverse entre le taux de calcidiol et de marqueurs d'inflammation systémique observée chez les sujets obèses [@Bellia.2013]. En ce qui concerne les bénéfices liés à l'immunité, les effets observés de la vitamine D sont généralement associés à une régulation négative de l'inflammation, par l'inhibition de \ac{CMH-II}, des molécules de co-stimulation, une diminution de l'activité des Th~1~ et Th~17~, lymphocytes pro-inflammatoires, et une augmentation des T~regs~, lymphocytes anti-inflammatoires (\cref{fig:extra-skeletal}). Un autre domaine d'intérêt concernant les effets extra-squelettiques de la vitamine D concerne son rôle au niveau des muscles squelettiques. Plusieurs études suggèrent que le rôle de la vitamine D stimule la synthèse des protéines musculaires ainsi que la réabsorption du calcium dans le réticulum sarcoplasmique, ce qui permet de maintenir une force musculaire adéquate.
 
 ```{=tex}
 \begin{landscape}
 \begin{figure}
 \includegraphics{figures/extra-skeletal-effect.png} 
 \caption[\textbf{Effets classiques et extra-squelettiques de la vitamine D.}]
-{Effets classiques et extra-squelettiques de la vitamine D. (\cite{Caprio.2017})}
+{Effets classiques et extra-squelettiques de la vitamine D. \textcite{Caprio.2017}}
 \label{fig:extra-skeletal}
 \end{figure}
 \end{landscape}
 ```
 
-La vitamine D exerce en plus de son action endocrine classique, dépendante de la 1-hydroxylation par le rein, une action locale autocrine et paracrine, par le biais d'une expression locale de l'hydroxylase \ac{CYP27B1} dans différents tissus [@Carmeliet.2015; @Cannell.2008].
+La vitamine D exerce en plus de son action endocrine classique, dépendante de la 1-hydroxylation par le rein, une action locale autocrine et paracrine, par le biais d'une expression locale de l'hydroxylase \ac{CYP27B1} dans différents tissus [@Carmeliet.2015; @Cannell.2008]. Cela concerne notamment les mécanismes d'action de la vitamine D liés à l'immunité.
 
 Cependant, les bénéfices extra-squelettiques associés à la vitamine D ne seraient visibles que lorsque la concentration de calcidiol serait supérieure au seuil de 40 ng/mL, ce qui nécessiterait une dose journalière nettement supérieure à celle recommandée habituellement [@Caprio.2017].
 
@@ -133,11 +132,12 @@ Toutefois, la courbe dose-réponse du calcidiol ne serait pas linéaire indiquan
 
 Actuellement, l’Académie de médecine américaine (anciennement Institute of Medecine, \acsu{IOM}) est responsable des recommandations émises par la \ac{FDA}, l’équivalent de l’\ac{ANSM} en France. L'\ac{AJR} pour la vitamine D est de 600 UI par jour pour les personnes tous sexes confondus de 1 à 70 ans, et reste la même en cas de grossesse ou d’allaitement [@IOM.2011]. L’\ac{AJR} est augmentée à 800 UI/jour chez les personnes de plus de 70 ans en raison de la plus grande variance des données disponibles concernant cette catégorie d’âge.  Une concentration sanguine de calcidiol de 20 ng/mL ou plus est considérée par l’\ac{IOM} comme étant le minimum adéquat chez 97,5 % des personnes en bonne santé. Cette concentration minimum de 20 ng/mL a été observé comme étant bénéfique pour la santé osseuse concernant la majorité de la population générale, se manifestant par une augmentation de la densité minérale osseuse et de l'absorption du calcium, de l'accrétion osseuse et de la maintenance osseuse, diminution de l'ostéomalacie et de rachitisme. Les concentrations de calcitriol supérieures à 30 ng/mL ne sont pas associées à une augmentation de ces bénéfices considérés selon l'\ac{IOM} [@IOM.2011; @Rosen.2012].
 
-Un autre acteur français, l'\ac{ANSES}, stipule que les recommandations journalières de cholécalciférol sont de 15 µg par jour pour un adulte, soit l'équivalent d'une dose de 600 UI/j, s'appuyant sur les recommandations de l'Autorité européenne de sécurité des aliments, \acsu{EFSA}) [@ANSES.2021]. En effet, l'\ac{EFSA} a retenu une valeur de 15 µg/j (soit 600 UI/j) permettant aux hommes et femmes d'atteindre le seuil de calcitriol jugé adéquat de 50 nmol/L ou 20 ng/mL [@ANSES.2022] (\cref{tbl-seuil}).
+Un autre acteur français, l'\ac{ANSES}, stipule que les recommandations journalières de cholécalciférol sont de 15 µg par jour pour un adulte, soit l'équivalent d'une dose de 600 UI/j, s'appuyant sur les recommandations de l'Autorité européenne de sécurité des aliments (\acsu{EFSA}) [@ANSES.2021]. En effet, l'\ac{EFSA} a retenu une valeur de 15 µg/j (soit 600 UI/j) permettant aux hommes et femmes d'atteindre le seuil de calcitriol jugé adéquat de 50 nmol/L ou 20 ng/mL [@ANSES.2022] (\cref{tbl-seuil}).
 
 <!-- Actuellement, la société d'endocrinologie recommande chez l'adulte (19 - 50 ans) 600 UI/j pour maximiser la santé osseuse et le fonctionnement musculaire, admettant cependant que les bénéfices extra-squelettiques associé à cette dose leur est inconnu. De plus, pour des patients carencés, ils suggèrent qu'une plus forte dose de 1500 UI/j à 2000 UI/j serait nécessaire pour maintenir constamment une concentration supérieure à 30 ng/mL [@Holick.2011]. -->
 
 <!-- TODO : Compléter le tableau -->
+<!-- Le tableau marche mais pas de markdown short-caption pour le moment -->
 
 <!-- |      Seuil de vitamine D      |     IOM     |    ANSES    | -->
 <!-- |:-----------------------------:|:-----------:|:-----------:| -->
@@ -185,7 +185,6 @@ Femmes enceintes & 600 & 600 \\
 
 
 
-
 ### Controverse autour de la dose recommandée journalière
 
 Plusieurs acteurs tels que la Société d'Endocrinologie suggèrent que l'\ac{AJR} établi par l'\ac{IOM} est insuffisante. La Société d'Endocrinologie suggère un \ac{AJR} de 1500 UI/j pouvant aller à 2000 UI/j pour des adultes, avec des recommandations ciblées pour des populations à risque avec des maladies spécifiques visant un seuil jugé optimal de 30 ng/mL. L'\ac{IOM} suggère dans une réponse à la Société d'Endocrinologie que les auteurs ont fait un amalgame entre apports nutritionnels chez la personne saine et l'intérêt de la vitamine D dans la prise en charge de certaines maladies plus spécifiques [@Rosen.2012]. De plus, l'\ac{IOM} est en désaccord concernant les bénéfices osseux, concluant sur la base de la littérature qu'il n'y a pas de bénéfices osseux observés au-delà de 20 ng/mL, qui est le seuil permettant de couvrir les besoins minimes de 97.5% de la population (\cref{tbl-seuil}).
@@ -205,6 +204,9 @@ Plusieurs acteurs tels que la Société d'Endocrinologie suggèrent que l'\ac{AJ
 
 <!-- Un raisonnement reposant sur la pharmacocinétique de la vitamine D est proposé par @Cannell.2008. En effet, le cholécalciférol (premier substrat des enzymes métabolisant la vitamine D) est immédiatement consommé et métabolisé en calcidiol et calcitriol par les enzymes, ce qui rend le cholécalciférol indétectable dans le sang, indiquant que toutes les molécules de vitamine D sont utilisées dans des réactions métaboliques. @Hollis.2007 ont étudié la cinétique des réactions enzymatiques concernant la vitamine D, et ont déterminé que la vitesse maximale pour laquelle la réaction enzymatique de la 25-hydroxylase arrive à saturation est lorsque le calcidiol arrive à 40 ng/mL. Le substrat initial (cholécalciférol) est donc alors détectable dans le sang au-delà de cette concentration, et la réaction enzymatique devient alors saturable et régulée, comme il s'agit les autres systèmes hormonaux stéroïques [@Cannell.2008]. @Hollis.2007 suppose ainsi que les humains fonctionnent à un niveau en-deçà de la V~max~ de la 25-hydroxylase à cause d'une déficience de son substrat, le cholécalciférol, et que le niveau "normal" de vitamine D serait donc atteint lorsque le système ne devient donc pas limité par la quantité de substrat mais par ses propres régulations. -->
 
+
+
+
 ## Utilisation thérapeutique
 
 La vitamine D est surtout utilisée en thérapeutique afin de prévenir les carences à des fins de bonne santé osseuse. Elle permet de prévenir le rachitisme chez les enfants et l'ostéoporose chez les adultes et surtout chez les personnes âgées. Elle permet de maintenir une bonne densité osseuse et une absorption du calcium adéquat et prévient du rachitisme et de l'ostéomalacie.
@@ -212,11 +214,29 @@ La vitamine D est surtout utilisée en thérapeutique afin de prévenir les care
 
 Ou mettre ?-->
 
+
+
+
 ## Toxicité
 
 ### Seuil de toxicité actuel
 
 L'\ac{IOM} a déterminé la limite supérieure de sécurité à 4000 UI/j de cholécalciférol. Ainsi, au-delà de cette limite, les auteurs considèrent que le risque de toxicité augmente. Ce seuil a été déterminé en partant du point d'observation où la prise de 10 000 UI/j de cholécalciférol n'est pas associée à une toxicité classique pour des adultes. Cette valeur est ensuite corrigée pour des raisons d'incertitudes sur des données comme la mortalité toute causes, concernant les prises inférieures à 10 000 UI/j, présentant des signes de toxicité classiques pour des concentrations de calcidiol précédemment considéré comme étant à la norme haute des valeurs physiologiques. Les auteurs ont également considéré des différences ethniques potentielles. La limite supérieure de sécurité des adultes concerne également les enfants de 9 à 18 ans mais est réduite pour les enfants de 1 à 8 ans (2500 à 3000 UI/j) [@IOM.2011].
+
+La toxicité de la vitamine D est habituellement due à une cause iatrogène ou un excès accidentel de surdosage de vitamine D.
+
+
+> La toxicité de la vitamine D, c'est quoi ? Par quels mécanismes ? Et je le répète le calcidiol n'est pas la question.
+
+Et celle du calcidiol ?
+
+La toxicité de la vitamine D par ingestion de cholécalciférol serait due à une trop forte concentration de ses métabolites, le calcidiol et le calcitriol, le calcidiol se métabolisant en calcitriol, où sa concentration libre trop élevée serait le résultat de la toxicité de la vitamine D. Une étude montre cependant que la toxicité de la vitamine D ne passe pas par le calcitriol. En effet, @DeLuca.2011 ont montré dans une expérience où des souris CYP27B1 KO constatent la même toxicité que le type sauvage [@DeLuca.2011]. 
+
+Les symptômes d'une intoxication à la vitamine D sont les suivants : soif, démangeaisons, diarrhée, malaise, amaigrissement, polyurie et diminution de l'appétit résultant principalement d'une insuffisance rénale. Ces symptômes sont dus à hypercalcémie, hyperphosphatémie, et un fort ratio calcium/phosphate présent dans le sérum. Cela conduit à une calcification des reins, cœurs, aortes et autres tissus [@DeLuca.2011].
+
+Lire @Lim.2020vd
+
+__________
 
 
 L'hypercalcémie est une toxicité fréquemment mentionnée comme étant dangereuse pour des doses de vitamine D~3~ supérieures à 4000 UI/j pour des adultes avec une limite supérieure de sécurité de la concentration de vitamine D~3~ de 50 ng/mL (125 nmol/L) selon l'Institut de Médecine \acs{IOM} [@IOM.2011; @Holick.2011]. En revanche, la Société d'Endrocrinologie recommande une marge de sécurité de 100 ng/mL (250 nmol/L) afin d'éviter l'hypercalcémie [@Holick.2011], en rapportant que la majorité des études sur la vitamine D suggèrent que le taux de vitamine D nécessite d'être supérieur à 150 ng/mL avant de considérer une éventuelle toxicité.
