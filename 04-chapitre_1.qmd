@@ -28,28 +28,13 @@ Par la suite, la vitamine D~3~ est métabolisée en \ac{25(OH)D3}, ou calcidiol 
 
 Enfin, la vitamine D peut subir une hydroxylation par la 24-hydroxylase ou \acs{CYP24A1}, une enzyme P450 mitochrondriale. Ceci conduit à partir du calcitriol au \acs{1,24,25(OH)3D3} ou l'acide calcitroïque. Cette enzyme peut également hydroxyler le calcidiol pour donner de la \ac{24,25(OH)3D3}. Ces réactions permettent de diminuer la quantité de calcidiol et calcitriol disponible dans le sang ; la 24-hydroxylase sert ainsi de catabolisme de la vitamine D [@Norman.2008] **(@fig-vitd-metabolism)**. La quantité de calcitriol est donc déterminée par un équilibre entre les enzymes \ac{CYP27B1} et \ac{CYP24A1} [@Dankers.2017].
 
-![**Métabolisme de la vitamine D.** Le métabolisme de la vitamine D débute
-lorsque le 7-déhydrocholestérol présent dans la peau, est transformé par les
-rayons ultraviolets provenant du soleil en cholécalciférol. Le cholécalciférol
-ou vitamine D~3~ est ensuite transporté par la protéine de liaison à la vitamine
-D, et est métabolisé dans le foie par des enzymes 25-hydroxylases telles que le
-CYP2R1 en calcidiol ou 25(OH)D~3~. L’autre étape de du métabolisme se situe dans
-le rein, où après transport du calcidiol, celui-ci se retrouve métabolisé en
-calcitriol ou 1,25(OH)2D~3~ par le CYP27B1. Le calcitriol augmente la
-concentration de l’hormone de croissance des fibroblastes 23 \acs{FGF23} et
-l’absorption du calcium et diminue la concentration d'\acf{PTH}, tandis
-que ceux-ci exercent un rétrocontrôle négatif sur la concentration de
-calcitriol, en inhibant directement ou indirectement la 1α-hydroxylase, ce qui va
-diminuer la formation de calcitriol. Lorsque la PTH et le FGF23 sont stimulés lorsque la calcémie et la phosphatémie est basse respectivement, ce qui va engendrer des régulations métaboliques permettant de synthétiser d'avantage de calcitriol afin de réguler le niveau de calcium et de phosphate. D'après
-@Christakos.2010, @Tsiaras.2011 et @Dankers.2017](figures/vitd-metabolism-fr.png){#fig-vitd-metabolism
-fig-scap="**Métabolisme de la vitamine D.**" fig.pos="!htb"}
+![**Métabolisme de la vitamine D.** Le métabolisme de la vitamine D débute lorsque le 7-déhydrocholestérol présent dans la peau, est transformé par les rayons ultraviolets provenant du soleil en cholécalciférol. Le cholécalciférol ou vitamine D~3~ est ensuite transporté par la protéine de liaison à la vitamine D, et est métabolisé dans le foie par des enzymes 25-hydroxylases telles que le CYP2R1 en calcidiol ou 25(OH)D~3~. L'autre étape de du métabolisme se situe dans le rein, où après transport du calcidiol, celui-ci se retrouve métabolisé en calcitriol ou 1,25(OH)2D~3~ par le CYP27B1. Le calcitriol augmente la concentration de l'hormone de croissance des fibroblastes 23 \acs{FGF23} et l'absorption du calcium et diminue la concentration d'\acf{PTH}, tandis que ceux-ci exercent un rétrocontrôle négatif sur la concentration de calcitriol, en inhibant directement ou indirectement la 1α-hydroxylase, ce qui va diminuer la formation de calcitriol. Lorsque la PTH et le FGF23 sont stimulés lorsque la calcémie et la phosphatémie est basse respectivement, ce qui va engendrer des régulations métaboliques permettant de synthétiser d'avantage de calcitriol afin de réguler le niveau de calcium et de phosphate. D'après @Christakos.2010, @Tsiaras.2011 et @Dankers.2017](figures/vitd-metabolism-fr.png){#fig-vitd-metabolism fig-scap="**Métabolisme de la vitamine D.**" fig.pos="!htb"}
 
 La synthèse du calcitriol est régulée par deux hormones, l'\acf{PTH} et l'hormone de croissance des fibroblastes 23 (\acsu{FGF23}). Le \ac{FGF23}, induite par une concentration élevée de calcitriol et une faible concentration de phosphate dans le sang, favorise l'induction de la \ac{CYP24A1}, tandis que la \ac{PTH}, induite par une faible concentration de calcium et inhibée par une forte concentration de calcitriol, va induire la \ac{CYP24A1} et donc contribuer au catabolisme du calcitriol [@Dankers.2017; @Christakos.2010]. La \ac{PTH} agit également directement sur les os en augmentant la résorption osseuse et augmentant ainsi la calcémie.
 
-
 ## Place de l'ergostérol
 
-L’ergostérol ou vitamine D2 est une autre forme de vitamine D. Les deux formes de vitamine sont perçues comme interchangeables ; cependant, la vitamine D3 est considérée plus intéressante en termes de traitement, car son administration est plus efficace que celle de la vitamine D2 afin d’augmenter la concentration de calcidiol et donc pour traiter les carences. En effet, la vitamine D~2~, de nature végétale ou fongique, possède une structure légèrement différente de la vitamine D~3~.
+L'ergostérol ou vitamine D2 est une autre forme de vitamine D. Les deux formes de vitamine sont perçues comme interchangeables ; cependant, la vitamine D3 est considérée plus intéressante en termes de traitement, car son administration est plus efficace que celle de la vitamine D2 afin d'augmenter la concentration de calcidiol et donc pour traiter les carences. En effet, la vitamine D~2~, de nature végétale ou fongique, possède une structure légèrement différente de la vitamine D~3~.
 
 De ce fait, elle possède une pharmacocinétique différente, où l'étape de métabolisation est fonctionnellement différente entre la vitamine D~2~ et vitamine D~3~. Ainsi, lors du catabolisme de la vitamine D~2~, la 24-hydroxylation du 25(OH)D~2~ et du 1,25(OH)~2~D~2~ dans le rein conduit aux métabolites 24,25(OH)~2~D~2~ et 1,24,25(OH)~3~D~2~ respectivement. Le 1,24,25(OH)~3~D~2~ est inactif à la différence de son analogue \ac{1,24,25(OH)3D3} qui nécessite une oxydation supplémentaire afin d'être désactivée, et possède entre autres une affinité pour le \ac{VDR} (jusqu'à 40% plus forte que \ac{1,25(OH)2D3}). De plus, la 24-hydroxylation pourrait également avoir lieu dans le foie, conduisant à la formation de 24(OH)D~2~. Le métabolite en résultant, la 1,24(OH)~2~D2, est moins affin pour le \ac{VDR} comparé à son analogue D~3~. En revanche, la vitamine D~3~ ne se subit pas cette première 24-hydroxylation hépatique [@Houghton.2006].
 
@@ -77,7 +62,7 @@ Le cholécalciférol étant une forme de vitamine D possédant une meilleure cap
 
 L'usage de la vitamine D par le biais de l'huile de foie de morue a été décrite dans la littérature au plus tôt par Thomas Percival en 1782, qui rapporte son usage et les effets bénéfiques constatés sur le rhumatisme chronique en Angleterre [@Percival.1782]. A cette époque, plusieurs cas de rachitismes causent des morts inexpliquées, le rachitisme étant une maladie caractérisée par le ramollissement et l'affaiblissement des os. En France, Armand Trousseau publie dans l'ouvrage de 1844 du Bulletin général de thérapeutique sur l'utilisation de l'huile de foie de morue par Armand Trousseau pour le traitement du rachitisme [@bulletin.1844]. Il publie également son ouvrage Clinique Médicale de l'Hôtel-Dieu en 1861, où il déclare que le rachitisme est causé par une alimentation déséquilibrée que l'huile de foie de morue peut résoudre [@Hernigou.2019].
 
-Dans les années 1917--1922, les progrès concernant les causes et le traitement du rachitisme se sont accélérées. @Hess.1917 démontre que l'administration de l'huile de foie de morue permet de prévenir et guérir du rachitisme chez les enfants afro-américains à New York. En 1918, Mellanby a montré qu'il pouvait prévenir le rachitisme expérimental chez les chiots avec de l'huile de foie de morue et a discuté du rôle d'un "facteur accessoire" dans la production du rachitisme [@{O’Riordan.2014}]. Par la suite, @Hess.1921 ont rapporté que l'exposition au soleil permettait de guérir du rachitisme. Ce sera @McCollum.1922 qui donnera le nom de Vitamine D au "facteur accessoire" proposé par Mellanby [@Hernigou.2019; @Mavrotas.2021]
+Dans les années 1917--1922, les progrès concernant les causes et le traitement du rachitisme se sont accélérées. @Hess.1917 démontre que l'administration de l'huile de foie de morue permet de prévenir et guérir du rachitisme chez les enfants afro-américains à New York. En 1918, Mellanby a montré qu'il pouvait prévenir le rachitisme expérimental chez les chiots avec de l'huile de foie de morue et a discuté du rôle d'un "facteur accessoire" dans la production du rachitisme [@O'Riordan.2014]. Par la suite, @Hess.1921 ont rapporté que l'exposition au soleil permettait de guérir du rachitisme. Ce sera @McCollum.1922 qui donnera le nom de Vitamine D au "facteur accessoire" proposé par Mellanby [@Hernigou.2019; @Mavrotas.2021]
 
 L'intérêt pour la vitamine D s'est ensuite accru avec la découverte par les scientifiques de son rôle crucial dans le métabolisme du calcium et du phosphore. Depuis lors, de nombreuses études ont été menées pour évaluer le rôle de la vitamine D dans le métabolisme osseux, et il est désormais largement admis que la vitamine D joue un rôle essentiel dans le maintien de la santé des os et des dents. Une carence en vitamine D est associée à un risque accru d'ostéomalacie (une affection qui entraîne une diminution de la masse osseuse) et d'ostéoporose (une affection caractérisée par une fragilité des os).
 
@@ -101,7 +86,6 @@ Plus récemment l'intérêt pour la vitamine D a été étendue à différentes 
 \end{figure}
 \end{landscape}
 ```
-
 La vitamine D exerce en plus de son action endocrine classique, dépendante de la 1-hydroxylation par le rein, une action locale autocrine et paracrine, par le biais d'une expression locale de l'hydroxylase \ac{CYP27B1} dans différents tissus [@Carmeliet.2015; @Cannell.2008]. Cela concerne notamment les mécanismes d'action de la vitamine D liés à l'immunité.
 
 Cependant, les bénéfices extra-squelettiques associés à la vitamine D ne seraient visibles que lorsque la concentration de calcidiol serait supérieure au seuil de 40 ng/mL, ce qui nécessiterait une dose journalière nettement supérieure à celle recommandée habituellement [@Caprio.2017].
@@ -112,15 +96,13 @@ Cependant, les bénéfices extra-squelettiques associés à la vitamine D ne ser
 
 ### Unités
 
-L’expression de la dose de la vitamine D peut se faire en plusieurs unités. Classiquement, c’est l'\ac{UI} qui est utilisée. Elle peut également être exprimée en masse lors de prises de comprimés. L’équivalence est de 1 µg pour 40 \ac{UI} ou 1 \ac{UI} pour 0,025 g. La concentration de vitamine D (en fait celle de calcidiol utilisée comme marqueur du statut vitaminique) est définie en ng/mL ou en nmol/L. Pour passer de ng/mL en nmol/L, il suffit de multiplier par 2.5 [@Pramyothin.2012]
-
+L'expression de la dose de la vitamine D peut se faire en plusieurs unités. Classiquement, c'est l'\ac{UI} qui est utilisée. Elle peut également être exprimée en masse lors de prises de comprimés. L'équivalence est de 1 µg pour 40 \ac{UI} ou 1 \ac{UI} pour 0,025 g. La concentration de vitamine D (en fait celle de calcidiol utilisée comme marqueur du statut vitaminique) est définie en ng/mL ou en nmol/L. Pour passer de ng/mL en nmol/L, il suffit de multiplier par 2.5 [@Pramyothin.2012]
 
 Cependant la \ac{FDA} a décidé depuis janvier 2021 de passer à une dose écrite en microgramme, ce qui oblige les fabricants à donner l'information en microgramme, bien que la dénomination en UI reste possible en parallèle [@HHS.2016].
 
-Un essai-clinique visant à établir l'efficacité de la supplémentation en cholécalciférol selon trois différents temps d'administration de la vitamine D a été réalisée sur 61 patients, en divisant les patients en trois groupes, selon la prise de 1000 UI par jour, 7000 UI par semaine ou 30 000 UI par mois de vitamine D. Les patients sélectionnés sont carencés avec une concentration de vitamine D inférieure à 20 ng/mL (en moyenne autour de 13,3 ng/mL) et ont été suivi pendant 3 mois. L'étude a permis de déterminer qu'en moyenne, une supplémentation en cholécalciférol augmente la concentration de calcidiol de 1.3 ng/100 UI par jour [@Takács.2017].  
+Un essai-clinique visant à établir l'efficacité de la supplémentation en cholécalciférol selon trois différents temps d'administration de la vitamine D a été réalisée sur 61 patients, en divisant les patients en trois groupes, selon la prise de 1000 UI par jour, 7000 UI par semaine ou 30 000 UI par mois de vitamine D. Les patients sélectionnés sont carencés avec une concentration de vitamine D inférieure à 20 ng/mL (en moyenne autour de 13,3 ng/mL) et ont été suivi pendant 3 mois. L'étude a permis de déterminer qu'en moyenne, une supplémentation en cholécalciférol augmente la concentration de calcidiol de 1.3 ng/100 UI par jour [@Takács.2017].
 
-
-Toutefois, la courbe dose-réponse du calcidiol ne serait pas linéaire indiquant une saturation progressive du processus d’hydroxylation [@Garland.2011; @IOM.2011] (**@fig-vd-pk-heaney**).
+Toutefois, la courbe dose-réponse du calcidiol ne serait pas linéaire indiquant une saturation progressive du processus d'hydroxylation [@Garland.2011; @IOM.2011] (@fig-vd-pk-heaney).
 
 ::: {layout-ncol="2"}
 ![Concentration 25(OH)D en fonction de la prise de suppléments de vitamine D. [@Heaney.2015]](figures/vd-pk-heaney.jpg){#fig-vd-pk-heaney}
@@ -130,21 +112,28 @@ Toutefois, la courbe dose-réponse du calcidiol ne serait pas linéaire indiquan
 
 ### Dose recommandée journalière
 
-Actuellement, l’Académie de médecine américaine (anciennement Institute of Medecine, \acsu{IOM}) est responsable des recommandations émises par la \ac{FDA}, l’équivalent de l’\ac{ANSM} en France. L'\ac{AJR} pour la vitamine D est de 600 UI par jour pour les personnes tous sexes confondus de 1 à 70 ans, et reste la même en cas de grossesse ou d’allaitement [@IOM.2011]. L’\ac{AJR} est augmentée à 800 UI/jour chez les personnes de plus de 70 ans en raison de la plus grande variance des données disponibles concernant cette catégorie d’âge.  Une concentration sanguine de calcidiol de 20 ng/mL ou plus est considérée par l’\ac{IOM} comme étant le minimum adéquat chez 97,5 % des personnes en bonne santé. Cette concentration minimum de 20 ng/mL a été observé comme étant bénéfique pour la santé osseuse concernant la majorité de la population générale, se manifestant par une augmentation de la densité minérale osseuse et de l'absorption du calcium, de l'accrétion osseuse et de la maintenance osseuse, diminution de l'ostéomalacie et de rachitisme. Les concentrations de calcitriol supérieures à 30 ng/mL ne sont pas associées à une augmentation de ces bénéfices considérés selon l'\ac{IOM} [@IOM.2011; @Rosen.2012].
+Actuellement, l'Académie de médecine américaine (anciennement Institute of Medecine, \acsu{IOM}) est responsable des recommandations émises par la \ac{FDA}, l'équivalent de l'\ac{ANSM} en France. L'\ac{AJR} pour la vitamine D est de 600 UI par jour pour les personnes tous sexes confondus de 1 à 70 ans, et reste la même en cas de grossesse ou d'allaitement [@IOM.2011]. L'\ac{AJR} est augmentée à 800 UI/jour chez les personnes de plus de 70 ans en raison de la plus grande variance des données disponibles concernant cette catégorie d'âge. Une concentration sanguine de calcidiol de 20 ng/mL ou plus est considérée par l'\ac{IOM} comme étant le minimum adéquat chez 97,5 % des personnes en bonne santé. Cette concentration minimum de 20 ng/mL a été observé comme étant bénéfique pour la santé osseuse concernant la majorité de la population générale, se manifestant par une augmentation de la densité minérale osseuse et de l'absorption du calcium, de l'accrétion osseuse et de la maintenance osseuse, diminution de l'ostéomalacie et de rachitisme. Les concentrations de calcitriol supérieures à 30 ng/mL ne sont pas associées à une augmentation de ces bénéfices considérés selon l'\ac{IOM} [@IOM.2011; @Rosen.2012].
 
 Un autre acteur français, l'\ac{ANSES}, stipule que les recommandations journalières de cholécalciférol sont de 15 µg par jour pour un adulte, soit l'équivalent d'une dose de 600 UI/j, s'appuyant sur les recommandations de l'Autorité européenne de sécurité des aliments (\acsu{EFSA}) [@ANSES.2021]. En effet, l'\ac{EFSA} a retenu une valeur de 15 µg/j (soit 600 UI/j) permettant aux hommes et femmes d'atteindre le seuil de calcitriol jugé adéquat de 50 nmol/L ou 20 ng/mL [@ANSES.2022] (\cref{tbl-seuil}).
 
 <!-- Actuellement, la société d'endocrinologie recommande chez l'adulte (19 - 50 ans) 600 UI/j pour maximiser la santé osseuse et le fonctionnement musculaire, admettant cependant que les bénéfices extra-squelettiques associé à cette dose leur est inconnu. De plus, pour des patients carencés, ils suggèrent qu'une plus forte dose de 1500 UI/j à 2000 UI/j serait nécessaire pour maintenir constamment une concentration supérieure à 30 ng/mL [@Holick.2011]. -->
 
 <!-- TODO : Compléter le tableau -->
+
 <!-- Le tableau marche mais pas de markdown short-caption pour le moment -->
 
 <!-- |      Seuil de vitamine D      |     IOM     |    ANSES    | -->
+
 <!-- |:-----------------------------:|:-----------:|:-----------:| -->
+
 <!-- | Déficience en vitamine D      | < 12 ng/mL  | < 10 ng/mL  | -->
+
 <!-- | Insuffisance en vitamine D    | 12-20 ng/mL | 10-20 ng/mL | -->
+
 <!-- | Valeurs recommandées          | 20-30 ng/mL | 20-30 ng/mL | -->
+
 <!-- | Limite Supérieure de Sécurité | > 50 ng/mL  | > 100 ng/mL | -->
+
 <!-- : **Tableau comparatif des seuils d'adéquation de la vitamine D par différentes sources** [@IOM.2011; @ANSES.2021]. {#tbl-seuil} -->
 
 ```{=tex}
@@ -164,7 +153,7 @@ Limite Supérieure de Sécurité & > 50 ng/mL  & > 100 ng/mL \\
 \end{tabular}
 \end{table}
 ```
-
+```{=tex}
 \begin{table}
 \centering
 \caption[{\textbf{Apports journaliers recommandés de la vitamine D (UI/j)}}]{\textbf{Apports journaliers recommandés de la vitamine D (UI/j).} La mention de \ac{AJR} indique que l'apport couvre les besoins minimes de 97.5\% de la population pour une concentration de 20 ng/mL selon l'\ac{IOM}. D'après \textcite{ANSES.2021, IOM.2011}}
@@ -181,10 +170,7 @@ Femmes enceintes & 600 & 600 \\
 \bottomrule
 \end{tabular}
 \end{table}
-
-
-
-
+```
 ### Controverse autour de la dose recommandée journalière
 
 Plusieurs acteurs tels que la Société d'Endocrinologie suggèrent que l'\ac{AJR} établi par l'\ac{IOM} est insuffisante. La Société d'Endocrinologie suggère un \ac{AJR} de 1500 UI/j pouvant aller à 2000 UI/j pour des adultes, avec des recommandations ciblées pour des populations à risque avec des maladies spécifiques visant un seuil jugé optimal de 30 ng/mL. L'\ac{IOM} suggère dans une réponse à la Société d'Endocrinologie que les auteurs ont fait un amalgame entre apports nutritionnels chez la personne saine et l'intérêt de la vitamine D dans la prise en charge de certaines maladies plus spécifiques [@Rosen.2012]. De plus, l'\ac{IOM} est en désaccord concernant les bénéfices osseux, concluant sur la base de la littérature qu'il n'y a pas de bénéfices osseux observés au-delà de 20 ng/mL, qui est le seuil permettant de couvrir les besoins minimes de 97.5% de la population (\cref{tbl-seuil}).
@@ -197,58 +183,48 @@ Plusieurs acteurs tels que la Société d'Endocrinologie suggèrent que l'\ac{AJ
 
 <!-- De plus, @Veugelers.2014 ont réanalysé les données utilisées par l'\ac{IOM} lors de la détermination du seuil adéquat de vitamine D, et ont trouvé que l'\ac{IOM} avait sous-estimé les concentrations nécessaires pour atteindre leurs recommandations. Ainsi, la courbe de régression réévaluée révèle que 600 UI/j de cholécalciférol permettrait d'obtenir pour 97.5% de la population, une concentration en moyenne supérieure à 10.72 ng/mL (valeurs converties de nmol/mL), bien en deçà des 20 ng/mL recommandé par l'\ac{IOM}, et qu'il faudrait en réalité, avec les données utilisées par l'\ac{IOM}, une dose minimale de 8895 UI/j pour atteindre des valeurs de 20 ng/mL ou plus. Les auteurs notent que cette dose est nettement supérieure à la dose journalière recommandée par l'\ac{IOM} et bien supérieure à la limite supérieure de 4000 UI fixée par l'\ac{IOM} (@fig-vd-pk-estim). Cette analyse est confirmée par @Heaney.2015 qui effectue des calculs similaires sur des données de patient différente venant de la base de donnée GrassrootsHealth, où il existe des données concernant des prises de cholécalciférol allant jusqu'à 10 000 UI/j, contrairement aux données prises par l'\ac{IOM} où il existe une incertitude puisque les prises n'allaient jusqu'à 2400 UI/j. Ainsi, l'analyse de @Heaney.2015, rapporte qu'une concentration minimale de 3875 ng/mL serait nécessaire pour obtenir 20 ng/mL (@fig-vd-pk-heaney). Les auteurs montrent également qu'il existe au préalable un AJR de 3000 UI issu de la nourriture et du soleil qui s'ajoute en plus de ce seuil, déterminé via la régression linéaire ce qui constituerait un AJR de 7000 UI/j, ce qui se rapproche des conclusions de @Veugelers.2014. -->
 
-
-
-
 <!-- @Cannell.2008 proposent une dose idéale de vitamine D basée sur un raisonnement lié à l'optimisation des bénéfices métaboliques apportées par la vitamine D. En effet, une concentration idéale de 34 ng/mL pour optimiser l'absorption intestinale calcique serait moindre que celle pour optimiser les performances neuromusculaires (38 ng/mL). De plus, une concentration naturelle de vitamine D produite par l'exposition au soleil de 30 hommes passant du temps à travailler à l'extérieur pendant l'été serait autour de 50 ng/mL, mais Cannell note que plus de 50% de ces hommes reviennent à un niveau inférieur à 30 ng/mL d'ici la fin de l'été, ce qui indiquerait que le soleil ne peut maintenir le niveau désiré de vitamine D. -->
 
 <!-- Un raisonnement reposant sur la pharmacocinétique de la vitamine D est proposé par @Cannell.2008. En effet, le cholécalciférol (premier substrat des enzymes métabolisant la vitamine D) est immédiatement consommé et métabolisé en calcidiol et calcitriol par les enzymes, ce qui rend le cholécalciférol indétectable dans le sang, indiquant que toutes les molécules de vitamine D sont utilisées dans des réactions métaboliques. @Hollis.2007 ont étudié la cinétique des réactions enzymatiques concernant la vitamine D, et ont déterminé que la vitesse maximale pour laquelle la réaction enzymatique de la 25-hydroxylase arrive à saturation est lorsque le calcidiol arrive à 40 ng/mL. Le substrat initial (cholécalciférol) est donc alors détectable dans le sang au-delà de cette concentration, et la réaction enzymatique devient alors saturable et régulée, comme il s'agit les autres systèmes hormonaux stéroïques [@Cannell.2008]. @Hollis.2007 suppose ainsi que les humains fonctionnent à un niveau en-deçà de la V~max~ de la 25-hydroxylase à cause d'une déficience de son substrat, le cholécalciférol, et que le niveau "normal" de vitamine D serait donc atteint lorsque le système ne devient donc pas limité par la quantité de substrat mais par ses propres régulations. -->
 
-
-
-
 ## Utilisation thérapeutique
 
-La vitamine D est surtout utilisée en thérapeutique afin de prévenir les carences à des fins de bonne santé osseuse. Elle permet de prévenir le rachitisme chez les enfants et l'ostéoporose chez les adultes et surtout chez les personnes âgées. Elle permet de maintenir une bonne densité osseuse et une absorption du calcium adéquat et prévient du rachitisme et de l'ostéomalacie.
-<!-- La vitamine D est également impliquée dans la régulation hormonale, la différenciation et l’activité des cellules du système immunitaire, la différenciation de certaines cellules cutanées. https://www.anses.fr/fr/content/vitamine-d-pourquoi-et-comment-assurer-un-apport-suffisant
+La vitamine D est surtout utilisée en thérapeutique afin de prévenir les carences à des fins de bonne santé osseuse. Elle permet de prévenir le rachitisme chez les enfants et l'ostéoporose chez les adultes et surtout chez les personnes âgées. Elle permet de maintenir une bonne densité osseuse et une absorption du calcium adéquat et prévient du rachitisme et de l'ostéomalacie. <!-- La vitamine D est également impliquée dans la régulation hormonale, la différenciation et l’activité des cellules du système immunitaire, la différenciation de certaines cellules cutanées. https://www.anses.fr/fr/content/vitamine-d-pourquoi-et-comment-assurer-un-apport-suffisant
 
 Ou mettre ?-->
-
-
-
 
 ## Toxicité
 
 ### Seuil de toxicité actuel
 
-L'\ac{IOM} a déterminé la limite supérieure de sécurité à 4000 UI/j de cholécalciférol. Ainsi, au-delà de cette limite, les auteurs considèrent que le risque de toxicité augmente. Ce seuil a été déterminé en partant du point d'observation où la prise de 10 000 UI/j de cholécalciférol n'est pas associée à une toxicité classique pour des adultes. Cette valeur est ensuite corrigée pour des raisons d'incertitudes sur des données comme la mortalité toute causes, concernant les prises inférieures à 10 000 UI/j, présentant des signes de toxicité classiques pour des concentrations de calcidiol précédemment considéré comme étant à la norme haute des valeurs physiologiques. Les auteurs ont également considéré des différences ethniques potentielles. La limite supérieure de sécurité des adultes concerne également les enfants de 9 à 18 ans mais est réduite pour les enfants de 1 à 8 ans (2500 à 3000 UI/j) [@IOM.2011].
-
-La toxicité de la vitamine D est habituellement due à une cause iatrogène ou un excès de surdosage de vitamine D, pouvant être lié à un accident, à des mauvaises pratiques médicales ou à un malentendu des recommandations médicales [@Lim.2020vd]. Elle peut aussi survenir par une production endogène anormale de calcitriol chez les patients à désordre granulomateux comme la sarcoidose, la granulomatose, les maladies fongiques, la léprose et bérylliose [@Marcinowska-Suchowierska.2018].
-
-
-
 > La toxicité de la vitamine D, c'est quoi ? Par quels mécanismes ? Et je le répète le calcidiol n'est pas la question.
 
-La toxicité de la vitamine D est définie comme un état hypercalcémique et hypercalciurique qui suggère un excès d'activité lié aux effets du calcitriol [@Vieth.1990]. Cet état s'accompagne d'une suppression de l'activité de la \ac{PTH}, en raison de l'état hypercalcémique [@Marcinowska-Suchowierska.2018].
+La toxicité de la vitamine D est définie comme un état hypercalcémique et hypercalciurique qui suggère un excès d'activité lié aux effets du calcitriol [@Vieth.1990]. Cet état s'accompagne d'une suppression de l'activité de la \ac{PTH}, en raison de l'état hypercalcémique qui exerce un rétrocontrôle négatif sur la \ac{PTH} [@Marcinowska-Suchowierska.2018 ; @Dusso.2005].
 
-La vitamine D cause donc des problèmes associés à l'hypercalcémie, l'hyperphosphatémie ainsi que des symptômes associés à une insuffisance rénale résultant de ce déséquilibre.
+La toxicité associée à la vitamine D et de ses métabolites résulte principalement de l'hypercalcémie et de l'hyperphosphatémie engendrée lors d'une haute concentration de de vitamine D et de ses métabolites [@DeLuca.2011 ; @Janoušek.2022]. Les premiers symptômes de la toxicité de la vitamine D comprennent donc des mécanismes causés par cette hypercalcémie, affectant divers organes (@fig-hypervitaminose-d). L'augmentation de cholécalciférol est corrélée à une augmentation de calcidiol qui peut être amenée à causer une augmentation de l'absorption du calcium dans l'intestin ainsi qu'à une résorption. @Shepard.1980 mentionnent que l'hypercalcémie due à une hypervitaminose D provient probablement de la résorption osseuse plutôt que de l'absorption intestinale accrue du calcium. 
 
-L'hypercalcémie est responsable de la plupart des symptômes de la toxicité de la vitamine D. Les premiers symptômes de la toxicité de la vitamine D comprennent donc des mécanismes causés par cette hypercalcémie, notamment des troubles gastro-intestinaux tels que l'anorexie, la diarrhée, la constipation, les nausées et les vomissements. Les douleurs osseuses, la somnolence, les maux de tête continus, les battements de cœur irréguliers, la perte d'appétit, les douleurs musculaires et articulaires sont d'autres symptômes susceptibles d'apparaître au bout de quelques jours ou semaines ; des mictions fréquentes, surtout la nuit, une soif excessive, de la faiblesse, de la nervosité et des démangeaisons ; des calculs rénaux [@Alshahrani.2013]
-Les symptômes d'une intoxication à la vitamine D sont les suivants : soif, démangeaisons, diarrhée, malaise, amaigrissement, polyurie et diminution de l'appétit résultant principalement d'une insuffisance rénale. Ces symptômes sont dus à hypercalcémie, hyperphosphatémie, et un fort ratio calcium/phosphate présent dans le sérum. Cela conduit à une calcification des reins, cœurs, aortes et autres tissus [@DeLuca.2011].
 
-Le mécanisme de la toxicité due à la vitamine D n'est pas encore totalement élucidé, mais il existe plusieurs hypothèses selon @Jones.2008 :
+Cela concerne notamment des troubles gastro-intestinaux tels que l'anorexie, la diarrhée, la constipation, les nausées et les vomissements. Les douleurs osseuses, la somnolence, les maux de tête continus, les battements de cœur irréguliers, la perte d'appétit, les douleurs musculaires et articulaires sont d'autres symptômes susceptibles d'apparaître au bout de quelques jours ou semaines ; des mictions fréquentes, surtout la nuit, une soif excessive, de la faiblesse, de la nervosité et des démangeaisons ; des calculs rénaux [@Alshahrani.2013].
 
-> 1) La prise de vitamine D augmente les concentrations plasmatiques de calcitriol, ce qui augmente les concentrations cellulaires de calcitriol. L'étude de @DeLuca.2011 montre cependant que la toxicité de la vitamine D ne passe pas par le calcitriol. En effet, @DeLuca.2011 ont montré dans une expérience où des souris \ac{CYP27B1} KO constatent la même toxicité que le type sauvage possédant l'enzyme \ac{CYP27B1}.
+![Symptômes associés lors d'une hypervitaminose D [@Janoušek.2022]. ](figures/hypervitaminosis-d.jpg){#fig-hypervitaminose-d fig-scap="Symptômes associés lors d'une hypervitaminose D."}
 
-> 2) La prise de vitamine D augmente les concentrations plasmatiques de calcidiol tomol/L qui dépassent la capacité de liaison de la \ac{DBP} et le calcidiol libre pénètre dans la cellule, où elle a des effets directs sur l'expression des gènes. 
-> 3) La prise de vitamine D augmente les concentrations de nombreux métabolites de la vitamine D, en particulier la vitamine D elle-même et la 25(OH)D. Ces concentrations dépassent la capacité de liaison de la DBP et provoquent la libération de la 1,25(OH)2 D "libre", qui pénètre dans les cellules cibles. Ces concentrations dépassent la capacité de liaison de la DBP et entraînent la libération de 1,25(OH)2 D "libre", qui pénètre dans les cellules cibles.
+Le mécanisme de la toxicité due à la vitamine D n'est pas encore totalement élucidé, mais il existe plusieurs hypothèses selon @Jones.2008 s'appuyant sur le raisonnement lié à l'activation du \ac{VDR} et de son action dans les cellules cibles
 
-L'exposition au soleil ne peut pas résulter d'une intoxication à la vitamine D  car le soleil détruit l'excès de cholécalciférol [??? no ref]
+1. La prise de vitamine D augmente les concentrations plasmatiques de calcitriol, ce qui augmente les concentrations cellulaires de calcitriol. L'étude de @DeLuca.2011 montre cependant que la toxicité de la vitamine D ne passe pas par le calcitriol. En effet, @DeLuca.2011 ont montré dans une expérience où des souris \ac{CYP27B1} KO constatent la même toxicité que le type sauvage possédant l'enzyme \ac{CYP27B1}. Les auteurs confirment ainsi que le calcitriol n'est pas le métabolite toxique dans leur étude. Similairement, les travaux de @Shepard.1980 montrent que le calcitriol diminue lorsque les doses de cholécalciférol sont trop élevées, par le biais du rétrocontrôle exercé par le calcium et le phosphate plasmatique ainsi que la \ac{PTH}.
+
+2. La prise de vitamine D augmente les concentrations plasmatiques de calcidiol mol/L qui dépassent la capacité de liaison de la \ac{DBP} et le calcidiol libre pénètre dans la cellule, où elle a des effets directs sur l'expression des gènes. @DeLuca.2011 supportent l'idée que de la toxicité d'une hypervitaminose D serait due au calcidiol. En effet, l'étude de @Shepard.1980 montre que lorsque les doses d'administration de vitamine D augmentent chez le rat, augmentent la concentration en calcidiol tandis que la concentration en calcitriol décroît inversement avec la dose administrée. La concentration en calcidiol semble ne pas être régulée contrairement au calcitriol et pourrait être responsable de la toxicité due à une hypervitaminose D [@DeLuca.2011; @Shepard.1980].
+
+3. La prise de vitamine D augmente les concentrations de nombreux métabolites de la vitamine D, en particulier la vitamine D elle-même et la 25(OH)D. Ces concentrations dépassent la capacité de liaison de la DBP et provoquent la libération de la 1,25(OH)2 D "libre", qui pénètre dans les cellules cibles. Ces concentrations dépassent la capacité de liaison de la DBP et entraînent la libération de 1,25(OH)2 D "libre", qui pénètre dans les cellules cibles.
+
+![Trois théories proposées par @Jones.2008 pour expliquer les mécanismes de toxicité de la vitamine D [@Janoušek.2022].](figures/vd-intox-theory.jpg){#fig-vd-intox-theory fig-scap="Trois théories proposées par @Jones.2008 pour expliquer les mécanismes de toxicité de la vitamine D."}
+
+L'exposition au soleil ne peut pas résulter d'une intoxication à la vitamine D car le soleil détruit l'excès de cholécalciférol **(Référence @Mawer.1985 par @Alshahrani.2013, information non trouvée)**.
 
 > Vous mélangez dans une même phrase limite supérieure de sécurité/hypercalcémie/dose de vitamine D et concentration plasmatique de calcidiol. Il faut vraiment distinguer chaque aspect d'autant que la toxicité associe un xénobiotique (en l'occurrence la vit D exogène) et une toxicité (en l'occurrence une ostéolyse pouvant être à l'origine d'une hypercalcémie).
 
-__________
+L'\ac{IOM} a déterminé la limite supérieure de sécurité à 4000 UI/j de cholécalciférol. Ainsi, au-delà de cette limite, les auteurs considèrent que le risque de toxicité augmente. Ce seuil a été déterminé en partant du point d'observation où la prise de 10 000 UI/j de cholécalciférol n'est pas associée à une toxicité classique pour des adultes. Cette valeur est ensuite corrigée pour des raisons d'incertitudes sur des données comme la mortalité toute causes, concernant les prises inférieures à 10 000 UI/j, présentant des signes de toxicité classiques pour des concentrations de calcidiol précédemment considéré comme étant à la norme haute des valeurs physiologiques. Les auteurs ont également considéré des différences ethniques potentielles. La limite supérieure de sécurité des adultes concerne également les enfants de 9 à 18 ans mais est réduite pour les enfants de 1 à 8 ans (2500 à 3000 UI/j) [@IOM.2011].
 
+La toxicité de la vitamine D est habituellement due à une cause iatrogène ou un excès de surdosage de vitamine D, pouvant être lié à un accident, à des mauvaises pratiques médicales ou à un malentendu sur des recommandations médicales [@Lim.2020vd]. Elle peut aussi survenir par une production endogène anormale de calcitriol chez les patients à désordre granulomateux comme la sarcoïdose, la granulomatose, les maladies fongiques, la léprose et bérylliose [@Marcinowska-Suchowierska.2018]. \_\_\_\_\_\_\_\_\_\_
 
 L'hypercalcémie est une toxicité fréquemment mentionnée comme étant dangereuse pour des doses de vitamine D~3~ supérieures à 4000 UI/j pour des adultes avec une limite supérieure de sécurité de la concentration de vitamine D~3~ de 50 ng/mL (125 nmol/L) selon l'Institut de Médecine \acs{IOM} [@IOM.2011; @Holick.2011]. En revanche, la Société d'Endrocrinologie recommande une marge de sécurité de 100 ng/mL (250 nmol/L) afin d'éviter l'hypercalcémie [@Holick.2011], en rapportant que la majorité des études sur la vitamine D suggèrent que le taux de vitamine D nécessite d'être supérieur à 150 ng/mL avant de considérer une éventuelle toxicité.
 
@@ -273,3 +249,9 @@ Une étude rétrospective conduite sur 20 308 patients dans une période de 10 a
 Puisque d'autres effets bénéfiques semblent apparaître lorsque la dose de vitamine D est supérieure à la dose recommandée (600-800 UI/j), l'équipe de @Hathcock.2007 a cherché à identifier la NOAEL (Non Observed Adversed Effect Level), seuil pour laquelle aucun effet indésirable n'est observé. Sur la base de deux études cliniques robustes, les auteurs ont considéré qu'une dose de 10 000 UI par jour, correspondant à 100 ng/mL serait adéquate pour définir la NOAEL, associant une augmentation de la vitamine D sans pour autant observer un changement anormal de la calcémie. Aucun effet indésirable n'a été observé dans les essais cliniques utilisant une dose inférieure à ce seuil. Les auteurs notent que les cas de toxicité rapportés à la vitamine D surviennent pour des concentrations de vitamine D, allant à des doses supérieures à 280 ng/mL jusqu'à 640 ng/mL. De plus, les auteurs ont identifié une LOAEL (Lowest Observed Adversed Effect Level), seuil pour laquelle des effets indésirables sont observés, sur la base d'une étude nécessitant 77 000 UI/j, ce qui correspond à 240 ng/mL, une dose entraînant l'hypercalcémie. Les auteurs notent également que les patients utilisés dans l'étude ont une sensibilité accrue à la vitamine D, et donc que le seuil identifié est donc conservatif, et augmente l'assurance du seuil NOAEL et LOAEL.
 
 Les origines de la dose si basse en vitamine D viennent d'une succession d'évènement débutant vers la fin du 19^ème^ début 20^ème^. Ainsi, plus de 80% des enfants possédaient des déformations associés au rachitisme ainsi qu'un retard de la croissance osseuse et des difformités osseuses en Europe et sur la côte Est des Etats-Unis. En 1921, Hess et Unger rapportent que l'exposition au soleil guérissent les enfants du rachitisme, ce qui a entraîné la fortification du lait en vitamine D2 (produite à partir de l'ergostérol végétal) et d'autres aliments tels que du pain, des boissons gazeuses, de la bière, de la crème anglaise et même des hot-dogs. Vers les années 1950s, plusieurs cas ont été signalé en Angleterre de nourrissons présentant des anomalies faciales accompagnées d'hypercalcémie et de sténose aortique supra-valvulaire. Les médecins concluent indirectement en se basant sur la littérature et les données cliniques disponibles qu'il s'agit d'une intoxication à la vitamine D. Cela a engendré un mouvement contraire où les recommandations sur les doses de vitamine D ont été établies conservativement afin d'éviter l'hypercalcémie chez les nourrissons, ainsi que l'interdiction dans de nombreux pays de fortifier le lait avec de la vitamine D. Cependant, avec rétrospection, la littérature suggère que les nourrissons alors rapportés avaient le syndrome de Williams-Beuren, et donc étaient hypersensible à la vitamine D et présentaient les symptômes rapportés. Il ne s'agissait donc pas d'une situation clinique normale liée à la toxicité vitamine D mais à l'hypersensibilité à la vitamine D [@Holick.2015].
+
+```{=html}
+<!-- Paragraphe sur Winter Low 25OHD Levels and Summer High 25OHD Levels Around the World
+
+https://www.ncbi.nlm.nih.gov/books/NBK56061/table/ch3.t1/?report=objectonly -->
+```

@@ -22,12 +22,6 @@ format:
       - heightrounded
     indent: true
     linestretch: 1.5
-    # pandoc_args: !expr acronymsdown::add_filter()
-# acronyms:
-#   keys:
-#     - key: yaml
-#       shortname: YAML
-#       longname: YAML Ain't Markup Language
 crossref:
   lof-title: Liste des Figures
   lot-title: Liste des Tables
