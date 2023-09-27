@@ -9,6 +9,7 @@
   listof=totoc]{scrreprt}
 
 \usepackage{amsmath,amssymb}
+\usepackage{lmodern}
 \usepackage{setspace}
 \usepackage{iftex}
 \ifPDFTeX
@@ -19,10 +20,6 @@
   \usepackage{unicode-math}
   \defaultfontfeatures{Scale=MatchLowercase}
   \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
-\fi
-\usepackage{lmodern}
-\ifPDFTeX\else  
-    % xetex/luatex font selection
 \fi
 % Use upquote if available, for straight quotes in verbatim environments
 \IfFileExists{upquote.sty}{\usepackage{upquote}}{}
@@ -143,12 +140,10 @@
 \@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
 \makeatother
 \makeatletter
-\@ifpackageloaded{tcolorbox}{}{\usepackage[skins,breakable]{tcolorbox}}
+\@ifpackageloaded{tcolorbox}{}{\usepackage[many]{tcolorbox}}
 \makeatother
 \makeatletter
 \@ifundefined{shadecolor}{\definecolor{shadecolor}{rgb}{.97, .97, .97}}
-\makeatother
-\makeatletter
 \makeatother
 \makeatletter
 \makeatother
@@ -203,7 +198,7 @@ THESE
 \pagenumbering{gobble}
 \clearpage
 
-\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[sharp corners, interior hidden, borderline west={3pt}{0pt}{shadecolor}, enhanced, frame hidden, breakable, boxrule=0pt]}{\end{tcolorbox}}\fi
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[frame hidden, boxrule=0pt, breakable, borderline west={3pt}{0pt}{shadecolor}, enhanced, sharp corners, interior hidden]}{\end{tcolorbox}}\fi
 
 \setstretch{1.5}
 \hypertarget{remerciements}{%
@@ -334,9 +329,9 @@ contrôler et à réguler différentes activités dans l'organisme
 hormone en régulant la transcription de différents gènes et en modifiant
 le métabolisme de diverses manières. Elle agit par le biais du
 calcitriol, la forme active de la vitamine D qui se lie à son récepteur,
-le récepteur de la vitamine D \acs{VDR}. Pratiquement toutes les
-cellules de l'organisme possèdent des VDR, ce qui explique ses effets
-pléiotropiques dans diverses maladies
+le récepteur de la vitamine D (\acsu{VDR}). Pratiquement toutes les
+cellules de l'organisme possèdent des \ac{VDR}, ce qui explique ses
+effets pléiotropiques dans diverses maladies
 \autocite{Ellison.2021,Caprio.2017,Norman.2008}. Le \ac{VDR} est un
 récepteur faisant partie de la classe des récepteurs nucléaires, où la
 liaison de la vitamine D sur son récepteur conduit à sa translocation
@@ -556,10 +551,10 @@ prévenir et guérir du rachitisme chez les enfants afro-américains à New
 York. En 1918, Mellanby a montré qu'il pouvait prévenir le rachitisme
 expérimental chez les chiots avec de l'huile de foie de morue et a
 discuté du rôle d'un ``facteur accessoire'' dans la production du
-rachitisme \autocite{O’Riordan.2014}. Par la suite, \textcite{Hess.1921}
-ont rapporté que l'exposition au soleil permettait de guérir du
-rachitisme. Ce sera \textcite{McCollum.1922} qui donnera le nom de
-Vitamine D au ``facteur accessoire'' proposé par Mellanby
+rachitisme \autocite[Riordan.2014]{O}. Par la suite,
+\textcite{Hess.1921} ont rapporté que l'exposition au soleil permettait
+de guérir du rachitisme. Ce sera \textcite{McCollum.1922} qui donnera le
+nom de Vitamine D au ``facteur accessoire'' proposé par Mellanby
 \autocite{Hernigou.2019,Mavrotas.2021}
 
 L'intérêt pour la vitamine D s'est ensuite accru avec la découverte par
@@ -698,8 +693,7 @@ par jour \autocite{Takács.2017}.
 
 Toutefois, la courbe dose-réponse du calcidiol ne serait pas linéaire
 indiquant une saturation progressive du processus d'hydroxylation
-\autocite{Garland.2011,IOM.2011}
-(\textbf{Figure~\ref{fig-vd-pk-heaney}}).
+\autocite{Garland.2011,IOM.2011} (Figure~\ref{fig-vd-pk-heaney}).
 
 \begin{figure}
 
@@ -774,7 +768,8 @@ d'atteindre le seuil de calcitriol jugé adéquat de 50 nmol/L ou 20 ng/mL
 \autocite{ANSES.2022} (\cref{tbl-seuil}).
 
 \begin{table}
-\caption[\textbf{Tableau comparatif des seuils d'adéquation de la vitamine D par différentes sources.}]{Tableau comparatif des seuils d'adéquation de la vitamine D par différentes sources. IOM : Institut de Médecine ; ANSES : Agence nationale de sécurité sanitaire de l’alimentation, de l’environnement et du travail. D'après \textcite{IOM.2011} et \textcite{ANSES.2021}}
+\caption[\textbf{Tableau comparatif des seuils d'adéquation de la vitamine D par différentes sources.}]
+{Tableau comparatif des seuils d'adéquation de la vitamine D par différentes sources. IOM : Institut de Médecine ; ANSES : Agence nationale de sécurité sanitaire de l’alimentation, de l’environnement et du travail. D'après \textcite{IOM.2011} et \textcite{ANSES.2021}}
 \label{tbl-seuil}
 \centering
 \begin{tabular}{ccc}
@@ -915,7 +910,7 @@ totalement élucidé, mais il existe plusieurs hypothèses selon
   toxicité de la vitamine D ne passe pas par le calcitriol. En effet,
   \textcite{DeLuca.2011} ont montré dans une expérience où des souris
   \ac{CYP27B1} KO constatent la même toxicité que le type sauvage
-  possédant l'enzyme \ac{CYP27B1} .
+  possédant l'enzyme \ac{CYP27B1}.
 \end{enumerate}
 \end{quote}
 
@@ -950,8 +945,10 @@ sécurité/hypercalcémie/dose de vitamine D et concentration plasmatique
 de calcidiol. Il faut vraiment distinguer chaque aspect d'autant que la
 toxicité associe un xénobiotique (en l'occurrence la vit D exogène) et
 une toxicité (en l'occurrence une ostéolyse pouvant être à l'origine
-d'une hypercalcémie). \_\_\_\_\_\_\_\_\_\_
+d'une hypercalcémie).
 \end{quote}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
 L'hypercalcémie est une toxicité fréquemment mentionnée comme étant
 dangereuse pour des doses de vitamine D\textsubscript{3} supérieures à
@@ -1710,12 +1707,8 @@ Resp Crit Care \emph{190}, 533--541. 10.1164/rccm.201405-0988oc.
 
 \newpage{}
 
-\hypertarget{bibliographie}{%
-\chapter{Bibliographie}\label{bibliographie}}
 
-\printbibliography[heading=none]
-
-
+\printbibliography[title=Bibliographie]
 
 
 \end{document}
