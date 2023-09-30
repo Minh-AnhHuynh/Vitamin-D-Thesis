@@ -138,10 +138,11 @@ include-before-body:
 ```{r conclusion, child="07-conclusion.qmd"}
 
 ```
-
 {{< pagebreak >}}
 
-# Bibliographie
 
-::: {#refs}
-:::
+<!-- \phantomsection -->
+\addcontentsline{toc}{section}{Bibliographie}
+\pdfbookmark[0]{Bibliographie}{bibliography}
+\singlespace <!-- Chicago style -->
+\printbibliography[title=\centering Bibliographie]
