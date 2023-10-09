@@ -30,8 +30,6 @@ link-citations: true
 execute:
   echo: false
 keep-tex: true
-filters:
-  - "pandoc-filters/short-captions.lua"
 bibliography: ["bibliography/vitamin-d.bib", "bibliography/organization.bib", "bibliography/manual.bib"]
 cite-method: biblatex
 # biblio-style: "biblatex-chicago" # Doesn't work
@@ -45,7 +43,7 @@ header-includes:
 - \counterwithout{figure}{section}
 - \counterwithout{table}{chapter} 
 - \counterwithout{table}{section}
-- \usepackage[authordate,backend=biber, doi=false,isbn=false]{biblatex-chicago} # Use if biblatex
+- \usepackage[authordate,backend=biber, doi=false, isbn=false]{biblatex-chicago} # Use if biblatex
 - \usepackage[french]{babel} # Citation adds "Author ET author"
 - \usepackage{bookmark} # To add toc to pdf bookmarks
 - \unimathsetup{math-style=french} # {unicode-math} is already loaded, so we choose maths-style=french to have upright greek letters. Use \mupalpha to get alpha.
@@ -73,6 +71,8 @@ header-includes:
 - \Crefname{table}{\textbf{Table}}{\textbf{Tables}}
 - \crefname{figure}{\textbf{Figure}}{\textbf{Figures}} 
 - \Crefname{figure}{\textbf{Figure}}{\textbf{Figures}}
+# Define a command to remove the "note" field from the bibliography
+- \AtEveryBibitem{\clearfield{note}}
 include-before-body: 
 - "00-thesis_cover_page.tex"
 ---
