@@ -15,6 +15,7 @@
 \acro{AJR}{\LU{A}{a}pport \LU{J}{j}ournalier \LU{R}{r}ecommandé}
 \acro{CCR10}{C-C chemokine receptor type 10}
 \acro{CD}{cluster de différenciation}
+\acro{Cmax}[C\textsubscript{max}]{concentration maximale}
 \acro{CMH-II}{\LU{C}{c}omplexe \LU{M}{m}ajeur d'\LU{H}{h}istocompatibilité de \LU{C}{c}lasse II}
 \acro{CPA}{cellules présentatrices d'antigènes}
 \acro{CYP24A1}{24-hydroxylase}
@@ -34,6 +35,7 @@
 \acro{IL-10}{interleukine-10}
 \acro{IL-12}{interleukine-12}
 \acro{IL-17}{interleukine-17}
+\acro{IMC}{indice de masse corporelle}
 \acro{IOM}{Institute of Medicine}
 \acro{iNKT}{invariant NK T cell}
 \acro{nfkb}[NF-κB]{nuclear factor-kappa B}
@@ -48,6 +50,7 @@
 \acro{TCR}{T cell receptor}
 \acro{Th}[T helpers]{lymphocytes T helpers}
 \acro{TLR}{toll-like receptor}
+\acro{Tmax}[T\textsubscript{max}]{Temps pour laquelle la C\textsubscript{max} est atteinte}
 \acro{tnfa}[TNF-\ensuremath{\mupalpha}]{tumor necrosis factor alpha}
 \acro{UI}{unité internationale}
 \acro{VDR}{vitamin D receptor}

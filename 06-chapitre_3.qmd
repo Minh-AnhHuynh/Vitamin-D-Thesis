@@ -8,6 +8,9 @@
 
 ![Contribution de l'immunité induite par AMP sur le SARS-CoV-2 [@White.2022]](figures/vd-amp.png)
 
+Increased VTD levels suppress renin expression and renin levels and thus result in down-regulation of the renin-angiotensin system in animals.123 Several mechanisms have been suggested for VTD’s protective role in cardiovascular disease.68
+https://www.cfp.ca/content/53/5/841.full#sec-14
+
 
 @Bishop.2021
 

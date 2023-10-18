@@ -111,8 +111,6 @@ Le calcitriol possède d'autres effets au regard de l'épithélium intestinal et
 
 ### Effets de la vitamine D sur l'immunité adaptative
 
-- Souligner l'importance de la vitamine D dans la régulation de l'équilibre entre les réponses immunitaires pro-inflammatoires et anti-inflammatoires.
-
 La vitamine D joue un rôle essentiel dans la modulation des réponses immunitaires adaptatives, en particulier des lymphocytes T et B, qui sont les principales cellules immunitaires de cette composante du système immunitaire. Les lymphocytes T sont responsables de la reconnaissance et de la destruction des cellules infectées par le virus, tandis que les lymphocytes B sont impliqués dans la production d'anticorps. La vitamine D agit sur ces deux types de lymphocytes en modulant leur fonctionnement et leur activation. La vitamine D est notamment importante comme élément régulateur entre les réponses immunitaires pro-inflammatoires et anti-inflammatoires.
 
 #### Lymphocytes T
