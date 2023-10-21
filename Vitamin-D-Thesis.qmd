@@ -60,24 +60,25 @@ header-includes:
 - \newcommand{\ACF}[1]{{\@in@acrolisttrue\acf{#1}}}
 - \usepackage{pdflscape} # Allow \begin{landscape} for figures
 - \usepackage{makecell} # Make multiline cell in latex
-- \usepackage{multirow} # Required for table and ref
-- \usepackage{booktabs} # For beautiful publication ready tables
+- \usepackage{multirow} # Make multiple row cells \multirow
+- \usepackage{booktabs} # For beautiful publication ready tables ; \cmidrule
+- \usepackage{graphicx} # Required for \includegraphics trying to fix a scaling
+- \usepackage{subcaption} # To crossref subcaptions and subfigures
 - \usepackage[capitalise, noabbrev, nameinlink]{cleveref} # Allows \cref{} to cite latex table as "Table 3"
 # Specify which cross-reference should automatically be bolded : Tables and Figures
 # Use \cref{} ; For some reason this only works with this exact disposition :
 # Only #1, nameinlink and each of the reference specified. namelink + #1#2#3 would give an error.
 - \crefdefaultlabelformat{#2\textbf{#1}#3} # <-- Only #1 in \textbf
 - \crefformat{subfigure}{#2\textbf{#1}#3}
-- \crefname{table}{\textbf{Table}}{\textbf{Tables}}
+- \crefname{table}{\textbf{table}}{\textbf{tables}}
 - \Crefname{table}{\textbf{Table}}{\textbf{Tables}}
-- \crefname{figure}{\textbf{Figure}}{\textbf{Figures}} 
+- \crefname{figure}{\textbf{figure}}{\textbf{figures}} 
 - \Crefname{figure}{\textbf{Figure}}{\textbf{Figures}}
-- \crefname{subfigure}{figure}{\textbf{figures}}
-- \Crefname{subfigure}{Figure}{\textbf{Figures}}
+- \crefname{subfigure}{\textbf{figure}}{\textbf{figures}}
+- \Crefname{subfigure}{\textbf{Figure}}{\textbf{Figures}}
+- \renewcommand{\thesubfigure}{\Alph{subfigure}} # Use capital letters for subfigures
 # Define a command to remove the "note" field from the bibliography
 - \AtEveryBibitem{\clearfield{note}}
-- \usepackage{graphicx} # Required for \includegraphics trying to fix a scaling
-- \usepackage{subcaption} #To crossref subcaptions and subfigures
 include-before-body: 
 - "00-thesis_cover_page.tex"
 ---

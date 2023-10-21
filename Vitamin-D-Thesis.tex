@@ -93,18 +93,19 @@
 \usepackage{makecell}
 \usepackage{multirow}
 \usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{subcaption}
 \usepackage[capitalise, noabbrev, nameinlink]{cleveref}
 \crefdefaultlabelformat{#2\textbf{#1}#3}
 \crefformat{subfigure}{#2\textbf{#1}#3}
-\crefname{table}{\textbf{Table}}{\textbf{Tables}}
+\crefname{table}{\textbf{table}}{\textbf{tables}}
 \Crefname{table}{\textbf{Table}}{\textbf{Tables}}
-\crefname{figure}{\textbf{Figure}}{\textbf{Figures}}
+\crefname{figure}{\textbf{figure}}{\textbf{figures}}
 \Crefname{figure}{\textbf{Figure}}{\textbf{Figures}}
-\crefname{subfigure}{figure}{\textbf{figures}}
-\Crefname{subfigure}{Figure}{\textbf{Figures}}
+\crefname{subfigure}{\textbf{figure}}{\textbf{figures}}
+\Crefname{subfigure}{\textbf{Figure}}{\textbf{Figures}}
+\renewcommand{\thesubfigure}{\Alph{subfigure}}
 \AtEveryBibitem{\clearfield{note}}
-\usepackage{graphicx}
-\usepackage{subcaption}
 \makeatletter
 \makeatother
 \makeatletter
@@ -209,7 +210,7 @@ THESE
 \pagenumbering{gobble}
 \clearpage
 
-\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[boxrule=0pt, interior hidden, borderline west={3pt}{0pt}{shadecolor}, enhanced, breakable, sharp corners, frame hidden]}{\end{tcolorbox}}\fi
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[enhanced, sharp corners, frame hidden, boxrule=0pt, borderline west={3pt}{0pt}{shadecolor}, interior hidden, breakable]}{\end{tcolorbox}}\fi
 
 \setstretch{1.5}
 \hypertarget{remerciements}{%
@@ -322,7 +323,7 @@ intervient comme précurseur d'une hormone, le calcitriol.
 La vitamine D est une molécule liposoluble dérivée du cholestérol se
 distinguant des hormones stéroïdes par l'ouverture du cycle B de la
 structure cyclopentanoperhydrophénanthrène \autocite{Norman.2008}
-(\cref{fig:vitd3}). Il en existe deux formes, la vitamine
+(\Cref{fig:vitd3}). Il en existe deux formes, la vitamine
 D\textsubscript{2} ou ergocalciférol, synthétisée par les plantes et les
 champignons, et la vitamine D\textsubscript{3} ou cholécalciférol,
 synthétisée dans la peau après une exposition aux rayons ultraviolets B
@@ -343,20 +344,20 @@ contrôler et à réguler différentes activités dans l'organisme
 hormone en régulant la transcription de différents gènes et en modifiant
 le métabolisme de diverses manières. Elle agit par le biais du
 calcitriol, la forme active de la vitamine D qui se lie à son récepteur,
-le récepteur de la vitamine D \acs{VDR}. Pratiquement toutes les
-cellules de l'organisme possèdent des VDR, ce qui explique ses effets
-pléiotropiques dans diverses maladies
+le récepteur de la vitamine D (\acsu{VDR}). Pratiquement toutes les
+cellules de l'organisme possèdent des \acp{VDR}, ce qui explique ses
+effets pléiotropiques dans diverses maladies
 \autocite{Ellison.2021,Caprio.2017,Norman.2008}. Le \ac{VDR} est un
 récepteur faisant partie de la classe des récepteurs nucléaires, où la
 liaison de la vitamine D sur son récepteur conduit à sa translocation
 nucléaire et à sa liaison à l'ADN au niveau des séquences de réponse
-(\acs{VDRE}) situées dans les séquences promoteurs de différents gènes
+(\acsu{VDRE}) situées dans les séquences promoteurs de différents gènes
 \autocite{Bouillon.2008}.
 
 \begin{figure}
 \centering
 \includegraphics[width=0.7\columnwidth]{figures/cholecalciferol-chemspider.png} 
-\caption[\textbf{Structure chimique de la vitamine D3 ou cholécalciférol.}]{\textbf{Structure chimique de la vitamine D3 ou cholécalciférol.} (\cite{chemspider.2023})}
+\caption[Structure chimique de la vitamine D3 ou cholécalciférol.]{\textbf{Structure chimique de la vitamine D3 ou cholécalciférol.} (\cite{chemspider.2023})}
 \label{fig:vitd3}
 \end{figure}
 
@@ -374,9 +375,9 @@ soleil \autocite{Bikle.2014}.
 
 La vitamine D\textsubscript{3} doit ensuite être hydroxylée en position
 25 dans le foie, puis en position 1 dans les reins pour obtenir la forme
-active qui permettra d'exercer ses effets à travers le récepteur de la
-vitamine D (\acs{VDR}). Pour cela, elle est transportée dans le sang
-essentiellement par la protéine de liaison de la vitamine D (\acs{DBP})
+active qui permettra d'exercer ses effets à travers le \ac{VDR}. Pour
+cela, elle est transportée dans le sang essentiellement par la protéine
+de liaison de la vitamine D (\acsu{DBP})
 \autocite{Christakos.2010,Chun.2012}. La \ac{DBP} peut également lier
 les autres formes de vitamine D, telles que la vitamine
 D\textsubscript{2} (ergocalciférol), vitamine D\textsubscript{3}, ou les
@@ -397,8 +398,8 @@ la majorité de ses effets, en se liant au \ac{VDR} contenu dans divers
 tissus \autocite{Norman.2008,Dankers.2017}.
 
 Enfin, la vitamine D peut subir une hydroxylation par la 24-hydroxylase
-ou \acs{CYP24A1}, une enzyme P450 mitochrondriale. Ceci conduit à partir
-du calcitriol au \acs{1,24,25(OH)3D3} ou l'acide calcitroïque. Cette
+ou \acsu{CYP24A1}, une enzyme P450 mitochondriale. Ceci conduit à partir
+du calcitriol au \acsu{1,24,25(OH)3D3} ou l'acide calcitroïque. Cette
 enzyme peut également hydroxyler le calcidiol pour donner de la
 \ac{24,25(OH)3D3}. Ces réactions permettent de diminuer la quantité de
 calcidiol et calcitriol disponible dans le sang ; la 24-hydroxylase sert
@@ -413,9 +414,9 @@ est donc déterminée par un équilibre entre les enzymes \ac{CYP27B1} et
 
 }
 
-\caption[\textbf{Métabolisme de la vitamine
-D.}]{\label{fig-vitd-metabolism}\textbf{Métabolisme de la vitamine D.}
-Le métabolisme de la vitamine D débute lorsque le 7-déhydrocholestérol
+\caption[Métabolisme de la vitamine
+D.]{\label{fig-vitd-metabolism}\textbf{Métabolisme de la vitamine D.} Le
+métabolisme de la vitamine D débute lorsque le 7-déhydrocholestérol
 présent dans la peau, est transformé par les rayons ultraviolets
 provenant du soleil en cholécalciférol. Le cholécalciférol ou vitamine
 D\textsubscript{3} est ensuite transporté par la protéine de liaison à
@@ -425,7 +426,7 @@ la vitamine D, et est métabolisé dans le foie par des enzymes
 le rein, où après transport du calcidiol, celui-ci se retrouve
 métabolisé en calcitriol ou 1,25(OH)2D\textsubscript{3} par le CYP27B1.
 Le calcitriol augmente la concentration de l'hormone de croissance des
-fibroblastes 23 \acs{FGF23} et l'absorption du calcium et diminue la
+fibroblastes 23 \acsu{FGF23} et l'absorption du calcium et diminue la
 concentration d'\acf{PTH}, tandis que ceux-ci exercent un rétrocontrôle
 négatif sur la concentration de calcitriol, en inhibant directement ou
 indirectement la 1α-hydroxylase, ce qui va diminuer la formation de
@@ -483,7 +484,7 @@ hépatique \autocite{Houghton.2006}.
 
 \begin{figure}
 \includegraphics{figures/ergo_vs_chole.png} 
-\caption[\textbf{Comparaison de la structure de l'ergocalciférol par rapport au cholécalciférol.}]
+\caption[Comparaison de la structure de l'ergocalciférol par rapport au cholécalciférol.]
 {\textbf{Comparaison de la structure de l'ergocalciférol par rapport au cholécalciférol.} La structure de l'ergocalciférol comprend une double liaison et un groupement méthyl (CH\textsubscript{3}) supplémentaire par rapport au cholécalciférol. Cela implique une voie de métabolisation différente, notamment une voie d'élimination plus rapide, et donc une diminution de la concentration en métabolite biologiquement actif issue de l'ergocalciférol. (\cite{Houghton.2006})}
 \label{fig:ergo-struc}
 \end{figure}
@@ -507,12 +508,12 @@ que celle obtenue par vitamine D\textsubscript{3} continue de croître
 
 }
 
-\caption[\textbf{Evolution de la concentration en 25(OH)D après
-administration d'une dose de 50 000 UI de vitamine D\textsubscript{2} ou
-D\textsubscript{3} chez 10 patients.}]{\label{fig-PK}\textbf{Evolution
-de la concentration en 25(OH)D après administration d'une dose de 50 000
-UI de vitamine D\textsubscript{2} ou D\textsubscript{3} chez 10
-patients.} \autocite{Armas.2004}}
+\caption[Evolution de la concentration en 25(OH)D après administration
+d'une dose de 50 000 UI de vitamine D\textsubscript{2} ou
+D\textsubscript{3} chez 10 patients.]{\label{fig-PK}\textbf{Evolution de
+la concentration en 25(OH)D après administration d'une dose de 50 000 UI
+de vitamine D\textsubscript{2} ou D\textsubscript{3} chez 10 patients.}
+\autocite{Armas.2004}}
 
 \end{figure}
 
@@ -560,7 +561,7 @@ foie de morue peut résoudre \autocite{Hernigou.2019}.
 
 Dans les années 1917--1922, les progrès concernant les causes et le
 traitement du rachitisme se sont accélérées. \textcite{Hess.1917}
-démontre que l'administration de l'huile de foie de morue permet de
+démontrent que l'administration de l'huile de foie de morue permet de
 prévenir et guérir du rachitisme chez les enfants afro-américains à New
 York. En 1918, Mellanby a montré qu'il pouvait prévenir le rachitisme
 expérimental chez les chiots avec de l'huile de foie de morue et a
@@ -605,7 +606,7 @@ transcription activant les ostéoclastes, et augmentation de LRP5)
 \autocite{Carmeliet.2015}. Lorsque la calcémie est basse, l'augmentation
 de \ac{PTH} conduit à une augmentation de RANKL ce qui favorise la
 résorption des os par les ostéoclastes afin d'obtenir du calcium
-(\cref{fig-vitd-metabolism}).
+(\Cref{fig-vitd-metabolism}).
 
 \hypertarget{propriuxe9tuxe9s-extra-osseuses}{%
 \subsection{Propriétés
@@ -644,17 +645,17 @@ l'inflammation, par l'inhibition de \ac{CMH-II}, des molécules de
 co-stimulation, une diminution de l'activité des Th\textsubscript{1} et
 Th\textsubscript{17}, lymphocytes pro-inflammatoires, et une
 augmentation des T\textsubscript{regs}, lymphocytes anti-inflammatoires
-(\cref{fig:extra-skeletal}). Un autre domaine d'intérêt concernant les
+(\Cref{fig:extra-skeletal}). Un autre domaine d'intérêt concernant les
 effets extra-squelettiques de la vitamine D concerne son rôle au niveau
 des muscles squelettiques. Plusieurs études suggèrent que le rôle de la
 vitamine D stimule la synthèse des protéines musculaires ainsi que la
 réabsorption du calcium dans le réticulum sarcoplasmique, ce qui permet
-de maintenir une force musculaire adéquate.
+de maintenir une force musculaire adéquate\autocite{Caprio.2017}.
 
 \begin{landscape}
 \begin{figure}
 \includegraphics{figures/extra-skeletal-effect.png} 
-\caption[\textbf{Effets classiques et extra-squelettiques de la vitamine D.}]
+\caption[Effets classiques et extra-squelettiques de la vitamine D.]
 {Effets classiques et extra-squelettiques de la vitamine D. \textcite{Caprio.2017}}
 \label{fig:extra-skeletal}
 \end{figure}
@@ -669,9 +670,11 @@ mécanismes d'action de la vitamine D liés à l'immunité.
 
 Cependant, les bénéfices extra-squelettiques associés à la vitamine D ne
 seraient visibles que lorsque la concentration de calcidiol serait
-supérieure au seuil de 40 ng/mL, ce qui nécessiterait une dose
-journalière nettement supérieure à celle recommandée habituellement
-\autocite{Caprio.2017}.
+supérieure au seuil de 20-30 ng/mL actuellement recommandé par les
+autorités. Le seuil exact de bénéfice accru reste spéculatif à cause de
+rapports contradictoires sur la supplémentation en vitamine D issus des
+études cliniques randomisées \autocites[ ]{Caprio.2017}[
+]{Lewis.2015}{Bouillon.2013,Rejnmark.2017}.
 
 \hypertarget{doses-thuxe9rapeutiques-efficaces}{%
 \section{Doses thérapeutiques
@@ -735,10 +738,10 @@ recommandations de l'Autorité européenne de sécurité des aliments
 (\acsu{EFSA}) \autocite{ANSES.2021}. En effet, l'\ac{EFSA} a retenu une
 valeur de 15 µg/j (soit 600 UI/j) permettant aux hommes et femmes
 d'atteindre le seuil de calcitriol jugé adéquat de 50 nmol/L ou 20 ng/mL
-\autocite{ANSES.2022} (\cref{tbl-seuil}).
+\autocite{ANSES.2022} (\Cref{tbl-seuil}).
 
 \begin{table}
-\caption[\textbf{Tableau comparatif des seuils d'adéquation de la vitamine D par différentes sources.}]{Tableau comparatif des seuils d'adéquation de la vitamine D par différentes sources. IOM : Institut de Médecine ; ANSES : Agence nationale de sécurité sanitaire de l’alimentation, de l’environnement et du travail. D'après \textcite{IOM.2011} et \textcite{ANSES.2021}}
+\caption[Tableau comparatif des seuils d'adéquation de la vitamine D par différentes sources.]{Tableau comparatif des seuils d'adéquation de la vitamine D par différentes sources. IOM : Institut de Médecine ; ANSES : Agence nationale de sécurité sanitaire de l’alimentation, de l’environnement et du travail. D'après \textcite{IOM.2011} et \textcite{ANSES.2021}}
 \label{tbl-seuil}
 \centering
 \begin{tabular}{ccc}
@@ -755,7 +758,7 @@ Limite Supérieure de Sécurité & > 50 ng/mL  & > 100 ng/mL \\
 
 \begin{table}
 \centering
-\caption[{\textbf{Apports journaliers recommandés de la vitamine D (UI/j)}}]{\textbf{Apports journaliers recommandés de la vitamine D (UI/j).} La mention de \ac{AJR} indique que l'apport couvre les besoins minimes de 97.5\% de la population pour une concentration de 20 ng/mL selon l'\ac{IOM}. D'après \textcite{ANSES.2021, IOM.2011}}
+\caption[{Apports journaliers recommandés de la vitamine D (UI/j)}]{\textbf{Apports journaliers recommandés de la vitamine D (UI/j).} La mention de \ac{AJR} indique que l'apport couvre les besoins minimes de 97.5\% de la population pour une concentration de 20 ng/mL selon l'\ac{IOM}. D'après \textcite{ANSES.2021, IOM.2011}}
 \label{tbl-AJR}
 \begin{tabular}{ccc}
 \toprule
@@ -787,7 +790,10 @@ la prise en charge de certaines maladies plus spécifiques
 les bénéfices osseux, concluant sur la base de la littérature qu'il n'y
 a pas de bénéfices osseux observés au-delà de 20 ng/mL, qui est le seuil
 permettant de couvrir les besoins minimes de 97.5\% de la population
-(\cref{tbl-seuil}).
+(\Cref{tbl-seuil}). L'\ac{IOM} conclut que les bénéfices
+extra-squelettiques de la vitamine D sont incertains et que les preuves
+ne sont pas suffisantes pour recommander une augmentation de l'\ac{AJR}
+\autocite{IOM.2011}.
 
 \hypertarget{utilisation-thuxe9rapeutique}{%
 \section{Utilisation thérapeutique}\label{utilisation-thuxe9rapeutique}}
@@ -861,12 +867,12 @@ augmente, puisque un des compartiments de distribution est plus grand,
 représenté par la masse graisseuse. La relation entre l'\ac{IMC} a été
 étudiée par \textcite{Ekwaru.2014}. Ekwaru montre ainsi la relation
 dose-réponse entre l'administration orale de cholécalciférol et la
-concentration plasmatique de calcidiol (\textbf{Figure 6.A}), en
-distinguant les différentes réponses observées lorsque les sujets sont
-classés selon leur \ac{IMC} (\textbf{Figure 6.B}). On observe que les
-sujets ayant un \ac{IMC} plus élevé ont besoin d'une dose plus élevée de
-vitamine D pour atteindre le même seuil de concentration plasmatique de
-calcidiol.
+concentration plasmatique de calcidiol (\Cref{subfig:vd-dose-response}),
+en distinguant les différentes réponses observées lorsque les sujets
+sont classés selon leur \ac{IMC} (\Cref{subfig:vd-dose-imc}). On observe
+que les sujets ayant un \ac{IMC} plus élevé ont besoin d'une dose plus
+élevée de vitamine D pour atteindre le même seuil de concentration
+plasmatique de calcidiol.
 
 Les auteurs observent une relation dose-réponse exponentielle, où
 l'augmentation sérique de calcidiol diminue avec l'augmentation des
@@ -878,33 +884,32 @@ des taux de calcidiol sérique à des doses inférieures à 1000 UI/j. La
 réponse est plus aplatie lorsque les doses sont supérieures à 1000 UI/j
 \autocite{IOM.2011,Garland.2011}. De ce fait, l'augmentation en vitamine
 D obtenue par supplémentation est moindre lorsque la concentration
-initiale de vitamine D est plus élevée (\Cref{fig-vd-expected-rise}).
+initiale de vitamine D est plus élevée (\Cref{fig:vd-expected-rise}).
 
 \begin{figure}
     \centering
     \begin{subfigure}{0.48\textwidth}
         \centering
         \includegraphics[width=\textwidth]{figures/ekwaru-dose-relation-transformed.jpg}
-        \subcaption*{\textbf{(A)} Relation dose-réponse entre la prise de cholécalciférol orale et la concentration plasmatique en 25(OH)D \cite{Ekwaru.2014}.}
+        \subcaption{Relation dose-réponse entre la prise de cholécalciférol orale et la concentration plasmatique en 25(OH)D \textcite{Ekwaru.2014}.}
         \label{subfig:vd-dose-response}
     \end{subfigure}
     \hfill
     \begin{subfigure}{0.48\textwidth}
         \centering
         \includegraphics[width=\textwidth]{figures/ekwaru-dose-imc-transformed.jpg}
-        \subcaption*{\textbf{(B)} Comparaison des courbes dose-réponses entre les différents types de poids déterminé par l'indice de masse corporelle \cite{Ekwaru.2014}.}
+        \subcaption{Comparaison des courbes dose-réponses entre les différents types de poids déterminé par l'indice de masse corporelle \textcite{Ekwaru.2014}.}
         \label{subfig:vd-dose-imc}
     \end{subfigure}
-    \caption{\textbf{Courbes dose-réponse de la supplémentation en vitamine D orale.}}
+    \caption[Courbes dose-réponse de la supplémentation en vitamine D orale.]{\textbf{Courbes dose-réponse de la supplémentation en vitamine D orale.}}
     \label{fig:dose-response}
 \end{figure}
 
 \begin{figure}
-    \centering
-        \centering
-        \includegraphics[width=0.5\textwidth]{figures/vd-expected-rise.jpeg}
-        \label{fig-vd-expected-rise}
-        \caption[Courbe de l'augmentation attendue de la 25(OH)D sérique pour chaque supplément de 1,000 UI de vitamine D3 par jour, en fonction de la valeur de base de la 25(OH)D de base]{Courbe de l'augmentation attendue de la 25(OH)D sérique pour chaque supplément de 1,000 UI de vitamine D3 par jour, en fonction de la valeur de base de la 25(OH)D de base \textcite{Garland.2011}.}
+\centering
+\includegraphics[width=0.5\textwidth]{figures/vd-expected-rise.jpeg}
+\caption[Courbe de l'augmentation attendue de la 25(OH)D sérique pour chaque supplément de 1,000 UI de vitamine D3 par jour, en fonction de la valeur de base de la 25(OH)D de base]{\textbf{Courbe de l'augmentation attendue de la 25(OH)D sérique pour chaque supplément de 1,000 UI de vitamine D3 par jour, en fonction de la valeur de base de la 25(OH)D de base.} \textcite{Garland.2011}.}
+\label{fig:vd-expected-rise}
 \end{figure}
 
 La demi-vie du cholécalciférol est de 24 heures, et celle du calcidiol
@@ -951,7 +956,7 @@ causer une augmentation de l'absorption du calcium dans l'intestin ainsi
 qu'à une résorption osseuse. \textcite{Shepard.1980} mentionnent que
 l'hypercalcémie due à une hypervitaminose D provient probablement de
 cette résorption osseuse plutôt que de l'absorption intestinale accrue
-du calcium. (\textbf{Référence compliquée à chercher} :
+du calcium. (\textbf{Référence compliquée à vérifier} :
 \textcite{Shepard.1980} mentionnent ce passage : \emph{Lindquist
 \autocite{Lindquist.1952} a montré que la mobilisation du calcium osseux
 augmente avec la dose logarithmique, même pour des quantités massives de
@@ -965,7 +970,7 @@ concernent notamment des troubles gastro-intestinaux, des troubles du
 système cardiovasculaire ainsi que des troubles du système
 musculo-squelettique. Le système rénal est également impacté, et un
 trouble neurologique est également possible
-(**Figure~\ref{fig-hypervitaminose-d}*)** \autocites[
+(\textbf{Figure~\ref{fig-hypervitaminose-d}}) \autocites[
 ]{Alshahrani.2013}{Janoušek.2022}.
 
 \begin{figure}
@@ -975,8 +980,8 @@ trouble neurologique est également possible
 }
 
 \caption[Symptômes associés lors d'une hypervitaminose
-D.]{\label{fig-hypervitaminose-d}Symptômes associés lors d'une
-hypervitaminose D \autocite{Janoušek.2022}.}
+D.]{\label{fig-hypervitaminose-d}\textbf{Symptômes associés lors d'une
+hypervitaminose D} \autocite{Janoušek.2022}.}
 
 \end{figure}
 
@@ -1046,9 +1051,9 @@ du \ac{VDR} et de son action dans les cellules cibles
 
 \caption[Trois théories proposées par \textcite{Jones.2008} pour
 expliquer les mécanismes de toxicité de la vitamine
-D.]{\label{fig-vd-intox-theory}Trois théories proposées par
+D.]{\label{fig-vd-intox-theory}\textbf{Trois théories proposées par
 \textcite{Jones.2008} pour expliquer les mécanismes de toxicité de la
-vitamine D \autocite{Janoušek.2022}.}
+vitamine D} \autocite{Janoušek.2022}.}
 
 \end{figure}
 
@@ -1072,22 +1077,6 @@ déficience en 24-hydroxylase, et donc ne permet pas la métabolisation de
 \autocite{Marcinowska-Suchowierska.2018}. Ce syndrome cause ainsi une
 hypercalcémie, néphrolithiase, et néphrocalcinose \autocite{Azer.2021}.
 
-\begin{quote}
-L'exposition au soleil ne peut pas résulter d'une intoxication à la
-vitamine D car le soleil détruit l'excès de cholécalciférol
-\textbf{(Référence \textcite{Mawer.1985} par \textcite{Alshahrani.2013},
-information non trouvée)}.
-\end{quote}
-
-\begin{quote}
-Vous mélangez dans une même phrase limite supérieure de
-sécurité/hypercalcémie/dose de vitamine D et concentration plasmatique
-de calcidiol. Il faut vraiment distinguer chaque aspect d'autant que la
-toxicité associe un xénobiotique (en l'occurrence la vit D exogène) et
-une toxicité (en l'occurrence une ostéolyse pouvant être à l'origine
-d'une hypercalcémie).
-\end{quote}
-
 \hypertarget{seuil-de-toxicituxe9-actuel}{%
 \subsection{Seuil de toxicité
 actuel}\label{seuil-de-toxicituxe9-actuel}}
@@ -1107,18 +1096,18 @@ de sécurité des adultes concerne également les enfants de 9 à 18 ans
 mais est réduite pour les enfants de 1 à 8 ans (2500 à 3000 UI/j)
 \autocite{IOM.2011}.
 
-L'ANSM a publié un avis sur le bon usage de la vitamine D, suite à des
-cas rapportés de surdosage de vitamine D entraînant une hypercalcémie,
-parfois accompagnée de lithiase et néphrocalcinose chez les enfants et
-nourrissons, après avoir pris une dose plus de deux fois supérieure à la
-dose recommandée (400 UI par jour de 0 à 18 ans chez l'enfant en bonne
-santé sans facteur de risque, 800 UI par jour de 0 à 18 ans chez
-l'enfant présentant un facteur de risque) pendant plusieurs semaines, et
-deux cas d'intoxication sévère à la vitamine D après avoir pris un
-complément alimentaire acheté sur internet contenant une dose de 10 000
-UI par goutte. Il est notable de constater que ces cas surviennent suite
-à une très grande dose de vitamine D par kg chez les nourrissons et
-enfant, dont la dose devrait différer chez l'adulte
+L'\ac{ANSM} a publié un avis sur le bon usage de la vitamine D, suite à
+des cas rapportés de surdosage de vitamine D entraînant une
+hypercalcémie, parfois accompagnée de lithiase et néphrocalcinose chez
+les enfants et nourrissons, après avoir pris une dose plus de deux fois
+supérieure à la dose recommandée (400 UI par jour de 0 à 18 ans chez
+l'enfant en bonne santé sans facteur de risque, 800 UI par jour de 0 à
+18 ans chez l'enfant présentant un facteur de risque) pendant plusieurs
+semaines, et deux cas d'intoxication sévère à la vitamine D après avoir
+pris un complément alimentaire acheté sur internet contenant une dose de
+10 000 UI par goutte. Il est notable de constater que ces cas
+surviennent suite à une très grande dose de vitamine D par kg chez les
+nourrissons et enfant, dont la dose devrait différer chez l'adulte
 \autocite{ANSM.2021}.
 
 \hypertarget{questionnement-sur-le-seuil-de-toxicituxe9}{%
@@ -1188,33 +1177,32 @@ dans l'étude ont une sensibilité accrue à la vitamine D, et donc que le
 seuil identifié est donc conservatif, et augmente l'assurance du seuil
 NOAEL et LOAEL.
 
-\begin{quote}
-\emph{Les origines de la dose si basse en vitamine D viennent d'une
-succession d'évènement débutant vers la fin du 19\textsuperscript{ème}
-début 20\textsuperscript{ème}. Ainsi, plus de 80\% des enfants
-possédaient des déformations associés au rachitisme ainsi qu'un retard
-de la croissance osseuse et des difformités osseuses en Europe et sur la
-côte Est des Etats-Unis. En 1921, Hess et Unger rapportent que
-l'exposition au soleil guérissent les enfants du rachitisme, ce qui a
-entraîné la fortification du lait en vitamine D2 (produite à partir de
-l'ergostérol végétal) et d'autres aliments tels que du pain, des
-boissons gazeuses, de la bière, de la crème anglaise et même des
-hot-dogs. Vers les années 1950s, plusieurs cas ont été signalé en
-Angleterre de nourrissons présentant des anomalies faciales accompagnées
-d'hypercalcémie et de sténose aortique supra-valvulaire. Les médecins
-concluent indirectement en se basant sur la littérature et les données
-cliniques disponibles qu'il s'agit d'une intoxication à la vitamine D.
-Cela a engendré un mouvement contraire où les recommandations sur les
-doses de vitamine D ont été établies conservativement afin d'éviter
-l'hypercalcémie chez les nourrissons, ainsi que l'interdiction dans de
-nombreux pays de fortifier le lait avec de la vitamine D. Cependant,
-avec rétrospection, la littérature suggère que les nourrissons alors
-rapportés avaient le syndrome de Williams-Beuren, et donc étaient
-hypersensible à la vitamine D et présentaient les symptômes rapportés.
-Il ne s'agissait donc pas d'une situation clinique normale liée à la
-toxicité vitamine D mais à l'hypersensibilité à la vitamine D
-\autocite{Holick.2015}.}
-\end{quote}
+J'ai obtenu les informations suivantes sur la base d'un article écrit
+par \textcite{Holick.2015} : \textgreater{} \emph{Les origines de la
+dose si basse en vitamine D viennent d'une succession d'évènement
+débutant vers la fin du 19\textsuperscript{ème} début
+20\textsuperscript{ème}. Ainsi, plus de 80\% des enfants possédaient des
+déformations associés au rachitisme ainsi qu'un retard de la croissance
+osseuse et des difformités osseuses en Europe et sur la côte Est des
+Etats-Unis. En 1921, Hess et Unger rapportent que l'exposition au soleil
+guérissent les enfants du rachitisme, ce qui a entraîné la fortification
+du lait en vitamine D2 (produite à partir de l'ergostérol végétal) et
+d'autres aliments tels que du pain, des boissons gazeuses, de la bière,
+de la crème anglaise et même des hot-dogs. Vers les années 1950s,
+plusieurs cas ont été signalé en Angleterre de nourrissons présentant
+des anomalies faciales accompagnées d'hypercalcémie et de sténose
+aortique supra-valvulaire. Les médecins concluent indirectement en se
+basant sur la littérature et les données cliniques disponibles qu'il
+s'agit d'une intoxication à la vitamine D. Cela a engendré un mouvement
+contraire où les recommandations sur les doses de vitamine D ont été
+établies conservativement afin d'éviter l'hypercalcémie chez les
+nourrissons, ainsi que l'interdiction dans de nombreux pays de fortifier
+le lait avec de la vitamine D. Cependant, avec rétrospection, la
+littérature suggère que les nourrissons alors rapportés avaient le
+syndrome de Williams-Beuren, et donc étaient hypersensible à la vitamine
+D et présentaient les symptômes rapportés. Il ne s'agissait donc pas
+d'une situation clinique normale liée à la toxicité vitamine D mais à
+l'hypersensibilité à la vitamine D \autocite{Holick.2015}.}
 
 \newpage{}
 
@@ -1234,7 +1222,7 @@ immunitaire \autocite{White.2022}.
 
 La vitamine D agit à la fois sur les cellules du système immunitaire
 inné et adaptatif par de nombreuses fonctions et effets
-(\cref{tbl-vd-immu}). Deux observations principales supportent la
+(\Cref{tbl:vd-immu}). Deux observations principales supportent la
 théorie du rôle de la vitamine D dans le système immunitaire : le
 récepteur au calcitriol est présent dans toutes les cellules
 immunitaires, et la présence de l'enzyme de conversion finale du
@@ -1257,35 +1245,8 @@ signaux inflammatoires, tels que le \ac{LPS} et les cytokines
 
 \begin{table}
 \centering
-\caption[\textbf{Effets de la vitamine D sur le système immunitaire.}]{ \textbf{Effets de la vitamine D sur le système immunitaire.} Le tableau montre les effets de la vitamine D sur le système immunitaire inné et adaptatif. Globalement la vitamine D possède un effet immunomodulateur. D'après \textcite{Giannini.2022}.}
-\label{tbl-vd-immu}
-\begin{tabular}{|c|>{\centering\arraybackslash}p{0.5\textwidth}|}
-\hline
-\textbf{Fonction/Cellules} & \textbf{Effet} \\
-\hline
-\textbf{Immunité Innée} & \\
-Différenciation des macrophages & Augmentation \\
-Elimination des bactéries & Augmentation \\
-Maturation des cellules dendritiques & Diminution \\
-Présentation antigénique & Diminution \\
-\hline
-\textbf{Immunité adaptative} & \\
-Cytokines Th$_1$ & Diminution \\
-Cytokines Th$_2$ & Augmentation \\
-Différentiation des Th${_{17}}$ & Diminution \\
-Différentiation des T\textsubscript{reg} & Augmentation \\
-\multirow{4}{*}{\begin{tabular}[c]{@{}c@{}}Lymphocytes B\end{tabular}} & Diminution de la prolifération \\
-& Induction de l'apoptose \\
-& Inhibition de la génération des plasmocytes \\
-& Inhibition de la sécrétion des immunoglobulines \\
-\hline
-\end{tabular}
-\end{table}
-
-\begin{table}
-\centering
-\caption[\textbf{Effets de la vitamine D sur le système immunitaire.}]{\textbf{Effets de la vitamine D sur le système immunitaire.} Le tableau montre les effets de la vitamine D sur le système immunitaire inné et adaptatif. Globalement, la vitamine D possède un effet immunomodulateur. D'après \textcite{Giannini.2022}.}
-\label{tbl-vd-immu}
+\caption[Effets de la vitamine D sur le système immunitaire.]{\textbf{Effets de la vitamine D sur le système immunitaire.} Le tableau montre les effets de la vitamine D sur le système immunitaire inné et adaptatif. Globalement, la vitamine D possède un effet immunomodulateur. D'après \textcite{Giannini.2022}.}
+\label{tbl:vd-immu}
 \begin{tabular}{lc}
 \toprule
 \textbf{Fonction/Cellules} & \textbf{Effet} \\
@@ -1302,11 +1263,10 @@ Cytokines Th$_2$ & Augmentation \\
 Différentiation des Th${_{17}}$ & Diminution \\
 Différentiation des T\textsubscript{reg} & Augmentation \\
 \addlinespace
-Lymphocytes B & \\
-Diminution de la prolifération & \\
-Induction de l'apoptose & \\
-Inhibition de la génération des plasmocytes & \\
-Inhibition de la sécrétion des immunoglobulines & \\
+\multirow{4}{*}{Lymphocytes B} & Diminution de la prolifération \\
+& Induction de l'apoptose \\
+& Inhibition de la génération des plasmocytes \\
+& Inhibition de la sécrétion des immunoglobulines\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -1316,7 +1276,7 @@ Inhibition de la sécrétion des immunoglobulines & \\
 immunitaire}\label{muxe9canismes-daction-de-la-vitamine-d-sur-le-systuxe8me-immunitaire}}
 
 La vitamine D possède une action globalement anti-inflammatoire et donc
-régulatrice de l'inflammation (\cref{fig-vd-immune-effect}). Elle agit à
+régulatrice de l'inflammation (\Cref{fig-vd-immune-effect}). Elle agit à
 la fois sur le système immunitaire inné et adaptatif. A l'initiation de
 la réponse inflammatoire, le calcitriol est essentiel afin de répondre à
 une infection. Les effets de la vitamine D ne répriment pas totalement
@@ -1334,8 +1294,8 @@ de rétablir l'équilibre perturbé \autocite{Dankers.2017}.
 
 }
 
-\caption[\textbf{Effets du calcitriol sur les réponses immunitaires sous
-des conditions normales.}]{\label{fig-vd-immune-effect}\textbf{Effets du
+\caption[Effets du calcitriol sur les réponses immunitaires sous des
+conditions normales.]{\label{fig-vd-immune-effect}\textbf{Effets du
 calcitriol sur les réponses immunitaires sous des conditions normales.}
 La 1,25(OH)\textsubscript{2}D\textsubscript{3} régule à la fois
 l'immunité innée et l'immunité adaptative, en potentialisant la réponse
@@ -1404,13 +1364,13 @@ granulomateux.
 
 }
 
-\caption[\textbf{Représentation schématique des fonctions paracrine et
+\caption[Représentation schématique des fonctions paracrine et
 intracrine de la vitamine D et de ses métabolites et des actions de la
 1,25-dihydroxyvitamine D sur les systèmes immunitaires innés et
-adaptatifs.}]{\label{fig-vd-action}\textbf{Représentation schématique
-des fonctions paracrine et intracrine de la vitamine D et de ses
-métabolites et des actions de la 1,25-dihydroxyvitamine D sur les
-systèmes immunitaires innés et adaptatifs.} Abréviation : 1,25(OH)2D :
+adaptatifs.]{\label{fig-vd-action}\textbf{Représentation schématique des
+fonctions paracrine et intracrine de la vitamine D et de ses métabolites
+et des actions de la 1,25-dihydroxyvitamine D sur les systèmes
+immunitaires innés et adaptatifs.} Abréviation : 1,25(OH)2D :
 1,25-dihydroxyvitamine D ; 25(OH)D : 25-hydroxyvitamine D, IFN-Ƴ :
 interféron- Ƴ ; IL : interleukine ; CMH : complexe d'histocompatibilité
 membranaire, TH1 : T helper 1 ; TH2 : T helper 2 ; TH17 : T helper 17 ;
@@ -1493,14 +1453,6 @@ moduler entre autre des réponses immunes anti-virales
 \hypertarget{effets-de-la-vitamine-d-sur-limmunituxe9-adaptative}{%
 \subsection{Effets de la vitamine D sur l'immunité
 adaptative}\label{effets-de-la-vitamine-d-sur-limmunituxe9-adaptative}}
-
-\begin{itemize}
-\tightlist
-\item
-  Souligner l'importance de la vitamine D dans la régulation de
-  l'équilibre entre les réponses immunitaires pro-inflammatoires et
-  anti-inflammatoires.
-\end{itemize}
 
 La vitamine D joue un rôle essentiel dans la modulation des réponses
 immunitaires adaptatives, en particulier des lymphocytes T et B, qui
@@ -1631,8 +1583,8 @@ est intéressant de remarquer que les lymphocytes B expriment le
 
 }
 
-\caption[\textbf{Schéma récapitulatif des effets immunomodulateurs du
-calcitriol.}]{\label{fig-immunomod}\textbf{Schéma récapitulatif des
+\caption[Schéma récapitulatif des effets immunomodulateurs du
+calcitriol.]{\label{fig-immunomod}\textbf{Schéma récapitulatif des
 effets immunomodulateurs du calcitriol.} Le calcitriol se fixe sur le
 VDR qui en interagissant avec le VDRE provoque une transcription de
 gènes régulateurs de l'immunité, conduisant à des effets globalement
@@ -1730,17 +1682,17 @@ afin d'augmenter l'activité de PI3KC3 \autocite{Bishop.2021}.
 \subsection{Action paracrine et
 intracrine}\label{action-paracrine-et-intracrine}}
 
-{[}\emph{Peut-être une partie sur ce mécanisme ? En fait cela me semble
-important car il me semble que la question de la dose minimale efficace
-pour les effets du calcitriol sur le système immunitaire dépend de cette
-concentration locale à effet paracrine qui ne peut être mesurée
-uniquement dans une recherche in vitro, alors que la dose typiquement
-mesurée chez la population constitue le calcidiol sanguin}{]}
+{[}\emph{Peut-être une partie sur ce mécanisme ? Cela me semble
+important car la question de la dose minimale efficace pour les effets
+du calcitriol sur le système immunitaire dépend de cette concentration
+locale à effet paracrine qui ne peut être mesurée uniquement dans une
+recherche in vitro, alors que la dose typiquement mesurée chez la
+population constitue le calcidiol sanguin}{]}
 
-Dose utilisée dans l'essai in vitro de \textcite{Hewison.2007} 5, 50 and
-150 nM. Ces valeurs ont été choisies pour représenter les conditions de
-carence en vitamine D, d'insuffisance en vitamine D et de suffisance en
-vitamine D, respectivement.
+Dose utilisée dans l'essai in vitro de \textcite{Hewison.2007} de 5, 50
+and 150 nM. Ces valeurs ont été choisies pour représenter les conditions
+de carence en vitamine D, d'insuffisance en vitamine D et de suffisance
+en vitamine D, respectivement.
 
 \begin{figure}
 
@@ -1748,8 +1700,9 @@ vitamine D, respectivement.
 
 }
 
-\caption{Mécanismes des réponses immunitaires innées et adaptatives à la
-vitamine D. \textcite{Prietl.2013}}
+\caption[Mécanismes des réponses immunitaires innées et adaptatives à la
+vitamine D.]{\textbf{Mécanismes des réponses immunitaires innées et
+adaptatives à la vitamine D.} \autocite{Prietl.2013}}
 
 \end{figure}
 
@@ -1757,9 +1710,9 @@ vitamine D. \textcite{Prietl.2013}}
 \section{Dose de vitamine D nécessaire à
 l'immunité}\label{dose-de-vitamine-d-nuxe9cessaire-uxe0-limmunituxe9}}
 
-{[}\emph{Pourquoi est-ce que 4000 UI est la dose minimale recommandée
-pour un effet immunitaire ? Pourquoi est-ce que le seuil de 40 ng/mL est
-important pour cet effet suffisant ?}{]}
+{[}\emph{Pourquoi est-ce que 4000 UI est une des doses minimales
+recommandées pour un effet immunitaire ? Pourquoi est-ce que le seuil de
+``40 ng/mL'' est important pour cet effet suffisant ?}{]}
 
 \newpage{}
 

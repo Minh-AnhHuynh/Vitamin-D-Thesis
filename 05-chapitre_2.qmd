@@ -2,7 +2,7 @@
 
 L'importance cruciale du rôle de la vitamine D sur le système immunitaire a récemment captivé l'attention des chercheurs depuis la découverte de la coexistence du \ac{VDR} et du \ac{CYP27B1} dans des tissus dont la fonction n'est pas directement liée à l'homéostasie du calcium [@Zehnder.2001]. En particulier, l'expression du \ac{CYP27B1} dans les cellules immunitaires est régulée indépendamment de l'homéostasie du calcium, en présence ou non de pathogènes, ce qui démontre le rôle central de la vitamine D dans la régulation du système immunitaire [@White.2022].
 
-La vitamine D agit à la fois sur les cellules du système immunitaire inné et adaptatif par de nombreuses fonctions et effets (\cref{tbl-vd-immu}). Deux observations principales supportent la théorie du rôle de la vitamine D dans le système immunitaire : le récepteur au calcitriol est présent dans toutes les cellules immunitaires, et la présence de l'enzyme de conversion finale du calcidiol en calcitriol, la 1α-hydroxylase est uprégulée par certaines cellules immunes [@Giannini.2022].
+La vitamine D agit à la fois sur les cellules du système immunitaire inné et adaptatif par de nombreuses fonctions et effets (\Cref{tbl:vd-immu}). Deux observations principales supportent la théorie du rôle de la vitamine D dans le système immunitaire : le récepteur au calcitriol est présent dans toutes les cellules immunitaires, et la présence de l'enzyme de conversion finale du calcidiol en calcitriol, la 1α-hydroxylase est uprégulée par certaines cellules immunes [@Giannini.2022].
 
 Ainsi, plusieurs cellules immunitaires peuvent synthétiser l'enzyme clé permettant la conversion du 25(OH)~2~D~3~ en 1,25(OH)~2~D~3~, le cytochrome CYP27B1 ou aussi appelée 1α-hydroxylase. L'induction de cette enzyme concerne des cellules telles que les cellules dendritiques, monocytes, macrophages, lymphocytes B et T [@Giannini.2022 ; @Dankers.2017].
 
@@ -16,39 +16,40 @@ Dans ce contexte, l'enzyme 1α-hydroxylase n'est pas uprégulée par la \ac{PTH}
 
 <!-- ce qui correspondrait à une action autocrine. -->
 
-```{=tex}
+<!-- ```{=tex} -->
+<!-- \begin{table} -->
+<!-- \centering -->
+<!-- \caption[\textbf{Effets de la vitamine D sur le système immunitaire.}]{ \textbf{Effets de la vitamine D sur le système immunitaire.} Le tableau montre les effets de la vitamine D sur le système immunitaire inné et adaptatif. Globalement la vitamine D possède un effet immunomodulateur. D'après \textcite{Giannini.2022}.} -->
+<!-- \label{tbl-vd-immu} -->
+<!-- \begin{tabular}{|c|>{\centering\arraybackslash}p{0.5\textwidth}|} -->
+<!-- \hline -->
+<!-- \textbf{Fonction/Cellules} & \textbf{Effet} \\ -->
+<!-- \hline -->
+<!-- \textbf{Immunité Innée} & \\ -->
+<!-- Différenciation des macrophages & Augmentation \\ -->
+<!-- Elimination des bactéries & Augmentation \\ -->
+<!-- Maturation des cellules dendritiques & Diminution \\ -->
+<!-- Présentation antigénique & Diminution \\ -->
+<!-- \hline -->
+<!-- \textbf{Immunité adaptative} & \\ -->
+<!-- Cytokines Th$_1$ & Diminution \\ -->
+<!-- Cytokines Th$_2$ & Augmentation \\ -->
+<!-- Différentiation des Th${_{17}}$ & Diminution \\ -->
+<!-- Différentiation des T\textsubscript{reg} & Augmentation \\ -->
+<!-- \multirow{4}{*}{\begin{tabular}[c]{@{}c@{}}Lymphocytes B\end{tabular}} & Diminution de la prolifération \\ -->
+<!-- & Induction de l'apoptose \\ -->
+<!-- & Inhibition de la génération des plasmocytes \\ -->
+<!-- & Inhibition de la sécrétion des immunoglobulines \\ -->
+<!-- \hline -->
+<!-- \end{tabular} -->
+<!-- \end{table} -->
+<!-- ``` -->
+
 
 \begin{table}
 \centering
-\caption[\textbf{Effets de la vitamine D sur le système immunitaire.}]{ \textbf{Effets de la vitamine D sur le système immunitaire.} Le tableau montre les effets de la vitamine D sur le système immunitaire inné et adaptatif. Globalement la vitamine D possède un effet immunomodulateur. D'après \textcite{Giannini.2022}.}
-\label{tbl-vd-immu}
-\begin{tabular}{|c|>{\centering\arraybackslash}p{0.5\textwidth}|}
-\hline
-\textbf{Fonction/Cellules} & \textbf{Effet} \\
-\hline
-\textbf{Immunité Innée} & \\
-Différenciation des macrophages & Augmentation \\
-Elimination des bactéries & Augmentation \\
-Maturation des cellules dendritiques & Diminution \\
-Présentation antigénique & Diminution \\
-\hline
-\textbf{Immunité adaptative} & \\
-Cytokines Th$_1$ & Diminution \\
-Cytokines Th$_2$ & Augmentation \\
-Différentiation des Th${_{17}}$ & Diminution \\
-Différentiation des T\textsubscript{reg} & Augmentation \\
-\multirow{4}{*}{\begin{tabular}[c]{@{}c@{}}Lymphocytes B\end{tabular}} & Diminution de la prolifération \\
-& Induction de l'apoptose \\
-& Inhibition de la génération des plasmocytes \\
-& Inhibition de la sécrétion des immunoglobulines \\
-\hline
-\end{tabular}
-\end{table}
-```
-\begin{table}
-\centering
-\caption[\textbf{Effets de la vitamine D sur le système immunitaire.}]{\textbf{Effets de la vitamine D sur le système immunitaire.} Le tableau montre les effets de la vitamine D sur le système immunitaire inné et adaptatif. Globalement, la vitamine D possède un effet immunomodulateur. D'après \textcite{Giannini.2022}.}
-\label{tbl-vd-immu}
+\caption[Effets de la vitamine D sur le système immunitaire.]{\textbf{Effets de la vitamine D sur le système immunitaire.} Le tableau montre les effets de la vitamine D sur le système immunitaire inné et adaptatif. Globalement, la vitamine D possède un effet immunomodulateur. D'après \textcite{Giannini.2022}.}
+\label{tbl:vd-immu}
 \begin{tabular}{lc}
 \toprule
 \textbf{Fonction/Cellules} & \textbf{Effet} \\
@@ -65,11 +66,10 @@ Cytokines Th$_2$ & Augmentation \\
 Différentiation des Th${_{17}}$ & Diminution \\
 Différentiation des T\textsubscript{reg} & Augmentation \\
 \addlinespace
-Lymphocytes B & \\
-Diminution de la prolifération & \\
-Induction de l'apoptose & \\
-Inhibition de la génération des plasmocytes & \\
-Inhibition de la sécrétion des immunoglobulines & \\
+\multirow{4}{*}{Lymphocytes B} & Diminution de la prolifération \\
+& Induction de l'apoptose \\
+& Inhibition de la génération des plasmocytes \\
+& Inhibition de la sécrétion des immunoglobulines\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -77,9 +77,9 @@ Inhibition de la sécrétion des immunoglobulines & \\
 
 ## Mécanismes d'action de la vitamine D sur le système immunitaire
 
-La vitamine D possède une action globalement anti-inflammatoire et donc régulatrice de l'inflammation (\cref{fig-vd-immune-effect}). Elle agit à la fois sur le système immunitaire inné et adaptatif. A l'initiation de la réponse inflammatoire, le calcitriol est essentiel afin de répondre à une infection. Les effets de la vitamine D ne répriment pas totalement le système immunitaire mais plutôt induit une modulation immunitaire, en faisant évoluer le système immunitaire adaptatif vers une tolérance antigénique, et le système immunitaire inné vers une meilleure élimination virale et bactérienne [@Martens.2020]. Le calcitriol n'est donc pas purement anti-inflammatoire mais il contribue à maintenir l'équilibre entre un état pro- et anti-inflammatoire et est donc capable de rétablir l'équilibre perturbé [@Dankers.2017].
+La vitamine D possède une action globalement anti-inflammatoire et donc régulatrice de l'inflammation (\Cref{fig-vd-immune-effect}). Elle agit à la fois sur le système immunitaire inné et adaptatif. A l'initiation de la réponse inflammatoire, le calcitriol est essentiel afin de répondre à une infection. Les effets de la vitamine D ne répriment pas totalement le système immunitaire mais plutôt induit une modulation immunitaire, en faisant évoluer le système immunitaire adaptatif vers une tolérance antigénique, et le système immunitaire inné vers une meilleure élimination virale et bactérienne [@Martens.2020]. Le calcitriol n'est donc pas purement anti-inflammatoire mais il contribue à maintenir l'équilibre entre un état pro- et anti-inflammatoire et est donc capable de rétablir l'équilibre perturbé [@Dankers.2017].
 
-![**Effets du calcitriol sur les réponses immunitaires sous des conditions normales.** La 1,25(OH)~2~D~3~ régule à la fois l'immunité innée et l'immunité adaptative, en potentialisant la réponse innée (activité antimicrobienne des macrophages), en diminuant la présentation de l'antigène et en supprimant l'immunité adaptative (fonctions des lymphocytes B et de certains lymphocytes T). Cependant, dans des conditions normales, la 1,25(OH)~2~D~3~ augmente les cytokines T helper (Th~2~) (c'est-à-dire l'interleukine 10) et l'efficacité des T~reg~. DC, cellules dendritiques ; APC, cellules présentatrices d'antigènes ; TLR, Toll-like receptor ; T~reg~, lymphocytes T régulateurs. D'après @Cutolo.2014](figures/vd-immune-effect.jpg){#fig-vd-immune-effect fig-scap="**Effets du calcitriol sur les réponses immunitaires sous des conditions normales.**" fig.pos="!htb"}
+![**Effets du calcitriol sur les réponses immunitaires sous des conditions normales.** La 1,25(OH)~2~D~3~ régule à la fois l'immunité innée et l'immunité adaptative, en potentialisant la réponse innée (activité antimicrobienne des macrophages), en diminuant la présentation de l'antigène et en supprimant l'immunité adaptative (fonctions des lymphocytes B et de certains lymphocytes T). Cependant, dans des conditions normales, la 1,25(OH)~2~D~3~ augmente les cytokines T helper (Th~2~) (c'est-à-dire l'interleukine 10) et l'efficacité des T~reg~. DC, cellules dendritiques ; APC, cellules présentatrices d'antigènes ; TLR, Toll-like receptor ; T~reg~, lymphocytes T régulateurs. D'après @Cutolo.2014](figures/vd-immune-effect.jpg){#fig-vd-immune-effect fig-scap="Effets du calcitriol sur les réponses immunitaires sous des conditions normales." fig.pos="!htb"}
 
 ### Effets de la vitamine D sur les cellules immunitaires innées
 
@@ -93,7 +93,7 @@ Le calcitriol peut ensuite agir de manière intracrine via un signalement VDR-RX
 
 Le calcitriol libéré joue également un rôle paracrine, puisqu'il sort de la cellule et va ensuite influencer les diverses cellules immunitaires environnantes (**@fig-vd-action**). Il est intéressant de noter une conséquence involontaire de cette fonction paracrine est que les macrophages produisent une quantité excessive de calcitriol qui pénètre dans la circulation et stimule de manière non régulée l'absorption intestinale du calcium et la mobilisation du calcium osseux, ce qui entraîne une hypercalciurie et une hypercalcémie dans des conditions pathologiques inflammatoires telles que des désordres granulomateux.
 
-![**Représentation schématique des fonctions paracrine et intracrine de la vitamine D et de ses métabolites et des actions de la 1,25-dihydroxyvitamine D sur les systèmes immunitaires innés et adaptatifs.** Abréviation : 1,25(OH)2D : 1,25-dihydroxyvitamine D ; 25(OH)D : 25-hydroxyvitamine D, IFN-Ƴ : interféron- Ƴ ; IL : interleukine ; CMH : complexe d'histocompatibilité membranaire, TH1 : T helper 1 ; TH2 : T helper 2 ; TH17 : T helper 17 ; Treg : cellule T régulatrice, TNF-α : Tumor necrosis factor- α ; TLR2 : toll-like receptor 2 ; TLR4 : toll-like receptor 4. [@Charoenngam.2020]](figures/vd-action.jpg){#fig-vd-action fig-scap="**Représentation schématique des fonctions paracrine et intracrine de la vitamine D et de ses métabolites et des actions de la 1,25-dihydroxyvitamine D sur les systèmes immunitaires innés et adaptatifs.**"}
+![**Représentation schématique des fonctions paracrine et intracrine de la vitamine D et de ses métabolites et des actions de la 1,25-dihydroxyvitamine D sur les systèmes immunitaires innés et adaptatifs.** Abréviation : 1,25(OH)2D : 1,25-dihydroxyvitamine D ; 25(OH)D : 25-hydroxyvitamine D, IFN-Ƴ : interféron- Ƴ ; IL : interleukine ; CMH : complexe d'histocompatibilité membranaire, TH1 : T helper 1 ; TH2 : T helper 2 ; TH17 : T helper 17 ; Treg : cellule T régulatrice, TNF-α : Tumor necrosis factor- α ; TLR2 : toll-like receptor 2 ; TLR4 : toll-like receptor 4. [@Charoenngam.2020]](figures/vd-action.jpg){#fig-vd-action fig-scap="Représentation schématique des fonctions paracrine et intracrine de la vitamine D et de ses métabolites et des actions de la 1,25-dihydroxyvitamine D sur les systèmes immunitaires innés et adaptatifs."}
 
 
 #### Cellules présentatrices d'antigènes et lymphocytes NK
@@ -140,7 +140,7 @@ Les lymphocytes B sont des cellules capables de produire des anticorps lorsqu'il
 <!-- TODO : Doute sur CD74. Lire https://pubmed.ncbi.nlm.nih.gov/25643611/ -->
 
 
-![**Schéma récapitulatif des effets immunomodulateurs du calcitriol.** Le calcitriol se fixe sur le VDR qui en interagissant avec le VDRE provoque une transcription de gènes régulateurs de l'immunité, conduisant à des effets globalement favorisant la suppression et tolérance immunitaire. Cette modulation se manifeste directement par l'inhibition de facteurs cytokines pro-inflammatoires et l'augmentation de cytokines anti-inflammatoires ou indirectement en favorisant le phénotype de cellules immunes immunosuppressives comme les macrophages de type M2, les sous-types de lymphocytes Th~2~ et T~reg~ ou le phénotype tolérogénique des cellules dendritiques. @Meza-Meza.2022](figures/calcitriol-immunomodulatory.jpg){#fig-immunomod fig-scap="**Schéma récapitulatif des effets immunomodulateurs du calcitriol.**"}
+![**Schéma récapitulatif des effets immunomodulateurs du calcitriol.** Le calcitriol se fixe sur le VDR qui en interagissant avec le VDRE provoque une transcription de gènes régulateurs de l'immunité, conduisant à des effets globalement favorisant la suppression et tolérance immunitaire. Cette modulation se manifeste directement par l'inhibition de facteurs cytokines pro-inflammatoires et l'augmentation de cytokines anti-inflammatoires ou indirectement en favorisant le phénotype de cellules immunes immunosuppressives comme les macrophages de type M2, les sous-types de lymphocytes Th~2~ et T~reg~ ou le phénotype tolérogénique des cellules dendritiques. @Meza-Meza.2022](figures/calcitriol-immunomodulatory.jpg){#fig-immunomod fig-scap="Schéma récapitulatif des effets immunomodulateurs du calcitriol."}
 
 ### Implications de la vitamine D dans la réponse immunitaire antivirale
 
@@ -160,13 +160,13 @@ Le calcitriol est capable d'induire NOD2 qui induit l'autophagie pour augmenter 
 
 ### Action paracrine et intracrine
 
-[*Peut-être une partie sur ce mécanisme ? En fait cela me semble important car il me semble que la question de la dose minimale efficace pour les effets du calcitriol sur le système immunitaire dépend de cette concentration locale à effet paracrine qui ne peut être mesurée uniquement dans une recherche in vitro, alors que la dose typiquement mesurée chez la population constitue le calcidiol sanguin*]
+[*Peut-être une partie sur ce mécanisme ? Cela me semble important car la question de la dose minimale efficace pour les effets du calcitriol sur le système immunitaire dépend de cette concentration locale à effet paracrine qui ne peut être mesurée uniquement dans une recherche in vitro, alors que la dose typiquement mesurée chez la population constitue le calcidiol sanguin*]
 
-Dose utilisée dans l'essai in vitro de @Hewison.2007 5, 50 and 150 nM. Ces valeurs ont été choisies pour représenter les conditions de carence en vitamine D, d'insuffisance en vitamine D et de suffisance en vitamine D, respectivement.
+Dose utilisée dans l'essai in vitro de @Hewison.2007 de 5, 50 and 150 nM. Ces valeurs ont été choisies pour représenter les conditions de carence en vitamine D, d'insuffisance en vitamine D et de suffisance en vitamine D, respectivement.
 
-![Mécanismes des réponses immunitaires innées et adaptatives à la vitamine D. @Prietl.2013](figures/meca-intracrine.jpg){fig-align="center"}
+![**Mécanismes des réponses immunitaires innées et adaptatives à la vitamine D.** [@Prietl.2013]](figures/meca-intracrine.jpg){fig-align="center" fig-scap="Mécanismes des réponses immunitaires innées et adaptatives à la vitamine D."}
 
 ## Dose de vitamine D nécessaire à l'immunité
 
-[*Pourquoi est-ce que 4000 UI est la dose minimale recommandée pour un effet immunitaire ? Pourquoi est-ce que le seuil de 40 ng/mL est important pour cet effet suffisant ?*]
+[*Pourquoi est-ce que 4000 UI est une des doses minimales recommandées pour un effet immunitaire ? Pourquoi est-ce que le seuil de "40 ng/mL" est important pour cet effet suffisant ?*]
 
