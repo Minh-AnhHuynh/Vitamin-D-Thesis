@@ -2,19 +2,74 @@
 
 ## Physiopathologie de la COVID-19
 
+- La \ac{COVID-19} est causée par le virus \ac{SARS-CoV-2} qui est un virus à ARN simple brin enveloppé qui appartient à la famille des Coronaviridae. Le virus envahit l'organisme par le biais de la protéine de pointe appelée spike protein. La protéine de pointe est impliquée dans la liaison aux récepteurs de surface des cellules hôtes, notamment l'\ac{ACE2}, qui est notamment impliquée dans le \ac{SRAA}.
+
+- Lorsque la réponse inflammatoire innée et adaptative ne devient plus protectrice mais devient exacerbée, associée à une réplication virale non controllée et des cellules infectée non éliminée, la réponse immunitaire se perpétue et s'aggrave, entraînant un syndrome de détresse respiratoire aiguë (SDRA) ou une coagulation intravasculaire disséminée [@Contreras-Bolívar.2023].
+
+
+<!-- ### Processus d'infection : entrée dans les cellules hôtes, réplication virale -->
+
+<!-- Le SARS-CoV-2 utilise sa protéine de pointe pour se fixer à la surface des cellules respiratoires humaines. Une fois attaché à \ac{ACE2}, le virus fusionne avec la membrane cellulaire, permettant ainsi son entrée dans la cellule. Une fois à l'intérieur de la cellule, le génome viral est libéré, et le virus commence à se répliquer en utilisant les ressources de la cellule hôte. La réplication virale aboutit à la production de nombreuses particules virales qui peuvent infecter d'autres cellules, propageant ainsi l'infection dans le tissu pulmonaire et au-delà. -->
+
+<!-- ### Réponse immunitaire innée et adaptative face à l'infection -->
+
+<!-- Lorsque le SARS-CoV-2 infecte les cellules respiratoires, il déclenche une série de réponses immunitaires. Tout d'abord, le système immunitaire inné est activé. Il implique des cellules immunitaires telles que les macrophages et les cellules dendritiques qui détectent la présence du virus. La réponse innée entraîne la production de cytokines pro-inflammatoires pour attirer davantage de cellules immunitaires sur le site de l'infection. -->
+
+<!-- Simultanément, le système immunitaire adaptatif est mobilisé. Les lymphocytes T cytotoxiques (CD8+) identifient et détruisent les cellules infectées par le virus, limitant ainsi la propagation du SARS-CoV-2. Les lymphocytes B produisent des anticorps spécifiques qui peuvent neutraliser le virus. Ensemble, ces deux composantes de la réponse immunitaire contribuent à contrôler l'infection. -->
+
+<!-- Cependant, dans certains cas, la réponse immunitaire peut devenir excessive, conduisant à une tempête de cytokines, ou orage cytokinique, qui provoque des dommages tissulaires et contribue à la gravité de la maladie. -->
+
+<!-- Après fusion des membranes virales et cellulaires, le SARS-CoV-2 pénètre et infecte les cellules épithéliales et les pneumocytes de type II. La liaison de la protéine S virale avec l’ACE2 entraîne la sécrétion de cytokines (TNF-α, IL-1, IL-6, chimiokines), ce qui provoque une hyperperméabilité́ capillaire ainsi que l’attraction d’interférons de type I (IFN-1) et de cellules inflammatoires (Figure 1). La voie des interférons de type I est centrale dans la réponse antivirale initiale. Elle permet d’inhiber la réplication virale, de protéger les cellules non-infectées et de stimuler l’immunité lymphocytaire antivirale (lymphocytes T CD8, NK). Ces mécanismes d’immunité innée conduisent à la lyse des cellules infectées (15) et à l’instauration d’une immunité durable (16). Dans l'ensemble, ces processus éliminent le virus, limitent l’atteinte pulmonaire et mènent à une potentielle guérison.  -->
+
+## Statut en vitamine D, épidémiologie du risque infectieux en général et COVID-19 en particulier {#sec-statut-vd}
+
+- La majorité de la population possède un statut en vitamine D même insuffisant pour des effets bénéfiques à visée osseuse (inférieur à 20 ng/mL). De plus, les personnes agées supérieurs à 70 ans qui sont à plus fort risque de symptômes sévères sont souvent déficitaires en vitamine D comparés aux personnes plus jeunes.
+
+## Etudes observationnelles
+
+- De nombreuses études associent un faible taux de vitamine D à peut être associé à un risque accru d'être hospitalisé, d'admission en soins intensifs. Plusieurs études associent une déficience sévère (< 5 ng/mL) à un risque accru de mortalité.
+
+- Il est intéressant de noter que certaines études n'associent de relations entre la concentration en vitamine D et la sévérité des symptômes, ainsi que la mortalité. 
+
+- Les études écologiques rapportent que les pays avec un taux de vitamine D plus élevé ont un taux de mortalité plus faible du COVID-19, et la relation inverse est également observée avec les pays les plus déficients en vitamine D (< 10 ng/mL) qui montrent des taux d'infections et de mortalité plus élevés. Une analyse centrée sur la distance des pays à l'équateur montre que les pays les plus proches ont une mortalité plus faible comparativement aux pays les plus éloignés.
+
+- Une méta-analyse de Pereira et al. (2020) a observé que le statut en vitamine D n'était pas associé au risque d'infection de la COVID-19 mais était associé à un risque accru de développer des symptômes sévères en particulier dans la population âgée.
+
+- Une méta-analyse réussit à prédire la sévérité des patients en fonction de leur concentration en calcidiol, en prenant en compte les facteurs confondants [@Munshi.2021].
+
+- La plupart des études sont rétrospectives sur des données cliniques observationnelles,  il est difficile de montrer que la vitamine D a un lien causal avec la sévérité de la maladie.
+
+- D'après @Contreras-Bolívar.2023, l'ensemble des études rapportent clairement qu'il existe une plus grande prévalence de patients sévèrement déficients en vitamine D associé à une plus grande sévérité de la maladie.
+
+
+
 ## Rationnel physiologique de l'usage de la vitamine D dans la COVID-19
 
-@Li.2002 ont établi une relation entre la rénine et le système rénine-angiotensine-aldostérone. Ainsi la vitamine D~3~ sous sa forme active a été observée comme étant un régulateur négatif de ce système permettant de réguler la pression artérielle.
+- Puisque la \ac{COVID-19} est caractérisée souvent par une hyperinflammation non résolue (source), et que la majorité des personnes sont déficientes en vitamine D (@sec-statut-vd), la vitamine D étant liée à la régulation de l'inflammation, il est logique de penser que la vitamine D pourrait être utile dans la \ac{COVID-19} en renforçant le système immunitaire contre l'infection virale, tout en permettant au système immunitaire de pouvoir basculer du programme d'hyperinflammation.
 
-![Contribution de l'immunité induite par AMP sur le SARS-CoV-2 [@White.2022]](figures/vd-amp.png)
+- @Li.2002 ont établi une relation entre la rénine et le système rénine-angiotensine-aldostérone. Ainsi la vitamine D~3~ sous sa forme active a été observée comme étant un régulateur négatif de ce système permettant de réguler la pression artérielle. En effet l'augmentation des niveaux de vitamine D diminue l'expression de la rénine et les niveaux de rénine, ce qui entraîne une régulation à la baisse du système \ac{SRAA} chez l'animal et l'homme [@Li.2004; @Schwalfenberg.2007]. Il peut induire l'activité de l'axe ACE2/Ang-(1-7)/MasR et inhiber la rénine et l'axe ACE/Ang II/AT1R, augmentant ainsi l'expression et la concentration de l'ACE2, du MasR et de l'Ang-(1-7). La voie médiée par ACE2 favorise une diminution de l'apoptose, de la fibrose et de l'inflammation tandis que la voie médiée par ACE et AT1 possède une action opposée.
 
-Increased VTD levels suppress renin expression and renin levels and thus result in down-regulation of the renin-angiotensin system in animals.123 Several mechanisms have been suggested for VTD’s protective role in cardiovascular disease.68
-https://www.cfp.ca/content/53/5/841.full#sec-14
+Puisque le \ac{SRAA} est impliqué dans la COVID-19 aussi bien dans la régulation de l'inflammation et du maintien du système cardiovasculaire que dans la perturbation de ceux-ci par l'entrée du virus dans les cellules par le biais de \ac{ACE2}, réduisant ainsi l'expression de \ac{ACE2}, conduisant à des lésions pulmonaires et une pneumonie, la vitamine D pourrait avoir un effet bénéfique en agissant sur le \ac{SRAA}. 
 
+
+[@Mahdavi.2020]
+
+
+![**Contribution de l'immunité induite par AMP sur le SARS-CoV-2** [@White.2022].](figures/vd-amp.png){#fig-vd-amp fig-scap="Contribution de l'immunité induite par AMP sur le SARS-CoV-2"}
+
+
+
+
+Une étude menée par @Chauss.2022 examine les mécanismes moléculaires qui conduisent à la rétractation et à l'arrêt du phénotype CD4^+^ \ac{Th1}. Les analyses issues du single cell RNA-sequencing (scRNA-Seq) ont permises de mettre en évidence que le complément induisait l'expression de \ac{VDR} et de \ac{CYP27B1}, permettant aux cellules d'utiliser la vitamine D. La vitamine D permet ainsi de faire passer le phénotype pro-inflammatoire \ac{Th1} au phénotype anti-inflammatoire IL-10^+^.
+
+Il est intéressant de noter la vitamine D a permise d'induire l'IL-6, qui possède dans ce cas un rôle immunomodulateur contrairement au rôle standard de pro-inflammation.
+[@Chauss.2022]
 
 @Bishop.2021
 
-## Etudes observationnelles
+## Effets des interventions thérapeutiques dans la prévention et le 
+traitement de la COVID-19
+
 
 @Bishop.2021
 
@@ -23,17 +78,19 @@ Les pays et populations ayant un déficit en vitamine D ont une plus haute morta
 La norvège possède une plus basse mortalité et une plus grande consommation d'huile de foie de morue.
 
 
-## Etudes pré-cliniques
+### Etudes pré-cliniques
 
 1.Qayyum, S., Slominski, R.M., Raman, C., and Slominski, A.T. (2022). Novel CYP11A1-Derived Vitamin D and Lumisterol Biometabolites for the Management of COVID-19. Nutrients *14*, 4779. 10.3390/nu14224779.
 
-## Etudes cliniques
 
-### Etude en phase de prévention
 
-### Etudes en phase curative
+### Etudes cliniques
 
-### Etudes en phase réanimation
+#### Etude en phase de prévention
+
+#### Etudes en phase curative
+
+#### Etudes en phase réanimation
 
 
 1.Leaf, D.E., Raed, A., Donnino, M.W., Ginde, A.A., and Waikar, S.S. (2014). Randomized Controlled Trial of Calcitriol in Severe Sepsis. Am J Resp Crit Care *190*, 533--541. 10.1164/rccm.201405-0988oc.

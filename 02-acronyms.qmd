@@ -9,12 +9,14 @@
 \acro{24,25(OH)3D3}[24,25(OH)\textsubscript{3}D\textsubscript{3}]{24,25-dihydroxycholécalciférol}
 \acro{25(OH)D3}[25(OH)D\textsubscript{3}]{25-hydroxycholécalciferol\acroextra{ (calcidiol ou calcifédiol)}}
 \acro{7-DHC}{7-déhydrocholestérol}
+\acro{ACE2}{enzyme de conversion de l'angiotensine 2}
 \acro{ANSES}{Agence Nationale de Sécurité sanitaire de l'alimentation, de l'Environnement et du Travail}
 \acro{ADN}{acide désoxyribonucléique}
 \acro{ANSM}{Agence Nationale de Sécurité des Médicaments}
 \acro{AJR}{\LU{A}{a}pport \LU{J}{j}ournalier \LU{R}{r}ecommandé}
 \acro{CCR10}{C-C chemokine receptor type 10}
 \acro{CD}{cluster de différenciation}
+\acro{COVID-19}{Coronavirus Disease 2019}
 \acro{Cmax}[C\textsubscript{max}]{concentration maximale}
 \acro{CMH-II}{\LU{C}{c}omplexe \LU{M}{m}ajeur d'\LU{H}{h}istocompatibilité de \LU{C}{c}lasse II}
 \acro{CPA}{cellules présentatrices d'antigènes}
@@ -27,7 +29,8 @@
 \acro{FGF23}{fibroblast growth factor 23}
 \acro{ifna}[IFN-α]{interféron alpha}
 \acro{ifng}[IFN-γ]{interféron gamma}
-\acro{IKκβ}{IkappaB kinase kinase}
+\acro{IKKb}[IKKβ]{IkappaB kinase beta}
+\acro{IKBa}[IκBα]{inhibitor of nuclear factor kappa-b alpha}
 \acro{IL-2}{interleukine-2}
 \acro{IL-4}{interleukine-4}
 \acro{IL-6}{interleukine-6}
@@ -39,7 +42,7 @@
 \acro{IOM}{Institute of Medicine}
 \acro{iNKT}{invariant NK T cell}
 \acro{nfkb}[NF-κB]{nuclear factor-kappa B}
-\acro{NK}{lymphocytes natural killer}
+\acro{NK}{lymphocyte natural killer}
 \acro{NO}{oxyde nitrique}
 \acro{NOD2}{Nucleotide-binding oligomerization domain-containing protein 2}
 \acro{LOAEL}{Lowest Observed Adverse Effect Level}
@@ -47,12 +50,17 @@
 \acro{NOAEL}{Non Observed Adverse Effect Level}
 \acro{PTH}{hormone parathyroïde}
 \acro{PRR}{pattern recognition receptor}
+\acro{RXR}{nuclear receptor retinoid X receptor}
+\acro{SARS-CoV-2}{Severe Acute Respiratory Syndrome Coronavirus 2}
+\acro{SRAA}{système rénine angiotensive aldostérone}
 \acro{TCR}{T cell receptor}
 \acro{Th}[T helpers]{lymphocytes T helpers}
+\acro{Th1}[T~h1~]{CD4+ type 1 helper T cells}
 \acro{TLR}{toll-like receptor}
 \acro{Tmax}[T\textsubscript{max}]{Temps pour laquelle la C\textsubscript{max} est atteinte}
 \acro{tnfa}[TNF-\ensuremath{\mupalpha}]{tumor necrosis factor alpha}
 \acro{UI}{unité internationale}
+\acro{UL}{upper limit}
 \acro{VDR}{vitamin D receptor}
 \acro{VDRE}{\LU{V}{v}itamin D \LU{R}{r}esponse \LU{E}{e}lement}
 \end{acronym}

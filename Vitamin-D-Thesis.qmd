@@ -146,9 +146,14 @@ include-before-body:
 ```
 {{< pagebreak >}}
 
+\hypertarget{Bibliographie}{%
+\chapter*{\centering Bibliographie}\label{Bibliographie}}
+\addcontentsline{toc}{chapter}{Bibliographie}
+\singlespace
 
-<!-- \phantomsection -->
-\addcontentsline{toc}{section}{Bibliographie}
-\pdfbookmark[0]{Bibliographie}{bibliography}
-\singlespace <!-- Chicago style -->
-\printbibliography[title=\centering Bibliographie]
+
+::: {#refs}
+:::
+
+<!-- <!-- \pdfbookmark[0]{Bibliographie}{bibliography} -->
+
