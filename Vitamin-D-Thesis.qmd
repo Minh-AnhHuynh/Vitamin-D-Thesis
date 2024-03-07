@@ -83,6 +83,11 @@ include-before-body:
 - "00-thesis_cover_page.tex"
 ---
 
+```{r, setup, include=FALSE}
+source("script/sort_acronyms.R")
+
+```
+
 ```{r remerciements, child="01-remerciements.qmd"}
 
 ```
