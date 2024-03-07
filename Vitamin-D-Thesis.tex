@@ -107,10 +107,6 @@
 \renewcommand{\thesubfigure}{\Alph{subfigure}}
 \AtEveryBibitem{\clearfield{note}}
 \makeatletter
-\makeatother
-\makeatletter
-\makeatother
-\makeatletter
 \@ifpackageloaded{caption}{}{\usepackage{caption}}
 \AtBeginDocument{%
 \ifdefined\contentsname
@@ -146,18 +142,10 @@
 \newcommand*\listoflistings{\listof{codelisting}{List of Listings}}
 \makeatother
 \makeatletter
+\makeatother
+\makeatletter
 \@ifpackageloaded{caption}{}{\usepackage{caption}}
 \@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
-\makeatother
-\makeatletter
-\@ifpackageloaded{tcolorbox}{}{\usepackage[skins,breakable]{tcolorbox}}
-\makeatother
-\makeatletter
-\@ifundefined{shadecolor}{\definecolor{shadecolor}{rgb}{.97, .97, .97}}
-\makeatother
-\makeatletter
-\makeatother
-\makeatletter
 \makeatother
 \ifLuaTeX
   \usepackage{selnolig}  % disable illegal ligatures
@@ -166,7 +154,8 @@
 \addbibresource{bibliography/vitamin-d.bib}
 \addbibresource{bibliography/organization.bib}
 \addbibresource{bibliography/manual.bib}
-\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\usepackage{bookmark}
+
 \IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
 \urlstyle{same} % disable monospaced font for URLs
 \hypersetup{
@@ -177,6 +166,7 @@
 \date{}
 
 \begin{document}
+
 
 \begin{centering}
 \setstretch{1.5} %linestretch is 1.5 in YAML but hasn't registered in this .tex
@@ -210,11 +200,8 @@ THESE
 \pagenumbering{gobble}
 \clearpage
 
-\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[breakable, boxrule=0pt, interior hidden, sharp corners, enhanced, frame hidden, borderline west={3pt}{0pt}{shadecolor}]}{\end{tcolorbox}}\fi
-
 \setstretch{1.5}
-\hypertarget{remerciements}{%
-\chapter*{Remerciements}\label{remerciements}}
+\chapter*{Remerciements}\label{remerciements}
 
 \pagenumbering{gobble}
 
@@ -237,26 +224,26 @@ THESE
 
 \newpage{}
 
-\hypertarget{liste-des-acronymes}{%
-\chapter*{Liste des Acronymes}\label{liste-des-acronymes}}
+\chapter*{Liste des Acronymes}\label{liste-des-acronymes}
 \addcontentsline{toc}{chapter}{Liste des Acronymes}
 
 \begin{acronym}
 \acro{1,24,25(OH)3D3}[1,24,25(OH)\textsubscript{3}D\textsubscript{3}]{1,24(R),25‐trihydroxycholecalciferol\acroextra{ (acide calcitroïque)}}
 \acro{1,25(OH)2D3}[1,25(OH)\textsubscript{2}D\textsubscript{3}]{1,25-dihydroxycholécalciférol\acroextra{ (calcitriol)}}
+\acro{7-DHC}{7-déhydrocholestérol}
 \acro{24,25(OH)3D3}[24,25(OH)\textsubscript{3}D\textsubscript{3}]{24,25-dihydroxycholécalciférol}
 \acro{25(OH)D3}[25(OH)D\textsubscript{3}]{25-hydroxycholécalciferol\acroextra{ (calcidiol ou calcifédiol)}}
-\acro{7-DHC}{7-déhydrocholestérol}
 \acro{ACE2}{enzyme de conversion de l'angiotensine 2}
-\acro{ANSES}{Agence Nationale de Sécurité sanitaire de l'alimentation, de l'Environnement et du Travail}
 \acro{ADN}{acide désoxyribonucléique}
-\acro{ANSM}{Agence Nationale de Sécurité des Médicaments}
 \acro{AJR}{\LU{A}{a}pport \LU{J}{j}ournalier \LU{R}{r}ecommandé}
+\acro{ANSES}{Agence Nationale de Sécurité sanitaire de l'alimentation, de l'Environnement et du Travail}
+\acro{ANSM}{Agence Nationale de Sécurité des Médicaments}
 \acro{CCR10}{C-C chemokine receptor type 10}
 \acro{CD}{cluster de différenciation}
-\acro{COVID-19}{Coronavirus Disease 2019}
+\acro{CIVD}{coagulation intravasculaire disséminée}
 \acro{Cmax}[C\textsubscript{max}]{concentration maximale}
 \acro{CMH-II}{\LU{C}{c}omplexe \LU{M}{m}ajeur d'\LU{H}{h}istocompatibilité de \LU{C}{c}lasse II}
+\acro{COVID-19}{Coronavirus Disease 2019}
 \acro{CPA}{cellules présentatrices d'antigènes}
 \acro{CYP24A1}{24-hydroxylase}
 \acro{CYP27B1}{25-hydroxyvitamine D\textsubscript{3}-1α-hydroxylase}
@@ -265,10 +252,11 @@ THESE
 \acro{eNOS}{endothelial nitric oxide synthase}
 \acro{FDA}{Food and Drugs Administration}
 \acro{FGF23}{fibroblast growth factor 23}
+\acro{IFN-1}{interférons de type I}
 \acro{ifna}[IFN-α]{interféron alpha}
 \acro{ifng}[IFN-γ]{interféron gamma}
-\acro{IKKb}[IKKβ]{IkappaB kinase beta}
 \acro{IKBa}[IκBα]{inhibitor of nuclear factor kappa-b alpha}
+\acro{IKKb}[IKKβ]{IkappaB kinase beta}
 \acro{IL-2}{interleukine-2}
 \acro{IL-4}{interleukine-4}
 \acro{IL-6}{interleukine-6}
@@ -277,20 +265,21 @@ THESE
 \acro{IL-12}{interleukine-12}
 \acro{IL-17}{interleukine-17}
 \acro{IMC}{indice de masse corporelle}
-\acro{IOM}{Institute of Medicine}
 \acro{iNKT}{invariant NK T cell}
+\acro{IOM}{Institute of Medicine}
+\acro{LOAEL}{Lowest Observed Adverse Effect Level}
+\acro{LPS}{lipopolysaccharide}
 \acro{nfkb}[NF-κB]{nuclear factor-kappa B}
 \acro{NK}{lymphocyte natural killer}
 \acro{NO}{oxyde nitrique}
-\acro{NOD2}{Nucleotide-binding oligomerization domain-containing protein 2}
-\acro{LOAEL}{Lowest Observed Adverse Effect Level}
-\acro{LPS}{lipopolysaccharide}
 \acro{NOAEL}{Non Observed Adverse Effect Level}
-\acro{PTH}{hormone parathyroïde}
+\acro{NOD2}{Nucleotide-binding oligomerization domain-containing protein 2}
 \acro{PRR}{pattern recognition receptor}
+\acro{PTH}{hormone parathyroïde}
 \acro{RXR}{nuclear receptor retinoid X receptor}
 \acro{SARS-CoV-2}{Severe Acute Respiratory Syndrome Coronavirus 2}
-\acro{SRAA}{système rénine angiotensive aldostérone}
+\acro{SDRA}{syndrome de détresse respiratoire aiguë}
+\acro{SRAA}{système rénine angiotensine aldostérone}
 \acro{TCR}{T cell receptor}
 \acro{Th}[T helpers]{lymphocytes T helpers}
 \acro{Th1}[T~h1~]{CD4+ type 1 helper T cells}
@@ -307,17 +296,14 @@ THESE
 
 \pagenumbering{arabic}
 
-\hypertarget{introduction}{%
-\chapter{Introduction}\label{introduction}}
+\chapter{Introduction}\label{introduction}
 
 \newpage{}
 
-\hypertarget{guxe9nuxe9ralituxe9s-sur-la-vitamine-d}{%
 \chapter{Généralités sur la vitamine
-D}\label{guxe9nuxe9ralituxe9s-sur-la-vitamine-d}}
+D}\label{guxe9nuxe9ralituxe9s-sur-la-vitamine-d}
 
-\hypertarget{structure}{%
-\section{Structure}\label{structure}}
+\section{Structure}\label{structure}
 
 La vitamine D est un nutriment vital, nécessaire pour notre métabolisme.
 Elle possède un rôle de vitamine qui est définie comme étant une
@@ -369,8 +355,7 @@ nucléaire et à sa liaison à l'ADN au niveau des séquences de réponse
 \label{fig:vitd3}
 \end{figure}
 
-\hypertarget{muxe9tabolisme}{%
-\section{Métabolisme}\label{muxe9tabolisme}}
+\section{Métabolisme}\label{muxe9tabolisme}
 
 L'activation de la vitamine D en calcitriol nécessite sa métabolisation
 successivement dans le foie et les reins. La vitamine D\textsubscript{3}
@@ -418,7 +403,9 @@ est donc déterminée par un équilibre entre les enzymes \ac{CYP27B1} et
 
 \begin{figure}
 
-{\centering \includegraphics{figures/vitd-metabolism-fr.png}
+\centering{
+
+\includegraphics{figures/vitd-metabolism-fr.png}
 
 }
 
@@ -445,7 +432,7 @@ calcitriol afin de réguler le niveau de calcium et de phosphate. D'après
 \textcite{Christakos.2010}, \textcite{Tsiaras.2011} et
 \textcite{Dankers.2017}}
 
-\end{figure}
+\end{figure}%
 
 La synthèse du calcitriol est régulée par deux hormones, l'\acf{PTH} et
 l'hormone de croissance des fibroblastes 23 (\acsu{FGF23}). Le
@@ -458,8 +445,7 @@ du calcitriol \autocite{Dankers.2017,Christakos.2010}. La \ac{PTH} agit
 également directement sur les os en augmentant la résorption osseuse et
 augmentant ainsi la calcémie.
 
-\hypertarget{place-de-lergostuxe9rol}{%
-\section{Place de l'ergostérol}\label{place-de-lergostuxe9rol}}
+\section{Place de l'ergostérol}\label{place-de-lergostuxe9rol}
 
 L'ergostérol ou vitamine D2 est une autre forme de vitamine D
 (\Cref{fig:ergo-struc}). Les deux formes de vitamine sont perçues comme
@@ -512,7 +498,9 @@ que celle obtenue par vitamine D\textsubscript{3} continue de croître
 
 \begin{figure}
 
-{\centering \includegraphics{figures/PK_D2_vs_D3.jpeg}
+\centering{
+
+\includegraphics{figures/PK_D2_vs_D3.jpeg}
 
 }
 
@@ -523,7 +511,7 @@ la concentration en 25(OH)D après administration d'une dose de 50 000 UI
 de vitamine D\textsubscript{2} ou D\textsubscript{3} chez 10 patients.}
 \autocite{Armas.2004}}
 
-\end{figure}
+\end{figure}%
 
 Ainsi, la vitamine D\textsubscript{3} est généralement capable
 d'augmenter la concentration en 25(OH)D environ deux fois plus qu'avec
@@ -546,12 +534,10 @@ nous ne discuterons seulement que de la vitamine D\textsubscript{3}
 lorsque nous examinerons l'usage et le potentiel thérapeutique de la
 vitamine D.
 
-\hypertarget{propriuxe9tuxe9s}{%
-\section{Propriétés}\label{propriuxe9tuxe9s}}
+\section{Propriétés}\label{propriuxe9tuxe9s}
 
-\hypertarget{propriuxe9tuxe9s-classiques-osseuses}{%
 \subsection{Propriétés classiques
-osseuses}\label{propriuxe9tuxe9s-classiques-osseuses}}
+osseuses}\label{propriuxe9tuxe9s-classiques-osseuses}
 
 L'usage de la vitamine D par le biais de l'huile de foie de morue a été
 décrite dans la littérature au plus tôt par Thomas Percival en 1782, qui
@@ -617,9 +603,8 @@ de \ac{PTH} conduit à une augmentation de RANKL ce qui favorise la
 résorption des os par les ostéoclastes afin d'obtenir du calcium
 (\Cref{fig-vitd-metabolism}).
 
-\hypertarget{propriuxe9tuxe9s-extra-osseuses}{%
 \subsection{Propriétés
-extra-osseuses}\label{propriuxe9tuxe9s-extra-osseuses}}
+extra-osseuses}\label{propriuxe9tuxe9s-extra-osseuses}
 
 La découverte des propriétés extra-osseuses de la vitamine D a commencé
 avec le clonage du récepteur \ac{VDR} en 1987. Son identification dans
@@ -685,12 +670,10 @@ rapports contradictoires sur la supplémentation en vitamine D issus des
 études cliniques randomisées \autocites[ ]{Caprio.2017}[
 ]{Lewis.2015}{Bouillon.2013,Rejnmark.2017}.
 
-\hypertarget{doses-thuxe9rapeutiques-efficaces}{%
 \section{Doses thérapeutiques
-efficaces}\label{doses-thuxe9rapeutiques-efficaces}}
+efficaces}\label{doses-thuxe9rapeutiques-efficaces}
 
-\hypertarget{unituxe9s}{%
-\subsection{Unités}\label{unituxe9s}}
+\subsection{Unités}\label{unituxe9s}
 
 L'expression de la dose de la vitamine D peut se faire en plusieurs
 unités. Classiquement, c'est l'\ac{UI} qui est utilisée. Elle peut
@@ -717,9 +700,8 @@ permis de déterminer qu'en moyenne, une supplémentation en
 cholécalciférol augmente la concentration de calcidiol de 1.3 ng/100 UI
 par jour \autocite{Takács.2017}.
 
-\hypertarget{dose-recommanduxe9e-journaliuxe8re}{%
 \subsection{Dose recommandée
-journalière}\label{dose-recommanduxe9e-journaliuxe8re}}
+journalière}\label{dose-recommanduxe9e-journaliuxe8re}
 
 Actuellement, l'Académie de médecine américaine (anciennement Institute
 of Medecine, \acsu{IOM}) est responsable des recommandations émises par
@@ -782,9 +764,8 @@ Femmes enceintes & 600 & 600 \\
 \end{tabular}
 \end{table}
 
-\hypertarget{controverse-autour-de-la-dose-recommanduxe9e-journaliuxe8re}{%
 \subsection{Controverse autour de la dose recommandée
-journalière}\label{controverse-autour-de-la-dose-recommanduxe9e-journaliuxe8re}}
+journalière}\label{controverse-autour-de-la-dose-recommanduxe9e-journaliuxe8re}
 
 Plusieurs acteurs tels que la Société d'Endocrinologie suggèrent que
 l'\ac{AJR} établi par l'\ac{IOM} est insuffisante. La Société
@@ -805,8 +786,7 @@ extra-squelettiques de la vitamine D sont incertains et que les preuves
 ne sont pas suffisantes pour recommander une augmentation de l'\ac{AJR}
 \autocite{IOM.2011}.
 
-\hypertarget{utilisation-thuxe9rapeutique}{%
-\section{Utilisation thérapeutique}\label{utilisation-thuxe9rapeutique}}
+\section{Utilisation thérapeutique}\label{utilisation-thuxe9rapeutique}
 
 La vitamine D est surtout utilisée en thérapeutique afin de prévenir les
 carences à des fins de bonne santé osseuse. Elle permet de prévenir le
@@ -815,8 +795,7 @@ chez les personnes âgées. Elle permet de maintenir une bonne densité
 osseuse et une absorption du calcium adéquat et prévient du rachitisme
 et de l'ostéomalacie.
 
-\hypertarget{pharmacocinuxe9tique}{%
-\section{Pharmacocinétique}\label{pharmacocinuxe9tique}}
+\section{Pharmacocinétique}\label{pharmacocinuxe9tique}
 
 La pharmacocinétique est l'étude du mouvement d'une substance à travers
 les différents systèmes biologiques de l'organisme, et décrit la manière
@@ -934,7 +913,9 @@ plasmatique stable pendant plusieurs semaines
 
 \begin{figure}
 
-{\centering \includegraphics{figures/Schoenmakers.2018 - Plasma appearance and disappearance of 25(OH)D after oral intake.png}
+\centering{
+
+\includegraphics{figures/Schoenmakers.2018 - Plasma appearance and disappearance of 25(OH)D after oral intake.png}
 
 }
 
@@ -942,10 +923,9 @@ plasmatique stable pendant plusieurs semaines
 cholécalciférol]{\label{fig-PK-all-VitD}\textbf{Schéma des phases
 pharmacocinétiques du cholécalciférol} \autocite{Schoenmakers.2018}}
 
-\end{figure}
+\end{figure}%
 
-\hypertarget{toxicituxe9}{%
-\section{Toxicité}\label{toxicituxe9}}
+\section{Toxicité}\label{toxicituxe9}
 
 La toxicité de la vitamine D est définie comme un état hypercalcémique
 et hypercalciurique qui suggère un excès d'activité lié aux effets du
@@ -986,7 +966,9 @@ trouble neurologique est également possible
 
 \begin{figure}
 
-{\centering \includegraphics{figures/hypervitaminosis-d.jpg}
+\centering{
+
+\includegraphics{figures/hypervitaminosis-d.jpg}
 
 }
 
@@ -994,7 +976,7 @@ trouble neurologique est également possible
 D.]{\label{fig-hypervitaminose-d}\textbf{Symptômes associés lors d'une
 hypervitaminose D} \autocite{Janoušek.2022}.}
 
-\end{figure}
+\end{figure}%
 
 Le mécanisme de la toxicité due à la vitamine D n'est pas encore
 totalement élucidé, mais il existe plusieurs hypothèses selon
@@ -1055,7 +1037,9 @@ du \ac{VDR} et de son action dans les cellules cibles
 
 \begin{figure}
 
-{\centering \includegraphics{figures/vd-intox-theory.jpg}
+\centering{
+
+\includegraphics{figures/vd-intox-theory.jpg}
 
 }
 
@@ -1065,7 +1049,7 @@ D.]{\label{fig-vd-intox-theory}\textbf{Trois théories proposées par
 \textcite{Jones.2008} pour expliquer les mécanismes de toxicité de la
 vitamine D} \autocite{Janoušek.2022}.}
 
-\end{figure}
+\end{figure}%
 
 Ainsi la toxicité de la vitamine D ne semble pas passer par le
 calcitriol mais par une augmentation de calcidiol plasmatique. Lors
@@ -1106,9 +1090,7 @@ en métabolites inactifs \autocite{Marcinowska-Suchowierska.2018}. Ce
 syndrome cause ainsi une hypercalcémie, néphrolithiase, et
 néphrocalcinose \autocite{Azer.2021}.
 
-\hypertarget{seuil-de-toxicituxe9-actuel}{%
-\subsection{Seuil de toxicité
-actuel}\label{seuil-de-toxicituxe9-actuel}}
+\subsection{Seuil de toxicité actuel}\label{seuil-de-toxicituxe9-actuel}
 
 L'\ac{IOM} a déterminé la limite supérieure de sécurité (\ac{UL}) à 4000
 UI/j de cholécalciférol. Ainsi, au-delà de cette limite, les auteurs
@@ -1144,9 +1126,8 @@ surviennent suite à une très grande dose de vitamine D par kg chez les
 nourrissons et enfant, dont la dose devrait différer chez l'adulte
 \autocite{ANSM.2021}.
 
-\hypertarget{questionnement-sur-le-seuil-de-toxicituxe9}{%
 \subsection{Questionnement sur le seuil de
-toxicité}\label{questionnement-sur-le-seuil-de-toxicituxe9}}
+toxicité}\label{questionnement-sur-le-seuil-de-toxicituxe9}
 
 Le protocole Coimbra au Brésil utilise des doses de vitamine D nettement
 supérieurs aux doses respectant les recommandations, pour traiter des
@@ -1240,9 +1221,8 @@ l'hypersensibilité à la vitamine D \autocite{Holick.2015}.}
 
 \newpage{}
 
-\hypertarget{vitamine-d-et-systuxe8me-immunitaire}{%
-\chapter{Vitamine D et système
-immunitaire}\label{vitamine-d-et-systuxe8me-immunitaire}}
+\chapter{Vitamine D, système immunitaire et réponse
+antivirale}\label{vitamine-d-systuxe8me-immunitaire-et-ruxe9ponse-antivirale}
 
 L'importance cruciale du rôle de la vitamine D sur le système
 immunitaire a récemment captivé l'attention des chercheurs depuis la
@@ -1305,9 +1285,20 @@ Différentiation des T\textsubscript{reg} & Augmentation \\
 \end{tabular}
 \end{table}
 
-\hypertarget{muxe9canismes-daction-de-la-vitamine-d-sur-le-systuxe8me-immunitaire}{%
+\section{Schéma d'une réponse antivirale
+classique}\label{schuxe9ma-dune-ruxe9ponse-antivirale-classique}
+
+La voie des interférons de type I (IFN-1) est centrale dans la réponse
+antivirale initiale. Elle permet d'inhiber la réplication virale, de
+protéger les cellules non-infectées et de stimuler l'immunité
+lymphocytaire antivirale (lymphocytes T CD8, NK). Ces mécanismes
+d'immunité innée conduisent à la lyse des cellules infectées et à
+l'instauration d'une immunité durable. Dans l'ensemble, ces processus
+éliminent le virus, limitent l'atteinte pulmonaire et mènent à une
+potentielle guérison.
+
 \section{Mécanismes d'action de la vitamine D sur le système
-immunitaire}\label{muxe9canismes-daction-de-la-vitamine-d-sur-le-systuxe8me-immunitaire}}
+immunitaire}\label{muxe9canismes-daction-de-la-vitamine-d-sur-le-systuxe8me-immunitaire}
 
 La vitamine D possède une action globalement anti-inflammatoire et donc
 régulatrice de l'inflammation (\Cref{fig-vd-immune-effect}). Elle agit à
@@ -1324,7 +1315,9 @@ de rétablir l'équilibre perturbé \autocite{Dankers.2017}.
 
 \begin{figure}
 
-{\centering \includegraphics{figures/vd-immune-effect.jpg}
+\centering{
+
+\includegraphics{figures/vd-immune-effect.jpg}
 
 }
 
@@ -1344,11 +1337,10 @@ cellules présentatrices d'antigènes ; TLR, Toll-like receptor ;
 T\textsubscript{reg}, lymphocytes T régulateurs. D'après
 \textcite{Cutolo.2014}}
 
-\end{figure}
+\end{figure}%
 
-\hypertarget{effets-de-la-vitamine-d-sur-les-cellules-immunitaires-innuxe9es}{%
 \subsection{Effets de la vitamine D sur les cellules immunitaires
-innées}\label{effets-de-la-vitamine-d-sur-les-cellules-immunitaires-innuxe9es}}
+innées}\label{effets-de-la-vitamine-d-sur-les-cellules-immunitaires-innuxe9es}
 
 Plusieurs signaux sont nécessaires à l'induction de la 1α-hydroxylase,
 tels que la présence d'activateurs de macrophages et de monocytes comme
@@ -1357,9 +1349,7 @@ Lorsque les cellules sont activées, elles expriment le \ac{CYP27B1} qui
 va permettre de métaboliser le calcidiol en calcitriol
 \autocite{Liu.2006,Charoenngam.2020}.
 
-\hypertarget{macrophages-et-monocytes}{%
-\subsubsection{Macrophages et
-monocytes}\label{macrophages-et-monocytes}}
+\subsubsection{Macrophages et monocytes}\label{macrophages-et-monocytes}
 
 Le calcitriol peut ensuite agir de manière intracrine via un signalement
 médié par l'hétérodimère \ac{VDR}-\acsu{RXR} (\acl{RXR}), causant
@@ -1396,7 +1386,9 @@ désordres granulomateux et les lymphomes \autocite{Charoenngam.2020}.
 
 \begin{figure}
 
-{\centering \includegraphics{figures/vd-action.jpg}
+\centering{
+
+\includegraphics{figures/vd-action.jpg}
 
 }
 
@@ -1427,11 +1419,10 @@ Nuclear Receptor Retinoid X Receptor ; TH1 : T helper 1 ; TH2 : T helper
 necrosis factor- α ; TLR2 : toll-like receptor 2 ; TLR4 : toll-like
 receptor 4; VDR : Vitamin D Receptor. \autocite{Charoenngam.2020}}
 
-\end{figure}
+\end{figure}%
 
-\hypertarget{cellules-pruxe9sentatrices-dantiguxe8nes-et-lymphocytes-nk}{%
 \subsubsection{Cellules présentatrices d'antigènes et lymphocytes
-NK}\label{cellules-pruxe9sentatrices-dantiguxe8nes-et-lymphocytes-nk}}
+NK}\label{cellules-pruxe9sentatrices-dantiguxe8nes-et-lymphocytes-nk}
 
 Le calcitriol agit également sur les \ac{CPA}, concernant notamment les
 cellules dendritiques, macrophages et lymphocytes B, et les \ac{NK} en
@@ -1455,9 +1446,8 @@ traitement au calcitriol \autocite{Charoenngam.2020}. Cependant, le rôle
 inducteur ou inhibiteur du calcitriol est encore indéterminé par manque
 de données cohérentes.
 
-\hypertarget{fonction-endothuxe9liale-et-permuxe9abilituxe9-vasculaire}{%
 \subsubsection{Fonction endothéliale et perméabilité
-vasculaire}\label{fonction-endothuxe9liale-et-permuxe9abilituxe9-vasculaire}}
+vasculaire}\label{fonction-endothuxe9liale-et-permuxe9abilituxe9-vasculaire}
 
 De nombreuses études expérimentales ont démontré que la vitamine D et
 ses métabolites ont la capacité de moduler la fonction endothéliale et
@@ -1499,9 +1489,8 @@ anti-viraux. Ce mécanisme non-génomique permet à la vitamine D de
 moduler entre autre des réponses immunes anti-virales \autocites[
 ]{Hii.2016}{Chen.2013.IKKb}.
 
-\hypertarget{effets-de-la-vitamine-d-sur-limmunituxe9-adaptative}{%
 \subsection{Effets de la vitamine D sur l'immunité
-adaptative}\label{effets-de-la-vitamine-d-sur-limmunituxe9-adaptative}}
+adaptative}\label{effets-de-la-vitamine-d-sur-limmunituxe9-adaptative}
 
 La vitamine D joue un rôle essentiel dans la modulation des réponses
 immunitaires adaptatives, en particulier des lymphocytes T et B, qui
@@ -1514,8 +1503,7 @@ modulant leur fonctionnement et leur activation. La vitamine D est
 notamment importante comme élément régulateur entre les réponses
 immunitaires pro-inflammatoires et anti-inflammatoires.
 
-\hypertarget{lymphocytes-t}{%
-\subsubsection{Lymphocytes T}\label{lymphocytes-t}}
+\subsubsection{Lymphocytes T}\label{lymphocytes-t}
 
 Les lymphocytes T sont composés en plusieurs sous-groupes, nommés les
 lymphocytes T auxiliaires ou helpers \acs{Th} type
@@ -1573,7 +1561,7 @@ observé une uprégulation du VDR ainsi que de l'enzyme CYP27B1, qui
 reflète une réponse à une infection. L'administration d'une dose de
 vitamine D modifie un ratio bas de CD4/CD8 reflétant une activation
 immunitaire plus forte à un ratio plus élevé de CD4/CD8, impliquant une
-suppression immunitaire \autocite{Meza-Meza.2022}. Cependant le
+suppression immunitaire \autocite{Charoenngam.2020}. Cependant le
 mécanisme exact du calcitriol sur les lymphocytes T
 CD8\textsuperscript{+} reste encore indéterminé. Les effets du
 calcitriol sur la prolifération, différenciation et fonction seraient
@@ -1604,8 +1592,7 @@ lymphocytes T\textsubscript{reg} FoxP3\textsuperscript{+} ne semblent
 eux ne pas nécessiter la présence de vitamine D et du \ac{VDR} pour
 exercer leurs fonctions régulatrices \autocite{Cantorna.2010}.
 
-\hypertarget{lymphocytes-b}{%
-\subsubsection{Lymphocytes B}\label{lymphocytes-b}}
+\subsubsection{Lymphocytes B}\label{lymphocytes-b}
 
 Les lymphocytes B sont des cellules capables de produire des anticorps
 lorsqu'ils sont activés, sous la forme de plasmocytes. Ceux-ci ne
@@ -1628,7 +1615,9 @@ est intéressant de remarquer que les lymphocytes B expriment le
 
 \begin{figure}
 
-{\centering \includegraphics{figures/calcitriol-immunomodulatory.jpg}
+\centering{
+
+\includegraphics{figures/calcitriol-immunomodulatory.jpg}
 
 }
 
@@ -1645,11 +1634,10 @@ immunosuppressives comme les macrophages de type M2, les sous-types de
 lymphocytes Th\textsubscript{2} et T\textsubscript{reg} ou le phénotype
 tolérogénique des cellules dendritiques. \textcite{Meza-Meza.2022}}
 
-\end{figure}
+\end{figure}%
 
-\hypertarget{implications-de-la-vitamine-d-dans-la-ruxe9ponse-immunitaire-antivirale}{%
 \subsection{Implications de la vitamine D dans la réponse immunitaire
-antivirale}\label{implications-de-la-vitamine-d-dans-la-ruxe9ponse-immunitaire-antivirale}}
+antivirale}\label{implications-de-la-vitamine-d-dans-la-ruxe9ponse-immunitaire-antivirale}
 
 Les études démontrent globalement que la vitamine D augmente l'immunité
 antivirale et en particulier la réponse innée immune, et inhibe les
@@ -1718,9 +1706,8 @@ l'inhibition de l'autophagie par la voie de signalisation mTOR, et en
 stimulant le calcium intracellulaire et le \ac{NO} par le calcitriol
 afin d'augmenter l'activité de PI3KC3 \autocite{Bishop.2021}.
 
-\hypertarget{action-paracrine-et-intracrine}{%
 \subsection{Action paracrine et
-intracrine}\label{action-paracrine-et-intracrine}}
+intracrine}\label{action-paracrine-et-intracrine}
 
 {[}\emph{Peut-être une partie sur ce mécanisme ? Cela me semble
 important car la question de la dose minimale efficace pour les effets
@@ -1734,9 +1721,8 @@ and 150 nM. Ces valeurs ont été choisies pour représenter les conditions
 de carence en vitamine D, d'insuffisance en vitamine D et de suffisance
 en vitamine D, respectivement.
 
-\hypertarget{dose-de-vitamine-d-nuxe9cessaire-uxe0-limmunituxe9}{%
 \section{Dose de vitamine D nécessaire à
-l'immunité}\label{dose-de-vitamine-d-nuxe9cessaire-uxe0-limmunituxe9}}
+l'immunité}\label{dose-de-vitamine-d-nuxe9cessaire-uxe0-limmunituxe9}
 
 {[}\emph{Pourquoi est-ce que 4000 UI est une des doses minimales
 recommandées pour un effet immunitaire ? Pourquoi est-ce que le seuil de
@@ -1744,71 +1730,180 @@ recommandées pour un effet immunitaire ? Pourquoi est-ce que le seuil de
 
 \newpage{}
 
-\hypertarget{vitamine-d-et-covid-19}{%
-\chapter{Vitamine D et COVID-19}\label{vitamine-d-et-covid-19}}
+\chapter{Vitamine D et COVID-19}\label{vitamine-d-et-covid-19}
 
-\hypertarget{physiopathologie-de-la-covid-19}{%
-\section{Physiopathologie de la
-COVID-19}\label{physiopathologie-de-la-covid-19}}
+\section{Physiopathologie de la COVID-19 concernant le système
+immunitaire}\label{physiopathologie-de-la-covid-19-concernant-le-systuxe8me-immunitaire}
 
 \begin{itemize}
 \item
   La \ac{COVID-19} est causée par le virus \ac{SARS-CoV-2} qui est un
   virus à ARN simple brin enveloppé qui appartient à la famille des
   Coronaviridae. Le virus envahit l'organisme par le biais de la
-  protéine de pointe appelée spike protein. La protéine de pointe est
-  impliquée dans la liaison aux récepteurs de surface des cellules
+  protéine de pointe appelée spike protein (S). La protéine de pointe
+  est impliquée dans la liaison aux récepteurs de surface des cellules
   hôtes, notamment l'\ac{ACE2}, qui est notamment impliquée dans le
   \ac{SRAA}.
 \item
   Lorsque la réponse inflammatoire innée et adaptative ne devient plus
   protectrice mais devient exacerbée, associée à une réplication virale
   non controllée et des cellules infectée non éliminée, la réponse
-  immunitaire se perpétue et s'aggrave, entraînant un syndrome de
-  détresse respiratoire aiguë (SDRA) ou une coagulation intravasculaire
-  disséminée \autocite{Contreras-Bolívar.2023}.
+  immunitaire se perpétue et s'aggrave, entraînant un \ac{SDRA} ou une
+  \ac{CIVD} \autocite{Contreras-Bolívar.2023}.
 \end{itemize}
 
-\hypertarget{sec-statut-vd}{%
-\section{Statut en vitamine D, risque infectieux en général et COVID-19
-en particulier}\label{sec-statut-vd}}
+\subsection{Processus d'infection : entrée dans les cellules hôtes,
+réplication
+virale}\label{processus-dinfection-entruxe9e-dans-les-cellules-huxf4tes-ruxe9plication-virale}
 
-\hypertarget{rationnel-physiologique-de-lusage-de-la-vitamine-d-dans-la-covid-19}{%
-\section{Rationnel physiologique de l'usage de la vitamine D dans la
-COVID-19}\label{rationnel-physiologique-de-lusage-de-la-vitamine-d-dans-la-covid-19}}
+Le \ac{SARS-CoV-2} utilise sa protéine de pointe pour se fixer à la
+surface des cellules respiratoires humaines. Une fois attaché à
+\ac{ACE2}, le virus fusionne avec la membrane cellulaire, permettant
+ainsi son entrée dans la cellule. Une fois à l'intérieur de la cellule,
+le génome viral est libéré, et le virus commence à se répliquer en
+utilisant les ressources de la cellule hôte. La réplication virale
+aboutit à la production de nombreuses particules virales qui peuvent
+infecter d'autres cellules, propageant ainsi l'infection dans le tissu
+pulmonaire et au-delà.
+
+Après fusion des membranes virales et cellulaires, le SARS-CoV-2 pénètre
+et infecte les cellules épithéliales et les pneumocytes de type II. La
+liaison de la protéine S virale avec l'\ac{ACE2} entraîne la sécrétion
+de cytokines (TNF-α, IL-1, IL-6, chimiokines), ce qui provoque une
+hyperperméabilité́ capillaire ainsi que l'attraction d'\ac{IFN-1} et de
+cellules inflammatoires.
+
+\subsection{Réponse immunitaire innée et adaptative face à
+l'infection}\label{ruxe9ponse-immunitaire-innuxe9e-et-adaptative-face-uxe0-linfection}
+
+Lorsque le SARS-CoV-2 infecte les cellules respiratoires, il déclenche
+une série de réponses immunitaires impliquant d'abord des cellules
+immunitaires innées telles que les macrophages et les cellules
+dendritiques qui détectent la présence du virus. La réponse innée
+entraîne la production de cytokines pro-inflammatoires pour attirer
+davantage de cellules immunitaires sur le site de l'infection par le
+biais de chimiokines telles que l'IL-8 ou le MCP-1 qui attirent les
+neutrophiles, granulocytes et monocytes respectivement.
+
+Simultanément, le système immunitaire adaptatif est mobilisé. Les
+lymphocytes T cytotoxiques (CD8\textsuperscript{+}) identifient et
+détruisent les cellules infectées par le virus, limitant ainsi la
+propagation du \ac{SARS-CoV-2}. Les lymphocytes B produisent des
+anticorps spécifiques qui peuvent neutraliser le virus. Ensemble, ces
+deux composantes de la réponse immunitaire contribuent à contrôler
+l'infection.
+
+Cependant, dans certains cas, la réponse immunitaire peut devenir
+excessive, conduisant à une tempête de cytokines, ou orage cytokinique,
+qui provoque des dommages tissulaires et contribue à la sévérité de la
+maladie.
+
+\section{Rationnel du mécanisme physiologique de l'usage de la vitamine
+D dans la
+COVID-19}\label{rationnel-du-muxe9canisme-physiologique-de-lusage-de-la-vitamine-d-dans-la-covid-19}
+
+\subsection{Système Rénine Angiotensive
+Aldostérone}\label{systuxe8me-ruxe9nine-angiotensive-aldostuxe9rone}
 
 \begin{itemize}
 \item
-  Puisque la COVID-19 est caractérisée souvent par une hyperinflammation
-  non résolue (source), et que la majorité des personnes sont
-  déficientes en vitamine D (Section~\ref{sec-statut-vd}), la vitamine D
-  étant liée à la régulation de l'inflammation, il est logique de penser
-  que la vitamine D pourrait être utile dans la COVID-19 en renforçant
-  le système immunitaire contre l'infection virale, tout en permettant
+  Puisque la \ac{COVID-19} est caractérisée souvent par une
+  hyperinflammation non résolue (source), associé à une infection aiguë
+  des poumons, et que la majorité des personnes sont déficientes en
+  vitamine D (Section~\ref{sec-statut-vd}), la vitamine D étant liée à
+  la régulation de l'inflammation, et ayant possiblement des bénéfices
+  sur les infections pulmonaires, l'usage hypothétique de la vitamine D
+  pourrait être utile dans la \ac{COVID-19} en renforçant le système
+  immunitaire contre l'infection virale pulmonaire, tout en permettant
   au système immunitaire de pouvoir basculer du programme
-  d'hyperinflammation.
+  d'hyperinflammation vers un équilibre immunitaire plus tolérogène.
+\item
+  La physiopathologie de la COVID-19 repose entre autre sur le
+  déséquilibre du \ac{SRAA} causé par l'entrée du virus dans les
+  cellules ce qui provoque l'endocytose du récepteur-enzyme ACE2 et
+  inhibant ainsi ses fonctions.
 \item
   \textcite{Li.2002} ont établi une relation entre la rénine et le
-  système rénine-angiotensine-aldostérone. Ainsi la vitamine
-  D\textsubscript{3} sous sa forme active a été observée comme étant un
-  régulateur négatif de ce système permettant de réguler la pression
-  artérielle. En effet l'augmentation des niveaux de vitamine D diminue
-  l'expression de la rénine et les niveaux de rénine, ce qui entraîne
-  une régulation à la baisse du système \ac{SRAA} chez l'animal et
-  l'homme \autocite{Li.2004,Schwalfenberg.2007}. Puisque le \ac{SRAA}
-  est impliqué dans la COVID-19 aussi bien dans la régulation de
-  l'inflammation et du maintien du système cardiovasculaire que dans la
-  perturbation de ceux-ci par l'entrée du virus dans les cellules par le
-  biais de \ac{ACE2}, diminuant ainsi le fonctionnement du \ac{SRAA}, la
-  vitamine D pourrait avoir un effet bénéfique en agissant sur ce
-  système.
+  système rénine-angiotensine-aldostérone. La vitamine
+  D\textsubscript{3} a été observée comme étant un régulateur négatif du
+  \ac{SRAA}.
+
+  \begin{itemize}
+  \item
+    Li et al.~(2002) ont montré que les souris VDR-knockout présentaient
+    une activation élevée du SRAA, une hypertension artérielle et une
+    hypertrophie cardiaque, qui pouvaient être contrôlées par un
+    inhibiteur de l'enzyme de conversion de l'angiotensive (IEC). En
+    outre, les souris ayant reçu des injections de calcitriol ont montré
+    une suppression de l'expression de l'ARNm de la rénine.
+  \item
+    En effet l'augmentation des niveaux de vitamine D diminue
+    l'expression de la rénine et les niveaux de rénine, ce qui entraîne
+    une régulation à la baisse du système \ac{SRAA} chez l'animal et
+    l'homme \autocite{Li.2004,Schwalfenberg.2007}. Il peut induire
+    l'activité de l'axe anti-inflammatoire ACE2/Ang-(1-7)/MasR et
+    inhiber la rénine et l'axe pro-inflammatoire ACE/Ang II/AT1R,
+    augmentant ainsi l'expression et la concentration de l'ACE2, du MasR
+    et de l'Ang-(1-7). La voie médiée par \ac{ACE2} favorise une
+    diminution de l'apoptose, de la fibrose et de l'inflammation tandis
+    que la voie médiée par ACE et AT1 possède une action opposée.
+  \end{itemize}
+\item
+  Extrapolation :
+
+  \begin{itemize}
+  \item
+    Lin et al68 observed that calcitriol decreased ACE concentration and
+    ACE/ACE2 ratio and enhanced ACE2 concentration in diabetic rats.
+  \item
+    Accordingly, administration of the synthetic vitamin D analog,
+    paricalcitol, led to increased levels of ACE2 in tubular cells and
+    decreased levels of ACE2 within the circulation in an animal model
+    of type I diabetes, thereby slowing the development of diabetic
+    nephropathy.
+  \item
+    Le mécanisme du fonctionnement du SRAA et de l'action de la vitamine
+    D sur le SRAA est similaire entre les maladies.
+  \end{itemize}
+\item
+  Puisque le \ac{SRAA} est impliqué dans la COVID-19 aussi bien dans la
+  régulation de l'inflammation et du maintien du système
+  cardiovasculaire que dans la perturbation de ceux-ci par l'entrée du
+  virus dans les cellules par le biais de \ac{ACE2}, réduisant ainsi
+  l'expression de \ac{ACE2}, conduisant à des lésions pulmonaires et une
+  pneumonie, la vitamine D pourrait avoir un effet bénéfique en agissant
+  sur le \ac{SRAA}.
 \end{itemize}
 
 \autocite{Mahdavi.2020}
 
+\begin{itemize}
+\tightlist
+\item
+  \textcite{Shiravi.2022} : RAS pathway can also be down-regulated by VD
+  which may prevents the cardiovascular complications induced by
+  COVID-19.
+\end{itemize}
+
 \begin{figure}
 
-{\centering \includegraphics{figures/vd-amp.png}
+\centering{
+
+\includegraphics{figures/borsche-vd-ras.jpg}
+
+}
+
+\caption[Schéma du rôle du la vitamine D dans l'inhibtion du
+SRAA.]{\label{fig-vd-ras}\textbf{Schéma du rôle du la vitamine D dans
+l'inhibtion du SRAA.}}
+
+\end{figure}%
+
+\begin{figure}
+
+\centering{
+
+\includegraphics{figures/vd-amp.png}
 
 }
 
@@ -1816,7 +1911,48 @@ COVID-19}\label{rationnel-physiologique-de-lusage-de-la-vitamine-d-dans-la-covid
 SARS-CoV-2]{\label{fig-vd-amp}\textbf{Contribution de l'immunité induite
 par AMP sur le SARS-CoV-2} \autocite{White.2022}.}
 
-\end{figure}
+\end{figure}%
+
+\subsection{Mécanisme lié l'inhibition de
+l'hyperinflammation}\label{muxe9canisme-liuxe9-linhibition-de-lhyperinflammation}
+
+SARS-CoV-2, the viral cause of COVID-19, leads to lethal infection with
+multiple organ damages, particularly in the respiratory and
+cardiovascular tracts, through upregulation of the RAS pathway and
+inducing a cytokine storm.
+
+\subsection{Effet antioxydant}\label{effet-antioxydant}
+
+\begin{itemize}
+\tightlist
+\item
+  \textcite{Shiravi.2022} : VD also has antioxidant effects through
+  modulating the mitochondrial activities, upregulating of glutathione,
+  glutathione peroxidase and superoxide dismutase, and down-regulating
+  the NADPH oxidase.
+\end{itemize}
+
+\subsection{Mécanisme antiviral induit par la vitamine D contre la
+COVID-19}\label{muxe9canisme-antiviral-induit-par-la-vitamine-d-contre-la-covid-19}
+
+\begin{itemize}
+\item
+  En interagissant avec le VDR qui se trouve sur les cellules
+  immunitaires (cellules B, cellules T et cellules présentatrices
+  d'antigènes) et les cellules épithéliales pulmonaires, le complexe
+  calcitriol - VDR induit l'expression transcriptionnelle de peptides
+  anti-microbiens tels que les cathélicidines et les défensines. Les
+  cathélicidines servent à perturber les membranes cellulaires
+  bactériennes, ainsi que les virus enveloppés tels que le SRAS - CoV -
+  2, tandis que les défensines favorisent le chimiotactisme des cellules
+  inflammatoires par le biais d'une perméabilité capillaire accrue.
+  \autocite{Munshi.2021}
+\item
+  Vitamin D and its metabolites have immunomodulatory effects via the
+  development of the immune cells, anti-inflammatory effects, and
+  production of some anti-microbial molecules such as defensins and
+  cathelicidins \autocite{Shiravi.2022}.
+\end{itemize}
 
 Une étude menée par \textcite{Chauss.2022} examine les mécanismes
 moléculaires qui conduisent à la rétractation et à l'arrêt du phénotype
@@ -1833,14 +1969,69 @@ standard de pro-inflammation. \autocite{Chauss.2022}
 
 \textcite{Bishop.2021}
 
-\hypertarget{effets-des-interventions-thuxe9rapeutiques-dans-la-pruxe9vention-et-le}{%
+\section{Statut en vitamine D, épidémiologie du risque infectieux en
+général et COVID-19 en particulier}\label{sec-statut-vd}
+
+\begin{itemize}
+\tightlist
+\item
+  La majorité de la population possède un statut en vitamine D même
+  insuffisant pour des effets bénéfiques à visée osseuse (inférieur à 20
+  ng/mL). De plus, les personnes agées supérieurs à 70 ans qui sont à
+  plus fort risque de symptômes sévères sont souvent déficitaires en
+  vitamine D comparés aux personnes plus jeunes.
+\end{itemize}
+
+\section{Etudes observationnelles}\label{etudes-observationnelles}
+
+\begin{itemize}
+\item
+  \textcite{Munshi.2021} : Méta-analyse sur 5 études rétrospective et 1
+  étude de cas (2020). N = 376 patients. La déficience en vitamine D est
+  associé à des résultats et à un pronostic plus défavorables pour les
+  patients.
+\item
+  De nombreuses études associent un faible taux de vitamine D peut être
+  associé à un risque accru d'être hospitalisé, d'admission en soins
+  intensifs. Plusieurs études associent une déficience sévère
+  (\textless{} 5 ng/mL) à un risque accru de mortalité.
+\item
+  Il est intéressant de noter que certaines études n'associent de
+  relations entre la concentration en vitamine D et la sévérité des
+  symptômes, ainsi que la mortalité.
+\item
+  Les études écologiques rapportent que les pays avec un taux de
+  vitamine D plus élevé ont un taux de mortalité plus faible du
+  COVID-19, et la relation inverse est également observée avec les pays
+  les plus déficients en vitamine D (\textless{} 10 ng/mL) qui montrent
+  des taux d'infections et de mortalité plus élevés. Une analyse centrée
+  sur la distance des pays à l'équateur montre que les pays les plus
+  proches ont une mortalité plus faible comparativement aux pays les
+  plus éloignés.
+\item
+  Une méta-analyse de Pereira et al.~(2020) a observé que le statut en
+  vitamine D n'était pas associé au risque d'infection de la COVID-19
+  mais était associé à un risque accru de développer des symptômes
+  sévères en particulier dans la population âgée.
+\item
+  Une méta-analyse réussit à prédire la sévérité des patients en
+  fonction de leur concentration en calcidiol, en prenant en compte les
+  facteurs confondants \autocite{Munshi.2021}.
+\item
+  La plupart des études sont rétrospectives sur des données cliniques
+  observationnelles, il est difficile de montrer que la vitamine D a un
+  lien causal avec la sévérité de la maladie.
+\item
+  D'après \textcite{Contreras-Bolívar.2023}, l'ensemble des études
+  rapportent clairement qu'il existe une plus grande prévalence de
+  patients sévèrement déficients en vitamine D associé à une plus grande
+  sévérité de la maladie.
+\end{itemize}
+
 \section{Effets des interventions thérapeutiques dans la prévention et
-le}\label{effets-des-interventions-thuxe9rapeutiques-dans-la-pruxe9vention-et-le}}
+le}\label{effets-des-interventions-thuxe9rapeutiques-dans-la-pruxe9vention-et-le}
 
 traitement de la COVID-19
-
-\hypertarget{etudes-observationnelles}{%
-\subsection{Etudes observationnelles}\label{etudes-observationnelles}}
 
 \textcite{Bishop.2021}
 
@@ -1850,27 +2041,21 @@ haute mortalité.
 La norvège possède une plus basse mortalité et une plus grande
 consommation d'huile de foie de morue.
 
-\hypertarget{etudes-pruxe9-cliniques}{%
-\subsection{Etudes pré-cliniques}\label{etudes-pruxe9-cliniques}}
+\subsection{Etudes pré-cliniques}\label{etudes-pruxe9-cliniques}
 
 1.Qayyum, S., Slominski, R.M., Raman, C., and Slominski, A.T. (2022).
 Novel CYP11A1-Derived Vitamin D and Lumisterol Biometabolites for the
 Management of COVID-19. Nutrients \emph{14}, 4779. 10.3390/nu14224779.
 
-\hypertarget{etudes-cliniques}{%
-\subsection{Etudes cliniques}\label{etudes-cliniques}}
+\subsection{Etudes cliniques}\label{etudes-cliniques}
 
-\hypertarget{etude-en-phase-de-pruxe9vention}{%
 \subsubsection{Etude en phase de
-prévention}\label{etude-en-phase-de-pruxe9vention}}
+prévention}\label{etude-en-phase-de-pruxe9vention}
 
-\hypertarget{etudes-en-phase-curative}{%
-\subsubsection{Etudes en phase
-curative}\label{etudes-en-phase-curative}}
+\subsubsection{Etudes en phase curative}\label{etudes-en-phase-curative}
 
-\hypertarget{etudes-en-phase-ruxe9animation}{%
 \subsubsection{Etudes en phase
-réanimation}\label{etudes-en-phase-ruxe9animation}}
+réanimation}\label{etudes-en-phase-ruxe9animation}
 
 1.Leaf, D.E., Raed, A., Donnino, M.W., Ginde, A.A., and Waikar, S.S.
 (2014). Randomized Controlled Trial of Calcitriol in Severe Sepsis. Am J
@@ -1878,8 +2063,7 @@ Resp Crit Care \emph{190}, 533--541. 10.1164/rccm.201405-0988oc.
 
 \newpage{}
 
-\hypertarget{conclusion}{%
-\chapter{Conclusion}\label{conclusion}}
+\chapter{Conclusion}\label{conclusion}
 
 \newpage{}
 
