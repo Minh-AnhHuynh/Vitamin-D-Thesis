@@ -1,20 +1,38 @@
-# Read the file
-lines <- readLines("acronyms.tex")
+# Read the contents of your R script file
+librarian::shelf(dplyr, tidyr, stringr, magrittr, naturalsort)
+acronym_file <- read.delim("02-acronyms.qmd", header = FALSE)
+names(acronym_file) <- "code"
+acronym_file$row_id <- row.names(acronym_file)
 
-# Regular expression to match acronyms
-pattern <- "\\\\acro\\{(.+?)\\}\\[(.+?)\\]\\{(.+?)\\}"
+# Extract words from each line
+acronym_file %<>% mutate(
+  acronyms = str_replace(code, ".*\\\\acro\\{([^\\}]+)\\}.*", "\\1"),
+  acronym_exist = str_detect(code, "\\\\acro\\{([^\\}]+)\\}"),
+  acronyms_lower = tolower(acronyms)
+)
 
-# Parse and sort acronyms
-acronyms <- lapply(lines, function(x) {
-  matches <- regmatches(x, regexec(pattern, x))[[1]]
-  if(length(matches) > 0) list(matches[2], matches[3], matches[4]) else NULL
-})
-acronyms <- acronyms[!sapply(acronyms, is.null)]
-acronyms <- acronyms[order(sapply(acronyms, function(x) x[[1]]))]
+# Get the first row_id of acronym_exist == TRUE
+first_row_id <-
+  acronym_file$row_id[which(acronym_file$acronym_exist)[1]]
 
-# Write sorted acronyms back to the file
-writeLines("\\begin{acronym}", "sorted_acronym.tex")
-for(acronym in acronyms) {
-  writeLines(paste0("\\acro{", acronym[[1]], "} [", acronym[[2]], "] {", acronym[[3]], "}"), "sorted_acronym.tex")
-}
-writeLines("\\end{acronym}", "script/sorted_acronym.tex")
+# We need to use naturalorder to make with this syntax to make sure the acronyms
+# are sorted according to the index given by natural order, dplyr syntax with
+# mutate doesn't appear to work
+acronym_sorted <- acronym_file %>%
+  filter(acronym_exist) %>%
+  .[naturalsort::naturalorder(.$acronyms_lower), ] %>%
+  mutate(sort_order = seq(from = first_row_id, length.out = nrow(.)))
+
+final_df <-
+  bind_rows(acronym_sorted, acronym_file %>% filter(!acronym_exist)) %>%
+  select(-acronyms_lower)
+
+# Copy the row_id to sort_order for non-acronym lines
+final_df$sort_order[is.na(final_df$sort_order)] <-
+  final_df$row_id[is.na(final_df$sort_order)]
+
+# Sort by natural numeric order
+final_df <- final_df[naturalsort::naturalorder(final_df$sort_order), ]
+
+# Write the results of final_df$code to a file
+writeLines(final_df$code, "02-acronyms.qmd")
