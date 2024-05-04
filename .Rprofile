@@ -1,6 +1,6 @@
 if (!require("librarian")) install.packages("librarian")
 if(interactive()){
-  librarian::shelf(usethis, todor, gadenbuie/shrtcts)
+  librarian::shelf(usethis, todor, gadenbuie/shrtcts, miniUI)
 }
 
 if (interactive() && requireNamespace("shrtcts", quietly = TRUE)) {
