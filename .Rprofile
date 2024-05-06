@@ -1,8 +1,9 @@
 if (!require("librarian")) install.packages("librarian")
-if(interactive()){
-  librarian::shelf(usethis, todor, gadenbuie/shrtcts, miniUI)
-}
-
+if (!require("miniUI")) install.packages("miniUI")
+if (!require("styler")) install.packages("styler")
+if (!require("usethis")) install.packages("usethis")
+if (!require("todor")) install.packages("todor")
+if (!require("shrtcts")) remotes::install_github("gadenbuie/shrtcts")
 if (interactive() && requireNamespace("shrtcts", quietly = TRUE)) {
   shrtcts::add_rstudio_shortcuts(set_keyboard_shortcuts = TRUE)
 }
