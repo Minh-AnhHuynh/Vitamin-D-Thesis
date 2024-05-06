@@ -85,11 +85,10 @@ include-before-body:
 
 ```{r, setup, include=FALSE}
 source("script/sort_acronyms.R")
-
+sort_acronyms("02-acronyms.qmd")
 ```
 
 ```{r remerciements, child="01-remerciements.qmd"}
-
 ```
 
 \pagenumbering{gobble}
