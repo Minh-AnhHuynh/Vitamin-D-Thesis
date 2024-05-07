@@ -304,12 +304,35 @@ Données contradictoires avec d'autres études observationnelles et RCTs:
 
 ## Effets des interventions thérapeutiques dans la prévention et le traitement de la COVID-19
 
+<<<<<<< Updated upstream
 -   @Srivastava.2023 :
 
 @Bishop.2021
 
 Les pays et populations ayant un déficit en vitamine D ont une plus
 haute mortalité.
+=======
+- Rôle VD sur Immuno :
+
+Il est intéressant de noter la vitamine D a permise d'induire l'IL-6, qui possède dans ce cas un rôle immunomodulateur contrairement au rôle standard de pro-inflammation.
+[@Chauss.2022]
+> Acteurs IL-10, IL-6
+> Inhibiteur IFNY, NFKB
+> Uprégulation Cathelicidin LL-37, Défensine, antimicrobial peptide qui ont un pouvoir ANTIVIRAL
+@Stroehlein.2021
+> LL-37 inhibit entry 
+> VitD reduce ARDS
+> Reduce Th1 and increase Th2 and Treg
+
+
+@Bishop.2021
+
+- @Stroehlein.2021
+
+
+## Effets des interventions thérapeutiques dans la prévention et le 
+traitement de la COVID-19
+>>>>>>> Stashed changes
 
 La norvège possède une plus basse mortalité et une plus grande
 consommation d'huile de foie de morue.
