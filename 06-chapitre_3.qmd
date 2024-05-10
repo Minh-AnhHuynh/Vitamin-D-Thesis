@@ -67,6 +67,8 @@ cellules infectées par le virus, limitant ainsi la propagation du
 qui peuvent neutraliser le virus. Ensemble, ces deux composantes de la
 réponse immunitaire contribuent à contrôler l'infection.
 
+
+
 ## Rationnel du mécanisme physiologique de l'usage de la vitamine D dans la COVID-19
 
 @Borsche.2021: La vitamine D agit sur deux principaux évènements mettant
@@ -77,7 +79,7 @@ aldostérone :
 
 -   la vitamine D agit comme modulateur du \ac{SRAA} en diminuant la
     rénine et en augmentant ACE2
--   La diminue ATII et augmente Ang(1-7) ce qui favorise la voie MasR.
+-   La diminution de l'angiotensine II (ATII) et augmente Ang(1-7) ce qui favorise la voie MasR.
 
 Selon @Borsche.2021, il existe 5 mécanismes par lesquels la vitamine D
 supporte le système immunitaire :
@@ -91,6 +93,12 @@ supporte le système immunitaire :
     vasculaire
 -   Réduction des anomalies de la coagulabilité dans les patients
     COVID-19
+
+Selon @Pal.2022 : 3 mécanismes
+- Induction de LL-37 et de sa protection ; note sur la relation inverse entre LL-37 et IL-17, uprégulé lors du COVID
+- Diminution de la production de cytokines pro-inflammatoires (IL-6, TNF-a, IL-10+)
+- Action sur le SRAA
+
 
 ### Système Rénine Angiotensine Aldostérone
 
@@ -293,12 +301,13 @@ fig-scap="Taux de prévalence de l'insuffisance ou de la carence en vitamine D"}
 -   Les études écologiques rapportent également une différence de concentration de vitamine D entre les patients COVID-19 positifs et négatifs (10.8 nmol/L vs 20.8 nmol/L [@Baktash.2021]). En effet, il existe une corrélation positive entre l'incidence de COVID-19 et le taux de déficience en vitamine D (R = 0.36), la fatalité (R = 0.40) et de mortalité (R = 0.38). Le pourcentage médian de déficience de vitamine D est de 49%, indiquant que le 23ème pays parmi les 46 pays analysés, possède une déficience en vitamine D de 49% [@Mariani.2021]. Une étude d'un centre hospitalier rapporte que chez le groupe de patients considéré vitamine D déficient (< 12 ng/mL) contre non déficient (> 12 ng/mL), il existe une association entre la déficience de vitamine D et le risque de ventilation mécanique invasive et de mortalité (HR = 6.12 et 14.73 respectivement) [@Radujkovic.2020].
 
 Données contradictoires avec d'autres études observationnelles et RCTs:
+
 - @Hernández.2020 : 197 patients COVID-19 vs 197 contrôles, 25OHD = 13.8 ng/mL vs 20.9 ng/mL, mais pas d'associations avec la sévérité ou mortalité.
 - @Jevalikar.2021: 48.2 % des 410 patients ont un taux de vitamine D < 20 ng/mL, mais pas d'association avec la sévérité, mortalité, admission hospitalière, oxygénothérapie et pas de corrélation avec les marqueurs inflammatoires (IL-6, CRP).
 - @Cereda.2021 : La supplémentation moyenne > 1800 UI/jour ne donne pas de différence par rapport au groupe non supplémenté en terme d'hospitalisation.
--@Murai.2021 : [Pas d'article en libre accès] L'essai clinique ne recommande pas la supplémentation en vitamine D. Dose unique de 200 000 UI de vitamine D3 vs placebo, n = 120. Pas de différence significative en terme de durée d'hospitalisation, de mortalité, d'admission aux urgences ou de ventilation mécanique. [On peut noter une réduction de 50% de la nécessité de ventilation mécanique, P = 0.09].
+-@Murai.2021 : [Pas d'article en libre accès] L'essai clinique ne recommande pas la supplémentation en vitamine D. Dose unique de 200 000 UI de vitamine D3 vs placebo, n = 120. Pas de différence significative en terme de durée d'hospitalisation, de mortalité, d'admission aux urgences ou de ventilation mécanique. [On peut noter une réduction de 50% de la nécessité de ventilation mécanique ; de plus la vitamine D est donnée 10 jours après le début des symptômes].
 
-[Preuve extrapolée]:
+
 - @Wimalawansa.2021 : L'auteur se base sur un risque d'infection le plus bas observé pour déterminer un taux de 50 ng/mL, en se basant sur deux études prospectives observant l'association entre le taux de vitamine D et le risque d'infection nosocomiale, mortalité, et durée d'hospitalisation.
 
 
@@ -332,10 +341,15 @@ Il est intéressant de noter la vitamine D a permise d'induire l'IL-6, qui poss�
 
 ## Effets des interventions thérapeutiques dans la prévention et le 
 traitement de la COVID-19
->>>>>>> Stashed changes
 
-La norvège possède une plus basse mortalité et une plus grande
-consommation d'huile de foie de morue.
+Globalement, les méta-analyses rapportent une grande hétérogénéité des essais cliniques ce qui rend les informations moins précises, et plus difficiles à interpréter, notamment concernant le jour de la dose d'admission.
+
+Il existe cependant une part d'études rapportant des résultats contradictoires.
+@Pal.2022:
+"Toutefois, il convient de noter que la plupart de ces études n'ont pas rapporté d'estimations de risque ajustées pour les résultats cliniques après ajustement des facteurs de confusion potentiels"
+
+Malgré les quelques essais cliniques contradictoires, il existe une plus grande proportion de méta-analyses et d'études cliniques qui rapportent des effets bénéfiques de la vitamine D dans la prévention et le traitement de la COVID-19 [@Pal.2022].
+
 
 ### Etudes pré-cliniques
 
@@ -366,25 +380,29 @@ severity
 
 #### Etude en phase de prévention
 
--   @Sartini.2024: Méta-analyse sur la prévention par vitamine D
-    **avant** la présence de COVID-19
-    -   7 RCTs : 40% OR (high heterogeneity)
-        -   5 RCTs on healthcare workers (HCW) = 80% OR
-    -   Treatment vs non treatment: OR 0.177, 95% IC 0.104–0.301
-        -   The odds of the outcome occurring in the treatment group are
-            0.177 times (or 82.3% lower) the odds of the outcome
-            occurring in the non-treatment group.
-    -   2 RCT on non healthcare workers = échec =\> low vitD dosage
-        -   Oristrell : 3200 IU D3 vs 800 D3 ; 45 vs 55 (intervention vs
-            control) ; faible vitamine D
-        -   Brunvoll: 5 mL of cod liver oil = 400 IU D3/day, 227 vs 228,
-            faible vitamine D
+<!-- -   @Sartini.2024: Méta-analyse sur la prévention par vitamine D -->
+<!--     **avant** la présence de COVID-19 -->
+<!--     -   7 RCTs : 40% OR (high heterogeneity) -->
+<!--         -   5 RCTs on healthcare workers (HCW) = 80% OR -->
+<!--     -   Treatment vs non treatment: OR 0.177, 95% IC 0.104–0.301 -->
+<!--         -   The odds of the outcome occurring in the treatment group are -->
+<!--             0.177 times (or 82.3% lower) the odds of the outcome -->
+<!--             occurring in the non-treatment group. -->
+<!--     -   2 RCT on non healthcare workers = échec =\> low vitD dosage -->
+<!--         -   Oristrell : 3200 IU D3 vs 800 D3 ; 45 vs 55 (intervention vs -->
+<!--             control) ; faible vitamine D -->
+<!--         -   Brunvoll: 5 mL of cod liver oil = 400 IU D3/day, 227 vs 228, -->
+<!--             faible vitamine D -->
 -  @Borsche.2021: La méta-analyse suggère que la vitamine D confère une réduction de l'infection, à une concentration débutant à partir de 30 ng/mL, optimale à 55 ng/mL.
 
 #### Etudes en phase curative
 
+@Rastogi.2022 : SHADE study: RCT, 40 patients, 60 000 UI de vitamine D3 vs placebo, 1 dose, 7 jours. Objectif > 50 ng/mL. n = 16 vitD vs n = 24. Résultats: 10 patients vs 5 contrôles sont RNA négatif. Fibrinogène faiblement diminué.
+
+Méta-analyse: @Pal.2022 : Les auteurs rapportent que la vitamine D est efficace pour améliorer les résultats cliniques, et en particulier lorsque la vitamine D est utilisée après l'infection.
+
 #### Etudes en phase réanimation
 
-1.Leaf, D.E., Raed, A., Donnino, M.W., Ginde, A.A., and Waikar, S.S.
-(2014). Randomized Controlled Trial of Calcitriol in Severe Sepsis. Am J
-Resp Crit Care *190*, 533--541. 10.1164/rccm.201405-0988oc.
+@Leaf.2014: L'administration de calcitriol n'a pas augmenté les taux plasmatiques de protéine cathélicidine chez les patients gravement malades atteints de sepsis et a eu des effets mitigés sur d'autres marqueurs immunomodulateurs. D'autres essais de phase II portant sur la dose et le moment de l'administration du calcitriol en tant qu'agent thérapeutique dans des phénotypes de sepsis spécifiques pourraient être justifiés.
+
+
