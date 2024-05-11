@@ -1,3 +1,4 @@
+.First.sys()
 if (!require("librarian")) install.packages("librarian")
 if (!require("miniUI")) install.packages("miniUI")
 if (!require("styler")) install.packages("styler")
