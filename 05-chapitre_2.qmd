@@ -498,24 +498,29 @@ afin d'augmenter l'activité de PI3KC3 [@Bishop.2021].
 
 <!-- - La vitamine D induit également le peptide antimicrobien HBD2 [*Je ne sais pas s'il est utile d'en parler. Oui pour le reste car je compte utiliser en parti ces informations pour expliquer l'action de la vitamine D dans la physiopathologie du COVID-19*] -->
 
-### Action paracrine et intracrine
+### Action paracrine, intracrine et autocrine
 
-\[*Peut-être une partie sur ce mécanisme ? Cela me semble important car
-la question de la dose minimale efficace pour les effets du calcitriol
-sur le système immunitaire dépend de cette concentration locale à effet
-paracrine qui ne peut être mesurée uniquement dans une recherche in
-vitro, alors que la dose typiquement mesurée chez la population
-constitue le calcidiol sanguin*\]
 
-Dose utilisée dans l'essai in vitro de @Hewison.2007 de 5, 50 and 150
-nM. Ces valeurs ont été choisies pour représenter les conditions de
-carence en vitamine D, d'insuffisance en vitamine D et de suffisance en
-vitamine D, respectivement.
+@Hewison.2007 investigue l'idée d'un mécanisme extra-rénal de 25-hydroxyvitamineD-1α-hydroxylase rapporté dans la littérature. L'essai in vitro utilise une dose de 5, 50 and 150 nM, pour
+représenter les conditions de carence en vitamine D, d'insuffisance en vitamine
+D et de suffisance en vitamine D, respectivement. L'essai montre que l'accumulation de calcitriol dans les cellules dendritiques et macrophages est due à l'activité de l'enzyme 1α-hydroxylase.
+
+@Chun.2010 a montré que la concentration de calcitriol dans les
+monocytes était de 10-100 fois plus élevée que dans le plasma, ce qui
+suggère que la concentration locale de calcitriol est beaucoup plus
+élevée que la concentration plasmatique. Cela suggère que la vitamine D
+peut agir de manière intracrine, c'est-à-dire qu'elle peut être produite
+et agir localement dans les cellules immunitaires.
+
+Similairement, l'essai *in vitro* de @Adams.2009 montre que le calcidiol est nécessaire pour produire la cathélicidine et qu'elle est dépendante de l'expression du CYP27B1 du macrophage, bien qu'à haute concentration le calcidiol peut stimuler la production de cathélicidine sans passer par l'activation des macrophages via le TLR. De plus, l'expression de cathélicidine est fortement diminuée lorsque la concentration de vitamine D administrée est inférieure à 30 ng/mL. De plus, les auteurs ont observé une absence de corrélation entre les niveaux de cathélicidine plasmatique et les niveaux de calcidiol plasmatique, ainsi que la concentration de cathélicidine leucocytaire et la concentration plasmatique de calcidiol, ce qui suggère que l'effet de la vitamine D sur la synthèse de la cathélicidine par les cellules immunes est due non pas à la présence de calcidiol plasmatique mais bien à l'effet local autocrine des cellules immunes. 
+
+@Chauss.2022 ont investigué l'effet autocrine de la vitamine D sur des lymphocytes T CD4^+^. L'administration de calcitriol actif ou calcidiol conduit aux cellules à réprimer l'\ac{ifng} et augmenter la synthèse d'IL-10, indiquant que les cellules ont acquises la capacité de métaboliser et de répondre aux métabolites de la vitamine D. Inversement, lors du KO d'un des gènes concernant la vitamine D tel que *CTSL*, *VDR* ou *CYP27B1*, une réduction nette en IL-10 est observée. Dans l'ensemble les résultats indiquent l'effet d'un mécanisme intracellulaire autocrine/paracrine de la vitamine D. Des résultats similaires ont été retrouvé par @Adams.2009 par le KO du *VDR* et *CYP27B1* et l'expression de la cathélicidine diminuée.
 
 <!-- ![**Mécanismes des réponses immunitaires innées et adaptatives à la vitamine D.** [@Prietl.2013]](figures/meca-intracrine.jpg){fig-scap="Mécanismes des réponses immunitaires innées et adaptatives à la vitamine D."} -->
 
+
 ## Dose de vitamine D nécessaire à l'immunité
 
-\[*Pourquoi est-ce que 4000 UI est une des doses minimales recommandées
-pour un effet immunitaire ? Pourquoi est-ce que le seuil de "40 ng/mL"
-est important pour cet effet suffisant ?*\]
+<!-- \[*Pourquoi est-ce que 4000 UI est une des doses minimales recommandées -->
+<!-- pour un effet immunitaire ? Pourquoi est-ce que le seuil de "40 ng/mL" -->
+<!-- est important pour cet effet suffisant ?*\] -->
