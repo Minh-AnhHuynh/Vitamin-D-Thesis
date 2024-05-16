@@ -58,10 +58,11 @@
 \acro{SRAA}{système rénine angiotensine aldostérone}
 \acro{TCR}{T cell receptor}
 \acro{Th}[T helpers]{lymphocytes T helpers}
-\acro{Th1}[T~h1~]{CD4+ type 1 helper T cells}
+\acro{Th1}[Th1]{CD4+ type 1 helper T cells}
 \acro{TLR}{toll-like receptor}
 \acro{Tmax}[T\textsubscript{max}]{Temps pour laquelle la C\textsubscript{max} est atteinte}
 \acro{tnfa}[TNF-\ensuremath{\mupalpha}]{tumor necrosis factor alpha}
+\acro{TSA}{trial sequencing analysis}
 \acro{UI}{unité internationale}
 \acro{UL}{upper limit}
 \acro{VDR}{vitamin D receptor}

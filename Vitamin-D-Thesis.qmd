@@ -46,6 +46,7 @@ header-includes:
 - \usepackage[authordate,backend=biber, doi=false, isbn=false]{biblatex-chicago} # Use if biblatex
 - \usepackage[french]{babel} # Citation adds "Author ET author"
 - \usepackage{bookmark} # To add toc to pdf bookmarks
+- \setcounter{tocdepth}{4} # Set toc depth to 4 (some sections don't show in toc)
 - \unimathsetup{math-style=french} # {unicode-math} is already loaded, so we choose maths-style=french to have upright greek letters. Use \mupalpha to get alpha.
 # - \usepackage[math-style=french]{unicode-math} will not work and somehow conflict with the acronym package
 # - \usepackage{upgreek} # alternatively upgreek can be used, \upalpha
