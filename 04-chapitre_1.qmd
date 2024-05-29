@@ -618,7 +618,7 @@ moindre lorsque la concentration initiale de vitamine D est plus élevée
 
 ### Catabolisme et demi-vie
 
-Le catabolisme de la vitamine D passe principalement par le \ac{CYP24A1} et est exprimé universellement dans les cellules contenant le \ac{VDR} régulant ainsi la stimulation du calcitriol sur l'expression des gènes par son catabolisme. Elle est induite lorsque la concentration de vitamine D devient élevée (> 220 nM ou 88 ng/mL). Elle convertit ainsi le calcidiol et le calcitriol en substances intermédiaires qui seront ensuite converti en acide calcitroïque où il sera éliminé par excrétion biliaire [@Schoenmakers.2018].
+Le catabolisme de la vitamine D passe principalement par le \ac{CYP24A1} et est exprimé universellement dans les cellules contenant le \ac{VDR} régulant ainsi la stimulation du calcitriol sur l'expression des gènes par son catabolisme. Elle est induite lorsque la concentration de vitamine D devient élevée (> 220 nM ou 88 ng/mL). Elle convertit ainsi le calcidiol et le calcitriol en substances intermédiaires qui seront ensuite converti en acide calcitroïque où il sera éliminé par excrétion biliaire [@Schoenmakers.2018; @Prosser.2004].
 
 La demi-vie du cholécalciférol est de 24 heures, et celle du calcidiol
 de 10 à 40 jours, tandis que, comparativement, le calcitriol possède une
