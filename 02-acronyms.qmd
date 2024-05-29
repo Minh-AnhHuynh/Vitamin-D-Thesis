@@ -2,10 +2,10 @@
 <!-- Automatic sorting by sourcing script/sort_acronyms.R -->
 ```{=tex}
 \begin{acronym}
-\acro{1,24,25(OH)3D3}[1,24,25(OH)\textsubscript{3}D\textsubscript{3}]{1,24(R),25‐trihydroxycholecalciferol\acroextra{ (acide calcitroïque)}}
+\acro{1,24,25(OH)3D3}[1,24,25(OH)\textsubscript{3}D\textsubscript{3}]{1,24,25‐trihydroxycholécalciférol}
 \acro{1,25(OH)2D3}[1,25(OH)\textsubscript{2}D\textsubscript{3}]{1,25-dihydroxycholécalciférol\acroextra{ (calcitriol)}}
 \acro{7-DHC}{7-déhydrocholestérol}
-\acro{24,25(OH)3D3}[24,25(OH)\textsubscript{3}D\textsubscript{3}]{24,25-dihydroxycholécalciférol}
+\acro{24,25(OH)2D3}[24,25(OH)\textsubscript{2}D\textsubscript{3}]{24,25-dihydroxycholécalciférol}
 \acro{25(OH)D3}[25(OH)D\textsubscript{3}]{25-hydroxycholécalciferol\acroextra{ (calcidiol ou calcifédiol)}}
 \acro{ACE2}{enzyme de conversion de l'angiotensine 2}
 \acro{ADN}{acide désoxyribonucléique}
@@ -58,10 +58,13 @@
 \acro{SRAA}{système rénine angiotensine aldostérone}
 \acro{TCR}{T cell receptor}
 \acro{Th}[T helpers]{lymphocytes T helpers}
-\acro{Th1}[Th1]{CD4+ type 1 helper T cells}
+\acro{Th1}[Th1]{CD4\textsuperscript{+} type 1 helper T cells}
+\acro{Th2}[Th2]{CD4\textsuperscript{+} type 2 helper T cells}
+\acro{Th2}[Th2]{CD4\textsuperscript{+} type 17 helper T cells}
 \acro{TLR}{toll-like receptor}
 \acro{Tmax}[T\textsubscript{max}]{temps auquel la C\textsubscript{max} est atteinte}
-\acro{tnfa}[TNF-\ensuremath{\mupalpha}]{tumor necrosis factor alpha}
+\acro{tnfa}[TNF-\mupalpha]{tumor necrosis factor alpha}
+\acro{Treg}[T\textsubscript{reg}]{lymphocytes T régulateurs}
 \acro{TSA}{trial sequencing analysis}
 \acro{UI}{unité internationale}
 \acro{VDR}{vitamin D receptor}
