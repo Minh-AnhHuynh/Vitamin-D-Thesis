@@ -51,6 +51,7 @@ header-includes:
 # - \usepackage[math-style=french]{unicode-math} will not work and somehow conflict with the acronym package
 # - \usepackage{upgreek} # alternatively upgreek can be used, \upalpha
 - \usepackage{acronym} # Needs suffix and e-TeX
+- \usepackage{amsmath} # Better handling of sub/superscript for chemical formula
 # Use the following to make mixed case acronyms
 # See: https://tex.stackexchange.com/a/70894/284278
 - \usepackage{etoolbox}
@@ -67,7 +68,8 @@ header-includes:
 - \usepackage{subcaption} # To crossref subcaptions and subfigures
 - \usepackage[capitalise, noabbrev, nameinlink]{cleveref} # Allows \cref{} to cite latex table as "Table 3"
 # Specify which cross-reference should automatically be bolded : Tables and Figures
-# Use \cref{} ; For some reason this only works with this exact disposition :
+# Use \cref{} instead of \ref (only gives the number) or @fig (doesn't give hyperlink on "Figure" text)
+# For some reason this only works with this exact disposition :
 # Only #1, nameinlink and each of the reference specified. namelink + #1#2#3 would give an error.
 - \crefdefaultlabelformat{#2\textbf{#1}#3} # <-- Only #1 in \textbf
 - \crefformat{subfigure}{#2\textbf{#1}#3}
@@ -149,16 +151,16 @@ sort_acronyms("02-acronyms.qmd")
 ```{r conclusion, child="07-conclusion.qmd"}
 
 ```
+
 {{< pagebreak >}}
 
+```{=tex}
 \hypertarget{Bibliographie}{%
 \chapter*{\centering Bibliographie}\label{Bibliographie}}
 \addcontentsline{toc}{chapter}{Bibliographie}
 \singlespace
-
-
+```
 ::: {#refs}
 :::
 
 <!-- <!-- \pdfbookmark[0]{Bibliographie}{bibliography} -->
-

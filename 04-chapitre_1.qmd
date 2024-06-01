@@ -80,9 +80,9 @@ possède trois groupes hydroxyles [@Norman.2008; @Dankers.2017].
 
 Enfin, les dérivés de la vitamine D peuvent subir une hydroxylation par
 la 24-hydroxylase ou \acsu{CYP24A1} mitochondriale. Ceci conduit à
-partir du calcitriol au \acsu{1,24,25(OH)2D3}.
+partir du calcitriol au \acsu{1,24,25(OH)3D3}.
 Cette enzyme peut également hydroxyler le calcidiol pour donner de la
-\ac{24,25(OH)3D3}. Ces réactions permettent de diminuer les quantités de
+\ac{24,25(OH)2D3}. Ces réactions permettent de diminuer les quantités de
 calcidiol et calcitriol disponibles dans le sang en les convertissant par la suite en acide calcitroïque où ils sont adressés au foie pour l'excrétion biliaire [@Prosser.2004] ; la 24-hydroxylase sert ainsi au catabolisme de la vitamine D [@Norman.2008] (\Cref{fig-vitd-metabolism}). La quantité de calcitriol est donc
 déterminée par un équilibre entre les enzymes \ac{CYP27B1} et
 \ac{CYP24A1} [@Dankers.2017].
@@ -216,22 +216,31 @@ Une carence en vitamine D est associée à un risque accru d'ostéomalacie
 (une affection qui entraîne une diminution de la masse osseuse) et
 d'ostéoporose (une affection caractérisée par une fragilité des os).
 
-L'action de la vitamine D est médiée par la liaison du calcitriol au
-récepteur \ac{VDR} [@Norman.2008; @Dankers.2017]. La vitamine D agit
-directement sur le renouvellement osseux mais joue également un rôle
-dans l'homéostasie du calcium. Cette dernière dépend de l’absorption du
+L'action de la vitamine D est médiée par la liaison du calcitriol au récepteur
+\ac{VDR}. En effet, le \ac{VDR} est un récepteur nucléaire agissant comme un
+facteur de transcription. Le calcitriol rentre dans la cellule cible et se lie
+au \ac{VDR}, induisant un changement conformationnel et permettant de se lier à
+un autre récepteur \ac{RXR}, créant l'hétérodimère \ac{VDR}-\ac{RXR}. Ce
+complexe reconnaît une séquence génétique spécifique appelée \ac{VDRE}, où
+l'hétérodimère \ac{VDR}-\ac{RXR} et module ainsi l'expression des facteurs de
+transcription [@Dankers.2017; @Pike.2010; @Valdivielso.2009].
+
+
+La vitamine D agit directement sur le renouvellement osseux mais joue également
+un rôle dans l'homéostasie du calcium. Cette dernière dépend de l’absorption du
 calcium dans l’intestin, de sa réabsorption dans le rein et de sa
-fixation/libération dans l’os. Le calcium est absorbé grâce à des
-transporteurs transcellulaires (actifs) et par diffusion paracellulaire
-(passive), sous le contrôle du calcitriol. Celui-ci est considéré comme
-le principal facteur régulateur de l’absorption intestinal de calcium.
-Lorsque les flux de calcium sont déséquilibrés, les os servent de
-réservoir de calcium afin de maintenir l’équilibre calcique. La
-réabsorption du calcium par le rein est contrôlée dans le tubule
-contourné distal par l’action du calcitriol sur le \ac{VDR}
-[@Carmeliet.2015]. Ainsi, la vitamine D joue un rôle crucial dans
-l’absorption intestinale du calcium et du phosphore, assurant ainsi
-l’homéostasie du calcium et du phosphore dans l’organisme.
+fixation/libération dans l’os. Le calcium est absorbé grâce à des transporteurs
+transcellulaires (actifs) et par diffusion paracellulaire (passive), sous le
+contrôle du calcitriol. Celui-ci est considéré comme le principal facteur
+régulateur de l’absorption intestinal de calcium. Lorsque les flux de calcium
+sont déséquilibrés, les os servent de réservoir de calcium afin de maintenir
+l’équilibre calcique. La réabsorption du calcium par le rein est contrôlée dans
+le tubule contourné distal par l’action du calcitriol sur le \ac{VDR}
+[@Carmeliet.2015]. Ainsi, la vitamine D joue un rôle crucial dans l’absorption
+intestinale du calcium et du phosphore, assurant ainsi l’homéostasie du calcium
+et du phosphore dans l’organisme. Cependant, un certain nombre des
+manifestations de la carence en vitamine D ne sont pas totalement superposables
+à celles de l’invalidation du \ac{VDR}.
 
 De plus, la liaison du calcitriol sur le VDR situé dans les ostéoblastes
 entraîne une augmentation de la minéralisation osseuse et donc de la
@@ -340,7 +349,7 @@ augmente la concentration de calcidiol de 1.3 ng/100 UI par jour
 ### Dose recommandée journalière
 
 Actuellement, l'Académie américaine de médecine (anciennement Institute
-of Medecine, \acsu{IOM}) est responsable des recommandations émises par
+of Medicine, \acsu{IOM}) est responsable des recommandations émises par
 la \ac{FDA}, l'équivalent de l'\ac{ANSM} en France. L'\ac{AJR} pour la
 vitamine D est de 600 UI par jour tous sexes confondus de 1 à 70 ans, et
 reste le même en cas de grossesse ou d'allaitement [@IOM.2011].
@@ -553,12 +562,14 @@ musculaire (rouge ou blanche). La concentration de calcidiol varie entre
 [@Schoenmakers.2018]. La vitamine D étant une molécule liposoluble et se
 distribuant abondamment dans les tissus adipeux, il est possible de
 considérer que ce compartiment de distribution ait un impact sur la
-pharmacocinétique de la vitamine D. Des données récentes suggèrent que
+pharmacocinétique de la vitamine D; le tissu adipeux fonctionnerait comme un lieu de stockage et libèrerait de la vitamine D sur le long terme dans la circulation sanguine. 
+
+Des données récentes suggèrent que
 la perte de poids n'influence pas le statut en vitamine D. De plus, il
 n'est pas certain que la mobilisation de la vitamine D et du calcidiol
 repose sur la diffusion de la forme libre ou liée, ou qu'elle soit
 régulée, et l'impact de la masse adipeuse sur la pharmacocinétique de la
-vitamine D est encore inconnu [@Schoenmakers.2018].
+vitamine D est encore méconnu [@Schoenmakers.2018].
 
 Cependant il est connu que la dose nécessaire de vitamine D à
 administrer pour atteindre le seuil thérapeutique doit augmenter lorsque
@@ -618,7 +629,7 @@ moindre lorsque la concentration initiale de vitamine D est plus élevée
 
 ### Catabolisme et demi-vie
 
-Le catabolisme de la vitamine D passe principalement par le \ac{CYP24A1} et est exprimé universellement dans les cellules contenant le \ac{VDR} régulant ainsi la stimulation du calcitriol sur l'expression des gènes par son catabolisme. Elle est induite lorsque la concentration de vitamine D devient élevée (> 220 nM ou 88 ng/mL). Elle convertit ainsi le calcidiol et le calcitriol en substances intermédiaires qui seront ensuite converti en acide calcitroïque où il sera éliminé par excrétion biliaire [@Schoenmakers.2018; @Prosser.2004].
+Le catabolisme de la vitamine D passe principalement par le \ac{CYP24A1} et est exprimé universellement dans les cellules contenant le \ac{VDR} régulant ainsi la stimulation du calcitriol sur l'expression des gènes par son catabolisme. Elle est induite lorsque la concentration de vitamine D devient élevée (> 220 nM ou 88 ng/mL). Elle convertit ainsi le calcidiol et le calcitriol en métabolites intermédiaires qui seront ensuite converti en acide calcitroïque par la \ac{CYP24A1} où il sera éliminé par excrétion biliaire [@Schoenmakers.2018; @Prosser.2004].
 
 La demi-vie du cholécalciférol est de 24 heures, et celle du calcidiol
 de 10 à 40 jours, tandis que, comparativement, le calcitriol possède une

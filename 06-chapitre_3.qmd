@@ -27,7 +27,6 @@ bibliography: references.bib
     est impliquée dans la liaison aux récepteurs de surface des cellules
     hôtes, notamment l'\ac{ACE2}, qui est notamment impliquée dans le
     \ac{SRAA}.
-    
 
 -   Lorsque la réponse inflammatoire innée et adaptative ne devient plus
     protectrice mais devient exacerbée, associée à une réplication
@@ -54,7 +53,9 @@ de cytokines (TNF-α, IL-1, IL-6, chimiokines), ce qui provoque une
 hyperperméabilité́ capillaire ainsi que l’attraction d’\ac{IFN-1} et de
 cellules inflammatoires.
 
-L'infection par le SARS-CoV-2 downrégule l'activité ACE2 ce qui cause une accumulation de Ang II qui peut causer des conséquences de la suractivation du SRAA (**@fig-sraa-covid19**) [@Mahdavi.2020].
+L'infection par le SARS-CoV-2 downrégule l'activité ACE2 ce qui cause
+une accumulation de Ang II qui peut causer des conséquences de la
+suractivation du SRAA (\Cref{fig-sraa-covid19}) [@Mahdavi.2020].
 
 ### Réponse immunitaire innée et adaptative face à l'infection
 
@@ -127,7 +128,7 @@ lymphocytes T régulateurs, des monocytes et des cellules dendritiques à
 phénotype tolérogènes, et est un fort inducteur de la cathélicidine
 hCAP18, précurseur du LL-37 qui a des propriétés anti-infectieuses et en
 particulier dans la COVID-19 en empêchant l'entrée du virus dans la
-cellule. [@Cutuli.2024; @Keutmann.2022]
+cellule en se liant à la protéine Spike. [@Cutuli.2024; @Keutmann.2022; @Ødum.2023]
 
 ## Rationnel du mécanisme physiologique de l'usage de la vitamine D dans la COVID-19
 
@@ -171,13 +172,13 @@ Selon @Pal.2022 : 3 mécanismes supportant l'action de la vitamine D
     afin de réguler diverses fonctions physiologiques telles que la
     pression artérielle, l'inflammation, la fibrose, la prolifération
     cellulaire, la régénération tissulaire, et la réponse immunitaire
-    **(@fig-ace2-masR)** [@Brojakowska.2020].
+    (\Cref{fig-ace2-masR}) [@Brojakowska.2020].
 
 -   Il a été observé que le calcitriol diminue le ratio ACE/ACE2,
     diminuant la uprégulation de ACE et la downrégulation de ACE2 dans
-    chez les rats diabétiques, réprime le récepteur AT1 de l'Ang II et ACE, et
-    réduit la formation de Ang II, tout en augmentant l'expression des
-    éléments ACE2, Ang(1-7), MasR [@Mahdavi.2020].
+    chez les rats diabétiques, réprime le récepteur AT1 de l'Ang II et
+    ACE, et réduit la formation de Ang II, tout en augmentant
+    l'expression des éléments ACE2, Ang(1-7), MasR [@Mahdavi.2020].
 
 -   De plus, ACE2 n'est pas seulement le récepteur d'entrée du
     SARS-CoV-2 mais joue également un rôle dans la régulation immune en
@@ -186,21 +187,23 @@ Selon @Pal.2022 : 3 mécanismes supportant l'action de la vitamine D
     TMPRSS2 qui modulent des cytokines pro-inflammatoires.
 
 -   De plus, la bradykinine, régulée par ACE, est impliquée dans les
-processus perturbés par la COVID-19. ACE est responsable de la dégradation de la
-bradykinine, qui est impliquée dans le système bradykinine, régulant la pression
-artérielle, induisant la vasodilatation, natriurèse et hypotension
-**(@fig-ace2-masR)**. La bradykinine serait également impliqué lors de
-l'inflammation car elle induit le recrutement des neutrophiles et une
-augmentation de la perméabilité vasculaire. L'analyse computationnelle de
-l'expression des gènes des fluides de lavages bronchoalvéolaires de @Garvin.2020
-révèle une "tempête bradykinique", où l'expression de bradykinine chez les
-patients COVID-19 est en surreprésentation par rapport aux patients contrôles.
-De plus, l'expression de ACE2 est également surreprésentée chez les patients
-COVID-19, ce qui implique une régulation négative de ACE par ACE2, conduisant à
-une augmentation de la bradykinine. L'augmentation de bradykinine induit une
-vasodilatation et une perméabilité vasculaire. La tempête bradykinique explique
-la plupart de la symptomatologie de la COVID-19 [@Garvin.2020].
-
+    processus perturbés par la COVID-19. ACE est responsable de la
+    dégradation de la bradykinine, qui est impliquée dans le système
+    bradykinine, régulant la pression artérielle, induisant la
+    vasodilatation, natriurèse et hypotension (\Cref{fig-ace2-masR}). La
+    bradykinine serait également impliqué lors de l'inflammation car
+    elle induit le recrutement des neutrophiles et une augmentation de
+    la perméabilité vasculaire. L'analyse computationnelle de
+    l'expression des gènes des fluides de lavages bronchoalvéolaires de
+    @Garvin.2020 révèle une "tempête bradykinique", où l'expression de
+    bradykinine chez les patients COVID-19 est en surreprésentation par
+    rapport aux patients contrôles. De plus, l'expression de ACE2 est
+    également surreprésentée chez les patients COVID-19, ce qui implique
+    une régulation négative de ACE par ACE2, conduisant à une
+    augmentation de la bradykinine. L'augmentation de bradykinine induit
+    une vasodilatation et une perméabilité vasculaire. La tempête
+    bradykinique explique la plupart de la symptomatologie de la
+    COVID-19 [@Garvin.2020].
 
 ![**Régulation du SRAA et de l'axe ACE2/Ang-1-7/MasR
 [@Brojakowska.2020].**](figures/Brojakowska-RAS-ACE2-Regulation.jpg){#fig-ace2-masR
@@ -229,15 +232,17 @@ exacerbant l'inflammation et une tempête cytokinique.
 #### Mécanisme impliquant l'immunité innée
 
 -   Le calcitriol, par l'induction de LL-37, peut réduire la NETose des
-    neutrophiles et inhiber la liaison entre le SARS-CoV-2 et ACE2. Le calcitriol peut atténuer le TLR2 qui reconnaît le SARS-CoV-2 et
+    neutrophiles et inhiber la liaison entre le SARS-CoV-2 et ACE2. Le
+    calcitriol peut atténuer le TLR2 qui reconnaît le SARS-CoV-2 et
     engendre une cascade inflammatoire, inhiber la voie subséquente de
-    \ac{nfkb} et l'inflammasome NLRP3. Le calcitriol favorise l'autophagie par le biais de LL-37, qui est
-    un mécanisme de défense contre les infections virales et peut
-    inhiber la réplication virale [@Gotelli.2022].
+    \ac{nfkb} et l'inflammasome NLRP3. Le calcitriol favorise
+    l'autophagie par le biais de LL-37, qui est un mécanisme de défense
+    contre les infections virales et peut inhiber la réplication virale
+    [@Gotelli.2022].
+
 -   De plus, LL-37 est inversement corrélé aux niveaux de IL-17, qui est
     impliqué dans des risques de thrombose et de \ac{SDRA} [@Pal.2022].
 
-    
 -   Action potentielle par le biais du DBP recrutant des neutrophiles et
     activant le complément C5a, induisant une inflammation systémique ;
     la présence de vitamine D entre en compétition avec le DBP sur le
@@ -252,47 +257,52 @@ exacerbant l'inflammation et une tempête cytokinique.
     plasmocytes sécréteurs d'IgA [@Gotelli.2022 ; @Chauss.2022]
 
 Une étude menée par @Chauss.2022 examine les mécanismes moléculaires qui
-conduisent à la rétractation et à l'arrêt du phénotype \ac{Th1}.
-Les analyses issues du single cell RNA-sequencing ont
-permises de mettre en évidence que le complément induisait l'expression
-de \ac{VDR} et de \ac{CYP27B1}, permettant aux cellules d'utiliser la
-vitamine D. La vitamine D permet ainsi de faire passer le phénotype
-pro-inflammatoire \ac{Th1} au phénotype anti-inflammatoire IL-10^+^. La vitamine D active plusieurs facteurs de transcriptions tels que c-JUN, STAT3 et BACH2 qui contribuent au rôle de répression des \ac{Th1} et Th17 et induisent l'IL-10 par le biais du signalement de STAT3. De plus, les patients présentaient des cellules CD4+ à prédominance \ac{Th1} et montrent une dérépression de gènes normalement downrégulés par la vitamine D.
--   Il est intéressant de noter la vitamine D a permise d'induire
-    l'IL-6, qui possède dans ce cas un rôle immunomodulateur
-    contrairement au rôle standard de pro-inflammation [@Chauss.2022].
-    
+conduisent à la rétractation et à l'arrêt du phénotype \ac{Th1}. Les
+analyses issues du single cell RNA-sequencing ont permises de mettre en
+évidence que le complément induisait l'expression de \ac{VDR} et de
+\ac{CYP27B1}, permettant aux cellules d'utiliser la vitamine D. La
+vitamine D permet ainsi de faire passer le phénotype pro-inflammatoire
+\ac{Th1} au phénotype anti-inflammatoire IL-10^+^. La vitamine D active
+plusieurs facteurs de transcriptions tels que c-JUN, STAT3 et BACH2 qui
+contribuent au rôle de répression des \ac{Th1} et Th17 et induisent
+l'IL-10 par le biais du signalement de STAT3. De plus, les patients
+présentaient des cellules CD4+ à prédominance \ac{Th1} et montrent une
+dérépression de gènes normalement downrégulés par la vitamine D. - Il
+est intéressant de noter la vitamine D a permise d'induire l'IL-6, qui
+possède dans ce cas un rôle immunomodulateur contrairement au rôle
+standard de pro-inflammation [@Chauss.2022].
 
 ### Mécanisme antiviral induit par la vitamine D contre la COVID-19
 
+En interagissant avec le \ac{VDR} qui se trouve sur les cellules
+immunitaires (cellules B, cellules T et cellules présentatrices
+d'antigènes) et les cellules épithéliales pulmonaires, le complexe
+calcitriol - \ac{VDR} se lie sur le \ac{VDRE}. Le \ac{VDRE} est situé
+sur le promoteur du gène *CAMP*. La vitamine D stimule l'expression de ce
+gène, et induit la cathélicidine humaine hCAP-18, précurseur de LL-37,
+clivé par la protéinase 3 en LL-37. Le domaine C-terminal de hCAP18
+nommé LL-37, est un peptide antimicrobien qui a un rôle dans l'immunité
+innée et adaptative, et a un rôle antiviral contre le SARS-CoV-2. En
+effet, le LL-37 se lie avec une grande affinité à la protéine de pointe
+S du SARS-CoV-2, empêchant celle-ci de se lier à la cellule hôte. Le
+LL-37 se lie également à ACE2 et empêche la protéine de pointe de se
+lier et donc d'entrer dans la cellule hôte. Des niveaux sériques plus
+faibles de LL-37 sont associés à la gravité de la maladie et à la durée
+du séjour à l'hôpital [@Keutmann.2022 ; @Cutuli.2024 ; @Shiravi.2022;
+@Munshi.2021].
 
-En interagissant avec le \ac{VDR} qui se trouve sur les cellules immunitaires
-(cellules B, cellules T et cellules présentatrices d'antigènes) et les cellules
-épithéliales pulmonaires, le complexe calcitriol - \ac{VDR} se lie sur le
-\ac{VDRE}. Le \ac{VDRE} est situé sur le promoteur du gène CAMP. La vitamine D
-stimule l'expression de ce gène, et induit la cathélicidine humaine hCAP-18,
-précurseur de LL-37, clivé par la protéinase 3 en LL-37. Le domaine C-terminal
-de hCAP18 nommé LL-37, est un peptide antimicrobien qui a un rôle dans
-l'immunité innée et adaptative, et a un rôle antiviral contre le SARS-CoV-2. En
-effet, le LL-37 se lie avec une grande affinité à la protéine de pointe S du
-SARS-CoV-2, empêchant celle-ci de se lier à la cellule hôte. Le LL-37 se lie
-également à ACE2 et empêche la protéine de pointe de se lier et donc d'entrer
-dans la cellule hôte. Des niveaux sériques plus faibles de LL-37 sont associés à
-la gravité de la maladie et à la durée du séjour à l'hôpital [@Keutmann.2022 ;
-@Cutuli.2024 ; @Shiravi.2022; @Munshi.2021].
-
-La vitamine D possède des effets antioxydantes en modulant l'activité mitochondriale, la uprégulation du glutathion, de la peroxydase et superoxyde dismutase, et en downrégulant la NADPH oxydase. La présence de NO et de superoxyde peut exercer une activité antivirale [@Shiravi.2022 ; @Contreras-Bolívar.2023].
-
+La vitamine D possède des effets antioxydantes en modulant l'activité
+mitochondriale, la uprégulation du glutathion, de la peroxydase et
+superoxyde dismutase, et en downrégulant la NADPH oxydase. La présence
+de NO et de superoxyde peut exercer une activité antivirale
+[@Shiravi.2022 ; @Contreras-Bolívar.2023].
 
 ![**Représentation schématique des fonctions paracrines et intracrines
 de la vitamine D et de ses métabolites et actions dans les systèmes
-immunitaires innés et adaptatifs. A : Synthèse de la vitamine D. B1 :
+immunitaires innés et adaptatifs.** A : Synthèse de la vitamine D. B1 :
 Immunité adaptative. B2 : immunité innée. C : Réponse inflammatoire
-médiée par le SARS-CoV-2** [@Contreras-Bolívar.2023].](figures/Contreras-Bolívar.2023-vd_paracrine_intracrine_functions.jpg){#fig-vd-covid-function fig-scap="**Représentation schématique des fonctions paracrines et intracrines
-de la vitamine D et de ses métabolites et actions dans les systèmes
-immunitaires innés et adaptatifs. A : Synthèse de la vitamine D. B1 :
-Immunité adaptative. B2 : immunité innée. C : Réponse inflammatoire
-médiée par le SARS-CoV-2**"}
+médiée par le SARS-CoV-2 [@Contreras-Bolívar.2023].](figures/Contreras-Bolívar.2023-vd_paracrine_intracrine_functions.jpg){#fig-vd-covid-function
+fig-scap="Représentation schématique des fonctions paracrines et intracrines de la vitamine D et de ses métabolites et actions dans les systèmes immunitaires innés et adaptatifs."}
 
 La \ac{COVID-19} est caractérisée souvent par une hyperinflammation non
 résolue, associée à une infection aiguë des poumons. De plus, la
@@ -305,7 +315,17 @@ plus tolérogène.
 
 ### Vitamine D et neuroprotection
 
-@Shiravi.2022 rapporte que ACE2 est présent dans les neurones et astrocytes. L'interaction avec ACE2 dans l'endothélium capillaire peut endommager la barrière hémato-encéphalique. La vitamine D peut avoir un effet neuroprotecteur car le VDR est également trouvé dans les neurones et astrocytes ainsi que la présence de 1-alpha hydroxylase. Les études *in vitro* montrent que la vitamine D possède un pouvoir anti-inflammatoire sur les microglies en diminuant la production de IL-6, \ac{tnfa}, et NO, ainsi que des pouvoir neuroprotecteurs en inhibant la iNOS qui produit du NO qui endommage les cellules. De plus, la vitamine D possède un pouvoir anti-oxydant en régulant l'enzyme impliquée dans le cycle du glutathion. 
+@Shiravi.2022 rapporte que ACE2 est présent dans les neurones et
+astrocytes. L'interaction avec ACE2 dans l'endothélium capillaire peut
+endommager la barrière hémato-encéphalique. La vitamine D peut avoir un
+effet neuroprotecteur car le VDR est également trouvé dans les neurones
+et astrocytes ainsi que la présence de 1-alpha hydroxylase. Les études
+*in vitro* montrent que la vitamine D possède un pouvoir
+anti-inflammatoire sur les microglies en diminuant la production de
+IL-6, \ac{tnfa}, et NO, ainsi que des pouvoir neuroprotecteurs en
+inhibant la iNOS qui produit du NO qui endommage les cellules. De plus,
+la vitamine D possède un pouvoir anti-oxydant en régulant l'enzyme
+impliquée dans le cycle du glutathion.
 
 ## Statut en vitamine D, épidémiologie du risque infectieux en général et COVID-19 en particulier {#sec-statut-vd}
 
@@ -354,7 +374,7 @@ fig-scap="Taux de prévalence de l'insuffisance ou de la carence en vitamine D"}
 -   @Campi.2021 : un faible taux de vitamine D est associé à un risque
     accru d'être hospitalisé, d'admission en soins intensifs. Plusieurs
     études associent une déficience sévère (\< 5 ng/mL) à un risque
-    accru de mortalité (**@fig-vd-covid-deficiency**).
+    accru de mortalité (\Cref{fig-vd-covid-deficiency}).
 
 -   @Pal.2021 : Etude rétrospective sur 72 patients : les patients admis
     à l'hôpital pour un cas de COVID-19 non sévère ont une moyenne de
@@ -390,7 +410,6 @@ corrèle inversement avec la concentration en vitamine D, rejoignant
 hospitalière, oxygénothérapie et pas de corrélation avec les marqueurs
 inflammatoires (IL-6, CRP).
 
-
 -   @Wimalawansa.2022 : L'auteur se base sur un risque d'infection le
     plus bas observé pour déterminer un taux de 50 ng/mL, en se basant
     sur deux études prospectives observant l'association entre le taux
@@ -401,24 +420,25 @@ inflammatoires (IL-6, CRP).
 
 Globalement, les méta-analyses rapportent une grande hétérogénéité des
 essais cliniques ce qui rend les informations moins précises, et plus
-difficiles à interpréter, comme par exemple concernant le jour de la dose
-d'admission, la dose administrée
+difficiles à interpréter, comme par exemple concernant le jour de la
+dose d'admission, la dose administrée
 
-Il existe une part d'études rapportant des résultats
-contradictoires. Selon @Pal.2022: "Toutefois, il convient de noter que la
-plupart de ces études n'ont pas rapporté d'estimations de risque
-ajustées pour les résultats cliniques après ajustement des facteurs de
-confusion potentiels".
+Il existe une part d'études rapportant des résultats contradictoires.
+Selon @Pal.2022: "Toutefois, il convient de noter que la plupart de ces
+études n'ont pas rapporté d'estimations de risque ajustées pour les
+résultats cliniques après ajustement des facteurs de confusion
+potentiels".
 
-@Vanegas-Cedillo.2022 trouve que la vitamine D est
-indépendamment associée à la mortalité de la COVID-19 après ajustement
-du facteur confondant de la graisse viscérale. @Borsche.2021, après
-ajustement pour les facteurs confondants, arrive à la conclusion que
-seul l'âge et la vitamine D sont associés à la mortalité de la COVID-19.
+@Vanegas-Cedillo.2022 trouve que la vitamine D est indépendamment
+associée à la mortalité de la COVID-19 après ajustement du facteur
+confondant de la graisse viscérale. @Borsche.2021, après ajustement pour
+les facteurs confondants, arrive à la conclusion que seul l'âge et la
+vitamine D sont associés à la mortalité de la COVID-19.
 
-Malgré des essais cliniques contradictoires, il existe de même une proportion de méta-analyses et d'études cliniques qui rapportent
-des effets bénéfiques de la vitamine D dans la prévention et le
-traitement de la COVID-19 [@Pal.2022].
+Malgré des essais cliniques contradictoires, il existe de même une
+proportion de méta-analyses et d'études cliniques qui rapportent des
+effets bénéfiques de la vitamine D dans la prévention et le traitement
+de la COVID-19 [@Pal.2022].
 
 ### Etudes pré-cliniques
 
@@ -435,18 +455,18 @@ calcidiol sont directement corrélés aux niveaux de LL-37 chez les
 patients en sepsis [@Cutuli.2024].
 
 Les études montrent que les cellules épithéliales pulmonaires expriment
-à la fois le VDR et la 1α-hydroxylase, ce qui impliquent qu'elles
+à la fois le \ac{VDR} et la 1α-hydroxylase, ce qui impliquent qu'elles
 induisent la production de peptides antimicrobiens, en particulier la
 cathélicidine et la défensine β4 [@Cutuli.2024].
 
 @Zhang.2012: Inhibition de la production des cytokines (IL-6, à partir
 de 30 ng/mL, testé jusqu'à 70 ng/mL. Dose d'inhibition maximale à 50
 ng/mL, et pas d'effet observé supplémentaire à 70 ng/mL
-(**@fig-vd-dose-cytokine**).
+(\Cref{fig-vd-dose-cytokine}).
 
-![Effets de la vitamine D sur la production de cytokines
-[@Zhang.2012].](figures/Zhang.2012-vd_dose_cytokine.jpeg){#fig-vd-dose-cytokine}
-
+![**Effets de la vitamine D sur la production de cytokines**
+[@Zhang.2012].](figures/Zhang.2012-vd_dose_cytokine.jpeg){#fig-vd-dose-cytokine
+fig-scap="Effets de la vitamine D sur la production de cytokines"}
 
 ### Etudes cliniques
 
@@ -455,21 +475,21 @@ ng/mL, et pas d'effet observé supplémentaire à 70 ng/mL
     @Wimalawansa.2022]
 
 Il existe plusieurs phases de progression de la sévérité de la COVID-19.
-L’Organisation Mondiale de la Santé a défini une classification des phases en fonction de leur
-sévérité [@WHO.2023.org ; @Agarwal.2020] : 
+L’Organisation Mondiale de la Santé a défini une classification des
+phases en fonction de leur sévérité [@WHO.2023.org ; @Agarwal.2020] :
 
-- Phase symptomatique légère:
-Fièvre, toux, fatigue, anorexie, essoufflement, myalgie, anosmie, agueusie.
-Symptômes non spécifiques: maux de gorge, congestion nasale, maux de tête,
-diarrhée, nausées et vomissements
-- Phase modérée :
-Définie comme l'absence de critères sévères ou critiques. Pneumonie (fièvre,
-toux, dyspnée, hyperventilation), SpO~2~ \> 90%
-- Phase sévère : Pneumonie, sepsis, SpO~2~ \< 90%, fréquence respiratoire \> 30/min
-- Phase critique: \ac{SDRA}, sepsis, choc septique, thrombose aiguë
-nécessitant une ventilation mécanique ou traitement par vasopresseurs en unité
-de soins intensifs.
-
+-   Phase symptomatique légère: Fièvre, toux, fatigue, anorexie,
+    essoufflement, myalgie, anosmie, agueusie. Symptômes non
+    spécifiques: maux de gorge, congestion nasale, maux de tête,
+    diarrhée, nausées et vomissements
+-   Phase modérée : Définie comme l'absence de critères sévères ou
+    critiques. Pneumonie (fièvre, toux, dyspnée, hyperventilation),
+    SpO~2~ \> 90%
+-   Phase sévère : Pneumonie, sepsis, SpO~2~ \< 90%, fréquence
+    respiratoire \> 30/min
+-   Phase critique: \ac{SDRA}, sepsis, choc septique, thrombose aiguë
+    nécessitant une ventilation mécanique ou traitement par
+    vasopresseurs en unité de soins intensifs.
 
 #### Etudes en phase hospitalière (visée curative)
 
@@ -483,8 +503,11 @@ vitamine D lors de l'entrée en hospitalisation.
     000 UI atteignant une dose totale de ≥100 000 UI), analyse ne
     constatant pas d'amélioration de la vitamine D sur la mortalité ou
     admission en soins intensifs.
-    
--  @Ghelani.2021 : Méta-analyse, la vitamine D réduit la sévérité et la mortalité (Summary Relative Risk = 0.38 et SRR = 0.35 respectivement). Plus de réduction observée sur les patients âgés et se situant à des latitudes plus élevées.
+
+-   @Ghelani.2021 : Méta-analyse, la vitamine D réduit la sévérité et la
+    mortalité (Summary Relative Risk = 0.38 et SRR = 0.35
+    respectivement). Plus de réduction observée sur les patients âgés et
+    se situant à des latitudes plus élevées.
 
 -   @Borsche.2021: Méta-analyse en faveur de la vitamine D. Forte
     corrélation inverse de mortalité avec le taux de vitamine D. Les
@@ -531,17 +554,19 @@ mortalité 11% vs 6% à 14 jours, mais pas à 28 jours.
     fonctionnel associé à une réduction de la mortalité et de passer en
     soins intensifs (3000-6000 UI/j pour 2 mois) [@Maghbooli.2021]
 
-RCT contradictoires : 
+RCT contradictoires :
 
-- @Cereda.2021 : La supplémentation moyenne \> 1800 UI/jour ne donne
-pas de différence par rapport au groupe non supplémenté en terme
-d'hospitalisation.
+-   @Cereda.2021 : La supplémentation moyenne \> 1800 UI/jour ne donne
+    pas de différence par rapport au groupe non supplémenté en terme
+    d'hospitalisation.
 
-- @Murai.2021 : L'essai clinique ne recommande pas la supplémentation
-en vitamine D. Dose unique de 200 000 UI de vitamine D3 vs placebo, n =
+-   @Murai.2021 : L'essai clinique ne recommande pas la supplémentation
+    en vitamine D. Dose unique de 200 000 UI de vitamine D3 vs placebo,
+    n =
+
 120. Pas de différence significative en terme de durée
-d'hospitalisation, de mortalité, d'admission aux urgences ou de
-ventilation mécanique.
+     d'hospitalisation, de mortalité, d'admission aux urgences ou de
+     ventilation mécanique.
 
 #### Etudes en phase réanimation
 
@@ -558,28 +583,30 @@ indépendamment associés à une plus grande mortalité, et en particulier
 l'analyse sous-groupe montre que seule la déficience de vitamine D \< 10
 ng/mL est associé à une augmentation de mortalité, mais que cette
 association n'est pas retrouvée pour des niveaux de vitamine D plus
-élevés [@Cutuli.2024]. 
+élevés [@Cutuli.2024].
 
-- Seulement deux essais cliniques à large nombre
-de patients ont examiné le rôle de la vitamine D en soins intensifs dans la
-COVID-19, VITdAL-ICU et VIOLET. Pas de conclusions positives, cependant
-l'analyse sous-groupe \< 12 ng/mL révèle une réduction de mortalité de chez le
-groupe vitamine D comparé au placebo (28.6% vs 46.1%) [@Cutuli.2024]. L'étude
-VIOLET a été prématurément arrêtée, et les deux études présentent un niveau bas
-de sepsis. Il existe trois autres études analysés par @Cutuli.2024 qui
-présentent un effectif plus faible, et ne sont pas conclusives. Selon les
-auteurs, des essais cliniques spécialisés à grande échelle sur la question n'ont
-pas encore été conduits et seraient importants.
+-   Seulement deux essais cliniques à large nombre de patients ont
+    examiné le rôle de la vitamine D en soins intensifs dans la
+    COVID-19, VITdAL-ICU et VIOLET. Pas de conclusions positives,
+    cependant l'analyse sous-groupe \< 12 ng/mL révèle une réduction de
+    mortalité de chez le groupe vitamine D comparé au placebo (28.6% vs
+    46.1%) [@Cutuli.2024]. L'étude VIOLET a été prématurément arrêtée,
+    et les deux études présentent un niveau bas de sepsis. Il existe
+    trois autres études analysés par @Cutuli.2024 qui présentent un
+    effectif plus faible, et ne sont pas conclusives. Selon les auteurs,
+    des essais cliniques spécialisés à grande échelle sur la question
+    n'ont pas encore été conduits et seraient importants.
 
-@Argano.2023: Méta-analyse de 5 \acp{RCT} sur la mortalité et l'admission en
-soins intensifs, en analysant le risque de biais par la méthodologie Cochrane
-ROB 2, avec l'analyse \ac{TSA} [@Kang.2021]. L'administration de vitamine D
-résulte en une réduction de la mortalité et de l'admission en soins intensifs
-(SMD: (95% CI): 0.49 (0.34–0.72) et 0.28 (0.20–0.39)). L'analyse TSA révèle que
-le nombre de patient est suffisant pour arriver à une conclusion concernant la
-réduction de l'admission en soins intensifs, mais que l'association positive du
-facteur protecteur de la vitamine D sur la mortalité nécessite encore des études
-supplémentaires.
+@Argano.2023: Méta-analyse de 5 \acp{RCT} sur la mortalité et
+l'admission en soins intensifs, en analysant le risque de biais par la
+méthodologie Cochrane ROB 2, avec l'analyse \ac{TSA} [@Kang.2021].
+L'administration de vitamine D résulte en une réduction de la mortalité
+et de l'admission en soins intensifs (SMD: (95% CI): 0.49 (0.34–0.72) et
+0.28 (0.20–0.39)). L'analyse TSA révèle que le nombre de patient est
+suffisant pour arriver à une conclusion concernant la réduction de
+l'admission en soins intensifs, mais que l'association positive du
+facteur protecteur de la vitamine D sur la mortalité nécessite encore
+des études supplémentaires.
 
 -   Méta-analyse: @Pal.2022 : Les auteurs rapportent que la vitamine D
     est efficace pour améliorer les résultats cliniques, et en
@@ -601,10 +628,8 @@ supplémentaires.
     Fibrinogène faiblement diminué.
 
 -   @Leaf.2014 : Calcitriol n'augmente pas le niveau de cathélicidine en
-    sepsis et effets mixtes sur les autres marqueurs
-    immunologiques. Dose = 2 µg en IV = 80 UI [ce qui semble extrêmement
-    bas].
-
+    sepsis et effets mixtes sur les autres marqueurs immunologiques.
+    Dose = 2 µg en IV = 80 UI \[ce qui semble extrêmement bas\].
 
 ## Discussion
 
@@ -650,8 +675,19 @@ supplémentaires.
     potentiellement très élevée, et la concentration plasmatique
     atteinte entre chaque patient pour une même dose de vitamine D peut
     être très variable.
-    
-- L'administration de vitamine D à visée curative pour une dose de 5000 UI/j est trop lente pour élever la concentration plasmatique de calcidiol car la métabolisation de la vitamine D nécessite plusieurs mois avant d'atteindre une concentration supérieure à 30 ng/mL [@Mocanu.2009]. Ainsi @Wimalawansa.2022 propose une dose de charge élevée de vitamine D ou bien une dose bolus de calcidiol oral qui serait rapidement absorbée par l'organisme, afin de pouvoir rapidement élever la concentration de calcidiol à atteindre en quelques jours ou heures respectivement. Une dose bolus de 100 000 UI est suffisante pour atteindre des doses >20 ng/mL mais une dose de 300 000 UI est nécessaire pour atteindre une concentration > 30 ng/mL de calcidiol [@Kearns.2014]
+
+-   L'administration de vitamine D à visée curative pour une dose de
+    5000 UI/j est trop lente pour élever la concentration plasmatique de
+    calcidiol car la métabolisation de la vitamine D nécessite plusieurs
+    mois avant d'atteindre une concentration supérieure à 30 ng/mL
+    [@Mocanu.2009]. Ainsi @Wimalawansa.2022 propose une dose de charge
+    élevée de vitamine D ou bien une dose bolus de calcidiol oral qui
+    serait rapidement absorbée par l'organisme, afin de pouvoir
+    rapidement élever la concentration de calcidiol à atteindre en
+    quelques jours ou heures respectivement. Une dose bolus de 100 000
+    UI est suffisante pour atteindre des doses \>20 ng/mL mais une dose
+    de 300 000 UI est nécessaire pour atteindre une concentration \> 30
+    ng/mL de calcidiol [@Kearns.2014]
 
 -   L'essai clinique de @Murai.2021, considéré comme de bonne qualité
     méthodologique par @Annweiler.2021 et @Argano.2023, selon les lignes
