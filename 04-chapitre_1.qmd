@@ -139,13 +139,13 @@ D~3~. En revanche, la vitamine D~3~ ne subit pas cette première
 \begin{figure}[ht]
 \centering
 \includegraphics[width=0.8\textwidth]{figures/ergo_vs_chole.png}
-\caption[Comparaison de la structure de l'ergocalciférol par rapport au cholécalciférol.]{\textbf{Comparaison de la structure de l'ergocalciférol par rapport au cholécalciférol.} La structure de l'ergocalciférol comprend une double liaison et un groupement méthyl (CH\textsubscript{3}) supplémentaire par rapport au cholécalciférol. Cela implique une voie de métabolisation différente, notamment une voie d'élimination plus rapide, et donc une diminution de la concentration en métabolite biologiquement actif issue de l'ergocalciférol. \textcite{Houghton.2006}}
+\caption[Comparaison de la structure de l'ergocalciférol par rapport au cholécalciférol.]{\textbf{Comparaison de la structure de l'ergocalciférol par rapport au cholécalciférol.} La structure de l'ergocalciférol comprend une double liaison et un groupement méthyl (CH\textsubscript{3}) supplémentaire par rapport au cholécalciférol. Cela implique une voie de métabolisation différente, notamment une voie d'élimination plus rapide, et donc une diminution de la concentration en métabolite biologiquement actif issue de l'ergocalciférol \autocite{Houghton.2006}.}
 \label{fig:ergo-struc}
 
 \vspace{1em}
 
 \includegraphics[width=0.8\textwidth]{figures/PK_D2_vs_D3.jpeg}
-\caption[Evolution de la concentration en 25(OH)D après administration d'une dose de 50 000 UI de vitamine D\textsubscript{2} ou D\textsubscript{3} chez 10 patients.]{\textbf{Evolution de la concentration en 25(OH)D après administration d'une dose de 50 000 UI de vitamine D\textsubscript{2} ou D\textsubscript{3} chez 10 patients.} \textcite{Armas.2004}}
+\caption[Evolution de la concentration en 25(OH)D après administration d'une dose de 50 000 UI de vitamine D\textsubscript{2} ou D\textsubscript{3} chez 10 patients.]{\textbf{Evolution de la concentration en 25(OH)D après administration d'une dose de 50 000 UI de vitamine D\textsubscript{2} ou D\textsubscript{3} chez 10 patients} \autocite{Armas.2004}.}
 \label{fig:PK}
 \end{figure}
 ```
