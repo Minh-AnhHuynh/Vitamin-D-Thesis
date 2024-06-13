@@ -7,19 +7,25 @@
 \acro{7-DHC}{7-déhydrocholestérol}
 \acro{24,25(OH)2D3}[24,25(OH)\textsubscript{2}D\textsubscript{3}]{24,25-dihydroxycholécalciférol}
 \acro{25(OH)D3}[25(OH)D\textsubscript{3}]{25-hydroxycholécalciferol\acroextra{ (calcidiol ou calcifédiol)}}
+\acro{ACE}{enzyme de conversion de l'angiotensine}
 \acro{ACE2}{enzyme de conversion de l'angiotensine 2}
 \acro{ADN}{acide désoxyribonucléique}
 \acro{AJR}{\LU{A}{a}pport \LU{J}{j}ournalier \LU{R}{r}ecommandé}
+\acro{AMPK}{AMP-activated protein kinase}
+\acro{Ang II}{angiotensine II}
+\acro{Ang(1-7)}{angiotensine 1-7}
 \acro{ANSES}{Agence Nationale de Sécurité sanitaire de l'alimentation, de l'Environnement et du Travail}
 \acro{ANSM}{Agence Nationale de Sécurité des Médicaments}
+\acro{AT1R}{récepteur de l'angiotensine II de type I}
+\acro{CaMKKβ}{Ca$^{2+}$/calmodulin-dependent protein kinase kinase β}
 \acro{CCR10}{C-C chemokine receptor type 10}
 \acro{CD}{cluster de différenciation}
 \acro{CIVD}{coagulation intravasculaire disséminée}
 \acro{Cmax}[C\textsubscript{max}]{concentration maximale}
 \acro{CMH-II}{\LU{C}{c}omplexe \LU{M}{m}ajeur d'\LU{H}{h}istocompatibilité de \LU{C}{c}lasse II}
 \acro{COVID-19}{Coronavirus Disease 2019}
+\acro{COX-2}{cyclo-oxygénase 2}
 \acro{CPA}{cellules présentatrices d'antigènes}
-\acro{CRS}{cytokine release syndrome}
 \acro{CYP24A1}{24-hydroxylase}
 \acro{CYP27B1}{25-hydroxyvitamine D\textsubscript{3}-1α-hydroxylase}
 \acro{DBP}{vitamin D binding protein}
@@ -27,6 +33,9 @@
 \acro{eNOS}{endothelial nitric oxide synthase}
 \acro{FDA}{Food and Drugs Administration}
 \acro{FGF23}{fibroblast growth factor 23}
+\acro{HR}{hazard ratio}
+\acro{ICAM-1}{intercellular adhesion molecule 1}
+\acro{IFN}{interféron}
 \acro{IFN-1}{interférons de type I}
 \acro{ifna}[IFN-α]{interféron alpha}
 \acro{ifng}[IFN-γ]{interféron gamma}
@@ -44,17 +53,31 @@
 \acro{IOM}{Institute of Medicine}
 \acro{LOAEL}{Lowest Observed Adverse Effect Level}
 \acro{LPS}{lipopolysaccharide}
+\acro{MAPK}{mitogen-activated protein kinases}
+\acro{MasR}{récepteur Mas}
+\acro{MCP-1}{macrophage chemoattractant protein-1}
+\acro{MDP}{muramyl dipeptide}
+\acro{MIF}{monocyte migration inhibitory factor}
+\acro{MIP-1}{macrophage inflammatory protein-1}
+\acro{mTORC1}{mechanistic target of rapamycin complex 1}
 \acro{nfkb}[NF-κB]{nuclear factor-kappa B}
 \acro{NK}{lymphocyte natural killer}
 \acro{NO}{oxyde nitrique}
 \acro{NOAEL}{Non Observed Adverse Effect Level}
+\acro{NOD}{nucleotide-binding oligomerization domain}
 \acro{NOD2}{Nucleotide-binding oligomerization domain-containing protein 2}
+\acro{OR}{odds ratio}
+\acro{PAFR}{platelet-activating factor receptor}
+\acro{PAMP}{pathogen associated molecular pattern}
 \acro{PRR}{pattern recognition receptor}
 \acro{PTH}{parathormone}
 \acro{RCT}{randomized control trial}
+\acro{RR}{risque relatif}
+\acro{RSV}{respiratory syncytial virus}
 \acro{RXR}{retinoid X receptor}
 \acro{SARS-CoV-2}{Severe Acute Respiratory Syndrome Coronavirus 2}
 \acro{SDRA}{syndrome de détresse respiratoire aiguë}
+\acro{SLS}{syndrome de libération de cytokines}
 \acro{SRAA}{système rénine angiotensine aldostérone}
 \acro{TCR}{T cell receptor}
 \acro{Th}[T helpers]{lymphocytes T helpers}
