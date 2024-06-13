@@ -35,7 +35,7 @@ cite-method: biblatex
 # biblio-style: "biblatex-chicago" # Doesn't work
 csl: "csl/chicago-author-date-fr.csl" # Used for citeproc from pandoc
 header-includes:
-- \usepackage{setspace} #\setspace{1.5}
+- \usepackage{setspace} # \setspace{1.5} ; probably redundant
 - \usepackage{libertine} # My new font to make greek letters work
 - \usepackage[font=small, labelfont=bf, justification=justified, singlelinecheck=true]{caption} # Set figure caption to bold, centered
 # Separate chapter from figure numbering : continuous figure numbering.
@@ -64,6 +64,10 @@ header-includes:
 - \usepackage{makecell} # Make multiline cell in latex
 - \usepackage{multirow} # Make multiple row cells \multirow
 - \usepackage{booktabs} # For beautiful publication ready tables ; \cmidrule
+- \usepackage{ltablex} # Longtable + tabularx in one
+- \newcolumntype{Y}{>{\centering\arraybackslash}X} % Centered column type for tabularx
+# friendly reminder that you need to write "\%" in latex environment in order to display "%"...
+# - \usepackage{tabularx} # Automatic column width (\begin{tabularx}{\linewidth}{lXcX}) ; 
 - \usepackage{graphicx} # Required for \includegraphics trying to fix a scaling
 - \usepackage{subcaption} # To crossref subcaptions and subfigures
 - \usepackage[capitalise, noabbrev, nameinlink]{cleveref} # Allows \cref{} to cite latex table as "Table 3"
