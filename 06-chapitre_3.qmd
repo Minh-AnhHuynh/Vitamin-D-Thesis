@@ -220,8 +220,7 @@ anti-inflammatoire. Il a été observé que lorsque le \ac{VDR} est KO dans une
 vitamine D diminue la production de rénine [@Li.2002], ce qui justifie le
 caractère régulateur de la vitamine D sur le \ac{SRAA}. De même, le calcitriol
 diminue le ratio \ac{ACE}/\ac{ACE2}, diminuant l'induction de \ac{ACE} et la
-suppression de \ac{ACE2} chez les rats diabétiques, réprime le récepteur
-\ac{AT1} de l'\ac{Ang II} et \ac{ACE}, et réduit la formation de \ac{Ang II},
+suppression de \ac{ACE2} chez les rats diabétiques, réprime le récepteur AT1 de l'\ac{Ang II} et \ac{ACE}, et réduit la formation de \ac{Ang II},
 tout en augmentant l'expression des éléments \ac{ACE2}, \ac{Ang(1-7)}, \ac{MasR}
 [@Mahdavi.2020].
 
@@ -390,34 +389,69 @@ le cycle du glutathion [@Shiravi.2022].
 
 ## Statut en vitamine D {#sec-statut-vd}
 
-La majorité des méta-analyses des études observationnelles rapportent une corrélation inverse entre la sévérité de la maladie et la concentration en vitamine D. En effet, les patients COVID-19 sévères ont une concentration en vitamine D souvent jugée inférieure à 20 ng/mL, où plusieurs méta-analyses et revues systématiques rapportent une déficience sévère (< 10-12 ng/mL) à un risque accru de sévérité \autocite{Contreras-Bolívar.2023, Borsche.2021, Crafa.2021, DEcclesiis.2022, Pal.2022, Hariyanto.2022, Ghelani.2021}. Cette association n'est pas systématiquement retrouvée entre les études, où certaines études ne trouvent pas d'association entre la concentration en vitamine D et la sévérité de la maladie, ou bien la faible concentration en vitamine D et la mortalité [@Kaya.2021].
-    
+Les données épidémiologiques résumés pour chaque pays de chaque continent sont recueillis dans la vue d'ensemble du statut de la vitamine D par @Schoor.2017. Des calculs de moyenne, écart-type et du pourcentage inférieur à 20 ng/mL pondéré pour chaque continent permettent d'avoir une vue d'ensemble du statut de la vitamine D dans le monde. Les données sont résumées dans la \Cref{tbl-statut-vd}.
+
+```{r}
+#| label: tbl-statut-vd
+<!-- #| tbl-cap: Résumé du statut en vitamine D de la population par continent. Données calculées à partir de @Schoor.2017. --> # Quarto option can cite citations but can't do short captions, while kable can do caption.short but fails to cite...
+# Tableau des moyennes pondérées de la concentration de vitamine D dans le monde
+formatted_summary <- read.delim("tables/formatted_summary.tsv", sep = "\t")
+formatted_summary %>%
+  kableExtra::kbl("latex", booktabs = TRUE, caption="Résumé du statut en vitamine D de la population par continent. Données calculées à partir de Schoor et Lips (2017)", caption.short = "Résumé du statut en vitamine D de la population par continent.")
+```
+La carence en vitamine D est présente dans le monde entier, principalement au Moyen-Orient, en Chine, en Mongolie et en Inde, concernant en particulier les personnes âgées, les femmes enceintes et les immigrés non occidentaux [@Schoor.2017].
 
 
-L'étude écologique de @Ilie.2020 sur les pays européens rapporte une corrélation négative entre la concentration sévère de vitamine D (< 12 ng/mL) avec une moyenne de 22 ng/mL et la morbidité et la mortalité. Il a été également observé que la population âgée de l'Espagne, l'Italie et la Suisse était en déficience sévère de vitamine D.
+
+
+
+
+## Associations observées dans les études observationnelles
+
+La majorité des méta-analyses des études observationnelles rapportent une
+corrélation inverse entre la sévérité de la maladie et la concentration en
+vitamine D. En effet, les patients COVID-19 sévères ont une concentration en
+vitamine D souvent jugée inférieure à 20 ng/mL, où plusieurs méta-analyses et
+revues systématiques rapportent une déficience sévère (< 10-12 ng/mL) à un
+risque accru de sévérité \autocite{Contreras-Bolívar.2023, Borsche.2021,
+Crafa.2021, DEcclesiis.2022, Pal.2022, Hariyanto.2022, Ghelani.2021}. Cette
+association n'est pas systématiquement retrouvée entre les études, où certaines
+études ne trouvent pas d'association entre la concentration en vitamine D et la
+sévérité de la maladie, ou bien la faible concentration en vitamine D et la
+mortalité [@Kaya.2021]. Similairement, l'étude écologique de @Ilie.2020 sur les pays européens rapporte une corrélation
+négative entre la concentration sévère de vitamine D (< 12 ng/mL) avec une
+moyenne de 22 ng/mL et la morbidité et la mortalité. Il a été également observé
+que la population âgée de l'Espagne, l'Italie et la Suisse était en déficience
+sévère de vitamine D.
+
+Les pays de l'hémisphère sud ont un taux de
+mortalité plus bas que les pays de l'hémisphère nord [@Contreras-Bolívar.2023],
+tel que les Etats-Unis (68 par million) contre l’Australie (2 par millions)
+[@Bishop.2021]. Il existe des exceptions tels que l'Espagne et l'Italie qui ont
+une plus grande mortalité, associé à une prévalence de déficience en vitamine D
+plus importante, qui peuvent s'expliquer par le biais de la préférence à
+l'ombre, et de la pigmentation plus importante de la peau qui diminue la
+synthèse en vitamine D. Les pays scandinaves ont une mortalité plus basse,
+associé à une consommation plus fréquente d'huile de foie de morue ainsi que de
+fortifications de laits et de laitages. La mortalité due au COVID-19 est associé
+à des comorbidités telles que l'âge et des maladies chroniques, qui sont
+également associés à une concentration plus basse de vitamine D [@Bishop.2021].
+Certaines études observationnelles ne trouvent pas d'association positive entre
+la supplémentation en vitamine D et la diminution du risque de mortalité.
+Cependant, certaines études révèlent une association lors de l'analyse
+sous-groupe concernant des patients carencés en vitamine D, une association
+bénéfique lorsque les patients possèdent une concentration > 30 ng/mL
+[@Oristrell.2022] ou bien certaines examinent des patients qui ne sont pas en
+état déficitaire de vitamine D.
+
+Association between vitamin D
+supplementation and COVID‑19
+infection and mortality
+Gibbons
 
 ![Taux de prévalence de l'insuffisance ou de la carence en vitamine D
 [@Campi.2021].](figures/Campi.2021-Prevalence_rates_of_vitamin_D_insufficiency_or_deficiency.jpg){#fig-vd-covid-deficiency
 fig-scap="Taux de prévalence de l'insuffisance ou de la carence en vitamine D"}
-
-
-
-## Etudes observationnelles
-
-Des études ont rapportés que les pays de l'hémisphère sud avaient un taux de
-mortalité plus bas que les pays de l'hémisphère nord [@Contreras-Bolívar.2023], tel que les Etats-Unis (68
-par million) contre l’Australie (2 par millions) [@Bishop.2021]. Il existe des exceptions tels
-que l'Espagne et l'Italie qui ont une plus grande mortalité, associé à une
-prévalence de déficience en vitamine D plus importante, qui peuvent s'expliquer
-par le biais de la préférence à l'ombre, et de la pigmentation plus importante
-de la peau qui diminue la synthèse en vitamine D. Les pays scandinaves ont une
-mortalité plus basse, associé à une consommation plus fréquente d'huile de foie
-de morue ainsi que de fortifications de laits et de laitages. La mortalité due
-au COVID-19 est associé à des comorbidités telles que l'âge et des maladies
-chroniques, qui sont également associés à une concentration plus basse de
-vitamine D [@Bishop.2021].
-
-Certaines études observationnelles ne trouvent pas d'association positive entre la supplémentation en vitamine D et la diminution du risque de mortalité. Cependant, certaines études révèlent une association lors de l'analyse sous-groupe concernant des patients carencés en vitamine D, une association bénéfique lorsque les patients possèdent une concentration > 30 ng/mL [@Oristrell.2022] ou bien certaines examinent des patients qui ne sont pas en état déficitaire de vitamine D.
 
 ```{=tex}
 \clearpage
@@ -493,10 +527,11 @@ La \Cref{tab:meta-analyses} résume l'opinion des méta-analyses citées.
 Les études écologiques rapportent également une différence de concentration de
 vitamine D entre les patients COVID-19 positifs et négatifs (10.8 nmol/L vs 20.8
 nmol/L, @Baktash.2021). En effet, il existe une corrélation positive entre
-l'incidence de COVID-19 et le taux de déficience en vitamine D (R = 0.36), la
+l'incidence de COVID-19 et le taux de déficience en vitamine D considéré comme < 20 ng/mL (R = 0.36), la
 fatalité (R = 0.40) et de mortalité (R = 0.38). Le pourcentage médian de
-déficience de vitamine D est de 49%, indiquant que le 23^ème^ pays parmi les 46
-pays analysés, possède une déficience en vitamine D de 49 % [@Mariani.2021]. Une
+déficience de vitamine D est de 49 %, allant de 13 % pour le premier quintile à 65 % pour le cinqième quintile (indiquant que 23 pays sur les 46 analysés ont plus de 49% de déficience à la vitamine D) [@Mariani.2021]. 
+
+Une
 étude d'un centre hospitalier rapporte que chez le groupe de patients considéré
 vitamine D déficient (\< 12 ng/mL) contre non déficient (\> 12 ng/mL), il existe
 une association entre la déficience de vitamine D et le risque de ventilation
@@ -745,6 +780,8 @@ et diminution Th17 central memory.
 
 
 ## Discussion
+
+@Grant.2022.nutrients
 
 Il existe de multiples méta-analyses, et essais cliniques
     randomisés, montrant une efficacité de la vitamine D en ce qui

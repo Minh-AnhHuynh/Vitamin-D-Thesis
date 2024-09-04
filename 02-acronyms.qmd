@@ -9,6 +9,7 @@
 \acro{25(OH)D3}[25(OH)D\textsubscript{3}]{25-hydroxycholécalciferol\acroextra{ (calcidiol ou calcifédiol)}}
 \acro{ACE}{enzyme de conversion de l'angiotensine}
 \acro{ACE2}{enzyme de conversion de l'angiotensine 2}
+\acro{ADAM17}{a disintegrin and metalloprotease 17}
 \acro{ADN}{acide désoxyribonucléique}
 \acro{AJR}{\LU{A}{a}pport \LU{J}{j}ournalier \LU{R}{r}ecommandé}
 \acro{AMPK}{AMP-activated protein kinase}
@@ -66,6 +67,7 @@
 \acro{NOAEL}{Non Observed Adverse Effect Level}
 \acro{NOD}{nucleotide-binding oligomerization domain}
 \acro{NOD2}{Nucleotide-binding oligomerization domain-containing protein 2}
+\acro{NOS}{oxyde nitrique synthase}
 \acro{OR}{odds ratio}
 \acro{PAFR}{platelet-activating factor receptor}
 \acro{PAMP}{pathogen associated molecular pattern}
