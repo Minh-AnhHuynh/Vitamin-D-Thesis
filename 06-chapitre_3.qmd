@@ -389,15 +389,19 @@ le cycle du glutathion [@Shiravi.2022].
 
 ## Statut en vitamine D {#sec-statut-vd}
 
-Les données épidémiologiques résumés pour chaque pays de chaque continent sont recueillis dans la vue d'ensemble du statut de la vitamine D par @Schoor.2017. Des calculs de moyenne, écart-type et du pourcentage inférieur à 20 ng/mL pondéré pour chaque continent permettent d'avoir une vue d'ensemble du statut de la vitamine D dans le monde. Les données sont résumées dans la \Cref{tbl-statut-vd}.
+Les données épidémiologiques résumés pour chaque pays de chaque continent sont recueillis dans la vue d'ensemble du statut de la vitamine D par @Schoor.2017. Des calculs de moyenne, écart-type et du pourcentage inférieur à 20 ng/mL pondéré pour chaque continent permettent d'avoir une vue d'ensemble du statut de la vitamine D dans le monde. Les données sont résumées dans la \Cref{tab:statut-vd}.
 
 ```{r}
-#| label: tbl-statut-vd
-<!-- #| tbl-cap: Résumé du statut en vitamine D de la population par continent. Données calculées à partir de @Schoor.2017. --> # Quarto option can cite citations but can't do short captions, while kable can do caption.short but fails to cite...
+# Quarto option can cite citations but can't do short captions, while kable can do caption.short
+
 # Tableau des moyennes pondérées de la concentration de vitamine D dans le monde
 formatted_summary <- read.delim("tables/formatted_summary.tsv", sep = "\t")
 formatted_summary %>%
-  kableExtra::kbl("latex", booktabs = TRUE, caption="Résumé du statut en vitamine D de la population par continent. Données calculées à partir de Schoor et Lips (2017)", caption.short = "Résumé du statut en vitamine D de la population par continent.")
+  kableExtra::kbl(
+    format = "latex", booktabs = TRUE, caption = "Résumé du statut en vitamine D de la population par continent. Données calculées à partir de \textcite{Schoor.2017}.", caption.short = "Résumé du statut en vitamine D de la population par continent.",
+    label = "statut-vd",
+    position = "h"
+  )
 ```
 La carence en vitamine D est présente dans le monde entier, principalement au Moyen-Orient, en Chine, en Mongolie et en Inde, concernant en particulier les personnes âgées, les femmes enceintes et les immigrés non occidentaux [@Schoor.2017].
 
