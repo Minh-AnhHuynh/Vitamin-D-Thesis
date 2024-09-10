@@ -91,10 +91,8 @@ include-before-body:
 ---
 
 ```{r, setup, include=FALSE}
-if (!requireNamespace("kableExtra", quietly = TRUE)) {
-  install.packages("kableExtra")
-}
-# Include = FALSE to avoid printing the code
+librarian::shelf("kableExtra")
+# echo = FALSE to avoid printing the code
 knitr::opts_chunk$set(echo = FALSE)
 source("script/sort_acronyms.R")
 sort_acronyms("02-acronyms.qmd")
