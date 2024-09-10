@@ -1,0 +1,7 @@
+if (!require("librarian")) install.packages("librarian")
+if (!require("miniUI")) install.packages("miniUI")
+if (!require("styler")) install.packages("styler")
+if (!require("usethis")) install.packages("usethis")
+if (!require("todor")) install.packages("todor")
+if (!require("remotes")) install.packages("remotes")
+if (!require("shrtcts")) remotes::install_github("gadenbuie/shrtcts")
