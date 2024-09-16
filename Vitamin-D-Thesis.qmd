@@ -61,15 +61,18 @@ header-includes:
 - \newrobustcmd{\LU}[2]{\if@in@acrolist#1\else#2\fi}
 - \newcommand{\ACF}[1]{{\@in@acrolisttrue\acf{#1}}}
 - \usepackage{pdflscape} # Allow \begin{landscape} for figures
+- \usepackage{capt-of} # For caption outside floating environments (used with the landscape table)
 - \usepackage{makecell} # Make multiline cell in latex
 - \usepackage{multirow} # Make multiple row cells \multirow
 - \usepackage{booktabs} # For beautiful publication ready tables ; \cmidrule
 - \usepackage{ltablex} # Longtable + tabularx in one
-- \newcolumntype{Y}{>{\centering\arraybackslash}X} % Centered column type for tabularx
+- \newcolumntype{Y}{>{\centering\arraybackslash}X} # Centered column type for tabularx
 # friendly reminder that you need to write "\%" in latex environment in order to display "%"...
 # - \usepackage{tabularx} # Automatic column width (\begin{tabularx}{\linewidth}{lXcX}) ; 
 - \usepackage{graphicx} # Required for \includegraphics trying to fix a scaling
 - \usepackage{subcaption} # To crossref subcaptions and subfigures
+- \usepackage{csvsimple} # To import csv files
+- \usepackage{hypcap} # fix the links from 2 tabular in 1 table environment
 - \usepackage[capitalise, noabbrev, nameinlink]{cleveref} # Allows \cref{} to cite latex table as "Table 3"
 # Specify which cross-reference should automatically be bolded : Tables and Figures
 # Use \cref{} instead of \ref (only gives the number) or @fig (doesn't give hyperlink on "Figure" text)

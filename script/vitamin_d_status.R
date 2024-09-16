@@ -319,9 +319,22 @@ formatted_summary <- continent_summary %>%
     Weighted_Percent_Below_50 = number(Weighted_Percent_Below_50, accuracy = 0.1)
   ) %>%
   arrange(Weighted_Mean) %>%
-  rename(`Percentage below 20 ng/mL` = Weighted_Percent_Below_50)
+  rename(`Percentage below 20 ng/mL` = Weighted_Percent_Below_50) |>
+  mutate(Weighted_Mean = paste0(Weighted_Mean, " ± ", Weighted_SD))
 
 # Print the converted summary
 print(formatted_summary)
 
-write.table(formatted_summary, "tables/formatted_summary.tsv", sep = "\t", row.names = FALSE)
+french_table <- formatted_summary |>
+  select(-Weighted_SD) |>
+  rename(`% en dessous de 20 ng/mL` = `Percentage below 20 ng/mL`) |>
+  rename(`Moyenne ± écart-type pondéré (ng/mL)` = Weighted_Mean) |>
+  mutate(Continent = case_match(Continent, "Asia" ~ "Asie",
+                                "Europe" ~ "Europe",
+                                "Middle East" ~ "Moyen-Orient",
+                                "North America" ~ "Amérique du Nord",
+                                "South America" ~ "Amérique du Sud",
+                                "Africa" ~ "Afrique"))
+
+write.table(french_table, "tables/formatted_summary_french.csv", sep = ",", row.names = FALSE)
+print(french_table)
