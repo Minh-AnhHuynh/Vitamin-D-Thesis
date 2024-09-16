@@ -483,6 +483,8 @@ il s'agit d'une circonstance particulière où cette approche repose sur
 l'hypothèse que ces maladies auto-immunes sont dues à une résistance à
 la vitamine D [@Lemke.2021].
 
+De plus, les analogues de la vitamine D sont utilisés dans le traitement de la psoriasis tel que le talcacitol, en première ligne seul ou en combinaison avec des corticostéroïdes topiques. Contrairement aux corticostéroïdes, le talcacitol n'induit pas d'accoutumance et ne provoque pas d'effets indésirables [@Giustina.2020].
+
 ## Pharmacocinétique
 
 La pharmacocinétique de la vitamine D est beaucoup plus complexe que celle d’un
