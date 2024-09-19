@@ -5,8 +5,11 @@ if (interactive() && requireNamespace("shrtcts", quietly = TRUE)) {
 
 # Check for what to do in the beginning of a session
 if (interactive()) {
-  suppressMessages(require(usethis))
-  suppressMessages(require(todor))
+  require(usethis)
+}
+
+if(interactive()){
+  require(todor)
   options(todor_extra = "qmd")
   todor::todor()
 }

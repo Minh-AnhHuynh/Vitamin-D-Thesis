@@ -65,10 +65,15 @@ header-includes:
 - \usepackage{makecell} # Make multiline cell in latex
 - \usepackage{multirow} # Make multiple row cells \multirow
 - \usepackage{booktabs} # For beautiful publication ready tables ; \cmidrule
-- \usepackage{ltablex} # Longtable + tabularx in one
-- \newcolumntype{Y}{>{\centering\arraybackslash}X} # Centered column type for tabularx
+- \usepackage{array}
+- \usepackage{tabularx} # Automatic column width (\begin{tabularx}{\linewidth}{lXcX}) ; 
+- \usepackage{longtable}
+- \usepackage{tabularray}
+- \UseTblrLibrary{booktabs} # Use booktabs rules in tabularray
+- \newcolumntype{L}{>{\raggedright\arraybackslash}X} # Centered column type for tabularx
+# Define a new column type 'R' for right-aligned, expandable columns
+- \newcolumntype{R}{>{\raggedleft\arraybackslash}X}
 # friendly reminder that you need to write "\%" in latex environment in order to display "%"...
-# - \usepackage{tabularx} # Automatic column width (\begin{tabularx}{\linewidth}{lXcX}) ; 
 - \usepackage{graphicx} # Required for \includegraphics trying to fix a scaling
 - \usepackage{subcaption} # To crossref subcaptions and subfigures
 - \usepackage{csvsimple} # To import csv files
