@@ -10,6 +10,4 @@ if (interactive()) {
 
 if(interactive()){
   require(todor)
-  options(todor_extra = "qmd")
-  todor::todor()
 }
