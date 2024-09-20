@@ -419,6 +419,7 @@ La carence en vitamine D est présente dans le monde entier, principalement au M
 
 \begin{table}[h]
     \centering
+    \captionsetup[table]{justification=raggedright, singlelinecheck=false}
     \caption[Carence en vitamine D dans le monde.]{Carence en vitamine D dans le monde. \autocite{Giustina.2020}.}
     \label{tab:statut-vd-2}
     \begin{tabularx}{\textwidth}{lRR}
@@ -472,10 +473,10 @@ que la population âgée de l'Espagne, l'Italie et la Suisse était en déficien
 sévère de vitamine D. De même, l'étude de rétrospective sur une cohorte des patients aux Etats-Unis de @Gibbons.2022 observe que la supplémentation en vitamine D diminue le risque de mortalité de 33 % sur une période de 30 jours et le risque d'infection de 20 %. Les auteurs notent qu'après stratification des patients en fonction de leur concentration en vitamine D, les patients entre 0-19 ng/mL observent la plus grande diminution en infection par la COVID-19 après supplémentation. Une étude d'un centre hospitalier rapporte que chez le groupe de patients
 considéré vitamine D déficient (\< 12 ng/mL) contre non déficient (\> 12 ng/mL),
 il existe une association entre la déficience de vitamine D et le risque de
-ventilation mécanique invasive et de mortalité (HR = 6.12 et 14.73
+ventilation mécanique invasive et de mortalité (\ac{HR} = 6,12 et 14,73
 respectivement) [@Radujkovic.2020].
 
-Les patients hospitalisés présentent fréquemment des concentrations en vitamine D critiquement basses comparés à la population générale. @Hernández.2020 rapporte dans une étude cas-contrôle rétrospective que parmi les 197 patients, 82,2 % des patients étaient en déficience (13,8 \pm \ 7,2 ng/mL contre 20,9 \pm \ 7,4 ng/mL). De même, l'étude prospective de @Campi.2021 a étudié les niveaux de vitamine D et d'IL-6 lors de l'admission chez 103 patients positif au COVID-19 contre 206 sujets contrôles, et a constaté une concentration plus faible chez les patients sévères (18,2 \pm \ 11,4 ng/mL) contre les patients légèrement symptomatiques ou contrôles (30.3 ± 8.5 ng/mL et 25.4 ± 9.4 ng/mL, respectivement). La (\Cref{fig-vd-covid-deficiency}) illustre la proportion croissante de patient déficient en vitamine D en fonction de la sévérité des symptômes à la COVID-19. Le niveau de vitamine D est corrélé inversement au taux d'IL-6 et de mortalité indépendamment des autres facteurs confondants.
+Les patients hospitalisés présentent fréquemment des concentrations en vitamine D critiquement basses comparés à la population générale. @Hernández.2020 rapporte dans une étude cas-contrôle rétrospective que parmi les 197 patients, 82,2 % des patients étaient en déficience (13,8 \pm \ 7,2 ng/mL contre 20,9 \pm \ 7,4 ng/mL). De même, l'étude prospective de @Campi.2021 a étudié les niveaux de vitamine D et d'IL-6 lors de l'admission chez 103 patients positif au COVID-19 contre 206 sujets contrôles, et a constaté une concentration plus faible chez les patients sévères (18,2 \pm \ 11,4 ng/mL) contre les patients légèrement symptomatiques ou contrôles (30,3 ± 8,5 ng/mL et 25,4 ± 9,4 ng/mL, respectivement). La \Cref{fig-vd-covid-deficiency} illustre la proportion croissante de patient déficient en vitamine D en fonction de la sévérité des symptômes à la COVID-19. Le niveau de vitamine D est corrélé inversement au taux d'IL-6 et de mortalité indépendamment des autres facteurs confondants.
 
 
 ![**Taux de prévalence de l'insuffisance ou de la carence en vitamine D**
@@ -488,7 +489,7 @@ mortalité [@Hernández.2020; @Jevalikar.2021; @Cereda.2021; @Murai.2021]. Bien 
 
 Dans une étude rétrospective menée en Espagne sur une cohorte de 108 343 patients, les auteurs de l’étude d'@Oristrell.2022 n’ont pas trouvé d’association significative entre la supplémentation en vitamine D et les résultats cliniques globaux. Cependant, les patients ayant des niveaux de vitamine D supérieurs à 30 ng/mL ont montré une diminution de la mortalité, de la sévérité de la maladie, et du risque d'infection.
 
-En particulier, les trois méta-analyses effectuées par @Kaya.2021 rapportent que les individus déficients en vitamine D sont 1,64 ($IC_{95\%} = [1,32\ ; 2,04],\ P < 0,001$) fois plus susceptibles de contracter la COVID-19, 2,42 fois ($IC_{95\%} = [1.13\ ; 5.18],\ P = 0,022$) plus de chance de développer une forme sévère, tandis que le niveau faible de vitamine D n'a pas eu d'effet sur la mortalité ($OR = 1,64\ ; IC_{95\%} = [0,53\ ; 5,06],\ P = 0,390$).
+En particulier, les trois méta-analyses effectuées par @Kaya.2021 rapportent que les individus déficients en vitamine D sont 1,64 ($IC_{95\%} = [1,32 ; 2,04] ; P < 0,001$) fois plus susceptibles de contracter la COVID-19, 2,42 fois ($IC_{95\%} = [1.13; 5.18] ; P = 0,022$) plus de chance de développer une forme sévère, tandis que le niveau faible de vitamine D n'a pas eu d'effet sur la mortalité ($OR = 1,64; IC_{95\%} = [0,53; 5,06]; P = 0,390$).
 
 Globalement, les pays de l'hémisphère sud ont un taux de
 mortalité plus bas que les pays de l'hémisphère nord [@Contreras-Bolívar.2023],
@@ -518,22 +519,21 @@ l'incidence de COVID-19 et le taux de déficience en vitamine D considéré comm
 le premier quintile à 65 % pour le cinquième quintile (indiquant que 23 pays sur
 les 46 analysés ont plus de 49 % de déficience à la vitamine D) [@Mariani.2021].
 
-La \Cref{tab:meta-analyses-obs} résume l'opinion des méta-analyses et études citées.``
+La \Cref{tblr:meta-analyses-obs} résume l'opinion des méta-analyses et études citées.``
 
 
 ```{=tex}
-\DefTblrTemplate{caption-tag}{default}{font=\bfseries}
-\DefTblrTemplate{contfoot-text}{default}{\scriptsize\itshape\color{gray} (Suite à la page suivante)}
-\DefTblrTemplate{conthead-text}{default}{(Suite)}
 
 \begin{landscape}
 \begin{longtblr}[
-  caption = {\textbf{Opinion des méta-analyses sur les études observationnelles concernant l'existence d'une relation entre la vitamine D et la COVID-19.}},
-  entry = {Opinion des méta-analyses sur les études observationnelles concernant l'existence d'une relation entre la vitamine D et la COVID-19.},
-  label = {tblr:meta-analyses-obs}
+    theme = tinyfr,
+    caption = {\textbf{Opinion des méta-analyses sur les études observationnelles concernant l'existence d'une relation entre la vitamine D et la COVID-19.} \acs{RR}, \acl{RR}; },
+    entry = {Opinion des méta-analyses sur les études observationnelles concernant l'existence d'une relation entre la vitamine D et la COVID-19.},
+    label = {tblr:meta-analyses-obs}
 ]{
-    colspec = {XXX},
-    row{1} = {font=\bfseries, halign=c},
+    colspec = {lXX},
+    cells= {font = \small},
+    row{1} = {font=\bfseries \small, halign=c},
     rowhead = 1
 }
 
@@ -543,24 +543,27 @@ La \Cref{tab:meta-analyses-obs} résume l'opinion des méta-analyses et études 
 
 \textcite{Ghasemian.2021} & Méta-analyse et revue systématique de 23 études (n = 11 901) & 41 \% des patients COVID-19 sont déficients (< 20 ng/mL) en vitamine D (moyenne de 20,3 ng/mL), 42 \% des patients ont un niveau insuffisant (20-30 ng/mL). Lors d'une déficience, les patients ont 3,3 fois plus de chance de contracter la COVID-19 et 5 fois plus de chance de développer un COVID-19 sévère. Il n'existe pas d'association entre le statut en vitamine D et un plus fort taux de mortalité. \\
 
-\textcite{Jevalikar.2021} & Étude prospective observationnelle (n = 410). & 48,2 \% des 410 patients ont un taux de vitamine D \textless \ < 20 ng/mL, mais les auteurs ne retrouvent pas d'associations avec la sévérité, mortalité, ou l'admission hospitalière, le besoin en oxygénothérapie et ne trouvent pas de corrélation avec les marqueurs inflammatoires (IL-6, CRP).\\
+\textcite{Jevalikar.2021} & Étude prospective observationnelle (n = 410). & 48,2 \% des 410 patients ont un taux de vitamine D < 20 ng/mL, mais les auteurs ne retrouvent pas d'associations avec la sévérité, mortalité, ou l'admission hospitalière, le besoin en oxygénothérapie et ne trouvent pas de corrélation avec les marqueurs inflammatoires (IL-6, CRP).\\
 
 \textcite{Kaya.2021} & Méta-analyse de 21 études observationnelles (n = 205 869) &  La déficience (< 20 ng/mL) augmente le risque d'infection COVID-19 et risque de maladie sévère. Les individus déficients ont 1,64 fois plus de chance de contracter la COVID-19 et les patients < 20 ng/mL ont 2,42 fois plus de chance de contracter une forme sévère de la maladie. Le statut bas en vitamine D n'a pas d'effet sur la mortalité.\\
 
-\textcite{Munshi.2021} & Méta-analyse de 6 études observationnelles (n = 376) &  Les patients COVID-19 ont une moyenne de 8,76 ng/mL. Les patients avec une hypovitaminose D (moyenne = 8.79 ng/mL) ont un mauvais pronostic pour les patients COVID-19 (SMD = -0.58, $IC_{95\%} = [−0.83\ ;−0.34]$, P < 0,001)\\
+\textcite{Munshi.2021} & Méta-analyse de 6 études observationnelles (n = 376) &  Les patients COVID-19 ont une moyenne de 8,76 ng/mL. Les patients avec une hypovitaminose D (moyenne = 8.79 ng/mL) ont un mauvais pronostic pour les patients COVID-19 (SMD = -0,58, $IC_{95\%} = [−0,83\ ; −0,34]$, P < 0,001)\\
 
 \textcite{Petrelli.2021} & Méta-analyse de 43 études observationnelles (n = 612 601) &  La carence en vitamine D est associée à une aggravation de la gravité et à une mortalité plus élevée que chez les patients non carencés (OR = 2,6 ; $IC_{95\%} = [1,84\; 3,67]$ ; P < 0,01 et OR = 1,22 ;  $IC_{95\%} = [1,04\ ; 1,43]$ ; P < 0,01, respectivement).\\
 
 \textcite{Ben-Eltriki.2022} & Méta-analyse de 24 études observationnelles (n = 3637) &  Un faible statut en vitamine D était statistiquement associé à un risque plus élevé de mortalité (RR = 1,60 ; $IC_{95\%} = [1,10\ ; 2,32]$), à un risque plus élevé de développer une pneumonie sévère COVID-19 (RR = 1,50 ; $IC_{95\%} = [1,10\ ; 2,05]$). Les patients COVID-19 ont une CRP et un taux d'IL-6 supérieur aux patients \geq \ 30 ng/mL.\\
 
-\textcite{Pal.2022} & Méta-analyse de 10 études observationnelles et 3 \ac{RCT} (n = 2933) &  Les auteurs observent une réduction de la mortalité ($OR = 0,41, IC_{95\%} = [0.20\ ; 0.81], P = 0.01, I^2 = 66 \%$, modèle random effects) ainsi que des effets indésirables ($OR = 0,27, CI_{95\%} = [0,08 ; 0,91], P = 0,03, I^2 = 80 \%$, modèle random-effects).\\
+\textcite{Pal.2022} & Méta-analyse de 10 études observationnelles et 3 \ac{RCT} (n = 2933) &  Les auteurs observent une réduction de la mortalité ($OR = 0,41, IC_{95\%} = [0,20\ ; 0,81],\ P = 0,01,\ I^2 = 66 \%$, modèle random effects) ainsi que des effets indésirables ($OR = 0,27, IC_{95\%} = [0,08\ ; 0,91], P = 0,03, I^2 = 80 \%$, modèle random-effects).\\
 
 \bottomrule
 \end{longtblr}
-\end{landscape},
+\end{landscape}
 ```
 
 De manière curieuse, @Pal.2021 notent l'existence d'une forte prévalence d'hypocalcémie chez les patients COVID-19 à symptôme léger. et suggèrent que cela implique probablement que l'hypocalcémie est intrinsèque à la maladie. Ce déséquilibre pourrait être dû à la perturbation des niveaux de \ac{PTH} et/ou de calcidiol, ou bien être dû à des niveaux d'acide gras élevés qui peuvent se lier au calcium, causant l'hypocalcémie.
+
+
+
 
 ## Effets des interventions thérapeutiques dans la prévention et le traitement de la COVID-19
 
@@ -596,153 +599,133 @@ phases en fonction de leur sévérité [@WHO.2023.org ; @Agarwal.2020] :
     diarrhée, nausées et vomissements
 -   Phase modérée : Définie comme l'absence de critères sévères ou
     critiques. Pneumonie (fièvre, toux, dyspnée, hyperventilation),
-    SpO~2~ \> 90%
--   Phase sévère : Pneumonie, sepsis, SpO~2~ \< 90%, fréquence
+    SpO~2~ \> 90 %
+-   Phase sévère : Pneumonie, sepsis, SpO~2~ \< 90 %, fréquence
     respiratoire \> 30/min
 -   Phase critique: \ac{SDRA}, sepsis, choc septique, thrombose aiguë
     nécessitant une ventilation mécanique ou traitement par
     vasopresseurs en unité de soins intensifs.
     
-L'opinion des méta-analyses sur les essais cliniques est résumée dans la \Cref{tab:meta-analyses-rct}.
+L'opinion des méta-analyses sur les essais cliniques est résumée dans la \Cref{tblr:meta-analyses-rct}.
 
 
 
-<!-- ```{=tex} -->
-<!-- \begin{table}[ht] -->
-<!-- \centering -->
-<!-- \captionsetup{font=small, singlelinecheck=false} % Adjust caption font size and alignment -->
-<!-- \caption[Opinion des méta-analyses sur les essais cliniques concernant l'impact de la supplémentation en vitamine D sur la mortalité, la sévérité et/ou l'admission en soins intensifs.] -->
-<!-- {Opinion des méta-analyses sur les essais cliniques concernant l'impact de la supplémentation en vitamine D sur la mortalité, la sévérité et/ou l'admission en soins intensifs.} -->
-<!-- \label{tab:meta-analyses-rct} -->
-<!-- \small % Apply small font size for the table -->
 
-<!-- \begin{longtblr}[ -->
-<!--   caption = {Opinion des méta-analyses sur les essais cliniques concernant l'impact de la supplémentation en vitamine D sur la mortalité, la sévérité et/ou l'admission en soins intensifs.}, -->
-<!--   label = {tab:meta-analyses-rct}, -->
-<!--   colspec = {X[1]X[2]X[3]}, % Column specification -->
-<!--   rowhead = 1, -->
-<!--   font = \small, -->
-<!--   valign = middle -->
-<!-- ]{@{} l X X @{}} % Adjust the column specifier to fit your needs -->
-<!-- \toprule -->
-<!-- \textbf{Étude} & \textbf{Design et taille de l'échantillon} & \textbf{Opinion} \\ -->
-<!-- \midrule -->
-<!-- \endfirsthead -->
+```{=tex}
+\begin{landscape}
+\begin{longtblr}[
+    theme = tinyfr,
+    caption = {\textbf{Opinion des méta-analyses sur les essais cliniques concernant l'impact de la supplémentation en vitamine D sur la mortalité, la sévérité et/ou l'admission en soins intensifs.} \acs{RCT}, \acl{RCT}; .},
+    entry = {Opinion des méta-analyses sur les essais cliniques concernant l'impact de la supplémentation en vitamine D sur la mortalité, la sévérité et/ou l'admission en soins intensifs.},
+    label = {tblr:meta-analyses-rct}
+]{
+    colspec = {lXX},
+    row{1} = {font=\bfseries \small, halign=c},
+    rowhead = 1,
+}
 
-<!-- \caption[]{(suite) Opinion des méta-analyses sur les essais cliniques concernant l'impact de la supplémentation en vitamine D sur la mortalité, la sévérité et/ou l'admission en soins intensifs.} \\ -->
-<!-- \toprule -->
-<!-- \textbf{Étude} & \textbf{Design et taille de l'échantillon} & \textbf{Opinion} \\ -->
-<!-- \midrule -->
-<!-- \endhead -->
+\toprule
+\textbf{Étude} & \textbf{Design et taille de l'échantillon} & \textbf{Opinion} \\
+\midrule
 
-<!-- \bottomrule -->
-<!-- \endlastfoot -->
+% Table content goes here
 
-<!-- % Table content goes here -->
-<!-- \textcite{Zhong.2024} & Méta-analyse de 5 RCT (n = 11 901) & Négative. L'analyse n'a pas trouvé de bénéfice d'une forte dose de vitamine D (définie comme une dose unique de ≥100 000 UI ou une dose quotidienne de ≥ 10 000 UI atteignant une dose totale de ≥ 100 000 UI) pour la mortalité ni l'admission en soins intensifs, incluant l'analyse sous-groupe des patients déficients.\\ -->
 
-<!-- \textcite{Borsche.2021} & Méta-analyse et revue systématique de 8 RCT (n = 114 415) et 1 population d'étude. & Forte corrélation inverse de mortalité avec le taux de vitamine D à la fois pour la population d'étude et l'ensemble des RCT analysés, avec un taux de mortalité théorique obtenu à 50 ng/mL (r(32) = −0.3989, P = 0.0194). \\ -->
+\textcite{Pal.2022} & Méta-analyse de 3 RCT & \\
 
-<!-- \textcite{Hariyanto.2022} & Méta-analyse de 11 RCT. & L'analyse suggère que la supplémentation en vitamine D est associée à une réduction du taux d'admission en unité de soins intensifs (OR 0.27 ; 95 \% IC : 0.09-0.76, P = 0.010), à une réduction du besoin de ventilation mécanique (OR 0.34 ; 95 \% IC : 0.16-0.72, P = 0.005) et à une réduction de la mortalité due à la Covid-19 (OR 0.37 ; IC$_{95 \%}$ : 0.21-0.66, P < 0.001). L'analyse méta-régression impacte l'association entre la supplémentation en vitamine D et la mortalité, mais pas le genre, l'hypertension, le diabète ou l'usage de corticostéroïdes. \\ -->
+\textcite{Borsche.2021} & Méta-analyse et revue systématique de 8 RCT (n = 114 415) et 1 population d'étude. & Forte corrélation inverse de mortalité avec le taux de vitamine D à la fois pour la population d'étude et l'ensemble des RCT analysés, avec un taux de mortalité théorique obtenu à 50 ng/mL (r(32) = −0,3989, P = 0,0194). \\
 
-<!-- \end{longtblr} -->
+\textcite{Murai.2021} & Essai clinique randomisé (n = 120) & L'essai clinique ne recommande pas la supplémentation en vitamine D. Dose unique de 200 000 UI de vitamine D~3~ vs placebo, n = 120. Pas de différence significative en terme de durée d'hospitalisation, de mortalité, d'admission aux urgences ou de ventilation mécanique.\\
 
-<!-- \end{table} -->
+\textcite{Hariyanto.2022} & Méta-analyse de 11 RCT. & L'analyse suggère que la supplémentation en vitamine D est associée à une réduction du taux d'admission en unité de soins intensifs ($OR = 0,27,\ IC_{95\%} = [0,09\ ;\ 0,76],\ P = 0,010$), à une réduction du besoin de ventilation mécanique ($OR = 0,34 ; IC_{95\%} = [0,16 ;\ 0,72], P = 0,005$) et à une réduction de la mortalité due à la COVID-19 ($OR = 0,37 ; IC_{95 \%} = [0,21\; 0,66], P < 0.001$). L'analyse méta-régression impacte l'association entre la supplémentation en vitamine D et la mortalité, mais pas le genre, l'hypertension, le diabète ou l'usage de corticostéroïdes. \\
 
-<!-- \end{landscape} -->
-<!-- ``` -->
+\textcite{Zhong.2024} & Méta-analyse de 5 RCT (n = 11 901) & Négative. L'analyse n'a pas trouvé de bénéfice d'une forte dose de vitamine D (définie comme une dose unique de ≥100 000 UI ou une dose quotidienne de ≥ 10 000 UI atteignant une dose totale de ≥ 100 000 UI) pour la mortalité ni l'admission en soins intensifs, incluant l'analyse sous-groupe des patients déficients.\\
+
+\end{longtblr}
+
+\end{landscape}
+```
 
 
 
 
 #### Etudes en phase hospitalière (visée curative)
 
-Généralement dans les études visent à tester l'efficacité de la vitamine
-D sur un plan curatif, les patients sont déjà infectés par la COVID-19
-et symptomatique et sont administrés une dose unique ou répétée de
-vitamine D lors de l'entrée en hospitalisation.
+Dans la majorité des études évaluant l'efficacité curative de la vitamine D, les
+patients sont déjà infectés par le \ac{SARS-CoV-2} et symptomatiques au moment
+de l'inclusion. Une dose unique ou répétée de vitamine D leur est administrée
+dès leur admission à l'hôpital.
 
-Il a été observé que le rapport entre le peptide LL-37 et le nombre total de
-leucocytes sériques chez les patients atteints de COVID-19 est corrélé avec la
-sévérité. Il existe une corrélation entre le CRP, IL‑6, PCT, compte
-leucocytaire, LDH et sévérité de la maladie [@Keutmann.2022]. Des niveaux
-sériques plus faibles de LL-37 sont associés à la gravité de la maladie et à la
-durée du séjour à l'hôpital [@Keutmann.2022] et il a été observé que les niveaux
-de calcidiol sont directement corrélés aux niveaux de LL-37 chez les patients en
-sepsis [@Cutuli.2024].
-
+Il a été observé que le rapport entre le peptide LL-37 et le nombre total
+de leucocytes sériques chez les patients atteints de COVID-19 est corrélé avec
+la sévérité. Il existe une corrélation entre le \ac{CRP}, \ac{IL-6}, \ac{PCT},
+compte leucocytaire, \ac{LDH} et sévérité de la maladie [@Keutmann.2022]. Des
+niveaux sériques plus faibles de LL-37 sont associés à la gravité de la
+maladie et à la durée du séjour à l'hôpital [@Keutmann.2022] et il a été observé
+que les niveaux de calcidiol sont directement corrélés aux niveaux de LL-37
+chez les patients en sepsis [@Cutuli.2024].
 
 La méta-analyse de @Borsche.2021 rapporte une forte corrélation inverse de
 mortalité avec le taux de vitamine D. Les auteurs suggèrent également que les
 taux de vitamine D sont sans dangers en prenant en compte les besoins en
-vitamine K2 ; certains répondeurs faibles à la vitamine D devraient avoir une
+vitamine K~2~ ; certains répondeurs faibles à la vitamine D devraient avoir une
 concentration augmentée à 75 ou 100 ng/mL pour avoir un effet similaire aux
 répondeurs modérés. L'analyse des 8 études rapportent une médiane de 23,2 ng/mL.
 Les régressions mathématiques de deux bases de données séparées montrent que le
 taux de mortalité diminue à partir de 30 ng/mL, et un seuil de 50 ng/mL serait
 optimal pour diminuer la mortalité liée à la COVID-19.
-    
-Une étude *in vitro* a observé l'inhibition de la production des cytokines (IL-6, à partir
-de 30 ng/mL, testé jusqu'à 70 ng/mL. La dose d'inhibition maximale est retrouvée à 50
-ng/mL, et pas d'effet inhibiteur supplémentaire observé à 70 ng/mL [@Zhang.2012].
+
+Une étude _in vitro_ a démontré une inhibition de la production de cytokines,
+notamment de l'\ac{IL-6}, à partir d'un taux de 30 ng/mL de vitamine D, avec des
+tests effectués jusqu'à 70 ng/mL. L'inhibition maximale a été observée à 50
+ng/mL, sans effet inhibiteur supplémentaire au-delà de ce seuil, même à 70 ng/mL
+[@Zhang.2012].
+
+L'étude de @Kaufman.2020, portant sur 191 779 patients, a révélé que 39 190
+d'entre eux (12,5 %) étaient positifs au COVID-19 avec un taux de vitamine D
+inférieur à 20 ng/mL, 27 870 patients (8,5 %) avec un taux entre 30 et 34 ng/mL,
+et 12 321 patients positifs avec un taux supérieur ou égal à 55 ng/mL. Le taux
+minimal d'infection a été observé chez les patients avec un niveau de vitamine D
+de 55 ng/mL.
+
+Dans l'étude de @Annweiler.2022 menée chez des patients de plus de 65 ans, aucun
+groupe témoin n'a été inclus pour des raisons éthiques, en raison de la
+prévalence élevée d'hypovitaminose D. Les patients ont reçu une dose unique de
+50 000 UI ou de 400 000 UI de vitamine D, entraînant une réduction de la
+mortalité de 11 % contre 6 % à 14 jours, bien qu'aucune différence significative
+n'ait été observée à 28 jours.
+
+L'administration de vitamine D est corrélée à une diminution du ratio
+neutrophiles/lymphocytes périphériques, un indicateur fonctionnel lié à une
+réduction de la mortalité et du passage aux soins intensifs (3000-6000 UI/jour
+pendant 2 mois) [@Maghbooli.2021].
 
 
-<!-- @Pal.2022: Méta-analyse, 10 études observationnelles et 3 RCTs. La -->
-<!--     vitamine D réduit la mortalité et le risque d'admission en soins -->
-<!--     intensifs. L'analyse sous-groupe révèle que la supplémentation est -->
-<!--     bénéfique lorsque les patients sont déjà atteints de COVID-19 mais -->
-<!--     pas lorsqu'ils ont déjà reçu de vitamine D avant le diagnostic. -->
+Inversement, certains essais cliniques présentent des résultats contradictoires :
 
-<!-- -   @Pal.2022 rapportent également 4 RCTs ou études observationnelles -->
-<!--     qui ne sont pas en faveur de la vitamine D. -->
+- Dans l'étude de @Cereda.2021, une supplémentation moyenne supérieure à 1800 UI/jour n’a pas montré de différence significative par rapport au groupe non supplémenté en ce qui concerne les taux d'hospitalisation.
+
+- L'essai clinique de @Murai.2021, qui a comparé une dose unique de 200 000 UI de vitamine D3 à un placebo auprès de 120 participants, ne recommande pas la supplémentation en vitamine D. Aucune différence significative n'a été observée en termes de durée d'hospitalisation, de mortalité, d'admissions aux urgences ou de besoin de ventilation mécanique.
 
 
-L'étude de @Kaufman.2020 : Sur 191 779 patients, 39 190 (12,5%) sont positifs au
-COVID-19 avec \< 20 ng/mL, 27 870 patients (8,5%) avec 30-34 ng/mL (8,1%) et 12
-321 (5,9%) patients positifs \>= 55 ng/mL Le minimum d'infection est observé
-pour un taux de 55 ng/mL.
 
-Etude de @Annweiler.2022 chez les patients âgés de plus de 65 ans, pas
-de bras contrôle pour des raisons éthiques médicales (majorité en
-hypovitaminose D) : dose unique de 50 000 UI vs 400 000 UI, baisse de la
-mortalité 11% vs 6% à 14 jours, mais pas à 28 jours.
-
-L'usage de vitamine D est associée à une réduction du rapport
-    neutrophile-lymphocyte périphérique, qui est un paramètre
-    fonctionnel associé à une réduction de la mortalité et de passer en
-    soins intensifs (3000-6000 UI/j pour 2 mois) [@Maghbooli.2021]
-
-
-RCT contradictoires :
-
--   @Cereda.2021 : La supplémentation moyenne \> 1800 UI/jour ne donne
-    pas de différence par rapport au groupe non supplémenté en terme
-    d'hospitalisation.
-
--   @Murai.2021 : L'essai clinique ne recommande pas la supplémentation
-    en vitamine D. Dose unique de 200 000 UI de vitamine D3 vs placebo,
-    n =
-
-120. Pas de différence significative en terme de durée
-     d'hospitalisation, de mortalité, d'admission aux urgences ou de
-     ventilation mécanique.
 
 #### Etudes en phase réanimation
 
-La déficience en soin intensif généralement définie comme calcitriol \< 12
-ng/mL, déficience selon l'IOM est \< 20 ng/mL [@Cutuli.2024].
+La déficience en soin intensif est généralement définie comme une concentration
+de calcidiol (25(OH)D) inférieure à 12 ng/mL, tandis que la déficience est
+établiese par l'\ac{IOM} comme inférieure à 20 ng/mL [@Cutuli.2024].
 
 Dans un contexte seul de soin intensif sans COVID-19 : Il est rapporté que 40 -
-70 % des patients en soins intensifs sont déficients en vitamine D. Des
-études observationnelles rapportent que la déficience en vitamine D \<
-15 ng/mL est prédictive du risque de sepsis et de mortalité, 93,5% de
-déficience dont 53,3% sont extrêmement bas, à \< 7 ng/mL. Les
-méta-analyses rapportent que les niveaux bas de vitamine D sont
-indépendamment associés à une plus grande mortalité, et en particulier
-l'analyse sous-groupe montre que seule la déficience de vitamine D \< 10
-ng/mL est associé à une augmentation de mortalité, mais que cette
-association n'est pas retrouvée pour des niveaux de vitamine D plus
-élevés [@Cutuli.2024].
+70 % des patients en soins intensifs sont déficients en vitamine D. Des études
+observationnelles rapportent que la déficience en vitamine D \< 15 ng/mL est
+prédictive du risque de sepsis et de mortalité, 93,5% de déficience dont 53,3%
+sont extrêmement bas, à \< 7 ng/mL. Les méta-analyses rapportent que les niveaux
+bas de vitamine D sont indépendamment associés à une plus grande mortalité, et
+en particulier l'analyse sous-groupe montre que seule la déficience de vitamine
+D \< 10 ng/mL est associé à une augmentation de mortalité, mais que cette
+association n'est pas retrouvée pour des niveaux de vitamine D plus élevés
+[@Cutuli.2024].
 
 Seulement deux essais cliniques à large nombre de patients ont examiné le rôle
 de la vitamine D en soins intensifs dans la COVID-19, VITdAL-ICU et VIOLET. Pas
@@ -754,23 +737,18 @@ analysés par @Cutuli.2024 qui présentent un effectif plus faible, et ne sont p
 conclusives. Selon les auteurs, des essais cliniques spécialisés à grande
 échelle sur la question n'ont pas encore été conduits et seraient importants.
 
-Méta-analyse de 5 \acp{RCT} sur la mortalité et
-l'admission en soins intensifs, en analysant le risque de biais par la
-méthodologie Cochrane ROB 2, avec l'analyse \ac{TSA} [@Kang.2021].
-L'administration de vitamine D résulte en une réduction de la mortalité
-et de l'admission en soins intensifs (SMD: (95% CI): 0.49 (0.34–0.72) et
-0.28 (0.20–0.39)). L'analyse TSA révèle que le nombre de patient est
-suffisant pour arriver à une conclusion concernant la réduction de
-l'admission en soins intensifs, mais que l'association positive du
-facteur protecteur de la vitamine D sur la mortalité nécessite encore
-des études supplémentaires [@Argano.2023: ].
+Une méta-analyse de cinq \ac{RCT} a examiné la mortalité et les admissions en soins intensifs, en évaluant le risque de biais selon la méthodologie Cochrane ROB 2, ainsi qu'une analyse de type \ac{TSA} [@Kang.2021]. Les résultats indiquent que l'administration de vitamine D est associée à une réduction significative de la mortalité et des admissions en soins intensifs, avec des \ac{SMD} de 0,49 (IC~95 %~ : 0,34 ; 0,72) et 0,28 (IC 95 % : 0,20 ; 0,39), respectivement. L'analyse \ac{TSA} suggère que le nombre de patients inclus est suffisant pour tirer des conclusions sur la réduction des admissions en soins intensifs, tandis que l'effet protecteur de la vitamine D sur la mortalité nécessite encore des études supplémentaires [@Argano.2023].
 
 
-@Karonova.2022.pharmaceuticals: 321 patients, prévalence de patients sévères
-chez les patients déficients en vitamine D. Analyse ROC révèle un niveau de 11,4
-ng/mL associé à la mortalité ; - \<11,4 ng/mL : Th CD3+ CD4+ diminué - Tfh
-diminué dans les deux groupes - \> 11,4 ng/mL : Augmentation Th2 central memory
-et diminution Th17 central memory.
+Selon @Karonova.2022.pharmaceuticals, une étude menée auprès de 321 patients a
+révélé une prévalence notable de formes sévères chez ceux présentant une carence
+en vitamine D. L'analyse par courbe ROC a identifié un seuil critique de 11,4
+ng/mL, associé à une mortalité accrue. En dessous de ce niveau, une diminution
+des cellules T CD3^+^ CD4^+^ a été observée, ainsi qu'une réduction des cellules T
+folliculaires auxiliaires dans les deux groupes étudiés. En revanche, chez
+les patients dont le niveau de vitamine D était supérieur à 11,4 ng/mL, une
+augmentation des cellules T mémoire centrales de type Th2 et une diminution des
+cellules T mémoire centrales de type Th17 ont été notées.
 
 <!-- -   @Rastogi.2022 : SHADE study: RCT, 40 patients, 60 000 UI de vitamine -->
 <!--     D3 vs placebo, 1 dose, 7 jours. Objectif \> 50 ng/mL. n = 16 vitD vs -->

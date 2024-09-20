@@ -27,6 +27,7 @@
 \acro{COVID-19}{Coronavirus Disease 2019}
 \acro{COX-2}{cyclo-oxygénase 2}
 \acro{CPA}{cellules présentatrices d'antigènes}
+\acro{CRP}{C-reactive protein}
 \acro{CYP24A1}{24-hydroxylase}
 \acro{CYP27B1}{25-hydroxyvitamine D\textsubscript{3}-1α-hydroxylase}
 \acro{DBP}{vitamin D binding protein}
@@ -52,6 +53,7 @@
 \acro{IMC}{indice de masse corporelle}
 \acro{iNKT}{invariant NK T cell}
 \acro{IOM}{Institute of Medicine}
+\acro{LDH}{lactate deshydrogénase}
 \acro{LOAEL}{Lowest Observed Adverse Effect Level}
 \acro{LPS}{lipopolysaccharide}
 \acro{MAPK}{mitogen-activated protein kinases}
@@ -71,6 +73,7 @@
 \acro{OR}{odds ratio}
 \acro{PAFR}{platelet-activating factor receptor}
 \acro{PAMP}{pathogen associated molecular pattern}
+\acro{PCT}{procalcitonine}
 \acro{PRR}{pattern recognition receptor}
 \acro{PTH}{parathormone}
 \acro{RCT}{randomized control trial}

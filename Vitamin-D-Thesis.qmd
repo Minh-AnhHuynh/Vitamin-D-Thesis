@@ -26,6 +26,7 @@ crossref:
   lof-title: Liste des Figures
   lot-title: Liste des Tables
 link-citations: true
+#lang: fr # Set the language to french for babel, but I prefer the latex typography
 # mainfont: "Times New Roman"
 execute:
   echo: false
@@ -45,9 +46,11 @@ header-includes:
 - \counterwithout{table}{section}
 - \usepackage[authordate,backend=biber, doi=false, isbn=false]{biblatex-chicago} # Use if biblatex
 - \usepackage[french]{babel} # Citation adds "Author ET author"
+- \AtBeginDocument{\mathcode`\;="303B} # Use ; with space as a math separator
 - \usepackage{bookmark} # To add toc to pdf bookmarks
 - \setcounter{tocdepth}{4} # Set toc depth to 4 (some sections don't show in toc)
 - \unimathsetup{math-style=french} # {unicode-math} is already loaded, so we choose maths-style=french to have upright greek letters. Use \mupalpha to get alpha.
+- \usepackage{icomma} # In math mode, use comma as decimal separator (a,b) ; use space (a, b) to get a space
 # - \usepackage[math-style=french]{unicode-math} will not work and somehow conflict with the acronym package
 # - \usepackage{upgreek} # alternatively upgreek can be used, \upalpha
 - \usepackage{acronym} # Needs suffix and e-TeX
@@ -70,6 +73,12 @@ header-includes:
 - \usepackage{longtable}
 - \usepackage{tabularray}
 - \UseTblrLibrary{booktabs} # Use booktabs rules in tabularray
+- \NewTblrTheme{tinyfr}{
+  \SetTblrStyle{head}{font=\small}
+  \DefTblrTemplate{caption-tag}{default}{\textbf{Table\hspace{0.25em}\thetable}}
+  \DefTblrTemplate{caption-sep}{default}{\enskip--\enskip}
+  \DefTblrTemplate{contfoot-text}{default}{\scriptsize\itshape\color{gray} (Suite à la page suivante)}
+  \DefTblrTemplate{conthead-text}{default}{(Suite)}} # Define a new theme for tabularray
 - \newcolumntype{L}{>{\raggedright\arraybackslash}X} # Centered column type for tabularx
 # Define a new column type 'R' for right-aligned, expandable columns
 - \newcolumntype{R}{>{\raggedleft\arraybackslash}X}

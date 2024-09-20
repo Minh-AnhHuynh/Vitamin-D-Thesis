@@ -172,7 +172,7 @@ sur les monocytes [@Bishop.2021] et inhibe la production des cytokines
 inflammatoires \ac{IL-2}, l'\ac{IL-6} et l'\ac{IL-17} [@Meza-Meza.2022;
 @Caprio.2017].
 
-Le calcitriol induit robustement l'IL-8 [@Bishop.2021], qui recrute les neutrophiles tout comme l'IL-1\mupbeta sur le lieu de l'inflammation, et augmente à son tour la production de IL-8 par les neutrophiles. Cependant il est rapporté que le pouvoir phagocytique du macrophage est diminué, mais n'affecte pas celui du neutrophile [@Chen.2017].
+Le calcitriol induit robustement l'IL-8 [@Bishop.2021], qui recrute les neutrophiles tout comme l'IL-1\mupbeta \ sur le lieu de l'inflammation, et augmente à son tour la production de IL-8 par les neutrophiles. Cependant il est rapporté que le pouvoir phagocytique du macrophage est diminué, mais n'affecte pas celui du neutrophile [@Chen.2017].
 
 ![**Représentation schématique des fonctions paracrine et intracrine de
 la vitamine D et de ses métabolites et des actions de la
