@@ -349,7 +349,7 @@ Il a été observé que les lymphocytes n’expriment que faiblement le
 \ac{VDR} à l’état basal, contrairement aux monocytes, mais fortement
 après activation. Les lymphocytes activés expriment également le
 \ac{CYP27B1} nécessaire pour convertir le calcidiol en calcitriol
-[@Bishop.2021; Charoengramm.2020]
+[@Bishop.2021; @Charoengramm.2020].
 
 L'expression de \ac{CYP27B1} et de \ac{VDR} contribue à la synthèse de calcitriol grâce au calcidiol circulant, et contribue au fonctionnement du mécanisme immunitaire.
 
