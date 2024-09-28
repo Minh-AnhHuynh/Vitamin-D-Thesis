@@ -527,6 +527,8 @@ l'incidence de COVID-19 et le taux de déficience en vitamine D considéré comm
 le premier quintile à 65 % pour le cinquième quintile (indiquant que 23 pays sur
 les 46 analysés ont plus de 49 % de déficience à la vitamine D) [@Mariani.2021].
 
+Parmi les études observationnelles, la méta-analyse de 32 études (n = 7771) par @Hopefl.2021 montre que les patients à niveau suffisant de vitamine D possèdent des niveaux plus bas de CRP, IL-6, ferritine, LDH, fibrinogène et D-dimères comparé au groupe de patients déficients en vitamine D. Seul le paramètre analysé de sédimentation des érythrocyte n'est pas différent entre les deux groupes. 
+
 La \Cref{tblr:meta-analyses-obs} résume l'opinion des méta-analyses et études citées.
 
 
