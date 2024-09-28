@@ -46,7 +46,7 @@ header-includes:
 - \counterwithout{table}{section}
 - \usepackage[authordate,backend=biber, doi=false, isbn=false]{biblatex-chicago} # Use if biblatex
 - \usepackage[french]{babel} # Citation adds "Author ET author"
-- \AtBeginDocument{\mathcode`\;="303B} # Use ; with space as a math separator
+- \AtBeginDocument{\mathcode`\;="303B} # Adds space before ; in math mode
 - \usepackage{bookmark} # To add toc to pdf bookmarks
 - \setcounter{tocdepth}{4} # Set toc depth to 4 (some sections don't show in toc)
 - \unimathsetup{math-style=french} # {unicode-math} is already loaded, so we choose maths-style=french to have upright greek letters. Use \mupalpha to get alpha.
@@ -55,6 +55,11 @@ header-includes:
 # - \usepackage{upgreek} # alternatively upgreek can be used, \upalpha
 - \usepackage{acronym} # Needs suffix and e-TeX
 - \usepackage{amsmath} # Better handling of sub/superscript for chemical formula
+# Redefine P to ensure it is always italic in math mode
+- \let\oldP\P % Save the old definition of P
+- \renewcommand{\P}{\mathit{P}} # Redefine P to be italicized
+- \setmathfont{Latin Modern Math}
+- \Umathcodenum`P=14799939 # All P are now italicized in math mode
 # Use the following to make mixed case acronyms
 # See: https://tex.stackexchange.com/a/70894/284278
 - \usepackage{etoolbox}

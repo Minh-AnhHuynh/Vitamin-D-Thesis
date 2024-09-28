@@ -36,6 +36,7 @@
 \acro{FDA}{Food and Drugs Administration}
 \acro{FGF23}{fibroblast growth factor 23}
 \acro{HR}{hazard ratio}
+\acro{IC}{intervalle de confiance}
 \acro{ICAM-1}{intercellular adhesion molecule 1}
 \acro{IFN}{interféron}
 \acro{IFN-1}{interférons de type I}
@@ -83,6 +84,7 @@
 \acro{SARS-CoV-2}{Severe Acute Respiratory Syndrome Coronavirus 2}
 \acro{SDRA}{syndrome de détresse respiratoire aiguë}
 \acro{SLS}{syndrome de libération de cytokines}
+\acro{SMD}{standardized mean difference}
 \acro{SRAA}{système rénine angiotensine aldostérone}
 \acro{TCR}{T cell receptor}
 \acro{Th}[T helpers]{lymphocytes T helpers}
