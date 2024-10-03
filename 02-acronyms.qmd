@@ -60,6 +60,7 @@
 \acro{MAPK}{mitogen-activated protein kinases}
 \acro{MasR}{récepteur Mas}
 \acro{MCP-1}{macrophage chemoattractant protein-1}
+\acro{MD}{mean difference}
 \acro{MDP}{muramyl dipeptide}
 \acro{MIF}{monocyte migration inhibitory factor}
 \acro{MIP-1}{macrophage inflammatory protein-1}
@@ -85,6 +86,7 @@
 \acro{SDRA}{syndrome de détresse respiratoire aiguë}
 \acro{SLS}{syndrome de libération de cytokines}
 \acro{SMD}{standardized mean difference}
+\acro{SpO2}[SpO\textsubscript{2}]{saturation pulsée en oxygène}
 \acro{SRAA}{système rénine angiotensine aldostérone}
 \acro{TCR}{T cell receptor}
 \acro{Th}[T helpers]{lymphocytes T helpers}
