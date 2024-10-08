@@ -32,6 +32,7 @@
 \acro{CYP27B1}{25-hydroxyvitamine D\textsubscript{3}-1α-hydroxylase}
 \acro{DBP}{vitamin D binding protein}
 \acro{EFSA}{European Food Safety Authority}
+\acro{EGFR}{epidermal growth factor receptor}
 \acro{eNOS}{endothelial nitric oxide synthase}
 \acro{FDA}{Food and Drugs Administration}
 \acro{FGF23}{fibroblast growth factor 23}
@@ -95,6 +96,7 @@
 \acro{Th17}[Th17]{CD4\textsuperscript{+} type 17 helper T cells}
 \acro{TLR}{toll-like receptor}
 \acro{Tmax}[T\textsubscript{max}]{temps auquel la C\textsubscript{max} est atteinte}
+\acro{TMPRSS2}{transmembrane protease, serine 2}
 \acro{tnfa}[TNF-\mupalpha]{tumor necrosis factor alpha}
 \acro{Treg}[T\textsubscript{reg}]{lymphocytes T régulateurs}
 \acro{TSA}{trial sequencing analysis}

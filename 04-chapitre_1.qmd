@@ -47,7 +47,7 @@ nucléaire et à sa liaison à l'ADN au niveau des séquences de réponse
 \begin{figure}
 \centering
 \includegraphics[width=0.7\columnwidth]{figures/cholecalciferol-chemspider.png} 
-\caption[Structure chimique de la vitamine D3 ou cholécalciférol.]{\textbf{Structure chimique de la vitamine D3 ou cholécalciférol.} (\cite{chemspider.2023})}
+\caption[Structure chimique de la vitamine D3 ou cholécalciférol.]{\textbf{Structure chimique de la vitamine D3 ou cholécalciférol.} \textcite{chemspider.2023}.}
 \label{fig:vitd3}
 \end{figure}
 ```

@@ -131,8 +131,7 @@ une réaction immunitaire excessive et incontrôlée à une infection,
 pouvant entraîner une défaillance multiviscérale et engager le pronostic
 vital.
 
-## Rationnel du mécanisme physiologique de l'usage de la vitamine D dans la COVID-19
-
+## Justification du mécanisme physiologique de l'utilisation de la vitamine D dans la COVID-19
 Trois mécanismes principaux supportent l'action de la vitamine D
 [@Pal.2022; @Borsche.2021] :
 
@@ -175,7 +174,7 @@ d'intérêt car elle est impliquée dans la fusion directe du virus avec la
 membrane cellulaire, et clive également \ac{ACE2}. Similairement, \ac{ADAM17}
 est une métalloprotéase qui clive \ac{ACE2}, et son activité est augmentée
 lorsque \ac{ACE2} est internalisé. \ac{ADAM17} peut conduire à la libération de
-\ac{tnfa} et IL6R, ainsi que d'autres molécules proinflammatoires. L'axe Ang II-AT1R active \ac{ADAM17} qui libère à son tour la forme mature de l'EGFR, la forme soluble de l'IL-6Ra et le \ac{tnfa}. L'\ac{Ang II} n'agit donc pas seulement comme un vasoconstricteur mais aussi comme une molécule pro-inflammatoire par l'intermédiaire de la liaison à AT1R.
+\ac{tnfa} et IL6R, ainsi que d'autres molécules proinflammatoires. L'axe Ang II-AT1R active \ac{ADAM17} qui libère à son tour la forme mature de l'\ac{EGFR}, la forme soluble de l'IL-6Ra et le \ac{tnfa}. L'\ac{Ang II} n'agit donc pas seulement comme un vasoconstricteur mais aussi comme une molécule pro-inflammatoire par l'intermédiaire de la liaison à \ac{AT1R}.
 
 La dysrégulation de \ac{ACE2} impliqué dans le \ac{SRAA} peut causer une
 tempête cytokinique résultante du déséquilibre du système, une pneumonie et d'autres réponses inflammatoires pathogéniques pouvant mener à une défaillance d'organe multiviscérale [@Argano.2023].
@@ -541,7 +540,7 @@ La \Cref{tblr:meta-analyses-obs} résume l'opinion des méta-analyses et études
     label = {tblr:meta-analyses-obs}
 ]{
     colspec = {l p{6cm} X},
-    cells= {font = \small},
+    cells= {font = \footnotesize},
     row{1} = {font=\bfseries \small, halign=c},
     rowhead = 1
 }
@@ -687,6 +686,7 @@ dès leur admission à l'hôpital. L'opinion des méta-analyses sur les essais c
     label = {tblr:meta-analyses-rct}
 ]{
     colspec = {l p{6cm} X},
+    cells= {font = \footnotesize},
     row{1} = {font=\bfseries \small, halign=c},
     rowhead = 1,
 }
@@ -751,10 +751,10 @@ sévérité ($ES = 1,77; IC_{95\%} = [1,45 ; 2,10] ; P < 0,001 ; I^2 = 00,0\%, P
 n'a pas trouvé de bénéfice d'une forte dose de vitamine D (définie comme une
 dose unique de ≥ 100 000 UI ou une dose quotidienne de ≥ 10 000 UI atteignant une
 dose totale de ≥ 100 000 UI) pour la mortalité ni l'admission en soins
-intensifs, incluant l'analyse sous-groupe des patients déficients.\\
+intensifs, incluant l'analyse sous-groupe des patients déficients. \\
 
 % May 2024
-\textcite{Yang.2024} & Méta-analyse de 19 RCT. & Dans le sous-groupe sévère, l'analyse montre des effets bénéfiques concernant l'admission en soins intensifs ($OR 0,43, IC_{95\%} 0,23, 0,80 ; P = 0,008$), la ventilation mécanique ($OR 0,44, IC_{95\%} = [0,27 ; 0,72] ; P = 0,001$) et la durée d'hospitalisation ($SMD -0,49, IC_{95\%} = [0,92 ; -0,06] ; P = 0,027$). Dans le sous-groupe administration de la vitamine D, l'analyse montre des bénéfiques concernant l'admission en soins intensifs ($OR 0,39, IC_{95\%} = [0,16 ; 0,97] ; P = 0,044$), de la ventilation mécanique ($OR 0,18, IC_{95\%} = [0,07 ; 0,46] ; P = 0,000$) et de l'admission en soins intensifs ($SMD -0,50, IC_{95\%} -0,96, -0,04 ; P = 0,000$). Ces effets sont plus prononcés chez des patients supplémentés avec de multiples doses de vitamine D plutôt qu'une dose unique. Bien que le résultat de la mortalité n'ait pas montré d'effet statistiquement significatif, les auteurs notent qu'il indique une tendance à la baisse ($OR 0,87, IC_{95\%} 0,63, 1,12 ; P > 0,05$). Les résultats des marqueurs inflammatoires n'ont révélé aucune différence statistique. \\
+\textcite{Yang.2024} & Méta-analyse de 19 RCT. & Dans le sous-groupe sévère, l'analyse montre des effets bénéfiques concernant l'admission en soins intensifs ($OR = 0,43 ; IC_{95\%} = [0,23 ; 0,80] ; P = 0,008$), la ventilation mécanique ($OR = 0,44 ; IC_{95\%} = [0,27 ; 0,72] ; P = 0,001$) et la durée d'hospitalisation ($SMD = -0,49, IC_{95\%} = [0,92 ; -0,06] ; P = 0,027$). Dans le sous-groupe administration de la vitamine D, l'analyse montre des bénéfiques concernant l'admission en soins intensifs ($OR = 0,39, IC_{95\%} = [0,16 ; 0,97] ; P = 0,044$), de la ventilation mécanique ($OR = 0,18, IC_{95\%} = [0,07 ; 0,46] ; P = 0,000$) et de l'admission en soins intensifs ($SMD = -0,50, IC_{95\%} = [-0,96 ;-0,04] ; P = 0,000$). Ces effets sont plus prononcés chez des patients supplémentés avec de multiples doses de vitamine D plutôt qu'une dose unique. Bien que le résultat de la mortalité n'ait pas montré d'effet statistiquement significatif, les auteurs notent qu'il indique une tendance à la baisse ($OR = 0,87, IC_{95\%} = [0,63 ; 1,12] ; P > 0,05$). Les résultats des marqueurs inflammatoires n'ont révélé aucune différence statistique. \\
 
 % May 2024
 \textcite{Sobczak.2024} & Méta-analyse de 13 \ac{RCT} & La méta-analyse montre un effet bénéfique de la supplémentation en vitamine D sur la mortalité ($RR = 0,56 ; IC_{95\%} = [0,34 ; 0,91] ; P = 0,02 ; I^2 = 0\%$), ainsi que pour la diminution du taux d'admission en soins intensifs ($ RR = 0,73 ; IC_{95\%} = [0,57 ; 0,95] ; P = 0,02, I^2 = 19,6 \% $)
@@ -931,9 +931,8 @@ invasive ou non-invasive. Les auteurs notent le manque d'études évaluant la vi
 
 ### Méthodologie des études
 
-Il existe de multiples méta-analyses, et essais cliniques randomisés, montrant
-une efficacité de la vitamine D en ce qui concerne un usage en prévention,
-curatif ou même dans un cadre critique nécessitant le passage en unité de soin
+Il existe de multiples méta-analyses, et essais cliniques randomisés, arrivant à l'observation d'une
+une efficacité de la vitamine D en ce qui concerne un usage en terme de prévention, en usage hospitalier curatif ou même dans un cadre critique nécessitant le passage en unité de soin
 intensif. Les études dégagent plusieurs points notables : la supplémentation en vitamine D conduit à une réduction de la mortalité et la déficience en vitamine D est associée à une augmentation de la mortalité et sévérité de la maladie et du risque d'infection parmi les patients, ainsi qu'un pronostic défavorable. Ces informations sont notamment appuyées par la méta-analyse parapluie de @Jamilian.2024. En ce qui concerne les patients en soins intensifs, la vitamine D peut être associée à une réduction de la mortalité et du taux d'admission, mais à cause du nombre réduit d'études, la conclusion reste incertaine.
 
 Malgré cela, il existe également des études montrant l'absence d'effet de la
@@ -1003,7 +1002,7 @@ Selon @Grant.2022.nutrients, les \ac{RCT} sur la vitamine D dans un contexte gé
 
 ### Variabilité de la réponse à la vitamine D {#sec-variabilite-reponse}
 
-Selon le rationnel physiologique de l'effet de la vitamine D, l'hétérogénéité
+Par la justification du mécanisme physiologique de l'effet de la vitamine D, l'hétérogénéité
 des résultats peut s'expliquer par la dose d'administration pouvant être
 insuffisante pour atteindre une dose jugée optimale d'au moins 30 ng/mL et
 idéalement 50 ng/mL où le taux d'infection et la mortalité seraient les plus
@@ -1020,6 +1019,10 @@ vitamine D entre patients est donc potentiellement très élevée, et la
 concentration plasmatique atteinte entre chaque patient pour une même dose de
 vitamine D peut être très variable.
 
+
+_____________
+**Brouillon**
+
 @Freitas.2021
 @Onoja.2022
 @Delgado-Wicke.2024
@@ -1029,16 +1032,32 @@ vitamine D peut être très variable.
 
 Mentionné par @Crafa.2021 :
 @Reijven.2020
-@Silva.2015 : Le calcidiol diminue lors d'une réponse aiguë à une infection
+@Silva.2015 : Le calcidiol diminue lors d'une réponse aiguë à une infection. 
+
+Cet effet est confirmé par l'étude de @Smolders.2021, qui a examiné le cas où l'inflammation systémique serait responsable d'une diminution de calcidiol mesurable, créant ainsi un effet de causalité inversé. En effet, l'administration de \ac{LPS} de E.Coli bactérien chez des patients cause une diminution de la concentration de calcidiol passant d'une moyenne de 30 nM à 23 nM deux à trois heures après le début de l'administration, et retourne à la normale six heures après l'administration initiale. La baisse de calcidiol coïncide avec un pic des cytokines inflammatoires typique. Les auteurs notent donc que lors de l'infection par COVID-19, il est possible que la concentration de calcidiol soit réduite avant que les patients soient admis à l'hôpital et soient mesurés. Cependant, les résultats n'exclut pas les possibles bénéfices liés à la vitamine D, mais peut expliquer l'observation de concentrations faibles de calcidiol chez les patients hospitalisés.
 
 @Giustina.2020 : Il est possible que la concentration faible de calcidiol soit due à la réduction aiguë du \ac{DBP} circulant [@Christopher.2016]. Des doses élevées pourrait être nécessaire dans le cadre des soins intensifs à cause de la sécrétion de cortisol qui pourrait empêcher l'hydroxylation rénale et hépatique de la vitamine D.
 
-### Non-efficacité d'une dose bolus contre doses multiples
-
-La méta-analyse de @Meng.2023 note que deux revues concluent que des doses de maintenance journalière de vitamine D est plus efficace que des doses uniques pour réduire la mortalité, ce qui coïncide avec leurs résultats. En effet, un essai clinique récent supplémentation en vitamine D à bolus forte dose intermittente s'est retrouvé en échec face à la prévention de, l'indication originale pour laquelle la vitamine D a été découverte et utilisée [@Crowe.2021]. @Griffin.2021 notent que les méta-analyses de la supplémentation en vitamine D chez d'autres pathogènes corroborent l'efficacité à plus faible dose journalière plutôt que d'une dose bolus.
-
-@Mazess.2021
 
 
-Les effets plus prononcés de l'administration de la vitamine D sont retrouvés dans la méta-analyse de @Yang.2024, cité dans la \Cref{tblr:meta-analyses-rct}.
+
+### Efficacité moindre d'une dose bolus contre doses multiples
+
+La méta-analyse de @Meng.2023 note que deux revues mentionnent que des doses de maintenance journalière de vitamine D sont plus efficace que des doses uniques pour réduire la mortalité, ce qui coïncide avec leurs résultats [@Griffin.2021 ; @Mazess.2021]. En effet, un essai clinique récent, supplémentant 100 000 UI chez des enfants (1 à 11 mois) tout les 3 mois pour une durée de 18 mois s'est retrouvé inefficace pour la prévention du rachitisme, l'indication originale pour laquelle la vitamine D a été découverte et utilisée [@Crowe.2021].
+
+De plus, @Griffin.2021 notent que les méta-analyses de la supplémentation en vitamine D chez d'autres pathogènes corroborent l'efficacité à plus faible dose journalière plutôt que d'une dose bolus. En effet, les auteurs remarquent qu'il existe un effet protecteur des infections respiratoires aiguës lorsque la dose de vitamine D est journalière ou hebdomadaire ($OR = 0,81 ; IC_{95\%} = [0,72 ; 0,91]$), mais cette protection disparaît lorsque les doses sont délivrées en bolus ($OR = 0,97 ; IC_{95\%} = [0,88 ; 1,06]$) [@Martineau.2017]. De plus, l'analyse par sous-groupes révèle un effet encore plus marqué chez les patients présentant un taux de vitamine D inférieur à 25 nmol/L, soit 10 ng/mL ($OR = 0,30 ; IC_{95\%} = [0,17 ; 0,53]$), comparativement aux patients ayant un taux supérieur ou égal à 25 nmol/L ($OR = 0,75 ; IC_{95\%} = [0,60 ; 0,95]$). En outre, les effets plus prononcés de l'administration de la vitamine D ont été retrouvés dans la méta-analyse de @Yang.2024, cité dans la \Cref{tblr:meta-analyses-rct}.
+
+Une raison plausible est proposée pour expliquer le manque d'efficacité rencontré lors d'une dose bolus : la régulation du calcitriol et calcidiol passe par l'augmentation de la 24-hydroxylase ainsi que de la \ac{FGF23}, augmentés lors d'une dose bolus. Il a récemment été découvert que la 24-hydroxylase augmentée en réaction au bolus, possède une demi-vie longue approximant quatre semaines \Cref{fig-24-hydroxylase) et est plus élevée lors d'une situation bolus comparée à une dose journalière. L'utilisation d'un bolus peut impliquer un effet temporaire paradoxe de déficience intracellulaire de vitamine D, et peut influencer la réponse inflammatoire immunitaire, où la régulation à la hausse de CYP24A1 inhibe les effets fonctionnels de la vitamine D chez les cellules dendritiques [@Griffin.2021; @Ketha.2018]. 
+
+La présence de \ac{FGF23} joue également un rôle notable dans l'inhibition de la métabolisation du calcidiol en calcitriol. Une méta-analyse a déterminé qu'une supplémentation inférieure à 2000 UI par jour n'entraînait pas d'augmentation des concentrations de \ac{FGF23} tandis qu'une dose supérieure à 2000 UI par jour augmentait significativement les concentrations de \ac{FGF23} [@Griffin.2021]. L'augmentation de \ac{FGF23} par une dose bolus de 300 000 UI augmente de 50 % trois mois après la dose bolus. \ac{FGF23} inhibe à son tour la 1α-hydroxylase, causant une diminution de l'activation intracellulaire par calcitriol ce qui a été montré chez les monocytes [@Griffin.2021]
+
+<!-- Replace Griffin ref -->
+
+![**Modifications (a) de la concentration sérique de 24,25(OH)2D, (b) de la concentration sérique de 25(OH)D, (c) du rapport 24,25(OH)2D / 25(OH)D, et (d) de la concentration sérique de cholécalciférol après une dose unique de 150 000 UI de vitamine D3 (cercles ouverts) et une dose quotidienne de 5 000 UI pendant 28 jours (triangles noirs).** @Ketha.2018.]("figures/Alterations in (a) serum concentration of 24,25(OH)2D3 - Ketha.2018.jpg"){#fig-24-hydroxylase fig-scap="Modifications (a) de la concentration sérique de 24,25(OH)2D, (b) de la concentration sérique de 25(OH)D, (c) du rapport 24,25(OH)2D / 25(OH)D, et (d) de la concentration sérique de cholécalciférol après une dose unique de 150 000 UI de vitamine D3 (cercles ouverts) et une dose quotidienne de 5 000 UI pendant 28 jours (triangles noirs)."}
+
+Ces avis sont également partagés par @Mazess.2021, ajoutant que l'effet de l'administration par bolus sur les protéines antimicrobiennes ou les lymphocytes T régulateurs n'est pas étudié. De plus, il a été rapporté que les doses bolus n'ont pas réussi à faire diminuer les taux de \ac{CRP} ni d'augmenter la concentration des cytokines anti-inflammatoires, mais qu'elles sont propices à doubler le risque d'hypercalcémie. Concernant la COVID-19, les auteurs notent que de nombreuses études examinant une dose bolus ne parviennent pas à conclure à un effet thérapeutique bénéfique de la vitamine D, expliquant ainsi l'hétérogénéité rencontrée lors des essais, qui est également due aux conditions initiales des patients déficients, où l'effet observé est d'autant plus important lorsque les patients sont plus déficients en vitamine D, le statut de déficience (< 10 ng/mL) observant plus d'effets comparé au statut d'insuffisance (< 20 ng/mL) [@Mazess.2021].
+
+<!-- Insert more ref -->
+
+
 
