@@ -36,6 +36,7 @@
 \acro{eNOS}{endothelial nitric oxide synthase}
 \acro{FDA}{Food and Drugs Administration}
 \acro{FGF23}{fibroblast growth factor 23}
+\acro{GWAS}{genome wide association studies}
 \acro{HR}{hazard ratio}
 \acro{IC}{intervalle de confiance}
 \acro{ICAM-1}{intercellular adhesion molecule 1}
