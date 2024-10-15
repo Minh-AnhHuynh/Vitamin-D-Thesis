@@ -106,7 +106,7 @@
 \counterwithout{figure}{section}
 \counterwithout{table}{chapter}
 \counterwithout{table}{section}
-\usepackage[authordate,backend=biber, doi=false, isbn=false]{biblatex-chicago}
+\usepackage[authordate, backend=biber, doi=false, isbn=false, dashed=false]{biblatex-chicago}
 \usepackage[french]{babel}
 \AtBeginDocument{\mathcode`\;="303B}
 \usepackage{bookmark}
@@ -312,6 +312,7 @@ THESE
 \acro{eNOS}{endothelial nitric oxide synthase}
 \acro{FDA}{Food and Drugs Administration}
 \acro{FGF23}{fibroblast growth factor 23}
+\acro{GWAS}{genome wide association studies}
 \acro{HR}{hazard ratio}
 \acro{IC}{intervalle de confiance}
 \acro{ICAM-1}{intercellular adhesion molecule 1}
@@ -3019,11 +3020,11 @@ grande variabilité dans l'absorption de la vitamine D, qui peut être
 influencée par la nutrition, et la variabilité d'absorption et de
 distribution de la concentration de calcidiol qui est notamment
 dépendante du poids \autocite{Ekwaru.2014}, ainsi que de la variabilité
-génétique de réponse au VDR. Ainsi, \textcite{Vukić.2015} ont déterminé
-qu'il existait deux groupes de répondeurs à la vitamine D en fonction du
-nombre de pourcentage de gène activés, qui peut aller de 33 \% pour les
-répondeurs les plus bas à 80 \% chez les forts répondeurs. La
-variabilité de la réponse à la vitamine D entre patients est donc
+génétique de réponse au \ac{VDR}. Ainsi, \textcite{Vukić.2015} ont
+déterminé qu'il existait deux groupes de répondeurs à la vitamine D en
+fonction du nombre de pourcentage de gène activés, qui peut aller de 33
+\% pour les répondeurs les plus bas à 80 \% chez les forts répondeurs.
+La variabilité de la réponse à la vitamine D entre patients est donc
 potentiellement très élevée, et la concentration plasmatique atteinte
 entre chaque patient pour une même dose de vitamine D peut être très
 variable.
@@ -3032,8 +3033,33 @@ variable.
 
 \textbf{Brouillon}
 
-\textcite{Freitas.2021} \textcite{Onoja.2022}
-\textcite{Delgado-Wicke.2024}
+\subsection{Polymorphisme des gènes associés à la vitamine D comme
+biomarqueurs de
+risques}\label{polymorphisme-des-guxe8nes-associuxe9s-uxe0-la-vitamine-d-comme-biomarqueurs-de-risques}
+
+L'étude \ac{GWAS} de \textcite{Freitas.2021} étudie l'association entre
+le polymorphisme génétique associé à la vitamine D et la sévérité de la
+maladie, établissant des scores de risque polygénique, où plusieurs
+gènes sont regroupés selon quatre catégories (Synthèse, Métabolisme,
+Voie Métabolique et Vitamine D Totale). Une corrélation positive a été
+retrouvée entre le score Métabolisme et la sévérité de la maladie (ρ =
+0,14, corrélation de Spearman) et une corrélation négative entre
+Vitamine D Totale et les niveaux de vitamine D (ρ = - 0,09). De ce fait,
+un score plus élevé pour le métabolisme est associé à des résultats plus
+sévères pour la COVID-19, tandis qu'un score total de vitamine D plus
+élevé est associé à des taux de vitamine D plus faibles. Les auteurs
+notent que le polymorphisme \emph{GC RS228267} du gène \emph{GC} codant
+pour la \ac{DBP} peut expliquer la plupart des corrélations pertinentes
+observées (ρ = 0,13 ; \emph{P} = 0.005). De surcroît, l'étude a pour but
+de comparer le polymorphisme génétique chez la population portuguaise
+comparée à la population européenne, et observe que le variant
+\emph{DHCR7 RS12785878} (codant pour la 7-déhydrocholestérol réductase),
+associé aux scores Synthèse, Métabolisme, et Vitamine D Totale, est
+retrouvé 18,9 \% contre 9,7 \% dans la population européenne. Les
+auteurs concluent qu'il est erroné de considérer que les pays
+ensoleillés soient à moindre risque de carence de vitamine D et explique
+en partie la présence plus élevée de déficience parmi la population
+portuguaise.
 
 \subsection{Variabilité de la concentration de vitamine
 D}\label{variabilituxe9-de-la-concentration-de-vitamine-d}
@@ -3048,9 +3074,14 @@ un biais, puisque le calcidiol peut s'avérer être un marqueur de
 l'inflammation : les niveaux en calcidiol diminuent lors de la phase
 aiguë de l'inflammation, associé à une diminution de la fraction libre
 de \ac{DBP} et une augmentation de \ac{DBP} non libre tandis que les
-taux de \ac{CRP} augmentent inversement \autocite{Silva.2015}. De plus,
-l'augmentation de la perméabilité vasculaire peut mener à une diminution
-des taux de DBP et d'albumine par hémodilution
+taux de \ac{CRP} augmentent inversement \autocite{Silva.2015}. En effet
+il existe une interaction potentielle entre la \ac{DBP} et l'actine :
+les cellules endommagées lors d'une inflammation ou d'une blessure
+libèrent de l'actine, qui peut potentiellement interagir avec la
+\ac{DBP} qui est un récepteur scavenger de l'actine. Cependant les
+conséquences sur la concentration de \ac{DBP} et donc de vitamine D sont
+inconnues. De plus, l'augmentation de la perméabilité vasculaire peut
+mener à une diminution des taux de DBP et d'albumine par hémodilution
 \autocite{Reijven.2020,Silva.2015}. La réduction de la \ac{DBP} en cas
 d'inflammation pourrait entraîner une mesure des concentrations
 suggérant une carence en vitamine D, ce qui pourrait conduire à une

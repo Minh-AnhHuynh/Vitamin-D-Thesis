@@ -1023,9 +1023,13 @@ vitamine D peut être très variable.
 _____________
 **Brouillon**
 
-@Freitas.2021
-@Onoja.2022
-@Delgado-Wicke.2024
+### Polymorphisme des gènes associés à la vitamine D comme biomarqueurs de risques
+
+L'étude \ac{GWAS} de @Freitas.2021 étudie l'association entre le polymorphisme génétique associé à la vitamine D et la sévérité de la maladie, établissant des scores de risque polygénique, où plusieurs gènes sont regroupés selon quatre catégories (Synthèse, Métabolisme, Voie Métabolique et Vitamine D Totale). Une corrélation positive a été retrouvée entre le score Métabolisme et la sévérité de la maladie (ρ = 0,14, corrélation de Spearman) et une corrélation négative entre Vitamine D Totale et les niveaux de vitamine D (ρ = - 0,09). De ce fait, un score plus élevé pour le métabolisme est associé à des résultats plus sévères pour la COVID-19, tandis qu'un score total de vitamine D plus élevé est associé à des taux de vitamine D plus faibles. Les auteurs notent que le polymorphisme *GC RS228267* du gène *GC* codant pour la \ac{DBP} peut expliquer la plupart des corrélations pertinentes observées (ρ = 0,13 ; *P* = 0.005). De surcroît, l'étude a pour but de comparer le polymorphisme génétique chez la population portuguaise comparée à la population européenne, et observe que le variant *DHCR7 RS12785878* (codant pour la 7-déhydrocholestérol réductase), associé aux scores Synthèse, Métabolisme, et Vitamine D Totale, est retrouvé 18,9 % contre 9,7 % dans la population européenne. Les auteurs concluent qu'il est erroné de considérer que les pays ensoleillés soient à moindre risque de carence de vitamine D et explique en partie la présence plus élevée de déficience parmi la population portuguaise.
+
+<!-- Papers on genetic variability but no mentions of vitamin D -->
+<!-- @Onoja.2022 -->
+<!-- @Delgado-Wicke.2024 -->
 
 
 ### Variabilité de la concentration de vitamine D

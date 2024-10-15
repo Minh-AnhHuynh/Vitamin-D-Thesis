@@ -34,7 +34,7 @@ keep-tex: true
 bibliography: ["bibliography/vitamin-d.bib", "bibliography/organization.bib", "bibliography/manual.bib"]
 cite-method: biblatex
 # biblio-style: "biblatex-chicago" # Doesn't work
-csl: "csl/chicago-author-date-fr.csl" # Used for citeproc from pandoc
+#csl: "csl/chicago-author-date-fr.csl" # Used for citeproc from pandoc
 header-includes:
 - \usepackage{setspace} # \setspace{1.5} ; probably redundant
 - \usepackage{libertine} # My new font to make greek letters work
@@ -44,8 +44,9 @@ header-includes:
 - \counterwithout{figure}{section}
 - \counterwithout{table}{chapter} 
 - \counterwithout{table}{section}
-- \usepackage[authordate,backend=biber, doi=false, isbn=false]{biblatex-chicago} # Use if biblatex
+- \usepackage[authordate, backend=biber, doi=false, isbn=false, dashed=false]{biblatex-chicago} # biblatex, remove doi, isbn and 3 em dash for repeated authors
 - \usepackage[french]{babel} # Citation adds "Author ET author"
+# Load French language mappings for BibLaTeX
 - \AtBeginDocument{\mathcode`\;="303B} # Adds space before ; in math mode
 - \usepackage{bookmark} # To add toc to pdf bookmarks
 - \setcounter{tocdepth}{4} # Set toc depth to 4 (some sections don't show in toc)
