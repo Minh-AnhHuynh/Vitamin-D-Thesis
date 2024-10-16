@@ -249,13 +249,13 @@ diminution de l'expression de vitamine D et de VDR, ce qui diminue l'expression
 de rénine et altère la régulation de ACE2. Cette étude, à l'inverse des autres,
 montre que l'axe \ac{ACE2} est surreprésenté et que la bradykinine est
 augmentée, ce qui est en contradiction avec les autres études qui montrent une
-diminution de ACE2 et une augmentation de Ang II Les auteurs suggèrent que la
+diminution de \ac{ACE2} et une augmentation de Ang II Les auteurs suggèrent que la
 vitamine D pourrait être un traitement potentiel pour la \ac{COVID-19} en
-régulant l'axe ACE2/bradykinine par l'inhibition de rénine.
+régulant l'axe \ac{ACE2}/bradykinine par l'inhibition de rénine.
 
 
-![**Schéma du rôle du la vitamine D dans l’inhibition du SRAA [@Borsche.2021].**](figures/borsche.2021-vd-ras.jpg){#fig-vd-ras
-fig-scap="Schéma du rôle du la vitamine D dans l'inhibition du SRAA."}
+![**Schéma simplifié du rôle du la vitamine D dans l’inhibition du \acl{SRAA}.** La vitamine D métabolisée en calcidiol puis calcitriol, joue un rôle bénéfique dans la \ac{COVID-19} en favorisant l'expression de \ac{ACE2} ce qui favorise la voie du récepteur Mas et de l'angiotensive(1-7) facilitant la protection tissulaire tout en diminuant l'expression de rénine et donc de la voie de l'angiotensine II via le récepteur \ac{AT1} qui exacerbe les lésions tissulaires [@Borsche.2021].](figures/borsche.2021-vd-ras.jpg){#fig-vd-ras
+fig-scap="Schéma simplifié du rôle du la vitamine D dans l'inhibition du \acl{SRAA}."}
 
 
 
@@ -271,7 +271,7 @@ Généralement, les actions de la vitamine D sur la réponse immunitaire au SARS
 de la vitamine D et de ses métabolites et actions dans les systèmes
 immunitaires innés et adaptatifs.** A : Synthèse de la vitamine D. B1 :
 Immunité adaptative. B2 : immunité innée. C : Réponse inflammatoire
-médiée par le SARS-CoV-2
+médiée par le \ac{SARS-CoV-2}
 [@Contreras-Bolívar.2023].](figures/Contreras-Bolívar.2023-vd_paracrine_intracrine_functions.jpg){#fig-vd-covid-function
 fig-scap="Représentation schématique des fonctions paracrines et intracrines de la vitamine D et de ses métabolites et actions dans les systèmes immunitaires innés et adaptatifs."}
 
@@ -279,9 +279,9 @@ Le calcitriol contribue à la réponse antimicrobienne par l'induction de
 cathélicidine, défensine, et favorise la chimiotaxie des neutrophiles et
 macrophages sur le lieu de l'infection. En effet, il a été observé *in vitro*
 que le LL-37 se lie avec une grande affinité à la protéine de pointe S du
-SARS-CoV-2, empêchant celle-ci de se lier à la cellule hôte. LL-37 masque
+\ac{SARS-CoV-2}, empêchant celle-ci de se lier à la cellule hôte. LL-37 masque
 simultanément les sites de liaisons de \ac{ACE2} au domaine de liaison du
-récepteur du virus [@Wang.2021.ACS]. Le calcitriol favorise l'autophagie par le
+récepteur du virus [@Wang.2021.ACS.manual]. Le calcitriol favorise l'autophagie par le
 biais de LL-37, qui est un mécanisme de défense contre les infections virales et
 peut inhiber la réplication virale [@Gotelli.2022]. En effet, la présence de
 LL-37 est nécessaire pour l'induction de l'autophagie dans les macrophages et
@@ -349,11 +349,11 @@ inflammatoires résultent d'une balance immune entre ces deux processus.
 Le sepsis est de ce fait le résultat d'une hyperinflammation incontrôlée
 et d'une immunosuppression insuffisante [@Cutuli.2024]. Lors du sepsis,
 la vitamine D a un rôle inhibiteur des cytokines pro-inflammatoires
-(IL-12, \ac{ifng}, IL-6, IL-8, \ac{tnfa}, IL-17, IL-9), d'inhibition de
+(\ac{IL}-12, \ac{ifng}, IL-6, IL-8, \ac{tnfa}, IL-17, IL-9), d'inhibition de
 la transcription du COX-2 et de la prolifération, différenciation,
 activation et production d'immunoglobuline des lymphocytes B. En
 contrepartie la vitamine D promeut la production de cytokines
-anti-inflammatoires (IL-4, IL-5, IL-10) et la différenciation des
+anti-inflammatoires (\ac{IL}-4, IL-5, IL-10) et la différenciation des
 lymphocytes T régulateurs, des monocytes et des cellules dendritiques à
 phénotype tolérogènes, et est un fort inducteur de la cathélicidine [@Cutuli.2024]. Additionnellement, la vitamine D inhibe \ac{COX-2}
 [@Wang.2014], induite par les cellules immunitaires et amplifient la
@@ -374,12 +374,12 @@ plus tolérogène.
 
 ### Mécanismes supplémentaires contribuant à combattre la COVID-19
 
-Le COVID-19 sévère peut engendrer une coagulopathie et endommager l'endothélium, associé à une thrombose. L'hyperinflammation et l'activation du \ac{SRAA} peut contribuer à un effet prothrombotique retrouvé lors du \ac{SDRA}. La vitamine D en diminuant l'inflammation, l'activation du \ac{SRAA}, l'induction d'anticoagulants naturels comme la thrombomoduline et l'inhibiteur de la voie du facteur tissulaire (TFPI), ainsi que la désactivation du facteur tissulaire peut contribuer à réduire l'hypercoagulation.
+Le COVID-19 sévère peut engendrer une coagulopathie et endommager l'endothélium, associé à une thrombose. L'hyperinflammation et l'activation du \ac{SRAA} peut contribuer à un effet prothrombotique retrouvé lors du \ac{SDRA}. La vitamine D en diminuant l'inflammation, l'activation du \ac{SRAA}, l'induction d'anticoagulants naturels comme la thrombomoduline et l'inhibiteur de la voie du facteur tissulaire, ainsi que la désactivation du facteur tissulaire peut contribuer à réduire l'hypercoagulation.
 
 La vitamine D possède des effets antioxydantes en modulant l'activité
 mitochondriale, la uprégulation du glutathion, de la peroxydase et
 superoxyde dismutase, et en régulant à la baisse la NADPH oxydase. La présence
-de NO et de superoxyde peut exercer une activité antivirale
+de \ac{NO} et de superoxyde peut exercer une activité antivirale
 [@Shiravi.2022 ; @Contreras-Bolívar.2023].
 
 La vitamine D pourrait aussi avoir un potentiel neuroprotecteur. En effet, la
@@ -425,9 +425,9 @@ La carence en vitamine D est présente dans le monde entier, principalement au M
 \end{table}
 
 
+\captionsetup[table]{justification=raggedright, singlelinecheck=false}
 \begin{table}[h]
-    \captionsetup[table]{justification=raggedright, singlelinecheck=false}
-    \caption[Carence en vitamine D dans le monde.]{Carence en vitamine D dans le monde. \autocite{Giustina.2020}.}
+    \caption[Carence en vitamine D dans le monde.]{Carence en vitamine D dans le monde \autocite{Giustina.2020}.}
     \label{tab:statut-vd-2}
     \begin{tabularx}{\textwidth}{lRR}
         \toprule
@@ -989,13 +989,13 @@ la sévérité du COVID-19.
 essais cliniques pour les nutriments, où la méthodologie actuelle est adaptée
 pour les médicaments pharmaceutiques mais inadaptée pour les nutriments car les
 sources d'apports du nutriments sont diverses et que la relation dose-réponse
-entre la dose et un objectif de santé est non linéaire [@Grant.2022.nutrients].
+entre la dose et un objectif de santé est non linéaire [@Grant.2022.nutrients.manual].
 Les essais cliniques devraient être basés sur la concentration en calcidiol
 plasmatique initiale et celle à atteindre et non pas en dose de vitamine D étant
 donné la grande hétérogénéité observée entre l'administration d'une dose de
-vitamine D et la concentration plasmatique obtenue [@Grant.2022.nutrients].
+vitamine D et la concentration plasmatique obtenue [@Grant.2022.nutrients.manual].
 
-Selon @Grant.2022.nutrients, les \ac{RCT} sur la vitamine D dans un contexte général ont échoué car elles se sont concentrées sur la dose administrée plutôt que sur la concentration du nutriment. Cela a conduit à l'administration de doses faibles de vitamine D, insuffisantes pour atteindre la concentration désirée. De plus, ces essais ont inclus des patients dont le statut en vitamine D (calcidiol) dépassait celui de la population moyenne, ignorant qu'il existe potentiellement différents niveaux de concentration pour obtenir les bénéfices recherchés. Les \ac{RCT} analysent les résultats de manière limitée, ne tenant pas compte des effets non linéaires de la vitamine D ni de la forte variance des dosages [@Grant.2022 ; @Grant.2018]. En effet, l'hétérogénéité de la relation dose-réponse non linéaire est additionnellement illustrée par les polymorphismes génétiques associés au CYP24A1, CYP2R1 et GC [@Grant.2018], ainsi que la variabilité interindividuelle de la réponse à la vitamine D [@Vukić.2015] (@sec-variabilite-reponse). @Grant.2018 propose ainsi une approche basée sur une concentration de calcidiol à administrée à calculer en fonction des taux de base de la population d'intérêt.
+Selon @Grant.2022.nutrients.manual, les \ac{RCT} sur la vitamine D dans un contexte général ont échoué car elles se sont concentrées sur la dose administrée plutôt que sur la concentration du nutriment. Cela a conduit à l'administration de doses faibles de vitamine D, insuffisantes pour atteindre la concentration désirée. De plus, ces essais ont inclus des patients dont le statut en vitamine D (calcidiol) dépassait celui de la population moyenne, ignorant qu'il existe potentiellement différents niveaux de concentration pour obtenir les bénéfices recherchés. Les \ac{RCT} analysent les résultats de manière limitée, ne tenant pas compte des effets non linéaires de la vitamine D ni de la forte variance des dosages [@Grant.2022 ; @Grant.2018]. En effet, l'hétérogénéité de la relation dose-réponse non linéaire est additionnellement illustrée par les polymorphismes génétiques associés au CYP24A1, CYP2R1 et GC [@Grant.2018], ainsi que la variabilité interindividuelle de la réponse à la vitamine D [@Vukić.2015] (@sec-variabilite-reponse). @Grant.2018 propose ainsi une approche basée sur une concentration de calcidiol à administrée à calculer en fonction des taux de base de la population d'intérêt.
 
 
 
@@ -1050,13 +1050,13 @@ La méta-analyse de @Meng.2023 note que deux revues mentionnent que des doses de
 
 De plus, @Griffin.2021 notent que les méta-analyses de la supplémentation en vitamine D chez d'autres pathogènes corroborent l'efficacité à plus faible dose journalière plutôt que d'une dose bolus. En effet, les auteurs remarquent qu'il existe un effet protecteur des infections respiratoires aiguës lorsque la dose de vitamine D est journalière ou hebdomadaire ($OR = 0,81 ; IC_{95\%} = [0,72 ; 0,91]$), mais cette protection disparaît lorsque les doses sont délivrées en bolus ($OR = 0,97 ; IC_{95\%} = [0,88 ; 1,06]$) [@Martineau.2017]. De plus, l'analyse par sous-groupes révèle un effet encore plus marqué chez les patients présentant un taux de vitamine D inférieur à 25 nmol/L, soit 10 ng/mL ($OR = 0,30 ; IC_{95\%} = [0,17 ; 0,53]$), comparativement aux patients ayant un taux supérieur ou égal à 25 nmol/L ($OR = 0,75 ; IC_{95\%} = [0,60 ; 0,95]$). En outre, les effets plus prononcés de l'administration de la vitamine D ont été retrouvés dans la méta-analyse de @Yang.2024, cité dans la \Cref{tblr:meta-analyses-rct}.
 
-Une raison plausible est proposée pour expliquer le manque d'efficacité rencontré lors d'une dose bolus : la régulation du calcitriol et calcidiol passe par l'augmentation de la 24-hydroxylase ainsi que de la \ac{FGF23}, augmentés lors d'une dose bolus. Il a récemment été découvert que la 24-hydroxylase augmentée en réaction au bolus, possède une demi-vie longue approximant quatre semaines \Cref{fig-24-hydroxylase) et est plus élevée lors d'une situation bolus comparée à une dose journalière. L'utilisation d'un bolus peut impliquer un effet temporaire paradoxe de déficience intracellulaire de vitamine D, et peut influencer la réponse inflammatoire immunitaire, où la régulation à la hausse de CYP24A1 inhibe les effets fonctionnels de la vitamine D chez les cellules dendritiques [@Griffin.2021; @Ketha.2018]. 
+Une raison plausible est proposée pour expliquer le manque d'efficacité rencontré lors d'une dose bolus : la régulation du calcitriol et calcidiol passe par l'augmentation de la 24-hydroxylase ainsi que de la \ac{FGF23}, augmentés lors d'une dose bolus. Il a récemment été découvert que la 24-hydroxylase augmentée en réaction au bolus, possède une demi-vie longue approximant quatre semaines \Cref{fig-24-hydroxylase) et est plus élevée lors d'une situation bolus comparée à une dose journalière. L'utilisation d'un bolus peut impliquer un effet temporaire paradoxe de déficience intracellulaire de vitamine D, et peut influencer la réponse inflammatoire immunitaire, où la régulation à la hausse de CYP24A1 inhibe les effets fonctionnels de la vitamine D chez les cellules dendritiques [@Griffin.2021; @Ketha.2018 ; @Kundu.2014]. 
 
 La présence de \ac{FGF23} joue également un rôle notable dans l'inhibition de la métabolisation du calcidiol en calcitriol. Une méta-analyse a déterminé qu'une supplémentation inférieure à 2000 UI par jour n'entraînait pas d'augmentation des concentrations de \ac{FGF23} tandis qu'une dose supérieure à 2000 UI par jour augmentait significativement les concentrations de \ac{FGF23} [@Griffin.2021]. L'augmentation de \ac{FGF23} par une dose bolus de 300 000 UI augmente de 50 % trois mois après la dose bolus. \ac{FGF23} inhibe à son tour la 1α-hydroxylase, causant une diminution de l'activation intracellulaire par calcitriol ce qui a été montré chez les monocytes [@Griffin.2021]
 
 <!-- Replace Griffin ref -->
 
-![**Modifications (a) de la concentration sérique de 24,25(OH)2D, (b) de la concentration sérique de 25(OH)D, (c) du rapport 24,25(OH)2D / 25(OH)D, et (d) de la concentration sérique de cholécalciférol après une dose unique de 150 000 UI de vitamine D3 (cercles ouverts) et une dose quotidienne de 5 000 UI pendant 28 jours (triangles noirs).** @Ketha.2018.]("figures/Alterations in (a) serum concentration of 24,25(OH)2D3 - Ketha.2018.jpg"){#fig-24-hydroxylase fig-scap="Modifications (a) de la concentration sérique de 24,25(OH)2D, (b) de la concentration sérique de 25(OH)D, (c) du rapport 24,25(OH)2D / 25(OH)D, et (d) de la concentration sérique de cholécalciférol après une dose unique de 150 000 UI de vitamine D3 (cercles ouverts) et une dose quotidienne de 5 000 UI pendant 28 jours (triangles noirs)."}
+![**Modifications (a) de la concentration sérique de 24,25(OH)2D, (b) de la concentration sérique de 25(OH)D, (c) du rapport 24,25(OH)2D / 25(OH)D, et (d) de la concentration sérique de cholécalciférol après une dose unique de 150 000 UI de vitamine D3 (cercles ouverts) et une dose quotidienne de 5 000 UI pendant 28 jours (triangles noirs)** [@Ketha.2018].]("figures/Alterations in (a) serum concentration of 24,25(OH)2D3 - Ketha.2018.jpg"){#fig-24-hydroxylase fig-scap="Modifications (a) de la concentration sérique de 24,25(OH)2D, (b) de la concentration sérique de 25(OH)D, (c) du rapport 24,25(OH)2D / 25(OH)D, et (d) de la concentration sérique de cholécalciférol après une dose unique de 150 000 UI de vitamine D3 (cercles ouverts) et une dose quotidienne de 5 000 UI pendant 28 jours (triangles noirs)."}
 
 Ces avis sont également partagés par @Mazess.2021, ajoutant que l'effet de l'administration par bolus sur les protéines antimicrobiennes ou les lymphocytes T régulateurs n'est pas étudié. De plus, il a été rapporté que les doses bolus n'ont pas réussi à faire diminuer les taux de \ac{CRP} ni d'augmenter la concentration des cytokines anti-inflammatoires, mais qu'elles sont propices à doubler le risque d'hypercalcémie. Concernant la COVID-19, les auteurs notent que de nombreuses études examinant une dose bolus ne parviennent pas à conclure à un effet thérapeutique bénéfique de la vitamine D, expliquant ainsi l'hétérogénéité rencontrée lors des essais, qui est également due aux conditions initiales des patients déficients, où l'effet observé est d'autant plus important lorsque les patients sont plus déficients en vitamine D, le statut de déficience (< 10 ng/mL) observant plus d'effets comparé au statut d'insuffisance (< 20 ng/mL) [@Mazess.2021].
 

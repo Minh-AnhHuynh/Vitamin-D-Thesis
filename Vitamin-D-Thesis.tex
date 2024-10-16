@@ -108,6 +108,9 @@
 \counterwithout{table}{section}
 \usepackage[authordate, backend=biber, doi=false, isbn=false, dashed=false]{biblatex-chicago}
 \usepackage[french]{babel}
+\usepackage[]{hyperref}
+\usepackage{url}
+\DeclareFieldFormat{url}{\url{#1}}
 \AtBeginDocument{\mathcode`\;="303B}
 \usepackage{bookmark}
 \setcounter{tocdepth}{4}
@@ -313,6 +316,7 @@ THESE
 \acro{FDA}{Food and Drugs Administration}
 \acro{FGF23}{fibroblast growth factor 23}
 \acro{GWAS}{genome wide association studies}
+\acro{hCAP-18}{human antibacterial cathelicidin}
 \acro{HR}{hazard ratio}
 \acro{IC}{intervalle de confiance}
 \acro{ICAM-1}{intercellular adhesion molecule 1}
@@ -322,6 +326,7 @@ THESE
 \acro{ifng}[IFN-γ]{interféron gamma}
 \acro{IKBa}[IκBα]{inhibitor of nuclear factor kappa-b alpha}
 \acro{IKKb}[IKKβ]{IkappaB kinase beta}
+\acro{IL}{interleukine}
 \acro{IL-2}{interleukine-2}
 \acro{IL-4}{interleukine-4}
 \acro{IL-6}{interleukine-6}
@@ -332,6 +337,7 @@ THESE
 \acro{IMC}{indice de masse corporelle}
 \acro{iNKT}{invariant NK T cell}
 \acro{IOM}{Institute of Medicine}
+\acro{KO}{knockout}
 \acro{LDH}{lactate deshydrogénase}
 \acro{LOAEL}{Lowest Observed Adverse Effect Level}
 \acro{LPS}{lipopolysaccharide}
@@ -436,7 +442,7 @@ nucléaire et à sa liaison à l'ADN au niveau des séquences de réponse
 \begin{figure}
 \centering
 \includegraphics[width=0.7\columnwidth]{figures/cholecalciferol-chemspider.png} 
-\caption[Structure chimique de la vitamine D3 ou cholécalciférol.]{\textbf{Structure chimique de la vitamine D3 ou cholécalciférol.} \textcite{chemspider.2023}.}
+\caption[Structure chimique de la vitamine D3 ou cholécalciférol.]{\textbf{Structure chimique de la vitamine D3 ou cholécalciférol} \autocite{chemspider.2023}.}
 \label{fig:vitd3}
 \end{figure}
 
@@ -600,19 +606,19 @@ osseuses}\label{propriuxe9tuxe9s-classiques-osseuses}
 L'usage de la vitamine D précède sa découverte avec l'utilisation de
 l'huile de foie de morue décrite dans la littérature dès 1782 par Thomas
 Percival, qui rapporte son usage et les effets bénéfiques constatés sur
-le rhumatisme chronique en Angleterre 1782 par \autocite{Percival.1782}.
-A cette époque, se multiplient chez l'enfant les cas de rachitisme, une
-maladie caractérisée par le ramollissement et l'affaiblissement des os.
-En France, Armand Trousseau compile en 1858 le Traité de thérapeutique
-et de matière médicale, qui reprend les opinions contemporaines sur la
-matière médicale et ses expériences, et décrit l'action thérapeutique de
-l'usage de l'huile de foie de morue sur le rachitisme et fait
-remarquablement disparaître tous les symptômes
-\autocite{Trousseau.1858}. Il publie également son ouvrage Clinique
-Médicale de l'Hôtel-Dieu en 1861, où il déclare que le rachitisme est
-causé par une alimentation déséquilibrée que l'huile de foie de morue
-peut résoudre \autocite{Hernigou.2019}. Le livre a été traduit en
-anglais et est devenu célèbre \autocite{Hernigou.2019}.
+le rhumatisme chronique en Angleterre 1782 par
+\autocite{Percival.1782.manual}. A cette époque, se multiplient chez
+l'enfant les cas de rachitisme, une maladie caractérisée par le
+ramollissement et l'affaiblissement des os. En France, Armand Trousseau
+compile en 1858 le Traité de thérapeutique et de matière médicale, qui
+reprend les opinions contemporaines sur la matière médicale et ses
+expériences, et décrit l'action thérapeutique de l'usage de l'huile de
+foie de morue sur le rachitisme et fait remarquablement disparaître tous
+les symptômes \autocite{Trousseau.1858}. Il publie également son ouvrage
+Clinique Médicale de l'Hôtel-Dieu en 1861, où il déclare que le
+rachitisme est causé par une alimentation déséquilibrée que l'huile de
+foie de morue peut résoudre \autocite{Hernigou.2019}. Le livre a été
+traduit en anglais et est devenu célèbre \autocite{Hernigou.2019}.
 
 Dans les années 1917--1922, les progrès concernant les causes et le
 traitement du rachitisme se sont accélérées. \textcite{Hess.1917.lc}
@@ -719,7 +725,7 @@ cellules immunitaires comme nous le verrons plus loin.
 \begin{figure}
 \includegraphics{figures/extra-skeletal-effect.png} 
 \caption[Effets classiques et extra-squelettiques de la vitamine D.]
-{\textbf{Effets classiques et extra-squelettiques de la vitamine D.} \textcite{Caprio.2017}}
+{\textbf{Effets classiques et extra-squelettiques de la vitamine D} \autocite{Caprio.2017}.}
 \label{fig:extra-skeletal}
 \end{figure}
 \end{landscape}
@@ -799,7 +805,7 @@ d'atteindre le seuil de calcidiol jugé adéquat de 50 nmol/L ou 20 ng/mL
 \autocite{ANSES.2022.note} (\Cref{tbl-seuil}).
 
 \begin{table}
-\caption[Tableau comparatif des seuils d'adéquation de la vitamine D par différentes sources.]{\textbf{Tableau comparatif des seuils d'adéquation de la vitamine D par différentes sources.} IOM : Institut de Médecine ; ANSES : Agence nationale de sécurité sanitaire de l’alimentation, de l’environnement et du travail. D'après \textcite{IOM.2011} et \textcite{ANSES.2021}}
+\caption[Tableau comparatif des seuils d'adéquation de la vitamine D par différentes sources.]{\textbf{Tableau comparatif des seuils d'adéquation de la vitamine D par différentes sources.} \acs{IOM}, \acl{IOM} ; \acs{ANSES}, \acl{ANSES}. D'après \textcite{IOM.2011} et \textcite{ANSES.2021}.}
 \label{tbl-seuil}
 \centering
 \begin{tabular}{ccc}
@@ -816,7 +822,7 @@ Limite Supérieure de Sécurité & > 50 ng/mL  & > 100 ng/mL \\
 
 \begin{table}
 \centering
-\caption[Apports journaliers recommandés de la vitamine D (UI/j)]{\textbf{Apports journaliers recommandés de la vitamine D (UI/j).} La mention d'\ac{AJR} indique que l'apport couvre les besoins minimum de 97,5 \% de la population pour atteindre une concentration de 20 ng/mL selon l'\ac{IOM}. D'après \textcite{ANSES.2021, IOM.2011}}
+\caption[Apports journaliers recommandés de la vitamine D (UI/j)]{\textbf{Apports journaliers recommandés de la vitamine D (UI/j).} La mention d'\ac{AJR} indique que l'apport couvre les besoins minimum de 97,5 \% de la population pour atteindre une concentration de 20 ng/mL selon l'\ac{IOM}. D'après \textcite{ANSES.2021, IOM.2011}.}
 \label{tbl-AJR}
 \begin{tabular}{ccc}
 \toprule
@@ -905,9 +911,9 @@ capacité de l'enzyme \autocite{Schoenmakers.2018}.
 
 \caption[Schéma des phases pharmacocinétiques du
 cholécalciférol]{\label{fig-PK-all-VitD}\textbf{Schéma des phases
-pharmacocinétiques du} \ac{25(OH)D3}. La ligne pointillée correspond au
+pharmacocinétiques du calcidiol}. La ligne pointillée correspond au
 logarithme naturel de la concentration duquel les différentes pentes et
-les demi-vies sont calculées. \autocite{Schoenmakers.2018}}
+les demi-vies sont calculées \autocite{Schoenmakers.2018}.}
 
 \end{figure}%
 
@@ -944,13 +950,13 @@ et plus faiblement à l'albumine (15 \%) \autocite{Bikle.2017}.
 
 \caption[Schéma de l'absorption de la vitamine D et du
 calcidiol.]{\label{fig-vd-absorption}\textbf{Schéma de l'absorption de
-la vitamine D et du calcidiol} \autocite{Schoenmakers.2018}. Le
-cholécalciférol passe par des transporteurs actifs dans les entérocytes
-où il se retrouve associé aux chylomicrons. Après être relâché dans la
-lymphe, le cholécalciférol peut être transféré au \ac{DBP} ou suivre le
-métabolisme du chylomicron qui peut relâcher le cholécalciférol dans les
-tissus. Le calcidiol diffuse à travers l'entérocyte où il est lié en
-grande majorité au \ac{DBP} plasmatique. \ac{DBP}, \acl{DBP}}
+la vitamine D et du calcidiol.} Le cholécalciférol passe par des
+transporteurs actifs dans les entérocytes où il se retrouve associé aux
+chylomicrons. Après être relâché dans la lymphe, le cholécalciférol peut
+être transféré au \ac{DBP} ou suivre le métabolisme du chylomicron qui
+peut relâcher le cholécalciférol dans les tissus. Le calcidiol diffuse à
+travers l'entérocyte où il est lié en grande majorité au \ac{DBP}
+plasmatique \autocite{Schoenmakers.2018}. \acs{DBP}, \acl{DBP}}
 
 \end{figure}%
 
@@ -1038,7 +1044,7 @@ moindre lorsque la concentration initiale de vitamine D est plus élevée
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.5\textwidth]{figures/vd-expected-rise.jpeg}
-\caption[Courbe de l'augmentation attendue de la 25(OH)D sérique pour chaque supplément de 1,000 UI de vitamine D3 par jour, en fonction de la valeur de base de la 25(OH)D de base]{\textbf{Courbe de l'augmentation attendue de la 25(OH)D sérique pour chaque supplément de 1,000 UI de vitamine D3 par jour, en fonction de la valeur de base de la 25(OH)D de base.} \autocite{Garland.2011}.}
+\caption[Courbe de l'augmentation attendue de la 25(OH)D sérique pour chaque supplément de 1,000 UI de vitamine D3 par jour, en fonction de la valeur de base de la 25(OH)D de base]{\textbf{Courbe de l'augmentation attendue de la 25(OH)D sérique pour chaque supplément de 1,000 UI de vitamine D3 par jour, en fonction de la valeur de base de la 25(OH)D de base} \autocite{Garland.2011}.}
 \label{fig:vd-expected-rise}
 \end{figure}
 
@@ -1155,12 +1161,9 @@ deux cas d'intoxication sévère à la vitamine D après avoir pris un
 complément alimentaire acheté sur internet contenant une dose de 10 000
 UI par goutte \autocite{ANSM.2021}.
 
---\textgreater{}
-
 \newpage{}
 
-\chapter{Vitamine D, système immunitaire et réponse
-antivirale}\label{vitamine-d-systuxe8me-immunitaire-et-ruxe9ponse-antivirale}
+\ac{}\# Vitamine D, système immunitaire et réponse antivirale
 
 L'importance du rôle de la vitamine D sur le système immunitaire a
 récemment retenu l'attention des chercheurs depuis la découverte de la
@@ -1231,13 +1234,13 @@ de rétablir l'équilibre perturbé \autocite{Dankers.2017}.
 
 \caption[Effets du calcitriol sur la réponse
 immunitaire.]{\label{fig-vd-immune-effect}\textbf{Effets du calcitriol
-sur la réponse immunitaire.} La \ac{1,25(OH)2D3} régule à la fois
+sur la réponse immunitaire.} Le \ac{1,25(OH)2D3} régule à la fois
 l'immunité innée et l'immunité adaptative, en potentialisant l'activité
 antimicrobienne des macrophages, en diminuant la présentation de
 l'antigène et en diminuant les fonctions des lymphocytes B et de
 certains lymphocytes T. Cependant, dans des conditions normales, le
 \ac{1,25(OH)2D3} augmente le phénotype \ac{Th2} et l'efficacité des
-\ac{Treg}. DC, cellules dendritiques. \autocite{Cutolo.2014}}
+\ac{Treg}. \acs{DC}, \acl{DC} \autocite{Cutolo.2014}.}
 
 \end{figure}%
 
@@ -1260,12 +1263,13 @@ et la fonction dans les tumeurs.
 du calcitriol endogène dans la modulation de la réponse immune. En
 représentant les conditions de carence en vitamine D, d'insuffisance en
 vitamine D et de suffisance en vitamine D, par une dose de 5, 50 and 150
-nM de calcidiol respectivement et d'un inhibiteur de CYP27B1,
+nM de calcidiol respectivement et d'un inhibiteur de \ac{CYP27B1},
 l'accumulation de calcitriol dans les cellules dendritiques et
 macrophages est due à l'activité de l'enzyme 1α-hydroxylase et est
 augmenté lorsque les concentrations de calcidiol augmentent, et impacte
-selon une relation dose-dépendante la stimulation de CD14 et la
-répression de marqueurs de cellule dendritique CD86, CD83 et HLA-DR.
+selon une relation dose-dépendante la stimulation de \ac{CD}14 et la
+répression de marqueurs de cellule dendritique \ac{CD}86, \ac{CD}83 et
+Human Leukocyte Antigen (HLA-DR).
 
 Similairement, l'essai \emph{in vitro} de \textcite{Adams.2009} montre
 que le calcidiol est nécessaire pour produire la cathélicidine, un
@@ -1287,23 +1291,29 @@ De même, \textcite{Zhang.2012} a montré que la vitamine D inhibe la
 production de cytokine dans des monocytes, et que l'effet n'est observé
 uniquement lorsque la concentration est supérieure ou égale à 30 ng/mL
 de calcidiol et 0,04 ng/mL de calcitriol. La vitamine D inhibe la
-production de IL-6 et \ac{tnfa}, normalement induite par le \ac{LPS}. Ce
-mécanisme passe par l'activation de la MKP-1, la mitogen-activated
-protein kinase-phosphatase 1 qui désactive la production de cytokine.
+production de \ac{IL}-6 et \ac{tnfa}, normalement induite par le
+\ac{LPS}. Ce mécanisme passe par l'activation de la MKP-1, la
+mitogen-activated protein kinase-phosphatase 1 qui désactive la
+production de cytokine.
 
 L'effet autocrine de la vitamine D sur des lymphocytes T
 CD4\textsuperscript{+} a été observé par \textcite{Chauss.2022}.
 L'administration de calcitriol actif ou calcidiol conduit aux cellules à
 réprimer l'\ac{ifng} et augmenter la synthèse d'\ac{IL-10}, indiquant
 que les cellules ont acquises la capacité de métaboliser et de répondre
-aux métabolites de la vitamine D. Inversement, lors du KO d'un des gènes
-concernant la vitamine D tel que \emph{CTSL}, \emph{VDR} ou
-\emph{CYP27B1}, une réduction nette en \ac{IL-10} est observée. Dans
-l'ensemble les résultats indiquent l'effet d'un mécanisme
-intracellulaire autocrine/paracrine de la vitamine D. Des résultats
-similaires ont été retrouvé par \textcite{Adams.2009} par le KO du
-\emph{VDR} et \emph{CYP27B1} et l'expression de la cathélicidine
-diminuée.
+aux métabolites de la vitamine D. Inversement, lors du \ac{KO} de gènes
+tel que \emph{CTSL},\footnote{L'activation du complément régule
+  l'activation des lymphocytes \ac{Th1} en induisant la production de
+  C3b par la cathepsine L, exprimé par le gène \emph{CTSL}, ce qui
+  induit l'expression du \ac{VDR} et du \ac{CYP27B1} dans les
+  lymphocytes T et favorise l'arrêt du programme \ac{Th1}. L'expérience
+  montre que cette induction n'a pas lieu lorsque les lymphocytes sont
+  déficients en \ac{CD}46.} \emph{VDR} ou \emph{CYP27B1}, une réduction
+nette en \ac{IL-10} est observée. Dans l'ensemble les résultats
+indiquent l'effet d'un mécanisme intracellulaire autocrine/paracrine de
+la vitamine D. Des résultats similaires ont été retrouvé par
+\textcite{Adams.2009} par le \ac{KO} du \emph{VDR} et \emph{CYP27B1} et
+l'expression de la cathélicidine diminuée.
 
 \subsection{Induction de l'immunité innée
 antimicrobienne}\label{induction-de-limmunituxe9-innuxe9e-antimicrobienne}
@@ -1317,23 +1327,23 @@ des mécanismes principaux de l'immunité innée antimicrobienne passe par
 l'induction de peptides antimicrobiens et en particulier la forte
 induction de cathélicidine \autocite{Wang.2004}. En effet, la vitamine D
 stimule l'expression du gène \emph{CAMP} en se liant au \ac{VDRE} situé
-son promoteur et induit la cathélicidine humaine hCAP-18, clivant ce
-précurseur en LL-37 par la protéinase 3. Le domaine C-terminal de hCAP18
-nommé LL-37, est un peptide antimicrobien qui déstabilise les membranes
-bactériennes et fongiques et peut empêcher la réplication virale en se
-liant aux protéines de pointes \autocite{Bishop.2021,Charoenngam.2020}.
-De plus, LL-37 est impliqué dans la signalisation, induisant la
-chimiotaxie et participe à la régénération tissulaire et est capable
-d'activer les TLR7 et TLR8 activant la cellule dendritique
-\autocite{Silva.2012}. Le LL-37 est exprimé par les leucocytes,
-notamment les neutrophiles, les monocytes, les mastocytes, les cellules
-NK, les lymphocytes T et B. Le LL-37 a également été trouvé dans le
-plasma, la moelle osseuse, les voies respiratoires, l'intestin, les
-glandes mammaires, l'épididyme et la peau \autocite{Silva.2012}. De
-plus, le calcitriol induit également le peptide antimicrobien défensine
-\mupbeta 2 via le gène \emph{HBD2}, où la combinaison du IL-1\mupbeta et
-du calcitriol augmente l'induction de \emph{HBD2}
-{[}\textcite{Bishop.2021}; Wang.2004{]}.
+son promoteur et induit la cathélicidine humaine \acsu{hCAP-18}, clivant
+ce précurseur en LL-37 par la protéinase 3. Le domaine C-terminal de
+\ac{hCAP-18} nommé LL-37, est un peptide antimicrobien qui déstabilise
+les membranes bactériennes et fongiques et peut empêcher la réplication
+virale en se liant aux protéines de pointes
+\autocite{Bishop.2021,Charoenngam.2020}. De plus, LL-37 est impliqué
+dans la signalisation, induisant la chimiotaxie et participe à la
+régénération tissulaire et est capable d'activer les \ac{TLR}7 et
+\ac{TLR}8 activant la cellule dendritique \autocite{Silva.2012}. Le
+LL-37 est exprimé par les leucocytes, notamment les neutrophiles, les
+monocytes, les mastocytes, les cellules NK, les lymphocytes T et B. Le
+LL-37 a également été trouvé dans le plasma, la moelle osseuse, les
+voies respiratoires, l'intestin, les glandes mammaires, l'épididyme et
+la peau \autocite{Silva.2012}. De plus, le calcitriol induit également
+le peptide antimicrobien défensine \mupbeta 2 via le gène \emph{HBD2},
+où la combinaison du IL-1\mupbeta et du calcitriol augmente l'induction
+de \emph{HBD2} {[}\textcite{Bishop.2021}; Wang.2004{]}.
 
 \begin{figure}
 
@@ -1351,8 +1361,9 @@ monocyte/macrophage.} Après liaison du calcitriol sur le \ac{VDR}, le
 complexe \ac{VDR}-\ac{RXR} se lie sur différentes séquences \ac{VDRE}
 spécifiques, induisant l'expression de peptides antimicrobiens tel que
 la cathélicidine et la défensine \mupbeta 2, diminue l'expression de
-l'hepcidine, favorise l'autophagie, l'expression de \ac{PRR} comme NOD2
-et de cytokines tel que l'IL-8 et l'IL-1β. \autocite{Bishop.2021}.}
+l'hepcidine, favorise l'autophagie, l'expression de \ac{PRR} comme
+\ac{NOD2} et de cytokines tel que l'\ac{IL}-8 et l'\ac{IL}-1β
+\autocite{Bishop.2021}.}
 
 \end{figure}%
 
@@ -1456,7 +1467,7 @@ augmentation du phénotype tolérogène. Par la suite, le calcitriol peut
 agir sur les cellules environnantes en favorisant un phénotype
 anti-inflammatoire chez les cellules \ac{Th2} et \ac{Treg} ainsi qu'une
 diminution de l'activation des cellules \ac{Th1} et \ac{Th17}, et des
-cellules B. \autocite{Charoenngam.2020}}
+cellules B \autocite{Charoenngam.2020}.}
 
 \end{figure}%
 
@@ -1486,9 +1497,9 @@ Le calcitriol agit également sur les \ac{CPA} : cellules dendritiques,
 macrophages, lymphocytes B, par le biais d'une diminution de
 l'expression de \ac{CMH-II} qui leur permet de présenter des antigènes
 étrangers, ainsi que l'expression de molécules de co-stimulation
-(\ac{CD} 40, CD80, CD86) qui contribue à la signalisation positive ou
-négative lors de la reconnaissance du complexe CMH-peptide par le
-\ac{TCR} et conduit l'activation des lymphocytes T lors de la
+(\ac{CD}40, \ac{CD}80, \ac{CD}86) qui contribue à la signalisation
+positive ou négative lors de la reconnaissance du complexe CMH-peptide
+par le \ac{TCR} et conduit l'activation des lymphocytes T lors de la
 présentation antigénique par les \ac{CPA}. (\Cref{fig-vd-action})
 \autocite{Charoenngam.2020,Meza-Meza.2022,Caprio.2017}. Ce changement
 phénotypique s'accompagne donc d'une diminution de la capacité de
@@ -1500,21 +1511,21 @@ La cellule dendritique en particulier acquiert un phénotype tolérogène
 spécifique par l'induction du calcitriol (\Cref{fig-immunomod}), avec
 une baisse du pouvoir de présentation antigénique et de stimulation, et
 une augmentation de la synthèse de cytokines anti-inflammatoires et en
-particulier l'IL-10 \autocite{Bishop.2021}.
+particulier l'\ac{IL}-10 \autocite{Bishop.2021}.
 
-L'IL-10 est la cytokine majeure par laquelle sont activés les \ac{Treg}
-et médient leurs actions. Elle a des effets immunosuppresseurs
+L'\ac{IL}-10 est la cytokine majeure par laquelle sont activés les
+\ac{Treg} et médient leurs actions. Elle a des effets immunosuppresseurs
 significatifs sur les monocytes, les macrophages et les cellules
-dendritiques, qui expriment le récepteur à l'IL-10. Elle inhibe la
+dendritiques, qui expriment le récepteur à l'\ac{IL}-10. Elle inhibe la
 production de cytokines et de chimiokines pro-inflammatoires et leur
 différenciation, leur maturation et leur migration vers les organes
-lymphoïdes. L'IL-10 réduit également les capacités de présentation de
-l'antigène des monocytes et des \ac{CPA}. En outre, elle supprime
+lymphoïdes. L'\ac{IL}-10 réduit également les capacités de présentation
+de l'antigène des monocytes et des \ac{CPA}. En outre, elle supprime
 l'activation, la prolifération, la sécrétion de cytokines et l'activité
-cytotoxique des lymphocytes T CD4\textsuperscript{+}, induisant une
-anergie à long terme. Ainsi, l'IL-10 est une des cytokines maître de la
-régulation de la réponse inflammatoire inflammatoire et favorise la
-tolérance périphérique.
+cytotoxique des lymphocytes T \ac{CD}4\textsuperscript{+}, induisant une
+anergie à long terme. Ainsi, l'\ac{IL}-10 est une des cytokines maître
+de la régulation de la réponse inflammatoire inflammatoire et favorise
+la tolérance périphérique.
 
 \subsubsection{Lymphocytes T}\label{lymphocytes-t}
 
@@ -1522,20 +1533,20 @@ Les lymphocytes T sont composés en plusieurs sous-groupes :
 
 \begin{itemize}
 \item
-  les lymphocytes T auxiliaires ou helper CD4\textsuperscript{+} Th1,
-  Th2, Th17. Les populations \ac{Th1} et \ac{Th17} ont principalement
-  pour rôle de stimuler une réponse cytotoxique, respectivement
-  intracellulaire antibactérienne et antiprotozoaire comme le
-  toxoplasme, et extracellulaire antibactérienne et fongique. La
-  population \ac{Th2} en revanche est centrée sur une stimulation de la
-  réponse humorale ou médiée par les anticorps, contre les parasites
+  les lymphocytes T auxiliaires ou helper CD4\textsuperscript{+}
+  \ac{Th1}, \ac{Th2}, \ac{Th17}. Les populations \ac{Th1} et \ac{Th17}
+  ont principalement pour rôle de stimuler une réponse cytotoxique,
+  respectivement intracellulaire antibactérienne et antiprotozoaire
+  comme le toxoplasme, et extracellulaire antibactérienne et fongique.
+  La population \ac{Th2} en revanche est centrée sur une stimulation de
+  la réponse humorale ou médiée par les anticorps, contre les parasites
   extracellulaires, les bactéries, les allergènes et les toxines, médiée
   par le biais de cytokines causant une forte production d'anticorps,
   l'activation des éosinophiles et de l'inhibition de plusieurs
-  fonctions des macrophages \autocite{Cantorna.2015,Walker.2018}
+  fonctions des macrophages \autocite{Cantorna.2015,Walker.2018} ;
 \item
   les lymphocytes T effecteurs CD8\textsuperscript{+} capables d'induire
-  la mort des cellules.
+  la mort des cellules ;
 \item
   les lymphocytes T CD4\textsuperscript{+} régulateurs ou \ac{Treg}, qui
   ont pour rôle de réguler l'inflammation et donc la réponse
@@ -1549,7 +1560,8 @@ détriment des \ac{Th1} et \ac{Th17}, et l'expression des cytokines
 son tour les populations \ac{Th1} et \ac{Th17}, diminuant ainsi
 globalement l'activité cytotoxique médiée par ces cellules
 \autocite{Meza-Meza.2022}. De plus, le calcitriol inhibe la
-prolifération des lymphocytes Th1 et Th17 \autocite{Cantorna.2015}.
+prolifération des lymphocytes \ac{Th1} et \ac{Th17}
+\autocite{Cantorna.2015}.
 
 Concernant les lymphocytes T CD8\textsuperscript{+}, la vitamine D
 modifie un ratio bas de CD4/CD8 reflétant une activation immunitaire
@@ -1645,7 +1657,7 @@ humorale et cellulaire, agissant sur les lymphocytes
 CD8\textsuperscript{+} et cellules \ac{NK}, et sont impliqués dans la
 différenciation et maturation des cellules dendritiques. De plus, le
 complément est activé, participant à la lyse des cellules infectées et à
-l'opsonisation des virus \autocite{msd.complement.2024}.
+l'opsonisation des virus \autocite{msd.complement.2024.official}.
 
 Les cellules effectrices de la réponse antivirale concernent
 majoritairement :
@@ -1758,7 +1770,7 @@ double brin. Cela permet la reconnaissance par le récepteur endosomal
 TLR3, amplifiant la signalisation et l'élimination du virus. De plus, le
 calcitriol inhibe les cytokines inflammatoires IL-5 et IFN-γ, et les
 molécules ICAM-1 et PAFR. Un autre mécanisme d'élimination virale est
-l'induction de l'autophagie. \autocite{Ismailova.2022}.}
+l'induction de l'autophagie \autocite{Ismailova.2022}.}
 
 \end{figure}%
 
@@ -2086,10 +2098,10 @@ l'expression de vitamine D et de VDR, ce qui diminue l'expression de
 rénine et altère la régulation de ACE2. Cette étude, à l'inverse des
 autres, montre que l'axe \ac{ACE2} est surreprésenté et que la
 bradykinine est augmentée, ce qui est en contradiction avec les autres
-études qui montrent une diminution de ACE2 et une augmentation de Ang II
-Les auteurs suggèrent que la vitamine D pourrait être un traitement
-potentiel pour la \ac{COVID-19} en régulant l'axe ACE2/bradykinine par
-l'inhibition de rénine.
+études qui montrent une diminution de \ac{ACE2} et une augmentation de
+Ang II Les auteurs suggèrent que la vitamine D pourrait être un
+traitement potentiel pour la \ac{COVID-19} en régulant l'axe
+\ac{ACE2}/bradykinine par l'inhibition de rénine.
 
 \begin{figure}
 
@@ -2099,9 +2111,15 @@ l'inhibition de rénine.
 
 }
 
-\caption[Schéma du rôle du la vitamine D dans l'inhibition du
-SRAA.]{\label{fig-vd-ras}\textbf{Schéma du rôle du la vitamine D dans
-l'inhibition du SRAA \autocite{Borsche.2021}.}}
+\caption[Schéma simplifié du rôle du la vitamine D dans l'inhibition du
+\acl{SRAA}.]{\label{fig-vd-ras}\textbf{Schéma simplifié du rôle du la
+vitamine D dans l'inhibition du \acl{SRAA}.} La vitamine D métabolisée
+en calcidiol puis calcitriol, joue un rôle bénéfique dans la
+\ac{COVID-19} en favorisant l'expression de \ac{ACE2} ce qui favorise la
+voie du récepteur Mas et de l'angiotensive(1-7) facilitant la protection
+tissulaire tout en diminuant l'expression de rénine et donc de la voie
+de l'angiotensine II via le récepteur \ac{AT1} qui exacerbe les lésions
+tissulaires \autocite{Borsche.2021}.}
 
 \end{figure}%
 
@@ -2133,8 +2151,8 @@ adaptatifs.]{\label{fig-vd-covid-function}\textbf{Représentation
 schématique des fonctions paracrines et intracrines de la vitamine D et
 de ses métabolites et actions dans les systèmes immunitaires innés et
 adaptatifs.} A : Synthèse de la vitamine D. B1 : Immunité adaptative. B2
-: immunité innée. C : Réponse inflammatoire médiée par le SARS-CoV-2
-\autocite{Contreras-Bolívar.2023}.}
+: immunité innée. C : Réponse inflammatoire médiée par le
+\ac{SARS-CoV-2} \autocite{Contreras-Bolívar.2023}.}
 
 \end{figure}%
 
@@ -2142,11 +2160,11 @@ Le calcitriol contribue à la réponse antimicrobienne par l'induction de
 cathélicidine, défensine, et favorise la chimiotaxie des neutrophiles et
 macrophages sur le lieu de l'infection. En effet, il a été observé
 \emph{in vitro} que le LL-37 se lie avec une grande affinité à la
-protéine de pointe S du SARS-CoV-2, empêchant celle-ci de se lier à la
-cellule hôte. LL-37 masque simultanément les sites de liaisons de
+protéine de pointe S du \ac{SARS-CoV-2}, empêchant celle-ci de se lier à
+la cellule hôte. LL-37 masque simultanément les sites de liaisons de
 \ac{ACE2} au domaine de liaison du récepteur du virus
-\autocite{Wang.2021.ACS}. Le calcitriol favorise l'autophagie par le
-biais de LL-37, qui est un mécanisme de défense contre les infections
+\autocite{Wang.2021.ACS.manual}. Le calcitriol favorise l'autophagie par
+le biais de LL-37, qui est un mécanisme de défense contre les infections
 virales et peut inhiber la réplication virale \autocite{Gotelli.2022}.
 En effet, la présence de LL-37 est nécessaire pour l'induction de
 l'autophagie dans les macrophages et les monocytes et de la formation
@@ -2228,16 +2246,16 @@ inflammatoires résultent d'une balance immune entre ces deux processus.
 Le sepsis est de ce fait le résultat d'une hyperinflammation incontrôlée
 et d'une immunosuppression insuffisante \autocite{Cutuli.2024}. Lors du
 sepsis, la vitamine D a un rôle inhibiteur des cytokines
-pro-inflammatoires (IL-12, \ac{ifng}, IL-6, IL-8, \ac{tnfa}, IL-17,
+pro-inflammatoires (\ac{IL}-12, \ac{ifng}, IL-6, IL-8, \ac{tnfa}, IL-17,
 IL-9), d'inhibition de la transcription du COX-2 et de la prolifération,
 différenciation, activation et production d'immunoglobuline des
 lymphocytes B. En contrepartie la vitamine D promeut la production de
-cytokines anti-inflammatoires (IL-4, IL-5, IL-10) et la différenciation
-des lymphocytes T régulateurs, des monocytes et des cellules
-dendritiques à phénotype tolérogènes, et est un fort inducteur de la
-cathélicidine \autocite{Cutuli.2024}. Additionnellement, la vitamine D
-inhibe \ac{COX-2} \autocite{Wang.2014}, induite par les cellules
-immunitaires et amplifient la réponse inflammatoire.
+cytokines anti-inflammatoires (\ac{IL}-4, IL-5, IL-10) et la
+différenciation des lymphocytes T régulateurs, des monocytes et des
+cellules dendritiques à phénotype tolérogènes, et est un fort inducteur
+de la cathélicidine \autocite{Cutuli.2024}. Additionnellement, la
+vitamine D inhibe \ac{COX-2} \autocite{Wang.2014}, induite par les
+cellules immunitaires et amplifient la réponse inflammatoire.
 
 La \ac{COVID-19} est caractérisée souvent par une hyperinflammation non
 résolue, associée à une infection aiguë des poumons. De plus, la
@@ -2256,15 +2274,15 @@ l'endothélium, associé à une thrombose. L'hyperinflammation et
 l'activation du \ac{SRAA} peut contribuer à un effet prothrombotique
 retrouvé lors du \ac{SDRA}. La vitamine D en diminuant l'inflammation,
 l'activation du \ac{SRAA}, l'induction d'anticoagulants naturels comme
-la thrombomoduline et l'inhibiteur de la voie du facteur tissulaire
-(TFPI), ainsi que la désactivation du facteur tissulaire peut contribuer
-à réduire l'hypercoagulation.
+la thrombomoduline et l'inhibiteur de la voie du facteur tissulaire,
+ainsi que la désactivation du facteur tissulaire peut contribuer à
+réduire l'hypercoagulation.
 
 La vitamine D possède des effets antioxydantes en modulant l'activité
 mitochondriale, la uprégulation du glutathion, de la peroxydase et
 superoxyde dismutase, et en régulant à la baisse la NADPH oxydase. La
-présence de NO et de superoxyde peut exercer une activité antivirale
-\autocite{Shiravi.2022,Contreras-Bolívar.2023}.
+présence de \ac{NO} et de superoxyde peut exercer une activité
+antivirale \autocite{Shiravi.2022,Contreras-Bolívar.2023}.
 
 La vitamine D pourrait aussi avoir un potentiel neuroprotecteur. En
 effet, la présence de \ac{ACE2} dans les neurones et astrocytes a été
@@ -2316,9 +2334,9 @@ les immigrés non occidentaux \autocite{Schoor.2017}.
 \end{table}
 
 
+\captionsetup[table]{justification=raggedright, singlelinecheck=false}
 \begin{table}[h]
-    \captionsetup[table]{justification=raggedright, singlelinecheck=false}
-    \caption[Carence en vitamine D dans le monde.]{Carence en vitamine D dans le monde. \autocite{Giustina.2020}.}
+    \caption[Carence en vitamine D dans le monde.]{Carence en vitamine D dans le monde \autocite{Giustina.2020}.}
     \label{tab:statut-vd-2}
     \begin{tabularx}{\textwidth}{lRR}
         \toprule
@@ -2979,26 +2997,27 @@ concernant les essais cliniques pour les nutriments, où la méthodologie
 actuelle est adaptée pour les médicaments pharmaceutiques mais inadaptée
 pour les nutriments car les sources d'apports du nutriments sont
 diverses et que la relation dose-réponse entre la dose et un objectif de
-santé est non linéaire \autocite{Grant.2022.nutrients}. Les essais
-cliniques devraient être basés sur la concentration en calcidiol
+santé est non linéaire \autocite{Grant.2022.nutrients.manual}. Les
+essais cliniques devraient être basés sur la concentration en calcidiol
 plasmatique initiale et celle à atteindre et non pas en dose de vitamine
 D étant donné la grande hétérogénéité observée entre l'administration
 d'une dose de vitamine D et la concentration plasmatique obtenue
-\autocite{Grant.2022.nutrients}.
+\autocite{Grant.2022.nutrients.manual}.
 
-Selon \textcite{Grant.2022.nutrients}, les \ac{RCT} sur la vitamine D
-dans un contexte général ont échoué car elles se sont concentrées sur la
-dose administrée plutôt que sur la concentration du nutriment. Cela a
-conduit à l'administration de doses faibles de vitamine D, insuffisantes
-pour atteindre la concentration désirée. De plus, ces essais ont inclus
-des patients dont le statut en vitamine D (calcidiol) dépassait celui de
-la population moyenne, ignorant qu'il existe potentiellement différents
-niveaux de concentration pour obtenir les bénéfices recherchés. Les
-\ac{RCT} analysent les résultats de manière limitée, ne tenant pas
-compte des effets non linéaires de la vitamine D ni de la forte variance
-des dosages \autocite{Grant.2022,Grant.2018}. En effet, l'hétérogénéité
-de la relation dose-réponse non linéaire est additionnellement illustrée
-par les polymorphismes génétiques associés au CYP24A1, CYP2R1 et GC
+Selon \textcite{Grant.2022.nutrients.manual}, les \ac{RCT} sur la
+vitamine D dans un contexte général ont échoué car elles se sont
+concentrées sur la dose administrée plutôt que sur la concentration du
+nutriment. Cela a conduit à l'administration de doses faibles de
+vitamine D, insuffisantes pour atteindre la concentration désirée. De
+plus, ces essais ont inclus des patients dont le statut en vitamine D
+(calcidiol) dépassait celui de la population moyenne, ignorant qu'il
+existe potentiellement différents niveaux de concentration pour obtenir
+les bénéfices recherchés. Les \ac{RCT} analysent les résultats de
+manière limitée, ne tenant pas compte des effets non linéaires de la
+vitamine D ni de la forte variance des dosages
+\autocite{Grant.2022,Grant.2018}. En effet, l'hétérogénéité de la
+relation dose-réponse non linéaire est additionnellement illustrée par
+les polymorphismes génétiques associés au CYP24A1, CYP2R1 et GC
 \autocite{Grant.2018}, ainsi que la variabilité interindividuelle de la
 réponse à la vitamine D \autocite{Vukić.2015}
 (Section~\ref{sec-variabilite-reponse}). \textcite{Grant.2018} propose
@@ -3190,7 +3209,7 @@ concentration sérique de 24,25(OH)2D, (b) de la concentration sérique de
 25(OH)D, (c) du rapport 24,25(OH)2D / 25(OH)D, et (d) de la
 concentration sérique de cholécalciférol après une dose unique de 150
 000 UI de vitamine D3 (cercles ouverts) et une dose quotidienne de 5 000
-UI pendant 28 jours (triangles noirs).} \textcite{Ketha.2018}.}
+UI pendant 28 jours (triangles noirs)} \autocite{Ketha.2018}.}
 
 \end{figure}%
 

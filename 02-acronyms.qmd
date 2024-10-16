@@ -37,6 +37,7 @@
 \acro{FDA}{Food and Drugs Administration}
 \acro{FGF23}{fibroblast growth factor 23}
 \acro{GWAS}{genome wide association studies}
+\acro{hCAP-18}{human antibacterial cathelicidin}
 \acro{HR}{hazard ratio}
 \acro{IC}{intervalle de confiance}
 \acro{ICAM-1}{intercellular adhesion molecule 1}
@@ -46,6 +47,7 @@
 \acro{ifng}[IFN-γ]{interféron gamma}
 \acro{IKBa}[IκBα]{inhibitor of nuclear factor kappa-b alpha}
 \acro{IKKb}[IKKβ]{IkappaB kinase beta}
+\acro{IL}{interleukine}
 \acro{IL-2}{interleukine-2}
 \acro{IL-4}{interleukine-4}
 \acro{IL-6}{interleukine-6}
@@ -56,6 +58,7 @@
 \acro{IMC}{indice de masse corporelle}
 \acro{iNKT}{invariant NK T cell}
 \acro{IOM}{Institute of Medicine}
+\acro{KO}{knockout}
 \acro{LDH}{lactate deshydrogénase}
 \acro{LOAEL}{Lowest Observed Adverse Effect Level}
 \acro{LPS}{lipopolysaccharide}

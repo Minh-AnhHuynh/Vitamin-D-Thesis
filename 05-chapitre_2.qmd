@@ -1,4 +1,4 @@
-# Vitamine D, système immunitaire et réponse antivirale
+\ac{}# Vitamine D, système immunitaire et réponse antivirale
 
 L'importance du rôle de la vitamine D sur le système immunitaire a
 récemment retenu l'attention des chercheurs depuis la découverte de la
@@ -78,14 +78,13 @@ donc pas purement anti-inflammatoire mais il contribue à maintenir
 l'équilibre entre un état pro- et anti-inflammatoire et est donc capable
 de rétablir l'équilibre perturbé [@Dankers.2017].
 
-![**Effets du calcitriol sur la réponse immunitaire.** La
+![**Effets du calcitriol sur la réponse immunitaire.** Le
 \ac{1,25(OH)2D3} régule à la fois l’immunité innée et l’immunité
 adaptative, en potentialisant l’activité antimicrobienne des
 macrophages, en diminuant la présentation de l’antigène et en diminuant
 les fonctions des lymphocytes B et de certains lymphocytes T. Cependant,
 dans des conditions normales, le \ac{1,25(OH)2D3} augmente le phénotype
-\ac{Th2} et l’efficacité des \ac{Treg}. DC,
-cellules dendritiques. [@Cutolo.2014]](figures/vd-immune-effect.jpg){#fig-vd-immune-effect
+\ac{Th2} et l’efficacité des \ac{Treg}. \acs{DC}, \acl{DC} [@Cutolo.2014].](figures/vd-immune-effect.jpg){#fig-vd-immune-effect
 fig-scap="Effets du calcitriol sur la réponse immunitaire."
 fig.pos="!htb"}
 
@@ -97,7 +96,7 @@ En effet, trois aspects spécifiques de la \ac{CYP27B1} ont attiré l'attention 
 
 @Hewison.2007 investigue l'idée d'un mécanisme extra-rénal de
 \ac{CYP27B1} rapporté dans la littérature et l'efficacité de la réponse du calcitriol endogène dans la modulation de la réponse immune. En représentant les conditions de carence en vitamine D, d'insuffisance en vitamine D et de
-suffisance en vitamine D, par une dose de 5, 50 and 150 nM de calcidiol respectivement et d'un inhibiteur de CYP27B1, l'accumulation de calcitriol dans les cellules dendritiques et macrophages est due à l'activité de l'enzyme 1α-hydroxylase et est augmenté lorsque les concentrations de calcidiol augmentent, et impacte selon une relation dose-dépendante la stimulation de CD14 et la répression de marqueurs de cellule dendritique CD86, CD83 et HLA-DR.
+suffisance en vitamine D, par une dose de 5, 50 and 150 nM de calcidiol respectivement et d'un inhibiteur de \ac{CYP27B1}, l'accumulation de calcitriol dans les cellules dendritiques et macrophages est due à l'activité de l'enzyme 1α-hydroxylase et est augmenté lorsque les concentrations de calcidiol augmentent, et impacte selon une relation dose-dépendante la stimulation de \ac{CD}14 et la répression de marqueurs de cellule dendritique \ac{CD}86, \ac{CD}83 et Human Leukocyte Antigen (HLA-DR).
 
 Similairement, l'essai *in vitro* de @Adams.2009 montre que le calcidiol est
 nécessaire pour produire la cathélicidine, un peptide antimicrobien, et qu'elle
@@ -113,7 +112,7 @@ l'effet de la vitamine D sur la synthèse de la cathélicidine par les cellules
 immunes est due non pas à la présence de calcidiol plasmatique mais bien à
 l'effet local intracrine des cellules immunes.
 
-De même, @Zhang.2012 a montré que la vitamine D inhibe la production de cytokine dans des monocytes, et que l'effet n'est observé uniquement lorsque la concentration est supérieure ou égale à 30 ng/mL de calcidiol et 0,04 ng/mL de calcitriol. La vitamine D inhibe la production de IL-6 et \ac{tnfa}, normalement induite par le \ac{LPS}. Ce mécanisme passe par l'activation de la MKP-1, la mitogen-activated protein kinase-phosphatase 1 qui désactive la production de cytokine.
+De même, @Zhang.2012 a montré que la vitamine D inhibe la production de cytokine dans des monocytes, et que l'effet n'est observé uniquement lorsque la concentration est supérieure ou égale à 30 ng/mL de calcidiol et 0,04 ng/mL de calcitriol. La vitamine D inhibe la production de \ac{IL}-6 et \ac{tnfa}, normalement induite par le \ac{LPS}. Ce mécanisme passe par l'activation de la MKP-1, la mitogen-activated protein kinase-phosphatase 1 qui désactive la production de cytokine.
 
 <!-- @Chun.2010 a montré que la concentration de calcitriol dans les -->
 <!-- monocytes était de 10-100 fois plus élevée que dans le plasma, ce qui -->
@@ -126,14 +125,15 @@ L'effet autocrine de la vitamine D sur des lymphocytes T CD4^+^ a été observé
 conduit aux cellules à réprimer l'\ac{ifng} et augmenter la synthèse
 d'\ac{IL-10}, indiquant que les cellules ont acquises la capacité de
 métaboliser et de répondre aux métabolites de la vitamine D.
-Inversement, lors du KO d'un des gènes concernant la vitamine D tel que
-*CTSL*, *VDR* ou *CYP27B1*, une réduction nette en \ac{IL-10} est observée.
+Inversement, lors du \ac{KO} de gènes tel que
+*CTSL*,[^1] *VDR* ou *CYP27B1*, une réduction nette en \ac{IL-10} est observée.
 Dans l'ensemble les résultats indiquent l'effet d'un mécanisme
 intracellulaire autocrine/paracrine de la vitamine D. Des résultats
-similaires ont été retrouvé par @Adams.2009 par le KO du *VDR* et
+similaires ont été retrouvé par @Adams.2009 par le \ac{KO} du *VDR* et
 *CYP27B1* et l'expression de la cathélicidine diminuée.
 
 
+[^1]: L'activation du complément régule l'activation des lymphocytes \ac{Th1} en induisant la production de C3b par la cathepsine L, exprimé par le gène *CTSL*, ce qui induit l'expression du \ac{VDR} et du \ac{CYP27B1} dans les lymphocytes T et favorise l'arrêt du programme \ac{Th1}. L'expérience montre que cette induction n'a pas lieu lorsque les lymphocytes sont déficients en \ac{CD}46.
 
 
 ### Induction de l'immunité innée antimicrobienne
@@ -141,10 +141,10 @@ similaires ont été retrouvé par @Adams.2009 par le KO du *VDR* et
 Après l'entrée du calcitriol dans la cellule ou la conversion du calcidiol en calcitriol intracellulaire, l'action du calcitriol 
 est médié par l'hétérodimère \ac{VDR}-\ac{RXR} et se fixe sur le \ac{VDRE}, causant la régulation de multiples gènes (\Cref{fig-vd-immune-signaling})
 [@Caprio.2017; @Yasmin.2005]. 
-Un des mécanismes principaux de l'immunité innée antimicrobienne passe par l'induction de peptides antimicrobiens et en particulier la forte induction de cathélicidine [@Wang.2004]. En effet, la vitamine D stimule l'expression du gène *CAMP* en se liant au \ac{VDRE} situé son promoteur et induit la cathélicidine humaine hCAP-18, clivant ce précurseur en LL-37 par la protéinase 3. Le domaine C-terminal de hCAP18 nommé LL-37, est un peptide antimicrobien qui déstabilise les membranes bactériennes et fongiques et peut empêcher la réplication virale en se liant aux protéines de pointes [@Bishop.2021; @Charoenngam.2020]. De plus, LL-37 est impliqué dans la signalisation, induisant la chimiotaxie et participe à la régénération tissulaire et est capable d'activer les TLR7 et TLR8 activant la cellule dendritique [@Silva.2012].
+Un des mécanismes principaux de l'immunité innée antimicrobienne passe par l'induction de peptides antimicrobiens et en particulier la forte induction de cathélicidine [@Wang.2004]. En effet, la vitamine D stimule l'expression du gène *CAMP* en se liant au \ac{VDRE} situé son promoteur et induit la cathélicidine humaine \acsu{hCAP-18}, clivant ce précurseur en LL-37 par la protéinase 3. Le domaine C-terminal de \ac{hCAP-18} nommé LL-37, est un peptide antimicrobien qui déstabilise les membranes bactériennes et fongiques et peut empêcher la réplication virale en se liant aux protéines de pointes [@Bishop.2021; @Charoenngam.2020]. De plus, LL-37 est impliqué dans la signalisation, induisant la chimiotaxie et participe à la régénération tissulaire et est capable d'activer les \ac{TLR}7 et \ac{TLR}8 activant la cellule dendritique [@Silva.2012].
 Le LL-37 est exprimé par les leucocytes, notamment les neutrophiles, les monocytes, les mastocytes, les cellules NK, les lymphocytes T et B. Le LL-37 a également été trouvé dans le plasma, la moelle osseuse, les voies respiratoires, l'intestin, les glandes mammaires, l'épididyme et la peau [@Silva.2012]. De plus, le calcitriol induit également le peptide antimicrobien défensine \mupbeta 2 via  le gène *HBD2*, où la combinaison du IL-1\mupbeta et du calcitriol augmente l'induction de *HBD2* [@Bishop.2021; Wang.2004].
 
-![**Métabolisme de la vitamine D et signalisation immunitaire innée dans le monocyte/macrophage.** Après liaison du calcitriol sur le \ac{VDR}, le complexe \ac{VDR}-\ac{RXR} se lie sur différentes séquences \ac{VDRE} spécifiques, induisant l'expression de peptides antimicrobiens tel que la cathélicidine et la défensine \mupbeta 2, diminue l'expression de l'hepcidine, favorise l'autophagie, l'expression de \ac{PRR} comme NOD2 et de cytokines tel que l'IL-8 et l'IL-1β. [@Bishop.2021].](figures/Bishop.2021-Vitamin_D_metabolism_and_innate_immune_signaling_in_the_monocyte-macrophage.jpg){#fig-vd-immune-signaling fig-scap="Métabolisme de la vitamine D et signalisation immunitaire innée dans le monocyte/macrophage."}
+![**Métabolisme de la vitamine D et signalisation immunitaire innée dans le monocyte/macrophage.** Après liaison du calcitriol sur le \ac{VDR}, le complexe \ac{VDR}-\ac{RXR} se lie sur différentes séquences \ac{VDRE} spécifiques, induisant l'expression de peptides antimicrobiens tel que la cathélicidine et la défensine \mupbeta 2, diminue l'expression de l'hepcidine, favorise l'autophagie, l'expression de \ac{PRR} comme \ac{NOD2} et de cytokines tel que l'\ac{IL}-8 et l'\ac{IL}-1β [@Bishop.2021].](figures/Bishop.2021-Vitamin_D_metabolism_and_innate_immune_signaling_in_the_monocyte-macrophage.jpg){#fig-vd-immune-signaling fig-scap="Métabolisme de la vitamine D et signalisation immunitaire innée dans le monocyte/macrophage."}
 
 Le calcitriol régule en outre négativement l'expression d'un agent antibactérien, la protéine antibactérienne hepcidine en réprimant le gène *HAMP*, qui a pour fonction de réduire l'exportation du fer médiée par la ferroportine. En effet, presque tous les microorganismes utilisent le fer pour leur croissance. De ce fait, la restriction du fer par l'organisme constitue une des réponses afin de lutter contre l'infection ; l'expression de l'hepcidine est augmentée lors de stimuli bactériens et viraux [@Bishop.2021]. La régulation négative de l'hepcidine par le calcitriol facilite l'exportation du fer et diminue la concentration intracellulaire de fer.
 
@@ -174,10 +174,7 @@ inflammatoires \ac{IL-2}, l'\ac{IL-6} et l'\ac{IL-17} [@Meza-Meza.2022;
 
 Le calcitriol induit robustement l'IL-8 [@Bishop.2021], qui recrute les neutrophiles tout comme l'IL-1\mupbeta \ sur le lieu de l'inflammation, et augmente à son tour la production de IL-8 par les neutrophiles. Cependant il est rapporté que le pouvoir phagocytique du macrophage est diminué, mais n'affecte pas celui du neutrophile [@Chen.2017].
 
-![**Représentation schématique des fonctions paracrine et intracrine de
-la vitamine D et de ses métabolites et des actions de la
-\ac{1,25(OH)2D3} sur les systèmes immunitaires innés et
-adaptatifs.** Les macrophages, monocytes et cellules dendritiques sont
+![**Représentation schématique des fonctions paracrine et intracrine de la vitamine D et de ses métabolites et des actions de la \ac{1,25(OH)2D3} sur les systèmes immunitaires innés et adaptatifs.** Les macrophages, monocytes et cellules dendritiques sont
 capables d'induire le \ac{CYP27B1} afin de métaboliser le calcidiol en
 calcitriol, qui va ensuite agir de manière intracrine par le biais de la
 translocation de l'hétérodimère \ac{VDR}-\ac{RXR} et agir directement
@@ -188,8 +185,7 @@ augmentation du phénotype tolérogène. Par la suite, le calcitriol peut
 agir sur les cellules environnantes en favorisant un phénotype
 anti-inflammatoire chez les cellules \ac{Th2} et \ac{Treg} ainsi qu'une
 diminution de l'activation des cellules \ac{Th1} et \ac{Th17}, et des
-cellules B.
-[@Charoenngam.2020]](figures/vd-action.jpg){#fig-vd-action
+cellules B [@Charoenngam.2020].](figures/vd-action.jpg){#fig-vd-action
 fig-scap="Représentation schématique des fonctions paracrine et intracrine de la vitamine D et de ses métabolites et des actions de la \ac{1,25(OH)2D3} sur les systèmes immunitaires innés et adaptatifs."}
 
 #### Lymphocytes NK
@@ -207,7 +203,7 @@ de données cohérentes.
 Le calcitriol agit également sur les \ac{CPA} : cellules dendritiques,
 macrophages, lymphocytes B, par le biais d'une diminution de l'expression de
 \ac{CMH-II} qui leur permet de présenter des antigènes étrangers, ainsi
-que l'expression de molécules de co-stimulation (\ac{CD} 40, CD80, CD86)
+que l'expression de molécules de co-stimulation (\ac{CD}40, \ac{CD}80, \ac{CD}86)
 qui contribue à la signalisation positive ou négative lors de la reconnaissance du complexe CMH-peptide par le \ac{TCR} et conduit l'activation des lymphocytes T lors de la présentation antigénique par les \ac{CPA}.
 (\Cref{fig-vd-action}) [@Charoenngam.2020; @Meza-Meza.2022;
 @Caprio.2017]. Ce changement phénotypique s'accompagne donc d'une
@@ -215,9 +211,9 @@ diminution de la capacité de présentation d'antigènes et de production
 d'\ac{IL-12}, interleukine clé pour la différenciation des lymphocytes T
 en Th1 et lymphocytes CD8^+^, ainsi qu'une augmentation d'\ac{IL-10} produite. 
 
-La cellule dendritique en particulier acquiert un phénotype tolérogène spécifique par l'induction du calcitriol (\Cref{fig-immunomod}), avec une baisse du pouvoir de présentation antigénique et de stimulation, et une augmentation de la synthèse de cytokines anti-inflammatoires et en particulier l'IL-10 [@Bishop.2021].
+La cellule dendritique en particulier acquiert un phénotype tolérogène spécifique par l'induction du calcitriol (\Cref{fig-immunomod}), avec une baisse du pouvoir de présentation antigénique et de stimulation, et une augmentation de la synthèse de cytokines anti-inflammatoires et en particulier l'\ac{IL}-10 [@Bishop.2021].
 
-L'IL-10 est la cytokine majeure par laquelle sont activés les \ac{Treg} et médient leurs actions. Elle a des effets immunosuppresseurs significatifs sur les monocytes, les macrophages et les cellules dendritiques, qui expriment le récepteur à l'IL-10. Elle inhibe la production de cytokines et de chimiokines pro-inflammatoires et leur différenciation, leur maturation et leur migration vers les organes lymphoïdes. L'IL-10 réduit également les capacités de présentation de l'antigène des monocytes et des \ac{CPA}. En outre, elle supprime l'activation, la prolifération, la sécrétion de cytokines et l'activité cytotoxique des lymphocytes T CD4^+^, induisant une anergie à long terme. Ainsi, l'IL-10 est une des cytokines maître de la régulation de la réponse inflammatoire inflammatoire et favorise la tolérance périphérique. 
+L'\ac{IL}-10 est la cytokine majeure par laquelle sont activés les \ac{Treg} et médient leurs actions. Elle a des effets immunosuppresseurs significatifs sur les monocytes, les macrophages et les cellules dendritiques, qui expriment le récepteur à l'\ac{IL}-10. Elle inhibe la production de cytokines et de chimiokines pro-inflammatoires et leur différenciation, leur maturation et leur migration vers les organes lymphoïdes. L'\ac{IL}-10 réduit également les capacités de présentation de l'antigène des monocytes et des \ac{CPA}. En outre, elle supprime l'activation, la prolifération, la sécrétion de cytokines et l'activité cytotoxique des lymphocytes T \ac{CD}4^+^, induisant une anergie à long terme. Ainsi, l'\ac{IL}-10 est une des cytokines maître de la régulation de la réponse inflammatoire inflammatoire et favorise la tolérance périphérique. 
 <!-- En contrepartie, l'IL-10 est un immunostimulateur des cellules \ac{NK}, lymphocytes B, B régulateurs et \ac{Treg}, promouvant la survie, la différenciation en plasmocytes des lymphocytes B, le pouvoir effecteur et cytolytique des \ac{NK} et le bon fonctionnement de ces cellules [@Carlini.2023]. -->
 
 
@@ -226,7 +222,7 @@ L'IL-10 est la cytokine majeure par laquelle sont activés les \ac{Treg} et méd
 
 Les lymphocytes T sont composés en plusieurs sous-groupes :
 
--   les lymphocytes T auxiliaires ou helper CD4^+^ Th1, Th2, Th17. Les
+-   les lymphocytes T auxiliaires ou helper CD4^+^ \ac{Th1}, \ac{Th2}, \ac{Th17}. Les
     populations \ac{Th1} et \ac{Th17} ont principalement pour rôle de
     stimuler une réponse cytotoxique, respectivement intracellulaire
     antibactérienne et antiprotozoaire comme le toxoplasme, et
@@ -236,16 +232,16 @@ Les lymphocytes T sont composés en plusieurs sous-groupes :
     les bactéries, les allergènes et les toxines, médiée par le biais de
     cytokines causant une forte production d’anticorps, l’activation des
     éosinophiles et de l’inhibition de plusieurs fonctions des
-    macrophages [@Cantorna.2015; @Walker.2018]
+    macrophages [@Cantorna.2015; @Walker.2018] ;
 
 -   les lymphocytes T effecteurs CD8^+^ capables d’induire la mort des
-    cellules.
+    cellules ;
 
 -   les lymphocytes T CD4^+^ régulateurs ou \ac{Treg}, qui ont pour rôle
     de réguler l’inflammation et donc la réponse immunitaire.
 
 
-Le calcitriol est capable d’induire le changement phénotypique des sous-populations de lymphocytes T CD4+, favorisant le phénotype Th2, au détriment des \ac{Th1} et \ac{Th17}, et l’expression des cytokines \ac{Th2} (\Cref{fig-immunomod}). La sous-population \ac{Th2} réprime à son tour les populations \ac{Th1} et \ac{Th17}, diminuant ainsi globalement l’activité cytotoxique médiée par ces cellules [@Meza-Meza.2022]. De plus, le calcitriol inhibe la prolifération des lymphocytes Th1 et Th17 [@Cantorna.2015].
+Le calcitriol est capable d’induire le changement phénotypique des sous-populations de lymphocytes T CD4+, favorisant le phénotype Th2, au détriment des \ac{Th1} et \ac{Th17}, et l’expression des cytokines \ac{Th2} (\Cref{fig-immunomod}). La sous-population \ac{Th2} réprime à son tour les populations \ac{Th1} et \ac{Th17}, diminuant ainsi globalement l’activité cytotoxique médiée par ces cellules [@Meza-Meza.2022]. De plus, le calcitriol inhibe la prolifération des lymphocytes \ac{Th1} et \ac{Th17} [@Cantorna.2015].
 
 Concernant les lymphocytes T CD8^+^, la vitamine D modifie un ratio bas de CD4/CD8 reflétant une activation immunitaire plus forte à un ratio plus élevé de CD4/CD8, impliquant une suppression immunitaire [@Charoenngam.2020]. Le calcitriol diminue ainsi la prolifération et l'hyperactivation des CD8^+^, et la sécrétion de \ac{ifng} et \ac{tnfa} par les CD8^+^ activés [@Dankers.2017].
 
@@ -254,8 +250,6 @@ Le calcitriol est capable de promouvoir la différenciation des CD4^+^ naïfs en
 <!-- De plus, les recherches montrent que les lymphocytes FoxP3^+^ -->
 <!-- \ac{Treg} sont fonctionnellement indépendant de l'expression de \ac{VDR} pour -
 <!-- effectuer leurs fonctions régulatrices [@Cantorna.2010]. -->
-
-
 
 De ce fait, la présence de calcitriol est importante
 pour la suppression de l'inflammation et la tolérance immunitaire.
@@ -288,12 +282,11 @@ fig-scap="Schéma récapitulatif des effets immunomodulateurs du calcitriol."}
 
 
 
-
 ## Schéma d'une réponse antivirale classique
 
 Les mécanismes de l'immunité innée antivirale sont similaires à ceux contre les infections bactériennes. Les virus possèdent des motifs moléculaires associés aux pathogènes viraux (\acsu{PAMP}) reconnu par les \ac{PRR} [@Iwasaki.2012]. Certains \ac{PRR} endosomaux ou intracellulaires reconnaissent l'ARN simple et double brin [@Bishop.2021; @Ismailova.2022].
 
-Cette reconnaissance déclenche des cascades de signalisation qui induisent la production d'interférons (\acsu{IFN}) de type I, de cytokines et d'effecteurs antiviraux, constituant des signaux de dangers du soi afin d'avertir les cellules voisines et le système immunitaire. Les réponses transcriptionnelles initiales impliquent un nombre limité de facteurs de transcription clés, notamment les facteurs de régulation des interférons (IRF3, IRF7), les membres de la famille AP-1 et \ac{nfkb} [@Bishop.2021; @Ismailova.2022]. Les interférons de type I produites par les cellules infectés et les cellules dendritiques sont en particulier au coeur de la réponse antivirale, stimulant la réponse humorale et cellulaire, agissant sur les lymphocytes CD8^+^ et cellules \ac{NK}, et sont impliqués dans la différenciation et maturation des cellules dendritiques. De plus, le complément est activé, participant à la lyse des cellules infectées et à l'opsonisation des virus [@msd.complement.2024].
+Cette reconnaissance déclenche des cascades de signalisation qui induisent la production d'interférons (\acsu{IFN}) de type I, de cytokines et d'effecteurs antiviraux, constituant des signaux de dangers du soi afin d'avertir les cellules voisines et le système immunitaire. Les réponses transcriptionnelles initiales impliquent un nombre limité de facteurs de transcription clés, notamment les facteurs de régulation des interférons (IRF3, IRF7), les membres de la famille AP-1 et \ac{nfkb} [@Bishop.2021; @Ismailova.2022]. Les interférons de type I produites par les cellules infectés et les cellules dendritiques sont en particulier au coeur de la réponse antivirale, stimulant la réponse humorale et cellulaire, agissant sur les lymphocytes CD8^+^ et cellules \ac{NK}, et sont impliqués dans la différenciation et maturation des cellules dendritiques. De plus, le complément est activé, participant à la lyse des cellules infectées et à l'opsonisation des virus [@msd.complement.2024.official].
 
 Les cellules effectrices de la réponse antivirale concernent majoritairement :
 
@@ -334,7 +327,7 @@ Il a été rapporté que l'ajout de vitamine D à la thérapie IFNα standard a 
 Globalement la signalisation médiée par la vitamine D renforce le système immunitaire inné et diminue l'inflammation, cependant les études ne rapportent pas systématiquement un consensus en raison de la haute variabilité des résultats et des méthodologies employées [@Lee.2020]. 
 
 
-![**Activité antivirale de la vitamine D dans une cellule épithéliale pulmonaire.** Le calcitriol induit plusieurs signaux qui renforce les défenses antivirales, notamment par l'induction de l'expression de CAMP qui encode la cathélicidine, dont la forme active LL-37 se lie à l'ADN viral double brin. Cela permet la reconnaissance par le récepteur endosomal TLR3, amplifiant la signalisation et l'élimination du virus. De plus, le calcitriol inhibe les cytokines inflammatoires IL-5 et IFN-γ, et les molécules ICAM-1 et PAFR. Un autre mécanisme d'élimination virale est l'induction de l'autophagie. [@Ismailova.2022].](figures/Ismailova.2022-Antiviral_activity_of_vitamin_D_lung_cell.jpg){#fig-vd-antiviral fig-scap="Activité antivirale de la vitamine D dans une cellule épithéliale pulmonaire."}
+![**Activité antivirale de la vitamine D dans une cellule épithéliale pulmonaire.** Le calcitriol induit plusieurs signaux qui renforce les défenses antivirales, notamment par l'induction de l'expression de CAMP qui encode la cathélicidine, dont la forme active LL-37 se lie à l'ADN viral double brin. Cela permet la reconnaissance par le récepteur endosomal TLR3, amplifiant la signalisation et l'élimination du virus. De plus, le calcitriol inhibe les cytokines inflammatoires IL-5 et IFN-γ, et les molécules ICAM-1 et PAFR. Un autre mécanisme d'élimination virale est l'induction de l'autophagie [@Ismailova.2022].](figures/Ismailova.2022-Antiviral_activity_of_vitamin_D_lung_cell.jpg){#fig-vd-antiviral fig-scap="Activité antivirale de la vitamine D dans une cellule épithéliale pulmonaire."}
 
 
 ## Metabolisme de la vitamine D dans le système immunitaire inné

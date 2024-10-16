@@ -45,8 +45,11 @@ header-includes:
 - \counterwithout{table}{chapter} 
 - \counterwithout{table}{section}
 - \usepackage[authordate, backend=biber, doi=false, isbn=false, dashed=false]{biblatex-chicago} # biblatex, remove doi, isbn and 3 em dash for repeated authors
-- \usepackage[french]{babel} # Citation adds "Author ET author"
 # Load French language mappings for BibLaTeX
+- \usepackage[french]{babel} # Citation adds "Author ET author"
+- \usepackage[]{hyperref} 
+- \usepackage{url} # Allow url in the bibliography
+- \DeclareFieldFormat{url}{\url{#1}}
 - \AtBeginDocument{\mathcode`\;="303B} # Adds space before ; in math mode
 - \usepackage{bookmark} # To add toc to pdf bookmarks
 - \setcounter{tocdepth}{4} # Set toc depth to 4 (some sections don't show in toc)

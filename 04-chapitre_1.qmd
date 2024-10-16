@@ -47,7 +47,7 @@ nucléaire et à sa liaison à l'ADN au niveau des séquences de réponse
 \begin{figure}
 \centering
 \includegraphics[width=0.7\columnwidth]{figures/cholecalciferol-chemspider.png} 
-\caption[Structure chimique de la vitamine D3 ou cholécalciférol.]{\textbf{Structure chimique de la vitamine D3 ou cholécalciférol.} \textcite{chemspider.2023}.}
+\caption[Structure chimique de la vitamine D3 ou cholécalciférol.]{\textbf{Structure chimique de la vitamine D3 ou cholécalciférol} \autocite{chemspider.2023}.}
 \label{fig:vitd3}
 \end{figure}
 ```
@@ -180,7 +180,7 @@ examinerons l'usage et le potentiel thérapeutique de la vitamine D.
 L’usage de la vitamine D précède sa découverte avec l’utilisation de
 l’huile de foie de morue décrite dans la littérature dès 1782 par Thomas
 Percival, qui rapporte son usage et les effets bénéfiques constatés sur
-le rhumatisme chronique en Angleterre 1782 par [@Percival.1782]. A cette
+le rhumatisme chronique en Angleterre 1782 par [@Percival.1782.manual]. A cette
 époque, se multiplient chez l’enfant les cas de rachitisme, une maladie
 caractérisée par le ramollissement et l'affaiblissement des os. En
 France, Armand Trousseau compile en 1858 le Traité de thérapeutique et
@@ -296,7 +296,7 @@ cellules immunitaires comme nous le verrons plus loin.
 \begin{figure}
 \includegraphics{figures/extra-skeletal-effect.png} 
 \caption[Effets classiques et extra-squelettiques de la vitamine D.]
-{\textbf{Effets classiques et extra-squelettiques de la vitamine D.} \textcite{Caprio.2017}}
+{\textbf{Effets classiques et extra-squelettiques de la vitamine D} \autocite{Caprio.2017}.}
 \label{fig:extra-skeletal}
 \end{figure}
 \end{landscape}
@@ -397,7 +397,7 @@ le seuil de calcidiol jugé adéquat de 50 nmol/L ou 20 ng/mL
 
 ```{=tex}
 \begin{table}
-\caption[Tableau comparatif des seuils d'adéquation de la vitamine D par différentes sources.]{\textbf{Tableau comparatif des seuils d'adéquation de la vitamine D par différentes sources.} IOM : Institut de Médecine ; ANSES : Agence nationale de sécurité sanitaire de l’alimentation, de l’environnement et du travail. D'après \textcite{IOM.2011} et \textcite{ANSES.2021}}
+\caption[Tableau comparatif des seuils d'adéquation de la vitamine D par différentes sources.]{\textbf{Tableau comparatif des seuils d'adéquation de la vitamine D par différentes sources.} \acs{IOM}, \acl{IOM} ; \acs{ANSES}, \acl{ANSES}. D'après \textcite{IOM.2011} et \textcite{ANSES.2021}.}
 \label{tbl-seuil}
 \centering
 \begin{tabular}{ccc}
@@ -415,7 +415,7 @@ Limite Supérieure de Sécurité & > 50 ng/mL  & > 100 ng/mL \\
 ```{=tex}
 \begin{table}
 \centering
-\caption[Apports journaliers recommandés de la vitamine D (UI/j)]{\textbf{Apports journaliers recommandés de la vitamine D (UI/j).} La mention d'\ac{AJR} indique que l'apport couvre les besoins minimum de 97,5 \% de la population pour atteindre une concentration de 20 ng/mL selon l'\ac{IOM}. D'après \textcite{ANSES.2021, IOM.2011}}
+\caption[Apports journaliers recommandés de la vitamine D (UI/j)]{\textbf{Apports journaliers recommandés de la vitamine D (UI/j).} La mention d'\ac{AJR} indique que l'apport couvre les besoins minimum de 97,5 \% de la population pour atteindre une concentration de 20 ng/mL selon l'\ac{IOM}. D'après \textcite{ANSES.2021, IOM.2011}.}
 \label{tbl-AJR}
 \begin{tabular}{ccc}
 \toprule
@@ -499,10 +499,9 @@ hydroxylée est donc faible et il est possible d'observer le cholécalciférol e
 concentration substantielle dans le plasma lors que la dose sature la capacité
 de l'enzyme [@Schoenmakers.2018].  
 
-![**Schéma des phases pharmacocinétiques du** \ac{25(OH)D3}. La ligne
+![**Schéma des phases pharmacocinétiques du calcidiol**. La ligne
 pointillée correspond au logarithme naturel de la concentration duquel
-les différentes pentes et les demi-vies sont calculées.
-[@Schoenmakers.2018]](figures/Schoenmakers.2018%20-%20Plasma%20appearance%20and%20disappearance%20of%2025(OH)D%20after%20oral%20intake.png){#fig-PK-all-VitD
+les différentes pentes et les demi-vies sont calculées [@Schoenmakers.2018].](figures/Schoenmakers.2018%20-%20Plasma%20appearance%20and%20disappearance%20of%2025(OH)D%20after%20oral%20intake.png){#fig-PK-all-VitD
 fig-scap="Schéma des phases pharmacocinétiques du cholécalciférol"}
 
 ### Absorption
@@ -528,14 +527,13 @@ absorbée par les chylomicrons. La majorité des métabolites de la
 vitamine D, dont le calcidiol, est lié à la \ac{DBP}( à environ (85 %),
 et plus faiblement à l'albumine (15 %) [@Bikle.2017].
 
-![**Schéma de l'absorption de la vitamine D et du calcidiol**
-[@Schoenmakers.2018]. Le cholécalciférol passe par des transporteurs
-actifs dans les entérocytes où il se retrouve associé aux chylomicrons.
-Après être relâché dans la lymphe, le cholécalciférol peut être
-transféré au \ac{DBP} ou suivre le métabolisme du chylomicron qui peut
-relâcher le cholécalciférol dans les tissus. Le calcidiol diffuse à
-travers l'entérocyte où il est lié en grande majorité au \ac{DBP}
-plasmatique. \ac{DBP},
+![**Schéma de l'absorption de la vitamine D et du calcidiol.** Le
+cholécalciférol passe par des transporteurs actifs dans les entérocytes où il se
+retrouve associé aux chylomicrons. Après être relâché dans la lymphe, le
+cholécalciférol peut être transféré au \ac{DBP} ou suivre le métabolisme du
+chylomicron qui peut relâcher le cholécalciférol dans les tissus. Le calcidiol
+diffuse à travers l'entérocyte où il est lié en grande majorité au \ac{DBP}
+plasmatique [@Schoenmakers.2018]. \acs{DBP},
 \acl{DBP}](figures/Schoenmakers.2018-vd-absorption.jpg){#fig-vd-absorption
 fig-scap="Schéma de l'absorption de la vitamine D et du calcidiol."}
 
@@ -623,7 +621,7 @@ moindre lorsque la concentration initiale de vitamine D est plus élevée
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.5\textwidth]{figures/vd-expected-rise.jpeg}
-\caption[Courbe de l'augmentation attendue de la 25(OH)D sérique pour chaque supplément de 1,000 UI de vitamine D3 par jour, en fonction de la valeur de base de la 25(OH)D de base]{\textbf{Courbe de l'augmentation attendue de la 25(OH)D sérique pour chaque supplément de 1,000 UI de vitamine D3 par jour, en fonction de la valeur de base de la 25(OH)D de base.} \autocite{Garland.2011}.}
+\caption[Courbe de l'augmentation attendue de la 25(OH)D sérique pour chaque supplément de 1,000 UI de vitamine D3 par jour, en fonction de la valeur de base de la 25(OH)D de base]{\textbf{Courbe de l'augmentation attendue de la 25(OH)D sérique pour chaque supplément de 1,000 UI de vitamine D3 par jour, en fonction de la valeur de base de la 25(OH)D de base} \autocite{Garland.2011}.}
 \label{fig:vd-expected-rise}
 \end{figure}
 ```
@@ -912,4 +910,4 @@ UI par goutte [@ANSM.2021].
 
 <!-- https://www.ncbi.nlm.nih.gov/books/NBK56061/table/ch3.t1/?report=objectonly -->
 
---\> <!-- ``` -->
+<!-- ``` -->
