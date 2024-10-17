@@ -114,6 +114,8 @@ header-includes:
 - \AtEveryBibitem{\clearfield{note}}
 include-before-body: 
 - "00-thesis_cover_page.tex"
+include-after-body:
+- "08-backcover.tex"
 ---
 
 ```{r, setup, include=FALSE}
@@ -195,5 +197,7 @@ sort_acronyms("02-acronyms.qmd")
 ```
 ::: {#refs}
 :::
+
+
 
 <!-- <!-- \pdfbookmark[0]{Bibliographie}{bibliography} -->
