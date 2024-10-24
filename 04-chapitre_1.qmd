@@ -99,7 +99,7 @@ métabolisé en calcitriol ou \ac{1,25(OH)2D3} par la \ac{CYP27B1}.
 \ac{DBP}, \acl{DBP}. La CYP24R1 est responsable du catabolisme de la vitamine D en métabolisant le calcidiol et calcitriol en \ac{24,25(OH)2D3} et \ac{1,24,25(OH)3D3} respectivement, où ils seront ensuite métabolisé par la même enzyme en acide calcitroïque, qui sera excrété dans la bile du foie pour être éliminé. D'après @Dankers.2017, @Tsiaras.2011, @Christakos.2010, et @Prosser.2004](figures/vitd-metabolism-fr.png){#fig-vitd-metabolism
 fig-scap="Métabolisme de la vitamine D." fig.pos="!htb"}
 
-La synthèse du calcitriol est régulée par deux hormones, l'\acf{PTH} et
+La synthèse du calcitriol est régulée par deux hormones, la \ac{PTH} et
 l'hormone de croissance des fibroblastes 23 (\acsu{FGF23}). La
 \ac{FGF23}, induit par une concentration élevée de calcitriol et une
 faible concentration de phosphate dans le sang, favorise l'induction de
